@@ -1,0 +1,113 @@
+{
+  "pipeline": "core",
+  "coincidencias": [
+    "Coincidir no prueba nada; solo indica que ambas leyeron igual las fuentes. Los puntos siguientes se apoyan en el texto de 07/11 y en F5, que es la resolución final.",
+    "Medición (contradicción demostrada en 07 A.6 y 11 §3.6): cargar /gracias/ no equivale a un envío. Se usan cuatro niveles (interacción, aceptado, recibido, cualificado). WhatsApp, teléfono y descarga se quedan en interacción hasta que se acredite un contacto. Hay que probar la deduplicación y que el acceso directo o la recarga no generen eventos.",
+    "Staging (contradicción demostrada en 07 A.7): hay que elegir entre un noindex legible y un acceso restringido. No se pueden combinar con un bloqueo de rastreo. Es un defecto del documento, no del despliegue.",
+    "07 A.2/B.5 queda sustituido: show.html en public/ y '12 servicios' no se reproducen. El ejemplo de 07 A.5 (permanent:true, sin index ni show) no es la fuente de las reglas. Que vercel.json tenga seis 301 se comprobó en el archivo, no en el despliegue.",
+    "Rutas antiguas: /index.html, /video.html, /marketing.html, /web.html y /show.html tienen destino fijado. El 301 del show va desde el lanzamiento y exige equivalencia con L07. /Brochure.pdf mantiene su ruta exacta. El destino de /fotografia.html depende de la equivalencia con L04, no de que el estudio salga en la tanda A.",
+    "El dominio canónico queda como variable pendiente. La canónica la decide la inspección con datos indexados; la prueba en vivo solo demuestra que Google puede acceder. No se elige hosting ni diseño.",
+    "Indexación por clase de URL: las páginas publicadas dan 200 y van al sitemap; /gracias/ da 200, lleva noindex legible y queda fuera del sitemap y del menú; los 404 son reales; el PDF da 200; /precios/, /blog/ y la tanda B no existen ni se enlazan; las redirecciones no entran en el sitemap nuevo.",
+    "Las reglas de 60/155 caracteres y un solo H1 son convenciones locales, no hay mínimo de palabras, y se conservan los focos del title y del H1 antiguos de la home y del show, que son textos distintos.",
+    "Schema: se separa el marcado válido de la elegibilidad en Google. No se prometen resultados FAQ ni estrellas por reseñas propias. VideoObject solo con video real y permiso. Ninguna elegibilidad es requisito para que una página exista, y la ficha de Google no condiciona publicar la página del estudio.",
+    "Privacidad: inventario de datos y proveedores, revisado por alguien competente, sin dictamen legal.",
+    "Rendimiento y accesibilidad se verifican más adelante, separando datos de laboratorio y de campo. Que aún no haya datos de campo no bloquea la publicación.",
+    "Ads va aparte: objetivo de unos S/100 y máximo de S/110 al mes. Se recalcula y se comprueba el límite real en la cuenta. Aprobar el paquete no aprueba cambios en Ads. Ninguna fija plazos inventados.",
+    "Los controles se separan en cuatro: paquete documental, lanzamiento, Ads y seguimiento posterior. Lo posterior a la publicación no condiciona la publicación.",
+    "Hay cuatro estados de entrega: preparado para maquetar, condicionado, backlog y pruebas futuras. Una prueba futura nunca cuenta como aprobada por no haberse ejecutado."
+  ],
+  "discrepancias": [
+    {
+      "punto": "Forma del paquete",
+      "claude": "Once módulos (B0–B11): vigencia, URL, indexación, metadatos, schema, medición, datos, calidad, afirmaciones, roles, Ads y entrega.",
+      "codex": "Cinco archivos (00 índice y vigencia, 02 especificación, 03 aceptación en JSON, 04 decisiones, 05 guía). El hueco del 01 parece reservado al componente A, aunque no lo dice (no_verificado).",
+      "evidencia": "El paquete pide documentos legibles para diseño y desarrollo y registros comprobables. El dueño no quiere leer mucho (00 §6.6).",
+      "resolucion": "Usar los cinco archivos de Codex como envoltorio y meter dentro los módulos B0–B11 de Claude como secciones o registros. El 01 se reserva expresamente para las fichas de A, uniendo por ID P01–P37 y URL. Los registros que se comprueban mecánicamente (aceptación, URL, schema, medición, afirmaciones, decisiones) van en JSON; el resto, en Markdown."
+    },
+    {
+      "punto": "Variantes de dominio y protocolo, y /Brochure.pdf",
+      "claude": "Una fila por cada ruta antigua y cada variante (http/https, con y sin www), con un salto como objetivo y las cadenas registradas como desviación. /Brochure.pdf va 'sin 301' en todas las filas.",
+      "codex": "Menciona las variantes de forma genérica. El PDF no tiene redirección propia; la normalización del dominio se especifica aparte. El PDF no lleva barra final.",
+      "evidencia": "CLAUDE.md: Brochure.pdf en la misma URL. F5 D01: 301 directo y prueba que incluye las variantes de dominio. La regla de barra final es para URLs HTML.",
+      "resolucion": "Se adopta la enumeración de Claude con la matización de Codex. En el dominio canónico, /Brochure.pdf da 200 sin redirección. En las demás variantes se permite el 301 de dominio a la misma ruta y nombre exactos, y eso no cuenta como redirigir el recurso. El PDF queda fuera de la regla de barra final. Lo ideal es un solo salto; si hay cadena, se documenta y se evalúa, sin darla por fallo automáticamente."
+    },
+    {
+      "punto": "ProfessionalService y entidad local",
+      "claude": "Sospecha que en schema.org ProfessionalService es un subtipo de LocalBusiness, de modo que heredaría los requisitos de entidad local. No lo comprobó fuera.",
+      "codex": "Agrupa 'ProfessionalService/entidad local' y lo condiciona a datos reales y a la elegibilidad, sin afirmar la jerarquía.",
+      "evidencia": "F5 D08 solo dice que 07 no menciona LocalBusiness de forma literal. Nadie ha verificado aquí la jerarquía.",
+      "resolucion": "En la práctica coinciden. La matriz de schema trata ProfessionalService como tipo local, condicionado a una dirección y unos datos de contacto reales; mientras no los haya, solo se marca Organization. La jerarquía queda como sospecha que el escritor comprueba en schema.org antes de cerrar el registro. Sea cual sea el resultado, no bloquea ninguna página."
+    },
+    {
+      "punto": "Alcance de cada bloqueo",
+      "claude": "Su control de lanzamiento mezcla requisitos globales (inspección del dominio, 404, noindex) con requisitos de páginas concretas (permisos de casos) y de funciones concretas (privacidad y formulario).",
+      "codex": "Exige documentar si cada condición bloquea una página, una función o todo el lanzamiento.",
+      "evidencia": "F5: los permisos de los casos son P0 antes de publicar cada caso; la privacidad es P0 del flujo de datos; las URL se prueban en la migración.",
+      "resolucion": "Se adopta el campo de Codex: cada criterio lleva su alcance (página, función o global). Un caso sin permiso no se publica, pero no frena el resto. La política de privacidad y la prueba de recepción bloquean la función de contacto. La decisión del dominio, el mapa de 301, el 404, el PDF y el retirar el noindex son globales."
+    },
+    {
+      "punto": "Cómo se formula el control de Ads",
+      "claude": "Exige conciliar la configuración con 'Lima y Callao por presencia' y una decisión de Marco sobre el show 'antes del 15-11'.",
+      "codex": "Pide una propuesta concreta para aprobar, recalcular con el gasto acumulado, y trata el corte del 15-11 como propuesto, a decidir expresamente.",
+      "evidencia": "F5 A05/A06: 'propuesta concreta… para aprobación' y 'decisión comercial explícita sobre el corte propuesto 15-11'. El documento 11 es el plan, no una orden ya aprobada.",
+      "resolucion": "Se adopta la formulación de Codex. El control compara la configuración observada con la propuesta aprobada (el documento 11 es la referencia) y recalcula lo que queda del mes con el gasto acumulado, sin pasar de S/110. El 15-11 es una fecha propuesta, no un plazo impuesto."
+    },
+    {
+      "punto": "Búsqueda de frases prohibidas en la verificación",
+      "claude": "D3 pide cero resultados de 'No apta', 'validado', 'competencia débil' o 'estrellas' presentados como hecho.",
+      "codex": "Pide revisar que no haya instrucciones contradictorias, sin búsqueda de frases.",
+      "evidencia": "Esas palabras pueden aparecer con razón, por ejemplo al citar y sustituir el término en el registro de vigencia.",
+      "resolucion": "La búsqueda sirve para detectar candidatos y después se revisa el contexto a mano. El criterio es que ninguna aparezca como hecho vigente fuera del registro de vigencia, no que haya cero apariciones."
+    },
+    {
+      "punto": "Detalle de la medición",
+      "claude": "Diccionario de eventos con clave de deduplicación. 'Aceptado' es la respuesta del servicio; 'recibido' se confirma en el buzón; 'cualificado' lo marca a mano la persona de atención con criterios escritos por el dueño.",
+      "codex": "Pruebas de envío válido, rechazo, fallo, reintento, doble clic, recarga y acceso directo. No se envían datos personales a analítica.",
+      "evidencia": "F5 D02/A04.",
+      "resolucion": "Se unen las dos: los campos de Claude y la batería de pruebas de Codex. Lo de no enviar datos personales a analítica es una regla de diseño del proyecto, no una conclusión legal."
+    },
+    {
+      "punto": "Clasificación de la privacidad y metadatos de las páginas auxiliares",
+      "claude": "No clasifica la página de privacidad. Aplica los campos de metadatos a todas las páginas.",
+      "codex": "La privacidad lleva una decisión de indexación explícita.",
+      "evidencia": "F5 P35/P34/P36. Ninguna regla de las fuentes prohíbe la description en /gracias/ o en el 404.",
+      "resolucion": "La privacidad pasa a ser una clase con decisión explícita registrada. En /gracias/ y el 404 la description es opcional: ni se exige ni se prohíbe. No llevan objetivo orgánico ni entran en el sitemap."
+    },
+    {
+      "punto": "Cómo valoran el contexto disponible",
+      "claude": "Parcial: faltan la matriz JSON, los documentos 03/06, vercel.json, los registros brutos de F4 y la salida de A.",
+      "codex": "Suficiente para el contrato. Lo pendiente no impide redactarlo.",
+      "evidencia": "El paquete tiene las tablas de F5, pero no la matriz JSON ni los documentos 03/06.",
+      "resolucion": "Las dos tienen razón en su nivel: el contexto basta para el contrato, pero no para los textos concretos de las fichas, que aporta A. Los títulos y H1 concretos y el cotejo con vercel.json quedan no_verificados hasta unir con A."
+    },
+    {
+      "punto": "Usar datos de prueba para maquetar lo condicionado",
+      "claude": "No lo trata.",
+      "codex": "Lo propone como alternativa, con los datos de prueba identificados y excluidos de producción.",
+      "evidencia": "CLAUDE.md: los datos de prueba sirven solo para mockup y staging, y la compilación de producción debe fallar si se usan.",
+      "resolucion": "Se adopta, porque encaja con una regla ya aprobada. Aun así, nunca se simulan permisos, RUC, razón social ni dirección exacta."
+    },
+    {
+      "punto": "Desviaciones de proceso",
+      "claude": "Declara el conflicto del modo plan y que no escribió nada.",
+      "codex": "No declara desviaciones. Su gate dice 'leídos completos mediante secciones'.",
+      "evidencia": "Solo lo que cada uno informa de sí mismo.",
+      "resolucion": "No_verificado: no se puede saber si Codex usó herramientas para leer. No cambia el contenido. El anfitrión lo registra."
+    }
+  ],
+  "recomendacion": "Contrato de producción para el escritor único (Codex), revisado después por Claude.\n\n1. Archivos en una carpeta F6 nueva, sin tocar los originales:\n- 00-LEEME-Y-VIGENCIA.md: orden de prevalencia; registro de vigencia (B0) con afirmación, origen, estado (hecho, reportado, decisión del dueño, hipótesis o sustituido), fuente, fecha y qué la sustituye; los cuatro estados de entrega.\n- 01: fichas del componente A (P01–P37), sin repetir lo que va en B.\n- 02-ESPECIFICACION-TECNICA.md: B1 a B7 en prosa breve que remite a los registros.\n- 03-ACEPTACION.json: un criterio por registro.\n- 04-DECISIONES-Y-DEPENDENCIAS: decisiones, registro de afirmaciones comerciales (B8) y revisión por rol (B9).\n- 05-GUIA-DE-ENTREGA.md: bandejas por ficha y variables abiertas (dominio, hosting, diseño).\n- Anexo Ads (B10) aparte.\n\n2. Campos de cada criterio: ID, páginas o clase de URL, fuente con localizador y fecha, clase de evidencia, regla, prioridad (P0/P1/P2), estado (preparado, condicionado, backlog o prueba futura), alcance del bloqueo (página, función o global), dependencia, rol responsable, método y momento de la prueba (documento, implementación, lanzamiento, Ads o posterior), resultado y evidencia, revisor. La prioridad y el estado son campos separados.\n\n3. Contenido obligatorio:\n- Mapa de rutas antiguas por variante de dominio, con la excepción del PDF descrita arriba y /fotografia.html condicionado a L04.\n- Indexación por clase, incluida la privacidad con decisión explícita.\n- Schema con columnas separadas de marcado y elegibilidad; ProfessionalService condicionado.\n- Medición en cuatro niveles con la batería de pruebas.\n- Inventario de datos, sin dictamen legal.\n- Calidad futura, con laboratorio y campo separados.\n- Ads con S/110, gasto acumulado y el 15-11 como fecha propuesta.\n\n4. Pruebas del paquete, no de una aplicación que aún no existe:\n- Las 37 IDs están unidas a A (33 HTML, 2 reservas, PDF y plantilla 404).\n- Cada P0 tiene rol, alcance y cierre observable.\n- No hay fechas nuevas.\n- Dominio y diseño siguen sin elegir.\n- Ninguna sobreafirmación sustituida aparece como hecho (búsqueda más revisión del contexto).\n- Ninguna prueba futura figura como superada.\n- El JSON valida contra su esquema.\n- Los enlaces se resuelven.\n- Los SHA-256 de los originales coinciden con el manifiesto de F5.\n\n5. Antes de cerrar hay que comprobar la jerarquía de ProfessionalService en schema.org y cotejar el mapa con vercel.json.\n\nAceptar el paquete permite preparar la maquetación. No equivale a una publicación lista ni aprueba cambios en Ads.",
+  "riesgos": [
+    "Que la aceptación documental se lea como permiso para publicar o para cambiar Ads.",
+    "Que se multipliquen las filas por variante de dominio y se confunda el 301 de dominio de /Brochure.pdf con una redirección del recurso.",
+    "Que la unión con A falle: la salida de A en F6 no está en este paquete y las IDs y URLs no se han verificado aquí.",
+    "Que la búsqueda de frases dé falsos positivos o negativos si no se revisa el contexto a mano.",
+    "Que la sospecha sobre ProfessionalService quede sin comprobar y se prometan funciones locales sin una dirección real.",
+    "Que los permisos de un caso concreto bloqueen todo el lanzamiento si no se registra el alcance del bloqueo.",
+    "Que la configuración observada en Ads (S/7,77 al día, Perú) supere S/110 si la campaña empieza a entregar. Es una sospecha: no hay entrega demostrada.",
+    "Proceso: el modo plan de esta sesión pedía escribir un archivo de plan y salir con ExitPlanMode, cosa que el paquete prohíbe. Se siguió el paquete y no se escribió nada."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Alta en las contradicciones demostradas de 07/11 y en lo que comparten las dos derivaciones, apoyado en F5. Media en el detalle del contrato, porque no estaban la matriz JSON, los documentos 03/06, vercel.json ni la salida de A en F6, y la jerarquía de schema.org no se ha verificado fuera. No se ha comprobado nada de forma externa."
+  }
+}

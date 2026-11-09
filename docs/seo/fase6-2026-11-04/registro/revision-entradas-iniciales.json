@@ -1,0 +1,152 @@
+[
+  {
+    "component": "A",
+    "path": "README.md",
+    "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81",
+    "bytes": 2233
+  },
+  {
+    "component": "A",
+    "path": "03-requisitos-tecnicos.md",
+    "sha256": "c8950347c0751f3360a6a64acd7c89481b1c6f8b3a357b2eb980e6e498800613",
+    "bytes": 9097
+  },
+  {
+    "component": "A",
+    "path": "fuentes/FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088",
+    "bytes": 68436
+  },
+  {
+    "component": "A",
+    "path": "registro/new-external-checks.json",
+    "sha256": "f589d610beecb7596bce1b00833d6a81bf2574e0f9132c64def0e6b379030025",
+    "bytes": 1358
+  },
+  {
+    "component": "A",
+    "path": "verificacion.json",
+    "sha256": "c314ab8da70753d0207da179e44652c52c73adc6d058cecd0ffc033a40a03df0",
+    "bytes": 3482
+  },
+  {
+    "component": "A",
+    "path": "01-arquitectura.md",
+    "sha256": "aa2e4a5e8f41dcfc784cd0e8bdee4c36c14fe66b696f57fd2fe6be6a6b2103d6",
+    "bytes": 4764
+  },
+  {
+    "component": "A",
+    "path": "fichas-37.json",
+    "sha256": "fcbc08da305cbfa67f715d0e954504a3c2e6a254946c51060d2592e587e638b0",
+    "bytes": 119936
+  },
+  {
+    "component": "A",
+    "path": "fichas.schema.json",
+    "sha256": "12f4740d99987d66529b679c5a41e4074ff097618fd80600b9096e27f0cbb45b",
+    "bytes": 5901
+  },
+  {
+    "component": "A",
+    "path": "enlaces.json",
+    "sha256": "2d07d9fd249068f150c6885e596cacd5799d243b9cdd0980c2384d56a61cec4d",
+    "bytes": 22756
+  },
+  {
+    "component": "A",
+    "path": "decisiones.json",
+    "sha256": "caeb47cd84792d15e52e89c6864ea833322ce2bf7141828cb718aaa094d78e2e",
+    "bytes": 8736
+  },
+  {
+    "component": "B",
+    "path": "README.md",
+    "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81",
+    "bytes": 2233
+  },
+  {
+    "component": "B",
+    "path": "03-requisitos-tecnicos.md",
+    "sha256": "c8950347c0751f3360a6a64acd7c89481b1c6f8b3a357b2eb980e6e498800613",
+    "bytes": 9097
+  },
+  {
+    "component": "B",
+    "path": "fuentes/FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088",
+    "bytes": 68436
+  },
+  {
+    "component": "B",
+    "path": "registro/new-external-checks.json",
+    "sha256": "f589d610beecb7596bce1b00833d6a81bf2574e0f9132c64def0e6b379030025",
+    "bytes": 1358
+  },
+  {
+    "component": "B",
+    "path": "verificacion.json",
+    "sha256": "c314ab8da70753d0207da179e44652c52c73adc6d058cecd0ffc033a40a03df0",
+    "bytes": 3482
+  },
+  {
+    "component": "B",
+    "path": "02-fichas-37.md",
+    "sha256": "4228d248cdd5477696494b9b546c3468568e7272dc36804f54008a13ab451876",
+    "bytes": 86732
+  },
+  {
+    "component": "B",
+    "path": "04-aceptacion-y-orden.md",
+    "sha256": "e03a5b63190384b0fd7161f9226d263681567283888c5be7464979d75c56380b",
+    "bytes": 2602
+  },
+  {
+    "component": "B",
+    "path": "05-decisiones.md",
+    "sha256": "95807595eb3f9b8be0e6d31f347ac25b7cb0d2a9b4e154aec939763d1db65de4",
+    "bytes": 7318
+  },
+  {
+    "component": "B",
+    "path": "06-guia-entrega.md",
+    "sha256": "0d9c497852df4feb5a2b546365b16925bee18b61d8e5d91b04e606e4c2bdb8d5",
+    "bytes": 3636
+  },
+  {
+    "component": "B",
+    "path": "07-trazabilidad-y-revision.md",
+    "sha256": "c9ea7a0ecedd2db8def8faf36b7bb1cca0e52de884369ea8b56a76f4f2d583be",
+    "bytes": 5517
+  },
+  {
+    "component": "B",
+    "path": "aceptacion.json",
+    "sha256": "e0dd2b55b12268a21b36080f3289342e37fe67c8188f987803c32f11a4e6350c",
+    "bytes": 14860
+  },
+  {
+    "component": "B",
+    "path": "aceptacion.schema.json",
+    "sha256": "b39db28cf3d2a6af1e48828dbba94bffa41b730f7706a5b7722a7fe4bbf4c6f8",
+    "bytes": 2028
+  },
+  {
+    "component": "B",
+    "path": "rutas.json",
+    "sha256": "74c053aa063ae37053655e6422b5e455aeaedc06991b5a5a4f4633e72f87975b",
+    "bytes": 14844
+  },
+  {
+    "component": "B",
+    "path": "medicion.json",
+    "sha256": "91a50c28aff302f6ea5a6adcd84698bfb287c97322c57f7799cf92f8fd42ddc3",
+    "bytes": 4205
+  },
+  {
+    "component": "B",
+    "path": "schema.json",
+    "sha256": "8a22f707628a06b5429bd2f6f4548f227fd3abd012e1528d38c5f6ebb47f4055",
+    "bytes": 3393
+  }
+]

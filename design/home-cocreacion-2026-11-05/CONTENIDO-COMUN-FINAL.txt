@@ -1,0 +1,24 @@
+HEADER: Rhino Audiovisuales | Servicios | Sobre Rhino | Contacto
+H1: Productora audiovisual en Lima
+INTRO: Cobertura de eventos, streaming y podcast, catering y coffee break.
+HERO PRIMARY BUTTON: Consultar proyecto
+HERO SECONDARY LINK: Ver servicios
+SECTION HEADING: Elige según tu encargo
+SERVICE 1 TITLE: Cobertura de eventos
+SERVICE 1 TEXT: Foto o video para registrar tu evento. Cuéntanos fecha, lugar y qué necesitas cubrir.
+SERVICE 2 TITLE: Streaming y podcast
+SERVICE 2 TEXT: Transmisión de eventos o grabación de episodios. Describe qué necesitas emitir o grabar.
+SERVICE 3 TITLE: Catering y coffee break
+SERVICE 3 TEXT: Atención para reuniones y eventos de empresa. Comparte fecha, lugar y número de asistentes.
+SECTION: Otros servicios
+FOUR CATEGORY LABELS: Producción audiovisual | Fotografía y estudio | Organización y alquiler para eventos | Servicios digitales
+LINK: Ver servicios
+SECTION: Sobre Rhino
+TEXT: Rhino Audiovisuales, en Lima, cuenta con estudio fotográfico propio y servicios para eventos empresariales y sociales.
+LINK: Sobre Rhino
+SECTION: Cómo solicitar una propuesta
+TEXT: Cuéntanos qué necesitas, cuándo y dónde. Si tienes referencias, puedes incluirlas.
+THREE UNNUMBERED LABELS: El encargo | Fecha y lugar | Necesidades y referencias
+FINAL PRIMARY BUTTON: Consultar proyecto
+FOOTER: Rhino Audiovisuales | Lima | Servicios | Sobre Rhino | Contacto | Política de privacidad
+SMALL LEGIBLE LABEL BELOW HERO VISUAL AND BELOW SERVICE VISUALS: Imágenes ilustrativas

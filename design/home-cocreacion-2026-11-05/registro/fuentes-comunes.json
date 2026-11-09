@@ -1,0 +1,103 @@
+{
+  "source_snapshots": [
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\CLAUDE.md",
+      "copy": "fuentes\\guia-proyecto.md",
+      "sha256": "b172c5f37682e5df578d87fb35ac6ef7cfbabaaebf520433751537a0681fb27d",
+      "bytes": 4368
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\README.md",
+      "copy": "fuentes\\indice-seo.md",
+      "sha256": "f41a7b600005e1280581eecc62d7bd3257e562c1360dd1385896b30755f0a672",
+      "bytes": 1999
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\README.md",
+      "copy": "fuentes\\indice-fase6.md",
+      "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81",
+      "bytes": 2233
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\01-arquitectura.md",
+      "copy": "fuentes\\01-arquitectura.md",
+      "sha256": "89b1b63f341c5a9ad93be5ab2a48ec935b653ee83136abeb8a89a9b4fb074477",
+      "bytes": 4762
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fichas-37.json",
+      "copy": "fuentes\\fichas-37.json",
+      "sha256": "ec97e45fb2de4effc353c2a705f94906e9c38ce73985aefbc97a279754e3f46c",
+      "bytes": 121483
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\05-decisiones.md",
+      "copy": "fuentes\\05-decisiones.md",
+      "sha256": "95807595eb3f9b8be0e6d31f347ac25b7cb0d2a9b4e154aec939763d1db65de4",
+      "bytes": 7318
+    },
+    {
+      "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\06-guia-entrega.md",
+      "copy": "fuentes\\06-guia-entrega.md",
+      "sha256": "0d9c497852df4feb5a2b546365b16925bee18b61d8e5d91b04e606e4c2bdb8d5",
+      "bytes": 3636
+    },
+    {
+      "source": "C:\\Users\\MARCO\\.codex\\skills\\frontend-design\\SKILL.md",
+      "copy": "fuentes\\frontend-design-SKILL.md",
+      "sha256": "1608ea77fbb6fc30d13a97d12cfa8ebf31358d40f0dd97beed24829d6b3f45dd",
+      "bytes": 8260
+    }
+  ],
+  "selected_reference_images": [
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\01-henry.jpg",
+      "sha256": "44a0071873346b2c3ef54c6c5170144f542a7f95d10f0cb3493a2bd2113172e8",
+      "source_url": "https://www.henry.tv/",
+      "observed_utc": "2026-11-05T17:24:16.057398+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\03-iconoclast.jpg",
+      "sha256": "a69705118aebabd48290679f7b385f787fc183246835b6fe1f6d80c90d6f7faa",
+      "source_url": "https://iconoclast.tv/fr/",
+      "observed_utc": "2026-11-05T17:24:15.970393+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\04-division.jpg",
+      "sha256": "e7552385bafc6deed987b2e114d01e8c227a44f7a0716f3098e09c167765bdd6",
+      "source_url": "https://division.global/",
+      "observed_utc": "2026-11-05T17:24:16.910635+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\05-velour.jpg",
+      "sha256": "9ec6ed1362b1e47f9c9ae3ac9018a49822e7bb93153ff8ae31e2b65edeb687d0",
+      "source_url": "https://velourproductions.com/",
+      "observed_utc": "2026-11-05T17:24:11.440662+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\09-lovesong-index.jpg",
+      "sha256": "82f9ebff34a362914cbe683f00c92afbe618f87286c27f5c2aaa6cb5da78478f",
+      "source_url": "https://lovesong.tv/video-index/",
+      "observed_utc": "2026-11-05T17:26:00.220903+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\11-stink.jpg",
+      "sha256": "ad68351d13a77bf5d859729a66a3a61b63f518d813935c1329bb587fd8784b3f",
+      "source_url": "https://stinkfilms.com/",
+      "observed_utc": "2026-11-05T17:25:57.749399+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\12-mvsm.jpg",
+      "sha256": "0da4e1b8beeff97fe11398ca6b1ab66575ab41bc2e9b7259e614dc087d5a5d18",
+      "source_url": "https://mvsm.com/",
+      "observed_utc": "2026-11-05T17:26:38.791393+00:00"
+    },
+    {
+      "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\home-cocreacion-2026-11-05\\referencias\\13-builders.jpg",
+      "sha256": "9e61574d26254e9d7bdd435763deb4299d07e672da2a1836685131bee33cc75c",
+      "source_url": "https://builders-club.com/",
+      "observed_utc": "2026-11-05T17:26:43.736474+00:00"
+    }
+  ],
+  "previous_designs_included": false
+}

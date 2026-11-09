@@ -1,0 +1,209 @@
+{
+  "supuestos": [
+    "El paquete no nombra gates explícitos para la fase review del pipeline core. Se usan como gates las propias comprobaciones de verificacion.json, contrastadas con los archivos de A.",
+    "Lo que significa cada AC-xx se deduce solo de los campos 'cierre' de decisiones.json: D6-02→AC-04 show, D6-05→AC-07 PDF y AC-17 vigencia/peso, D6-14→AC-02/03/09 H1/60/155/schema, D6-16→AC-05/06/07/12. No se ha visto aceptacion.json porque pertenece al componente B.",
+    "rutas.json, schema.json, medicion.json, aceptacion.json, costes.json, 02-fichas-37.md y fuentes/MATRIZ-FASE-5.json existen y se revisan en el componente B. Su ausencia aquí no cuenta como archivo inexistente.",
+    "La copia F5 en fuentes/ es la autoridad para comparar prioridades, dependencias e intención. La matriz JSON F5 no se ha visto.",
+    "ProfessionalService deprecado y los datos GSC/Ads reportados se dan por cerrados, sin volver a consultarlos."
+  ],
+  "propuesta": "Aprobar el componente A con correcciones documentales menores, sin reabrir la derivación. Orden recomendado:\n\n1. Rehacer `aceptacion` por ficha a partir de los cierres de decisiones.json: AC-04 en P19 y en los receptores de 301 (P01, P03, P23, P24, y P21/P09 cuando haya destino), AC-07 en P37, AC-06 en P36, AC-09 en las fichas con schema_candidato. Quitar AC-02/03 de P37 y de las reservas P25/P26, o marcarlos como «no aplica». Añadir a verificacion.json un control que cruce los cierres de decisiones.json con las fichas.\n2. Quitar la línea en blanco entre la cabecera y el separador de la tabla de 01-arquitectura.md.\n3. En `keyword.variantes`, marcar cada variante como de origen F5 o como añadida en F6 sin SERP: P03, P04, P06, P08, P09, P12, P21, P23 y P24. Otra opción es retirar las añadidas.\n4. Sustituir el responsable genérico por bloque en P34, P36 y P37 por el que fija decisiones.json (desarrollador/atención).\n5. Incluir P36→P01/P02/P33 en el grafo previsto con origen «plantilla», o documentar por qué se excluye.\n6. Dejar en P27→P33 solo la condición origen/destino publicados.\n7. Añadir localizador y hecho concreto (name/address requeridos, telephone recomendado) a G6-LB.\n\nDespués, regenerar la vista Markdown y volver a ejecutar verificacion.json.",
+  "alternativas": [
+    "Mantener las listas AC uniformes y declarar en README/04 que aceptacion.json define su propio alcance por ID. Es aceptable si aceptacion.json ya enumera P19/P37/P36 en AC-04/07/06, pero entonces habría que quitar de las fichas los AC-02/03 que no aplican.",
+    "Retirar los campos insumo/responsable por bloque y remitir solo a insumos_pendientes, para no mantener texto genérico que contradice decisiones.json."
+  ],
+  "riesgos": [
+    "Un desarrollador que consulte solo la ficha P19 o P37 no verá la prueba de 301→200 ni la del PDF 200, que son P0.",
+    "Las variantes añadidas en F6 llevan la evidencia F4 de otras consultas y pueden leerse como keywords investigadas.",
+    "El control 'aceptacion_y_dependencias' y el de 'contratos_JSON' figuran como passed, pero el esquema de fichas no restringe prioridad_fase5, keyword, indexacion_objetivo ni aceptacion. Un validador correcto no detectaría estas incoherencias.",
+    "La configuración Ads reportada (S/7,77 al día, ENABLED/ELIGIBLE/SERVING) supone unos S/236 en un mes de 30,4 días si se reanuda la entrega, por encima del máximo de S/110. La documentación pide verificar los límites efectivos, pero no hace explícita esta incompatibilidad. No es un hallazgo de gasto real."
+  ],
+  "verificacion": [
+    "Comparadas una a una urgencia/impacto/confianza de P01–P37 en fichas-37.json con F5 §4.2: coinciden todas.",
+    "Contadas las aristas de enlaces.json: 145, igual que verificacion.json. Comparado relacionadas↔grafo: coinciden en P01–P35; P36 (3 relacionadas) no tiene aristas; P25/P26/P37 se excluyen con motivo.",
+    "Recontados a mano title/H1/description de P01, P02, P04, P05, P09, P16, P19, P28, P29 y P31: todos correctos.",
+    "Conteo de tipos: 33 html (20 servicios + 2 estacionales), 2 reservas, 1 plantilla 404, 1 PDF. Coincide con 01 y F5.",
+    "schema_candidato no contiene ProfessionalService en ninguna ficha.",
+    "Conjunto de AC usados en las 37 fichas: {AC-01, 02, 03, 05, 08, 11, 12}. AC-04, AC-06, AC-07, AC-09, AC-15 y AC-17, citados en decisiones.json, no aparecen en ninguna ficha.",
+    "Pendiente en B: comprobar el contenido real de AC-01…AC-17 en aceptacion.json y las 32 combinaciones de rutas.json (03 lista 7 paths en la tabla y dice 8)."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Alta en los defectos de A, que se demuestran por contraste textual dentro de los archivos recibidos. Media en conjunto, porque el alcance de cada AC y las rutas dependen de archivos del componente B que no se han visto."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "aceptacion.json (contenido de AC-01…AC-17), revisado en B",
+      "rutas.json (32 combinaciones; octavo path no visible en la tabla de 03), revisado en B",
+      "schema.json y medicion.json, revisados en B",
+      "fuentes/MATRIZ-FASE-5.json, para contrastar literalmente las hipótesis F4/adenda",
+      "02-fichas-37.md (vista generada), revisado en B",
+      "costes.json, cuya revisión sigue en curso"
+    ]
+  },
+  "findings": [
+    {
+      "title": "Las referencias de aceptación por ficha no cubren los cierres fijados en decisiones.json y aplican criterios HTML a recursos no HTML",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fichas-37.json (campo aceptacion en P01–P37) frente a decisiones.json D6-02, D6-05, D6-11, D6-14, D6-16",
+      "evidence": "D6-02 cierra el show con 'AC-04', pero P19 tiene aceptacion=[AC-01,AC-02,AC-03,AC-05]. D6-05 cierra el PDF con 'AC-07; vigencia/peso AC-17', pero P37 tiene [AC-01,AC-02,AC-03,AC-05]. D6-16 cita 'AC-05/06/07/12', pero AC-06 y AC-07 no aparecen en ninguna ficha, tampoco en P36. D6-11/D6-14 cierran con AC-09, ausente de las 37 fichas, aunque 23 tienen Service/Organization candidatos. D6-14 asocia AC-02/03 a 'Un H1 y 60/155', y aun así P37 (metadatos 'no_aplica_html'; 03: 'PDF no tiene campos HTML') y P25/P26 (metadatos 'null_reserva') los incluyen. El control 'aceptacion_y_dependencias' figura como passed.",
+      "verification": "Cruzar los cierres de decisiones.json con la unión de los arrays aceptacion. Si aceptacion.json (B) asigna AC-04/06/07/09 por ID de forma independiente, esta incoherencia queda en la vista por ficha, no en el contrato; eso no está verificado aquí."
+    },
+    {
+      "title": "La tabla de arquitectura no se muestra como tabla por una línea en blanco tras la cabecera",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "01-arquitectura.md, tabla ID/URL/Tipo/Familia/Tanda/Urgencia",
+      "evidence": "La fila '| ID | URL o recurso | Tipo | Familia | Tanda propuesta | Urgencia F5 |' va seguida de una línea vacía y después de '|---|---|---|---|---|---|'. GFM exige que el delimitador siga de inmediato a la cabecera, así que las 37 filas se muestran como texto plano.",
+      "verification": "Previsualizar en GitHub o en un renderizador GFM. Eliminar la línea en blanco."
+    },
+    {
+      "title": "Variantes de keyword añadidas en F6 sin fuente, presentadas con la evidencia F4 de otras consultas",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fichas-37.json keyword.variantes de P03, P04, P06, P08, P09, P12, P21, P23 y P24",
+      "evidence": "F5 §4.1 P03 da solo 'V: producción de videos'; la ficha añade 'grabación y edición de video'. Lo mismo ocurre con P04 'video institucional', P06 'transmisión en vivo', P08 'planificación de eventos', P09 'sesión de fotos en Lima', P12 'videos publicitarios', P21 'fotografía para catálogos', P23 'contenido para redes' y P24 'sitio corporativo'. Todas comparten keyword.evidencia con S0xx que no consultaron esas cadenas. En cambio, P05 y P12 sí marcan las suyas como '(por contrastar)/(SERP pendiente)'.",
+      "verification": "Contrastar cada variante con la columna 'Keyword e intención' de F5 §4.1 y marcar las añadidas como 'propuesta F6 sin SERP'."
+    },
+    {
+      "title": "El responsable por bloque es el mismo texto en todas las fichas y contradice a decisiones.json en recursos técnicos",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fichas-37.json bloques[].responsable/insumo en P34, P36 y P37 (patrón en las 37)",
+      "evidence": "Todos los bloques dicen insumo='Ver insumos_pendientes de esta ficha…' y responsable='Dueño aporta; editor verifica'. Así figuran P34 'Aceptación verificable del envío', P36 'Mensaje de error' y P37 'Continuidad de la ruta', mientras D6-05 asigna el PDF al 'Desarrollador', D6-10 asigna la medición a 'Desarrollador/atención' y F5 P36 asigna la prueba al 'Técnico'.",
+      "verification": "Comparar bloques[].responsable con decisiones.json y con dependencias_fase5 de la misma ficha."
+    },
+    {
+      "title": "Los enlaces de navegación de la plantilla 404 faltan en el grafo previsto",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "enlaces.json (sin aristas con origen P36) frente a fichas-37.json P36.relacionadas=[P01,P02,P33]",
+      "evidence": "F5 P36 pide 'Mensaje útil y enlaces a destinos disponibles' y la ficha define los bloques 'Volver al inicio' y 'Buscar servicio o contactar'. Las otras fichas HTML con relacionadas tienen aristas equivalentes; P36 no tiene ninguna y enlaces.json no explica por qué.",
+      "verification": "Añadir las aristas con origen plantilla o una regla explícita en enlaces.json.reglas."
+    },
+    {
+      "title": "La condición de permiso de caso se aplica a un enlace que no es de caso",
+      "classification": "demostrado",
+      "severity": "info",
+      "location": "enlaces.json arista P27→P33",
+      "evidence": "P27→P33 ('Consulta y cotiza tu proyecto') lleva 'permiso_y_rol_del_caso_acreditados_para_la_relacion', aunque P33 es contacto. Las aristas P01/P32→P33 solo exigen origen/destino publicados.",
+      "verification": "Revisar la condición. Basta 'origen_y_destino_publicados_y_aprobados'."
+    },
+    {
+      "title": "La comprobación G6-LB no tiene localizador ni recoge los hechos concretos que cita 03",
+      "classification": "demostrado",
+      "severity": "info",
+      "location": "registro/new-external-checks.json G6-LB frente a 03-requisitos-tecnicos.md §Datos estructurados",
+      "evidence": "03 afirma 'se requieren nombre y dirección física; teléfono es recomendado'. G6-LB solo registra 'Guia de elegibilidad y propiedades requeridas LocalBusiness', sin 'locator', cuando G6-PS sí lo tiene ('jerarquia lineas14-15; aviso linea24').",
+      "verification": "Añadir localizador y el hecho concreto. No hace falta otra consulta si la captura ya existe."
+    },
+    {
+      "title": "El contrato JSON de fichas es demasiado laxo para respaldar 'contratos_JSON passed' en campos clave",
+      "classification": "sospecha",
+      "severity": "low",
+      "location": "fichas.schema.json (prioridad_fase5, keyword, indexacion_objetivo, trazabilidad: solo type object; aceptacion: array sin items) frente a verificacion.json control contratos_JSON",
+      "evidence": "El esquema no exige urgency/impact/confidence, no restringe aceptacion a un patrón AC-xx y no vincula valor=null con un estado distinto de aprobado. La regla 'null_no_cuenta_como_aprobado' depende de un control fuera del esquema.",
+      "verification": "Comprobar si el validador local aplica reglas adicionales. Si no, endurecer el esquema."
+    },
+    {
+      "title": "El show estacional P0 y el Brochure tienen muy pocos enlaces internos previstos",
+      "classification": "sospecha",
+      "severity": "info",
+      "location": "enlaces.json: P19 entrante solo desde P02 y P20; P37 entrante solo desde P17",
+      "evidence": "P19 es P0, con 7 clics y 322 impresiones W1 en el legado, y P01 no lo enlaza. P37 es P0 de continuidad y solo lo enlaza P17 (tanda B). F5 no exige enlaces concretos, así que es una decisión editorial, no un defecto.",
+      "verification": "Decisión del editor/SEO al cerrar la navegación de la tanda A."
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "gates": [
+    {
+      "name": "prioridades_F5_equivalentes",
+      "status": "passed",
+      "evidence": "37/37 urgencia/impacto/confianza iguales a F5 §4.2"
+    },
+    {
+      "name": "grafo_previsto_145",
+      "status": "passed",
+      "evidence": "145 aristas contadas; relacionadas coherentes salvo P36 (hallazgo low)"
+    },
+    {
+      "name": "metadatos_longitudes",
+      "status": "passed",
+      "evidence": "10 muestras recontadas correctas; ningún title >60 ni description >155 en las fichas"
+    },
+    {
+      "name": "schema_sin_ProfessionalService",
+      "status": "passed",
+      "evidence": "Ningún schema_candidato lo incluye; D6-11 y 03 coherentes"
+    },
+    {
+      "name": "coherencia_aceptacion_decisiones",
+      "status": "failed",
+      "evidence": "AC-04/06/07/09 citados en decisiones.json no aparecen en ninguna ficha; AC-02/03 aplicados a PDF y reservas"
+    },
+    {
+      "name": "render_markdown_01",
+      "status": "failed",
+      "evidence": "Línea en blanco entre la cabecera y el delimitador de la tabla"
+    },
+    {
+      "name": "rutas_32_variantes",
+      "status": "not-run",
+      "evidence": "rutas.json corresponde al componente B"
+    },
+    {
+      "name": "presupuesto_ads_S110",
+      "status": "passed",
+      "evidence": "README, 03, 01 y D6-12 coherentes; sin cambios de campaña ni costes de herramientas"
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fichas-37.json",
+      "purpose": "Registro canónico de las 37 fichas",
+      "status": "reviewed"
+    },
+    {
+      "path": "enlaces.json",
+      "purpose": "Grafo previsto de enlaces",
+      "status": "reviewed"
+    },
+    {
+      "path": "decisiones.json",
+      "purpose": "Decisiones y afirmaciones",
+      "status": "reviewed"
+    },
+    {
+      "path": "01-arquitectura.md",
+      "purpose": "Mapa y tandas",
+      "status": "reviewed"
+    },
+    {
+      "path": "03-requisitos-tecnicos.md",
+      "purpose": "Requisitos técnicos y medición",
+      "status": "reviewed"
+    },
+    {
+      "path": "fichas.schema.json",
+      "purpose": "Contrato JSON",
+      "status": "reviewed"
+    },
+    {
+      "path": "verificacion.json",
+      "purpose": "Controles locales",
+      "status": "reviewed"
+    },
+    {
+      "path": "registro/new-external-checks.json",
+      "purpose": "Comprobaciones G6",
+      "status": "reviewed"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Índice y precedencia",
+      "status": "reviewed"
+    }
+  ]
+}

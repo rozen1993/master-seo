@@ -1,0 +1,29 @@
+{
+  "date_local": "2026-11-05",
+  "calls": [
+    {
+      "call": "compare-claude-envelope",
+      "is_error": false,
+      "models": [
+        "claude-haiku-5-5",
+        "claude-opus-5-5"
+      ],
+      "cost_estimated_usd": 0.4918723,
+      "billing_confirmed": false
+    },
+    {
+      "call": "derive-claude-envelope",
+      "is_error": false,
+      "models": [
+        "claude-haiku-5-5",
+        "claude-opus-5-5"
+      ],
+      "cost_estimated_usd": 0.588315,
+      "billing_confirmed": false
+    }
+  ],
+  "known_estimated_usd": 1.0801873,
+  "codex_and_imagegen_cost": "not exposed per call",
+  "new_paid_seo_calls": 0,
+  "ads_changes": false
+}

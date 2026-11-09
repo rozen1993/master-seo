@@ -1,0 +1,25 @@
+{
+  "checked_date_local": "2026-11-04",
+  "method": "2 llamadas web oficiales; 2 paginas unicas; sin DataForSEO ni cuentas privadas",
+  "cost_usd": null,
+  "location": "no aplica: documentacion publica",
+  "device": "no aplica",
+  "language": "en",
+  "sources": [
+    {
+      "id": "G6-PS",
+      "url": "https://schema.org/ProfessionalService",
+      "locator": "jerarquia lineas14-15; aviso linea24",
+      "fact": "ProfessionalService aparece como subtipo de LocalBusiness y esta deprecado por confusion con Service.",
+      "effect": "No recomendar ProfessionalService en nueva implementacion; Organization/WebSite y Service para ofertas reales. LocalBusiness solo tras verificar entidad/direccion y condiciones aplicables."
+    },
+    {
+      "id": "G6-LB",
+      "url": "https://developers.google.com/search/docs/appearance/structured-data/local-business",
+      "fact": "Elegibilidad LocalBusiness Google: name y address (dirección física PostalAddress) requeridos; telephone recomendado. Validez del vocabulario, elegibilidad y aparición son distintas.",
+      "effect": "Direccion fisica real necesaria para esa elegibilidad; no requisito universal de publicacion HTML.",
+      "locator": "captura existente: Required properties, líneas 473–485; telephone recomendado línea 513; aparición no garantizada línea 553"
+    }
+  ],
+  "provenance_note": "Comprobacion nueva posterior a ambas derivaciones y durante comparacion. Se incorpora al registro editorial y a la revision final, no se altera retroactivamente ningun paquete ciego."
+}

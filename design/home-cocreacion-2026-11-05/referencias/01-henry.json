@@ -1,0 +1,15 @@
+{
+  "url": "https://www.henry.tv/",
+  "capture_api": "https://image.thum.io/get/width/1000/crop/900/maxAge/1/allowJPG/noanimate/https://www.henry.tv/",
+  "observed_utc": "2026-11-05T17:24:16.057398+00:00",
+  "bytes": 111968,
+  "content_type": "image/jpeg",
+  "headers": {
+    "Date": "Thu, 05 Nov 2026 17:25:47 GMT",
+    "Content-Type": "image/jpeg",
+    "Cache-Control": "no-cache, no-store, must-revalidate"
+  },
+  "file": "01-henry.jpg",
+  "charge": "free public endpoint; no account/key supplied",
+  "capture_freshness": "maxAge/1 requested; actual browser capture timestamp not independently exposed"
+}

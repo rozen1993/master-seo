@@ -1,0 +1,29 @@
+{
+  "fecha": "2026-11-04",
+  "hallazgos_ultima_revision": [
+    {
+      "componente": "A",
+      "finding_index": 0,
+      "severidad": "low",
+      "resolucion": "Corregida procedencia explícita de siete variantes/abreviaciones F5; P24 enlaza F4 S025/F5 P24. No se atribuye nueva consulta.",
+      "verificacion": "Control procedencia_variantes_final; vista humana coherente"
+    },
+    {
+      "componente": "A",
+      "finding_index": 1,
+      "severidad": "low",
+      "resolucion": "AC-08 añadido a servicios con casos; también home/organización/marketing/web. Regla transversal explícita para futuros casos.",
+      "verificacion": "Control casos_AC08_final"
+    },
+    {
+      "componente": "B",
+      "finding_index": 0,
+      "severidad": "low",
+      "resolucion": "Misma corrección AC-08 en canon y vista humana, más regla transversal.",
+      "verificacion": "Control casos_AC08_final y vista_markdown"
+    }
+  ],
+  "revisor_correccion": "Codex raíz; cambios documentales menores comprobados localmente después de segunda revisión Claude",
+  "tercera_llamada": "No necesaria: sin críticos/altos/medios nuevos; no hay cambio de arquitectura ni funcionalidad",
+  "cambios_fuera_alcance": false
+}

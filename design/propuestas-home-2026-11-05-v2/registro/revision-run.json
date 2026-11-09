@@ -1,0 +1,12 @@
+﻿{
+    "step":  "revision",
+    "phase":  "review",
+    "profile":  "o/high",
+    "context":  "project",
+    "read_manifest":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\propuestas-home-2026-11-05-v2\\registro\\revision-read-manifest.json",
+    "collaboration":  "revision_cruzada_roles_diferenciados",
+    "started":  "2026-11-05T03:31:59.3808586-05:00",
+    "ended":  "2026-11-05T03:32:07.1341851-05:00",
+    "exit_code":  1,
+    "packet_bytes":  156088
+}

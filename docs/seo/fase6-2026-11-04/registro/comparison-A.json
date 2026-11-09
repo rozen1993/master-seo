@@ -1,0 +1,116 @@
+{
+  "pipeline": "core",
+  "coincidencias": [
+    "Ninguna de las 37 filas se declara lista para publicar. Los dos pares separan el estado editorial (preparado, condicionado o backlog) de la publicación, de la aprobación de cambios en Ads y del lanzamiento. Coincidir en esto no prueba que haya oferta aprobada.",
+    "Inventario: 33 páginas HTML (20 de servicio y 2 estacionales), dos reservas (/precios/ y /blog/), un PDF y una plantilla 404. URL null solo en P36. Las URL se heredan por ID de la matriz F5, sin renombrarlas.",
+    "Registro canónico estructurado (JSON) con vistas humanas generadas a partir de él, y trazabilidad de cada cambio frente a 03/06 con su localizador F5 (fila P o diagnóstico D).",
+    "Funciones distintas: la home sirve para elegir proveedor, el hub orienta por necesidad y el pilar explica el proceso de producción y recibe /video.html. Ninguno repite la oferta ni las pruebas de otro (F5 D05).",
+    "Se respetan las decisiones autorizadas: 301 de /show.html desde el lanzamiento, siempre que haya equivalencia con L07; /Brochure.pdf en la misma ruta con 200 y revisión de vigencia y peso en P2; estudio y servicios sociales como negocios confirmados; no se elige host ni diseño.",
+    "El destino de /fotografia.html se decide por equivalencia completa con L04, no por la tanda en que salga el estudio (F5 §3, §7; P09/P21).",
+    "Los casos P27–P31 quedan condicionados a expediente, rol y permiso; se corrige «Premiun» por «Premium»; Premium/Bloom no acreditan organización y Adidas no acredita publicidad ni alcance nacional.",
+    "Principales actualizadas según F5: P11 «alquiler de pantallas LED», P12 «producción de spots publicitarios» (S047), P13 «animación para empresas», P14 «servicio de drone audiovisual», P18 S036. S024 y S025 solo comprobaron las variantes con Lima.",
+    "Retiradas por F5: mínimo de ~600 palabras, conversión por carga de /gracias/, promesa de FAQ enriquecida y fecha del 10 de enero. Las promesas sin validar (equipo o contrato únicos, streaming o drone incluidos, plataformas a elección, técnico, oficina/set) no van en contenido listo.",
+    "Límites de 60/155 caracteres y un solo H1 como contrato local, no como límite de Google. La medición final sobre el DOM queda para el componente B.",
+    "P25 y P26 sin principal y con metadatos null, sin URL publicada ni enlaces. P34 con noindex legible y fuera del sitemap. P36 con respuesta 404 y fuera del sitemap. P37 sin nueva directiva de indexación. No se declara indexabilidad de páginas futuras.",
+    "Las pruebas posteriores a la publicación (consultas por URL, solapamientos, rendimiento estacional, conversión real) se conservan como pruebas futuras y no bloquean el lanzamiento."
+  ],
+  "discrepancias": [
+    {
+      "punto": "Cobertura de metadatos de borrador",
+      "claude": "Null cuando falta un dato: description de P09, P10, P20 y P32; H1 y description de P28–P31.",
+      "codex": "Borradores seguros concretos para las 33 páginas HTML, incluidas las de tanda B; casos e institucionales con tema descriptivo.",
+      "evidencia": "F5 P09 pide «crear ficha/meta» y P28 «completar H1/meta». La propia regla de Claude admite metadatos que solo nombren categoría, Lima y marca. Para que haya un borrador seguro no hace falta dirección, precio ni rol.",
+      "resolucion": "Se adopta Codex con el filtro de Claude. Se entrega un borrador seguro cuando puede redactarse sin afirmar modalidades, incluidos, cifras ni roles no acreditados; puede usar hechos que el dueño confirmó (catálogo, DJI Mavic 4 Pro, multicámara). P28–P31: title y H1 neutros con el nombre del proyecto; la description que dependa del rol queda null_pendiente hasta tener el expediente. Null solo cuando no cabe un texto seguro (P25, P26) o la función está sin decidir."
+    },
+    {
+      "punto": "Description de /gracias/ y de la plantilla 404",
+      "claude": "La marca como no-aplica (X) en P34 y P36.",
+      "codex": "P34 con mensajes funcionales; P36 con description null y URL null.",
+      "evidencia": "Ninguna fuente prohíbe una description en páginas auxiliares. F5 solo exige noindex legible (P34) y 404 real fuera del sitemap (P36).",
+      "resolucion": "En ambas, la description es opcional y no tiene objetivo orgánico: puede ser un texto funcional o null con su motivo. No se registra como prohibida. no_aplica se reserva para los campos HTML del PDF (P37) y para la URL de P36."
+    },
+    {
+      "punto": "Dimensiones de estado",
+      "claude": "Un solo campo «estado» (preparado, condicionado o backlog); P01 y P02 figuran como preparados aunque tengan P0.",
+      "codex": "Estados independientes: estructura preparada, contenido comercial condicionado y publicación separada.",
+      "evidencia": "La matriz de P01 mantiene P0 (host e index) y promesas generales sin respaldo. Con un estado único, «preparado» podría leerse como migración aprobada; Claude reconoce ese riesgo.",
+      "resolucion": "Se adopta Codex: estado_estructura, estado_contenido y estado_publicacion, que en este paquete siempre vale no_aprobada. La urgencia, el impacto y la confianza se copian de F5 sin modificarlos."
+    },
+    {
+      "punto": "Enlaces hacia servicios de tanda B o sin landing",
+      "claude": "Solo hacia destinos «publicados» en la misma tanda o una anterior; no enlazar P10; si no hay destino, se omite el bloque.",
+      "codex": "Grafo previsto separado del publicable; los servicios confirmados sin landing se describen y llevan a contacto.",
+      "evidencia": "En la etapa documental no hay nada publicado. P33 se mantiene como cotización transversal «incluso para servicios confirmados de tanda B».",
+      "resolucion": "Se adopta Codex: dos grafos y una validación por cada entrega, sin destinos vacíos. Los servicios sociales y de tanda B pueden mencionarse con salida a contacto."
+    },
+    {
+      "punto": "Coincidencias de keywords en fotografía",
+      "claude": "Lo clasifica como «solapamiento» demostrado y propone validar que no haya keywords duplicadas entre fichas.",
+      "codex": "Deriva retratos y sesiones fuera de P21 sin hablar de canibalización.",
+      "evidencia": "F5 D05: la similitud de palabras no demuestra canibalización. La incoherencia documental sí existe: 03 §11 traslada las sesiones al estudio y 06 §12 las mantiene. F5 P21 y P22 respaldan derivar sesiones y retratos, y llevar el registro de eventos a cobertura.",
+      "resolucion": "La incoherencia documental queda demostrada; la canibalización no. La regla es una principal única por URL. Las variantes compartidas se admiten si la diferencia de encargo queda documentada. Se corrige la description de P21."
+    },
+    {
+      "punto": "Tanda del estudio (P09)",
+      "claude": "A/B; P0 para el destino.",
+      "codex": "A*, como candidata condicionada.",
+      "evidencia": "03 §11 pone A si hay dirección, fotos y precios «desde». F5 P09 pide ubicación, horarios, acceso, muestras y modalidades, aclara que la ficha de Google no es requisito y, en P25, no exige tarifas públicas.",
+      "resolucion": "A condicionada a ubicación/atención, muestras y modalidades reales. El precio «desde» es opcional. La ficha se mantiene P1 y la decisión de destino P0."
+    },
+    {
+      "punto": "Title del show (P19)",
+      "claude": "Marca y año pendientes; señala posible tensión con la regla de nombre de marca.",
+      "codex": "URL sin año; si se pone un año editorial, debe tener responsable de actualización.",
+      "evidencia": "F5 P19 pide «resolver marca/año». La regla de CLAUDE.md exige escribir la marca siempre igual, no incluirla en todo title. El title legado L07 no viene en el paquete.",
+      "resolucion": "Se conserva el title de 03/06 como candidato heredado, no null, porque P19 es P0. Marca y año quedan como decisión del dueño, con cotejo obligatorio frente al L07. La omisión de la marca no se trata como infracción."
+    },
+    {
+      "punto": "Metadatos heredados sin revisión",
+      "claude": "Marca He (heredado) en P12 y en otras filas cuya principal cambió.",
+      "codex": "No detalla la herencia de cada fila.",
+      "evidencia": "El title y el H1 de P12 en 03 («Spots y videos publicitarios…») no contienen la candidata de F5. F5 exige coherencia entre keyword, title, H1 y cuerpo.",
+      "resolucion": "Todo valor heredado pasa la misma comprobación que un borrador: coherencia con la principal candidata y búsqueda de frases bloqueadas. P12 se revisa aunque esté en tanda B."
+    },
+    {
+      "punto": "Suficiencia de contexto",
+      "claude": "Parcial: faltan 00, 07, 11, vercel.json, L03–L07 y source_phase4_row.",
+      "codex": "Suficiente para especificar el paquete.",
+      "evidencia": "Los legados L03–L07 no vienen en el paquete y son necesarios para cerrar equivalencias; 07 y 11 corresponden al componente B.",
+      "resolucion": "Ambas lecturas se sostienen: el contexto basta para el contrato documental de A y es insuficiente para verificar equivalencias. Las equivalencias quedan como no_verificado, con responsable."
+    },
+    {
+      "punto": "Cifra fija de filas maquetables",
+      "claude": "«22 filas de tanda A».",
+      "codex": "A* por fila, con P09 y P20 condicionales.",
+      "evidencia": "03 §10 da 22 sin el estudio; P09 y P20 dependen de la oferta.",
+      "resolucion": "No fijar la cifra: el recuento se deriva de las fichas."
+    },
+    {
+      "punto": "Registro de afirmaciones",
+      "claude": "Lista de frases bloqueadas solo como validador.",
+      "codex": "Registro de afirmaciones con fuente, estado y responsable, que cubre también metadatos y enlaces.",
+      "evidencia": "F5 D07: la ausencia de marcador no prueba que una afirmación sea falsa ni que esté aprobada. En 06, el texto sin marcar no equivale a oferta aprobada.",
+      "resolucion": "Se adopta el registro de Codex como artefacto y la lista de Claude como comprobación automática. «20, 50 y 100» queda condicionado a que se validen los mínimos, no prohibido."
+    },
+    {
+      "punto": "Gate de lectura del esquema",
+      "claude": "No aplica.",
+      "codex": "Declara haber leído peer-response.schema.json.",
+      "evidencia": "Ese archivo no forma parte del paquete neutral comparado.",
+      "resolucion": "No verificado. No afecta al contrato."
+    }
+  ],
+  "recomendacion": "Recomendación: un contrato documental que combine la ficha y la separación de estados de Codex con las reglas de metadatos, null/no-aplica y comprobaciones de Claude. Este contrato no aprueba publicar ni modificar Ads.\n\n1. Artefactos, que el anfitrión escribe después de esta comparación:\n   - A-00-indice-vigencia: precedencia, fuentes con hash y referencia a S/110 sin editar los originales.\n   - A-01-contrato-ficha y fichas.schema.json.\n   - A-02-arquitectura-y-enlazado: funciones de home, hub y pilar; las cinco familias de 03 §10 más estudio y sociales; grafo previsto frente a publicable; legados.\n   - FICHAS-37.json canónico, con vistas .md generadas.\n   - A-03-cambios-vs-03-06, con referencia D o P de F5.\n   - A-04-registro-afirmaciones: afirmación, fuente, estado, responsable y cierre.\n   - A-05-backlog-y-pruebas-futuras.\n\n2. Campos de cada ficha:\n   - Identificación: id, url (null solo en P36), tipo, familia y tanda (A, A condicionada, B, reserva o auxiliar).\n   - Estado: estado_estructura, estado_contenido y estado_publicacion (siempre no_aprobada).\n   - Prioridad: urgencia, impacto y confianza de F5, literales.\n   - Función e intención: función y bloques que pertenecen a otra URL.\n   - Keywords: keyword_principal con estado (candidata, provisional o sin_principal) y evidencia S###; variantes.\n   - Legado: origen, tratamiento, autorización (dada o condicionada) y equivalencia L0x (no_verificado).\n   - Metadatos: title, h1 y description, cada uno con valor, origen, estado (heredado, borrador_seguro, null_pendiente, opcional o no_aplica), motivo, dependencia y caracteres medidos.\n   - Contenido y enlaces: bloques con insumo y responsable; enlaces con su condición.\n   - Schema permitido: sin Review sobre la propia entidad y sin prometer FAQ enriquecida.\n   - Pruebas comerciales, aceptación previa a la publicación, pruebas futuras y estados de F4 y de la adenda, conservados.\n\n3. Metadatos:\n   - Borrador seguro para todas las páginas HTML cuando puede redactarse con hechos confirmados.\n   - null_pendiente solo para P25, P26 y las descriptions que dependen del rol en los casos.\n   - La description es opcional en P34 y P36 (no prohibida). no_aplica para el PDF y para la URL de P36.\n   - Medición: puntos de código NFC sobre la cadena final. Un null cuenta como pendiente, no como superado.\n\n4. Decisiones fijas:\n   - Show con 301 desde el lanzamiento y equivalencia con L07.\n   - Brochure con 200 en la misma ruta y revisión en P2.\n   - Destino fotográfico según L04.\n   - P09 A condicionada, sin exigir precio.\n   - P20 solo con oferta vendible.\n   - Streaming/podcast y coffee break agrupados de forma provisional.\n\n5. Aceptación del paquete:\n   - 37 ID únicos con el reparto 33/2/1/1, de los que 20 son servicios y 2 estacionales.\n   - Correspondencia exacta de ID y URL con la matriz.\n   - Ningún [COMPLETAR] sustituido por un dato.\n   - Ninguna afirmación bloqueada en contenido marcado como listo.\n   - Cero enlaces a reservas.\n   - Ninguna página usa datos-de-prueba.\n   - Cada pendiente con responsable y etapa.\n\nEl componente B completará la aceptación técnica y el traspaso.",
+  "riesgos": [
+    "Que «preparado para maquetar» se lea como oferta aprobada, migración aprobada o lanzamiento autorizado.",
+    "Que los metadatos heredados de 03/06 entren sin la comprobación de coherencia y de frases bloqueadas (por ejemplo P12, P16, P21, P22, P24).",
+    "Que coincidencias de vocabulario se conviertan en reglas de canibalización que fragmenten o empobrezcan las páginas.",
+    "Que las equivalencias L03–L07 se den por buenas aunque esos textos legados no estaban en el paquete (no_verificado).",
+    "Que las pruebas futuras se eliminen por no poder ejecutarse ahora, o que se exijan como requisito para publicar.",
+    "Desviación de proceso: el modo plan pedía un archivo de plan y ExitPlanMode, pero la tarea prohíbe escribir y esa herramienta no está disponible. No se escribió nada; la entrega se hace solo por StructuredOutput."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Confianza alta en las resoluciones que se apoyan en citas de F5, 03 y 06 incluidas en el paquete. Media en la clasificación por fila y en los borradores de metadatos: no hubo medición determinista y faltan L03–L07, 07, 11 y source_phase4_row. Las decisiones de oferta, permisos y host siguen pendientes."
+  }
+}

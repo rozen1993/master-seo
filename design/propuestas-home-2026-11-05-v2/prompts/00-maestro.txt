@@ -1,0 +1,25 @@
+Use case: ui-mockup.
+Create one finished desktop website design screenshot as a PNG. Exact target canvas: 1440 pixels wide × 2880 pixels tall, aspect ratio 1:2. Wide DESKTOP page, complete scroll height only twice its width, not a mobile layout. Keep desktop typography, columns and horizontal composition. Show whole page from first pixel to footer. No device, browser frame, perspective, presentation board, external margin or mockup background.
+Design a distinctive Spanish homepage for Rhino Audiovisuales following the art direction below. One coherent page, not unrelated stacked screens. Sharp Spanish text with correct accents. Generous scale, deliberate spacing, comfortable reading sizes, strong desktop structure. Fit all content within canvas.
+Use exactly this text without inventing additional text. Arrange per direction, preserve the three service priorities and correctly associate descriptions:
+BRAND: “RHINO” and “Audiovisuales”
+NAVIGATION: “Servicios” “Nosotros” “Contacto”
+H1: “Productora audiovisual en Lima”
+SUPPORTING SENTENCE: “Cobertura de eventos, streaming, podcast y catering corporativo.”
+PRIMARY BUTTON: “Consultar proyecto”
+SECONDARY LINK: “Ver servicios”
+GLOBAL IMAGE DISCLOSURE, visibly readable near first image: “Imágenes ilustrativas; no corresponden a trabajos de Rhino.”
+SECTION: “Servicios”
+SERVICE 1: “Cobertura de eventos” / “Registro audiovisual de eventos empresariales y sociales.” / “Ver servicio”
+SERVICE 2: “Streaming y podcast” / “Transmisión de eventos y producción de episodios.” / “Ver servicio”
+SERVICE 3: “Catering corporativo” / “Comparte la fecha, el lugar y el número de asistentes.” / “Ver servicio”
+SECTION: “Más servicios”
+CATEGORIES: “Producción audiovisual” / “Fotografía” / “Organización de eventos corporativos” / “Alquiler de pantallas LED” / “Servicios digitales”
+CLOSING: “Cuéntanos tu proyecto”
+“Indica el servicio, la fecha, el lugar y lo que necesitas.”
+“Consultar proyecto”
+FOOTER: “Rhino Audiovisuales” / “Servicios” “Nosotros” “Contacto” “Política de privacidad”
+IMAGERY: Original editorial imagery specified by direction, illustrative scenes and objects, not Rhino's own equipment, facilities or work. No identifiable faces, visible brands, client names, logos or project titles. No fake website screenshots, portfolio or software interfaces.
+CONTENT: No clients, testimonials, statistics, experience claims, prices, phone, address, email, dates, guarantees or response times. No included equipment/staff/platforms. Never label a room as Rhino's studio. No cases, process, FAQ, pricing or form.
+DESIGN: Immediately legible exact H1, maximum two lines for headings. Clearly visible primary button in first desktop screen. Use desktop widths and horizontal arrangements; not narrow stacked central column. No generic feature cards, tiny decorative labels, numbered steps, ornamental hairlines, floating pill navigation, glass, interface gradients, icon collections, fake film timecodes or film sprocket borders. No labels explaining design, no direction name printed. No text/image collision.
+Output ONE complete 1440×2880 desktop homepage, width:height=1:2.

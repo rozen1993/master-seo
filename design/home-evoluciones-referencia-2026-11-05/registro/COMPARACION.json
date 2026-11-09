@@ -1,0 +1,68 @@
+{
+  "pipeline": "core",
+  "coincidencias": [
+    "Fallos visuales demostrados por ambos: hay REC/timecode decorativo, numeración sin secuencia y los servicios aparecen repetidos (franja, tarjetas y catálogo). La marquesina sale recortada y la lectura es pobre en el texto sobre fotos y el microtexto. Además, el formulario no pide nombre ni medio de contacto y muestra una nota técnica al cliente.",
+    "Ambos retiran «Lo que más nos piden», que es un ranking sin evidencia.",
+    "Ambos conservan el hero cinematográfico, el titular condensado, el negro y carbón, la foto de rodaje y los acentos cálidos.",
+    "Base común idéntica: H1 «Productora audiovisual en Lima», CTA «Consultar proyecto» y «Ver servicios», y las tres prioridades. El resto del catálogo va como lista secundaria. El formulario es conceptual y va sin datos inventados. El pie enlaza a la privacidad.",
+    "Ambos ponen la etiqueta «Imágenes ilustrativas» junto a cada grupo de fotos y suben el tamaño del texto."
+  ],
+  "discrepancias": [
+    {
+      "punto": "Estudio fotográfico en la home",
+      "claude": "Demostrado: falta en «Más servicios».",
+      "codex": "Lo agrupa como «fotografía/estudio» en la base, sin señalar la ausencia.",
+      "evidencia": "D6-07 y P09: el estudio propio está confirmado y sus condiciones están pendientes.",
+      "resolucion": "Es una oportunidad comercial, no un error SEO. Se nombra «Estudio fotográfico» como un ítem más del catálogo secundario, sin mostrar el interior ni la dirección. La home no tiene que listar las 37 entradas."
+    },
+    {
+      "punto": "Campos de contacto",
+      "claude": "«Nombre» y «Cómo contactarte».",
+      "codex": "«Nombre» y «Correo».",
+      "evidencia": "El encargo permite campos vacíos de nombre y correo.",
+      "resolucion": "Usar «Nombre» y «Correo», vacíos, en los tres. Ningún canal de Rhino visible."
+    },
+    {
+      "punto": "Tamaños mínimos",
+      "claude": "Cuerpo de 18 px o más y etiquetas de 14 px o más.",
+      "codex": "Cuerpo de 20–22 px y etiquetas de 16–18 px.",
+      "evidencia": "La prioridad es la legibilidad; ambos señalan microtexto en el original.",
+      "resolucion": "Cuerpo de 20 px, etiquetas y avisos de 16 px como mínimo, pie de 16 px."
+    },
+    {
+      "punto": "Bloque «Cómo pedir una propuesta»",
+      "claude": "Lo incluye en tres pasos.",
+      "codex": "No lo incluye.",
+      "evidencia": "P01 lo prevé como bloque «Cómo solicitar una propuesta», y es una secuencia real.",
+      "resolucion": "Tres pasos breves dentro de la sección de contacto, no como bloque aparte. Es la única numeración permitida."
+    },
+    {
+      "punto": "Foto de streaming con aspecto de set",
+      "claude": "Sospecha de que insinúa un set de podcast propio.",
+      "codex": "No lo menciona.",
+      "evidencia": "C04: el set propio no está confirmado. Sin verificar en esta sesión.",
+      "resolucion": "En los tres, usar una toma de cámara o de transmisión de un evento, sin interior identificable y con la etiqueta de imagen ilustrativa."
+    },
+    {
+      "punto": "Selección por dirección",
+      "claude": "Propone A (oscura), B (alterna) y C (selector).",
+      "codex": "Propone Escena abierta, Luz de rodaje y Corte cálido.",
+      "evidencia": "La autocrítica de Codex califica Escena abierta de conservadora. C repite los servicios tres veces y B parte el H1.",
+      "resolucion": "Elegir Subtítulos (A), Luz de rodaje y Corte cálido, con los ajustes indicados."
+    }
+  ],
+  "recomendacion": "Elijo tres evoluciones. Las tres comparten la misma base: H1, CTA y bajada; «Servicios para tu proyecto» (en la 3, «Elige según tu encargo») con las tres prioridades; el catálogo secundario; contacto con tres pasos; formulario y pie con privacidad.\n\n1. SUBTÍTULOS (Claude A). Hero con foto en 2.39:1, cámara a la derecha, y el H1 en la franja negra. Las tres prioridades van en bandas 2.39:1 de unos 480 px. El texto queda bajo cada imagen, alineado a la izquierda (no centrado, para leer mejor), y la etiqueta «Imágenes ilustrativas» va en la franja. Paleta: #0F0E0D, #1C1A18, #EFE9DF, ámbar #F2A541 y bermellón #FF4B2B solo en los CTA, con texto negro sobre el botón. Tipos: Big Shoulders Display 800 y Familjen Grotesk. Formulario sobre grafito, con campos de 20 px. Es la más cercana a la referencia.\n\n2. LUZ DE RODAJE (Codex). Cabecera negra y H1 como bloque tipográfico. Una panorámica cruza el paso de negro a plata. Las prioridades van en tres columnas: foto arriba y texto debajo, sobre plata. Catálogo y pie en negro; contacto en plata. Paleta: #10100F, #292927, #E8E8E3, #FAFAF6 y #F4512B. Tipos: Antonio 700 en lugar de Oswald, que es más genérico, y Source Sans 3. Es la mejor para comparar servicios.\n\n3. CORTE CÁLIDO (Codex). Hero partido: H1 y CTA sobre negro a la izquierda, foto alta a la derecha. Zona naranja #F05A32 con texto siempre negro (contraste de unos 5,6:1; el blanco no pasa) y tres filas negras con foto. Catálogo en carbón y formulario en marfil #F1EEE6. Cobre #AE532F solo en líneas. Tipos: Barlow Condensed ExtraBold y Barlow. Es la más audaz y comercial.\n\nCopy común:\n- Bajada: «Foto, video, streaming y catering para eventos empresariales y sociales en Lima.»\n- Cobertura de eventos: «Registro en foto y video de tu evento.»\n- Streaming y podcast: «Transmisión en vivo y grabación de episodios.»\n- Catering y coffee break: «Alimentos y bebidas para reuniones y eventos.»\n- Catálogo: Producción audiovisual · Estudio fotográfico · Fotografía · Organización de eventos · Pantallas LED · Marketing digital y web.\n- Contacto «Cuéntanos tu proyecto»: 1 Elige el servicio · 2 Indica fecha y lugar · 3 Envía tu consulta. Campos: Servicio, Fecha, Lugar, Lo que necesitas, Nombre y Correo. Botón «Consultar proyecto».\n- El pie con la marca va a unos 120 px, no al tamaño gigante actual.\n\nClasificación: los fallos visuales son los ya demostrados. Son oportunidades el estudio, los pasos y el pie con enlaces. Es preferencia la elección de familias tipográficas. No van a la interfaz notas técnicas, REC/TC ni controles de reproducción falsos. Todos los PNG deben medir lo mismo. La elección final es del dueño.",
+  "riesgos": [
+    "Subtítulos: tres bandas oscuras alargan la página y cansan la vista. Hay que limitar la altura y comprobar que todo cabe en unos 4200 px.",
+    "Luz de rodaje: demasiado plata puede diluir el carácter cinematográfico. El hero, el catálogo y el pie deben ser negros.",
+    "Corte cálido: si el naranja se extiende fuera de su zona o se usa texto blanco sobre él, falla el contraste.",
+    "Al renderizar puede volver el microtexto en etiquetas, avisos o pie.",
+    "Fotos generadas que insinúen un set, un estudio o un equipo propios.",
+    "Las tres pueden salir con dimensiones distintas; hay que medirlas.",
+    "No vi la imagen: los hallazgos sobre el original dependen de lo que observaron los pares."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Las dos observaciones del original coinciden en casi todos los fallos y la base está bien sustentada por P01, D6-07 y C04. Pero no pude ver la imagen en esta sesión y todavía no hay PNG para revisar."
+  }
+}

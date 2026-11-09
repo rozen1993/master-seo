@@ -1,0 +1,10 @@
+﻿{
+    "step":  "comparacion",
+    "phase":  "compare",
+    "profile":  "o/high",
+    "manifest":  "",
+    "start":  "2026-11-05T13:47:49.1235747-05:00",
+    "end":  "2026-11-05T13:49:38.3449294-05:00",
+    "exit_code":  0,
+    "packet_bytes":  237463
+}

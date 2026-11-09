@@ -1,0 +1,10 @@
+﻿{
+    "step":  "vision",
+    "phase":  "derive",
+    "profile":  "o/high",
+    "read_file":  "design/home-cocreacion-2026-11-05/referencias/00-prueba-vision.jpg",
+    "start":  "2026-11-05T04:04:15.1019781-05:00",
+    "end":  "2026-11-05T04:05:19.9172353-05:00",
+    "exit_code":  76,
+    "packet_bytes":  1254
+}

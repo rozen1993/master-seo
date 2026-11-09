@@ -1,0 +1,820 @@
+{
+  "provenance": {
+    "source": "C:\\Users\\MARCO\\Downloads\\Informe_Fase4_Rhino_Audiovisuales.pdf",
+    "sha256": "d070db1959cce0715a294dd502765130962f114bc8532926beb13c325651c181",
+    "pages": 10,
+    "reported_extraction_at": "2026-11-03T20:43:00-05:00",
+    "incorporated_at": "2026-11-03T21:31:40.706589-05:00",
+    "origin": "Informe de Claude aportado por el usuario; atribuye las consultas a Adzviser.",
+    "evidence_level": "Documento de resultados; no se recibieron respuestas API brutas ni se reconsultaron las cuentas.",
+    "visual_pages_reviewed": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10
+    ],
+    "independent_arithmetic_review": "/root/validate_adzviser_numbers",
+    "new_blind_double_derivation": false,
+    "original_blind_reviews_preserved": true,
+    "google_search_console": {
+      "connection_id": 32258,
+      "label": "rhinoaudiovisuales.com",
+      "property_type": null,
+      "property_identifier": null,
+      "search_type": "WEB",
+      "country_filter": null,
+      "device_filter": null,
+      "city_dimension_available": false,
+      "latest_date": "2026-11-01",
+      "finalized": null
+    },
+    "google_ads": {
+      "connection_id": 32259,
+      "customer_id": "1766740378",
+      "campaign_id": "23352035016",
+      "campaign_name": "Rhino Audiovisuales",
+      "currency": "PEN",
+      "timezone": "America/Lima",
+      "excluded_campaign_id": "23341895452"
+    },
+    "costs": {
+      "new_dataforseo_calls": 0,
+      "new_paid_claude_calls": 0,
+      "new_adzviser_calls_by_codex": 0,
+      "user_claude_and_adzviser_cost": null,
+      "codex_execution_cost": null,
+      "historical_ad_spend_pen": "132.26",
+      "note": "El gasto publicitario no es costo de esta auditoría."
+    }
+  },
+  "phase": 4,
+  "phase5_started": false,
+  "rows": [
+    {
+      "url": "/",
+      "original_phase4": {
+        "url": "/",
+        "evidence": "S002: Cuadro24 #1, tres resultados de empleo entre nueve orgánicos; S046: Marca Lima #1. K001 productora audiovisual 390 nacional; K003 20 local. 00 §3.2 reporta 22 clics históricos para el término.",
+        "status": "Foco en elección de productora: parcial; SERP mixta. Propiedad actual de consultas: pendiente.",
+        "provisional": "Preservar provisionalmente el foco audiovisual y distinguir elección de proveedor de listado de servicios; evidenciar coordinación y casos reales.",
+        "pending": "GSC reciente por URL/consulta, marca y variantes agencia; canónica mediante inspección; alcance de responsable único."
+      },
+      "adzviser_addendum": {
+        "url": "/",
+        "sources": [
+          "E01",
+          "E02",
+          "E03",
+          "E07",
+          "E08"
+        ],
+        "new_evidence": "Home sin www: 31 clics/1.599 impresiones en W1, frente a 18/1.482 en W0. «productora audiovisual»: 9/139, posición 7,04 en W1. Los tres anuncios declaran como destino la home con www; no se probó aquí su redirección.",
+        "hypothesis_result": "Confirmada documentalmente la atribución reciente de consultas de productora a la home. No confirma host canónico ni la mejor arquitectura futura.",
+        "provisional": "La evidencia refuerza preservar el foco y las consultas de productora; incorporar agencia/empresa según los usos y casos acreditados.",
+        "residual_pending": "Inspección de ambos hosts y /index.html; distinguir consultas de marca; equivalencia y medición del destino futuro."
+      }
+    },
+    {
+      "url": "/servicios/",
+      "original_phase4": {
+        "url": "/servicios/",
+        "evidence": "S003: ocho orgánicos, entre ellos InEventos #1, Maracuyá #2 y servicios técnicos de Mediapro/streaming.pe. K003 servicios audiovisuales 10; S003/S004 comparten cuatro dominios.",
+        "status": "Función de catálogo: parcial; la SERP también satisface contratación directa. Canibalización: pendiente.",
+        "provisional": "Describir familias por necesidad y enlazar destinos disponibles; incorporar estudio/sociales según alcance confirmado. Evitar duplicar íntegra la presentación del pilar.",
+        "pending": "URLs finales de resultados, comprensión del catálogo y GSC; estado de publicación de cada destino."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "En H, «productora audiovisual servicios» registra 119 impresiones y 0 clics en la home; «servicios de productora audiovisual», 82/0. No son datos del hub futuro.",
+        "hypothesis_result": "Confirmada presencia histórica de consultas de servicios. Separar hub y pilar sigue pendiente; no hay prueba de canibalización.",
+        "provisional": "Mantener la función provisional de catálogo por necesidades y revisar reparto de consultas junto con las SERP ya investigadas.",
+        "residual_pending": "Función comercial del hub frente al pilar, enlaces y contenidos reales; seguimiento cuando se publiquen las nuevas rutas."
+      }
+    },
+    {
+      "url": "/servicios/produccion-audiovisual/",
+      "original_phase4": {
+        "url": "/servicios/produccion-audiovisual/",
+        "evidence": "S004: MAIA #1 y Tierra Films #4; S005: Poussin/PUCP #1/#2. K003: servicio 10, genérico 50. L03 recupera corporativo/publicidad, cobertura de eventos y sociales.",
+        "status": "Diferencia comercial/educativa: confirmada en capturas. Contenido legado recuperado: confirmada. Equivalencia del destino futuro: pendiente.",
+        "provisional": "Precisar encargo, preproducción, grabación, edición, versiones y revisiones; mantener edición como sección hasta resolver su alcance.",
+        "pending": "Correspondencia del nuevo contenido con L03; consultas de video.html; entregables reales y enlaces disponibles."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/produccion-audiovisual/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "En H, consultas de producción/servicios aparecen en la home. /video.html tiene 0/28 en W1; la consulta de marca publicada explica 8 impresiones. Ads muestra «produccion de video»: 11 clics, S/1,54 y 3 conversiones PAGE_VIEW históricas.",
+        "hypothesis_result": "Confirmada evidencia histórica de búsquedas y clics pagados de producción; intención comercial y contratación pendientes. Cobertura parcial de consultas de /video.html y equivalencia del nuevo pilar pendiente.",
+        "provisional": "Conservar la definición de entregables y la correspondencia con el contenido legado; usar el lenguaje de producción sin confundirlo con clientes captados.",
+        "residual_pending": "Exportación completa de consultas, intención de las restantes impresiones, alcance/entregables y destino de /video.html."
+      }
+    },
+    {
+      "url": "/servicios/video-corporativo/",
+      "original_phase4": {
+        "url": "/servicios/video-corporativo/",
+        "evidence": "S006: guías y ejemplos junto a Flama/otros servicios. S007: servicios, directorios y artículos. K003 video corporativo 10; variante productora null. Etiqueta K001 informativa, clasificación fechada antes del traspaso.",
+        "status": "Lectura navegacional dominante: no reproducida en esta captura, parcial. Hay ejemplos, guías y servicios B2B; no demuestra cambio temporal de intención.",
+        "provisional": "Desarrollar usos, entregables y ejemplos; evaluar variantes de contratación sin fijar keyword definitiva ni descartar el genérico automáticamente.",
+        "pending": "SERP de servicio de videos corporativos, consultas propias, rol/permiso de Redinter, plazos y formatos."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/video-corporativo/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "En H, la home recoge «productora de videos corporativos»: 66 impresiones, posición 73,64 y 0 clics; otras variantes también tienen 0 clics. Ads muestra «servicio de videos corporativos»: 2 clics, S/0,57, 0 conversiones.",
+        "hypothesis_result": "Confirmada visibilidad histórica propia para esta familia y clics pagados históricos. Pendiente potencial actual y keyword principal.",
+        "provisional": "Reforzar la hipótesis comercial con usos, ejemplos y entregables; contrastar la variante de servicio antes de cerrar el mapa.",
+        "residual_pending": "SERP de «servicio de videos corporativos», datos recientes por familia y permisos/rol de Redinter."
+      }
+    },
+    {
+      "url": "/servicios/cobertura-de-eventos/",
+      "original_phase4": {
+        "url": "/servicios/cobertura-de-eventos/",
+        "evidence": "S008: TRAZO #1 y 4K #2; S050 móvil: InEventos #1. S001 mezcla registro, organización y local. K003 cobertura audiovisual de eventos 0. CP01 publica cobertura y apoyo técnico.",
+        "status": "Intención de contratar registro: confirmada como presente; demanda cuantificable y exclusividad corporativa: pendientes.",
+        "provisional": "Priorizar entregas foto/video y distinguir base de streaming/drone opcionales; mostrar horas, material y plazos confirmados. No retirar esta prioridad por el cero estimado.",
+        "pending": "Paquetes, roles de Premium/Bloom, consultas corporativas/sociales; contrastar filmación/grabación y condiciones operativas."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/cobertura-de-eventos/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "GSC no devuelve filas de la familia en H. Ads sí muestra «filmaciones de eventos» (4 clics, S/6,88), «servicio de grabacion de eventos» (2, S/3,08) y «filmación de eventos» (2, S/3,00); todos con 0 conversiones registradas.",
+        "hypothesis_result": "Descartada la inferencia de que no existe evidencia propia por no haber filas GSC. Confirmado lenguaje histórico de búsqueda pagada; demanda actual y exclusividad B2B pendientes.",
+        "provisional": "Mantener la prioridad del dueño y contrastar filmación/grabación/cobertura; no restringir a corporativo por estos términos sin calificadores.",
+        "residual_pending": "SERP de variantes, consultas recientes, paquetes, roles de Premium/Bloom y registros de contactos reales."
+      }
+    },
+    {
+      "url": "/servicios/streaming-y-podcast/",
+      "original_phase4": {
+        "url": "/servicios/streaming-y-podcast/",
+        "evidence": "S009: Virttua #1, servicios y artículos; S010: guías sobre videopodcast; S011: nueve proveedores/estudios. S009/S011: cero dominios comunes. K003 streaming de eventos 10; producción de podcast lima null. CP02/CP03 explicitan modalidades y entregas diferentes.",
+        "status": "Dos encargos diferenciados: confirmada. Conveniencia de dos URLs y estudio propio: pendientes.",
+        "provisional": "Mantener hipótesis agrupada con bloques específicos: emisión/conectividad/contingencia y episodio/edición/distribución; condicionar plataformas y lugar a capacidad real.",
+        "pending": "Oferta/muestras, set, conexión, requisitos comerciales de podcast y destinos exactos; no convertir el null en ausencia de mercado."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/streaming-y-podcast/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "GSC histórico en home: «productora de streaming» 68 impresiones/0 clics, «productora streaming» 71/0 y «productora audiovisual streaming» 66/0. Ads: «live video streaming production», 21 clics/S/4,27/1 PAGE_VIEW. Podcast sin filas GSC.",
+        "hypothesis_result": "Confirmada señal histórica de streaming. El término inglés no demuestra demanda local cualificada ni identifica la keyword activadora. Separación de podcast pendiente.",
+        "provisional": "Conservar bloques diferenciados de emisión y episodios, como en la matriz inicial; usar Ads como pista de vocabulario.",
+        "residual_pending": "Keyword que activó el término inglés, idioma/ubicación efectiva, oferta y muestras de podcast, decisión de una o dos URLs."
+      }
+    },
+    {
+      "url": "/servicios/catering-corporativo/",
+      "original_phase4": {
+        "url": "/servicios/catering-corporativo/",
+        "evidence": "S012/S052: Miscelánea #1, ocho dominios comunes; S013: menú PDF AKU #1. K003 catering y coffee break lima 10 cada uno. CP04 publica mínimo 30 personas; CP05 detalla menús sin fecha de vigencia.",
+        "status": "Contratación corporativa: confirmada en ambas capturas. Relación editorial con coffee break: parcial. Sección frente a URL propia: pendiente; no estabilidad temporal demostrada.",
+        "provisional": "Explicar menús, mínimos, montaje, personal, dietas y cotización; conservar coffee break como sección provisional. Comparar claridad de oferta, sin copiar capacidades o precios.",
+        "pending": "Capacidades, proveedores/permisos aplicables, condiciones y SERP de desayunos; no sumar variantes como clientes únicos."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/catering-corporativo/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Sin filas GSC de catering/coffee break en H; el PDF no añade términos Ads para esta oferta.",
+        "hypothesis_result": "Pendiente evidencia propia; no se descarta la oportunidad ni se cambia la prioridad del dueño.",
+        "provisional": "Conservar la recomendación de fase 4 basada en las SERP y oferta confirmada.",
+        "residual_pending": "Capacidades, mínimos, menús, operación y relación editorial con coffee break; permanecen los pendientes originales."
+      }
+    },
+    {
+      "url": "/servicios/organizacion-de-eventos/",
+      "original_phase4": {
+        "url": "/servicios/organizacion-de-eventos/",
+        "evidence": "S014: ISIL #1, cursos/artículos dominantes pese a etiqueta comercial K001; S048: directorios, sedes y proveedores. K003 organización de eventos corporativos 10. S014/S008 no comparten dominios.",
+        "status": "Orgánico informativo: confirmado en S014. Capa comercial de contratación: parcial en S014/S048. Diferencia frente a cobertura respaldada; eficacia de la página: pendiente.",
+        "provisional": "Precisar planificación, logística, producción y contratación aparte; evaluar modificadores empresa/proveedor sin cerrar el mapa.",
+        "pending": "Páginas de organizadores reales, comparación con sedes/directorios, roles contractuales de Premium/Bloom y consultas propias."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/organizacion-de-eventos/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "GSC sin filas de la familia en H. La keyword configurada «organización de eventos en lima» figura con 1 clic/S/1,43; no se publicó su término activador.",
+        "hypothesis_result": "Confirmada presencia histórica como palabra clave configurada; no prueba qué buscó la persona ni la intención real de esa visita.",
+        "provisional": "Mantener la distinción entre organización y registro audiovisual.",
+        "residual_pending": "Término activador, consulta de proveedor, roles contractuales y oferta operativa; no sumar keywords a términos como usuarios distintos."
+      }
+    },
+    {
+      "url": "/servicios/estudio-fotografico/",
+      "original_phase4": {
+        "url": "/servicios/estudio-fotografico/",
+        "evidence": "S018: Qawaq primero, también escuelas; S019: sesiones, paquetes y ofertas; ambos incluyen local_pack. K003: 10 para cada consulta.",
+        "status": "Sesiones locales comerciales: confirmada; consulta de estudio exclusivamente comercial: descartada.",
+        "provisional": "Preparar ubicación, modalidades, muestras y reserva; distinguir sesiones de alquiler del espacio.",
+        "pending": "Dirección/atención, alquiler a terceros, mapa por proximidad y equivalencia con L04 recuperado. Volúmenes de las variantes exactas históricas «estudio fotográfico»/«estudio fotográfico lima» sin verificar aquí."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/estudio-fotografico/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "GSC sin filas de la familia en H. Ads: «foto studio», «estudio fotografico» y «estudio fotografico lima» tienen 1 clic cada uno y S/2,53, S/2,46 y S/2,25; 0 conversiones. Grupo 3 actualmente PAUSED.",
+        "hypothesis_result": "Confirmada evidencia histórica pagada de estudio; no valida demanda actual, rentabilidad ni alquiler a terceros.",
+        "provisional": "Mantener sesiones en estudio y diferenciar alquiler según oferta real; conservar las variantes exactas como pistas.",
+        "residual_pending": "Dirección/atención, modalidades, permisos, rendimiento reciente y SERP/volúmenes de las variantes pendientes."
+      }
+    },
+    {
+      "url": "/servicios/fotografia-y-video-de-bodas/",
+      "original_phase4": {
+        "url": "/servicios/fotografia-y-video-de-bodas/",
+        "evidence": "S020: 8 orgánicos, paquetes de Carlos Jiménez y Video Y Foto Para Bodas; K003 volumen null. S021 mezcla sociales/cabinas.",
+        "status": "Contratación social: confirmada; ausencia de demanda por null: descartada.",
+        "provisional": "Desarrollar horarios, cobertura y entregas específicas, conservando prioridades B2B.",
+        "pending": "Portafolio autorizado, paquetes; SERP específica de quinceañeros pendiente."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/fotografia-y-video-de-bodas/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "GSC sin filas de bodas en H. Ads incluye «fotografos para bodas»: 1 clic/S/1,65/0 conversiones.",
+        "hypothesis_result": "Confirmada una señal pagada histórica mínima de bodas; no permite dimensionar mercado ni extrapolar a quinceañeros.",
+        "provisional": "Conservar la propuesta social y su portafolio específico, sin alterar las prioridades B2B.",
+        "residual_pending": "Muestras autorizadas, paquetes, SERP de quinceañeros y evidencia de contactos."
+      }
+    },
+    {
+      "url": "/servicios/alquiler-de-pantallas-led/",
+      "original_phase4": {
+        "url": "/servicios/alquiler-de-pantallas-led/",
+        "evidence": "S022: 10 orgánicos, Touch Data primero; S023 mezcla alquiler y venta. K003: 20/20. CP07 publica condiciones por tamaño, panel y duración.",
+        "status": "Alquiler como enfoque más preciso: respaldado en este snapshot; generalización parcial hasta contraste móvil/temporal. Competencia orgánica débil: pendiente.",
+        "provisional": "Explicar configuraciones y factores de cotización; alinear meta con incluidos acreditados.",
+        "pending": "Inventario propio/provisto, pitch, interior/exterior, instalación, operador y contenido."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/alquiler-de-pantallas-led/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Sin filas GSC para la familia LED/sonido en H; no se aporta evidencia Ads específica.",
+        "hypothesis_result": "Sin cambio de hipótesis: la evidencia SERP previa se conserva; rendimiento propio pendiente.",
+        "provisional": "Conservar especificaciones y factores de cotización provisionales.",
+        "residual_pending": "Inventario, pitch, montaje, operador, condiciones y contraste móvil/temporal de fase 4."
+      }
+    },
+    {
+      "url": "/servicios/spots-publicitarios/",
+      "original_phase4": {
+        "url": "/servicios/spots-publicitarios/",
+        "evidence": "S026: recursos, tutoriales y herramientas; S047 sigue mixto, con ISA Lozano/Grupo la Nao y guías. K003 video publicitario: 10.",
+        "status": "El genérico captura contratación de forma directa: descartada; oportunidad comercial: parcial.",
+        "provisional": "Describir producción de campañas, versiones y derechos; distinguir gestión mensual.",
+        "pending": "SERP local de proveedor, muestras/rol de Adidas, licencias, revisiones y plazos."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/spots-publicitarios/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Home en H: «productora de comerciales» 62 impresiones/posición 29,74; «productora comerciales» 76/27,89; «productora para comerciales» 80/17,45; «productora de spots lima» 1/37. Todas con 0 clics.",
+        "hypothesis_result": "Confirmada visibilidad histórica para variantes de proveedor. No revierte el carácter mixto de las SERP genéricas ni confirma clientes.",
+        "provisional": "Reforzar la comparación de variantes de proveedor y conservar la definición de versiones y derechos.",
+        "residual_pending": "SERP local de proveedor, consultas recientes y clasificación real del caso Adidas."
+      }
+    },
+    {
+      "url": "/servicios/animacion-y-motion-graphics/",
+      "original_phase4": {
+        "url": "/servicios/animacion-y-motion-graphics/",
+        "evidence": "S027: aprendizaje/stock; S028 incorpora Evograf, Pranamedia y Videoanimacion, además de software. K003: motion graphics 70; animación para empresas 10.",
+        "status": "Modificador empresarial mejora ajuste: parcial; genérico prioritariamente educativo: confirmada en snapshot.",
+        "provisional": "Preparar entregables empresariales, proceso y muestras; CP08 sirve como contraste de oferta especializada.",
+        "pending": "Capacidades 2D/3D, portafolio y variantes de contratación local; no equiparar sus volúmenes con compradores."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/animacion-y-motion-graphics/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "El PDF no publica una extracción específica de esta familia ni términos Ads identificados para ella.",
+        "hypothesis_result": "Pendiente; no equivale a una consulta completa con cero resultados.",
+        "provisional": "Sin cambio respecto a fase 4: entregables empresariales, proceso y muestras.",
+        "residual_pending": "Capacidad 2D/3D, portafolio y variantes locales pendientes de la matriz original."
+      }
+    },
+    {
+      "url": "/servicios/drones/",
+      "original_phase4": {
+        "url": "/servicios/drones/",
+        "evidence": "S029: Geodrone, reparación, distribución, topografía y Arquidron audiovisual; K003 servicio de drone: 10.",
+        "status": "Consulta comercial pero específicamente audiovisual: parcial.",
+        "provisional": "Delimitar foto/video aéreo, entregas y usos; separar registro visual de inspección técnica.",
+        "pending": "SERP de tomas aéreas/video con drone, muestras, operador, condiciones y autorizaciones aplicables."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/drones/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No hay extracción específica publicada para drones en el aporte.",
+        "hypothesis_result": "Pendiente evidencia propia; no se interpreta como ausencia de demanda.",
+        "provisional": "Mantener el alcance audiovisual provisional ya descrito.",
+        "residual_pending": "Consultas específicas, muestras, operador, condiciones y verificaciones operativas originales."
+      }
+    },
+    {
+      "url": "/servicios/video-y-fotografia-inmobiliaria/",
+      "original_phase4": {
+        "url": "/servicios/video-y-fotografia-inmobiliaria/",
+        "evidence": "S030: guías y portafolio; S031: proveedores, visitas culturales y herramientas. K003 fotografía inmobiliaria/tour: 10/10.",
+        "status": "Demanda única homogénea foto/video/360: pendiente; mezcla de intenciones: confirmada.",
+        "provisional": "Preparar opciones por inmueble y finalidad, con ejemplos verificables.",
+        "pending": "SERP específica de video inmobiliario, capacidades 360, alojamiento/duración del tour, preparación y entrega."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/video-y-fotografia-inmobiliaria/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publica desglose propio de inmobiliaria/360 en el aporte.",
+        "hypothesis_result": "Sin cambio: homogeneidad de la familia pendiente.",
+        "provisional": "Conservar opciones por finalidad e inmueble sin atribuirles datos de otras fotografías.",
+        "residual_pending": "SERP de video inmobiliario, capacidad 360, alojamiento del tour y muestras."
+      }
+    },
+    {
+      "url": "/servicios/alquiler-de-sonido-y-proyectores/",
+      "original_phase4": {
+        "url": "/servicios/alquiler-de-sonido-y-proyectores/",
+        "evidence": "S032/S033 muestran alquileres; K003 proyector 20, sonido 10. Comparten AV Sonido, Facebook y Mercado Libre por dominio.",
+        "status": "Ambas necesidades comerciales: confirmada; agrupación óptima: pendiente.",
+        "provisional": "Detallar secciones por equipo, espacio, conexiones y asistencia; revisar promesa de técnico.",
+        "pending": "URLs exactas, catálogo, luminosidad/aforo, montaje, soporte y condiciones; sin división ahora."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/alquiler-de-sonido-y-proyectores/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Sin filas GSC para la familia agregada LED/sonido/proyectores en H; sin nuevo término Ads específico.",
+        "hypothesis_result": "Pendiente evidencia propia y conveniencia de agrupar las necesidades.",
+        "provisional": "Conservar secciones por equipo y asistencia provisional.",
+        "residual_pending": "Catálogo, condiciones, URLs competidoras exactas y alcance del técnico."
+      }
+    },
+    {
+      "url": "/servicios/activaciones-btl/",
+      "original_phase4": {
+        "url": "/servicios/activaciones-btl/",
+        "evidence": "S034: A1 Publicidad primero, ASBTL sexto; también definiciones/ejemplos. K003: 30; K001 informativa.",
+        "status": "Intención exclusivamente informativa: descartada; combinación comercial/informativa: confirmada.",
+        "provisional": "Explicar diseño, producción y operación acreditados, con breve orientación sobre formatos.",
+        "pending": "SERP de agencia/producción BTL, casos, roles, recursos y alcance del mismo equipo."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/activaciones-btl/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "GSC sin filas para organización/BTL/maestro de ceremonias en H; sin nuevo término Ads de BTL.",
+        "hypothesis_result": "Sin cambio en la hipótesis comercial/informativa de las SERP.",
+        "provisional": "Mantener la explicación de producción y operación acreditadas.",
+        "residual_pending": "SERP de agencia/producción BTL, casos y recursos reales."
+      }
+    },
+    {
+      "url": "/servicios/maestro-de-ceremonias/",
+      "original_phase4": {
+        "url": "/servicios/maestro-de-ceremonias/",
+        "evidence": "S035 combina consejos/definición/proveedores; S036 ofrece perfiles locales y directorios. K003 genérico 40, variante local null.",
+        "status": "Variante local con contratación: confirmada. Factores de tarifa pertinentes; orden de precio/definición en la página: pendiente. El 0,81 no expresa porcentaje de compradores.",
+        "provisional": "Priorizar perfil, video, experiencia pertinente y preparación; explicar factores de tarifa.",
+        "pending": "Conductor, disponibilidad, alcance y condiciones reales; null no invalida contratación observada."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/maestro-de-ceremonias/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "GSC sin filas en la familia agrupada en H; no hay términos Ads específicos publicados.",
+        "hypothesis_result": "Sin cambio; no se descarta contratación por ausencia de filas.",
+        "provisional": "Conservar perfil, video y preparación como propuesta provisional.",
+        "residual_pending": "Conductor, disponibilidad, condiciones y verificaciones originales."
+      }
+    },
+    {
+      "url": "/show-infantil-navideno/",
+      "original_phase4": {
+        "url": "/show-infantil-navideno/",
+        "evidence": "S037/S038/S053: ofertas, videos, agenda y guion; Rhino ausente solo de los orgánicos devueltos. K001 volume 110; nov/dic 2025: 390/590. K003 volume 10. L07 responde 200, texto íntegro guardado y cuatro H1.",
+        "status": "Contenido comercial presente: confirmado; intención no exclusivamente informativa. Estacionalidad histórica: confirmada. Posición propia actual y conservación en destino futuro: pendientes.",
+        "provisional": "Mantener reserva y especificaciones verificadas; conservar 301 aprobado y contenido legado.",
+        "pending": "GSC actual y canónica; comparar página nueva con L07; duración/edades/aforo, material y disponibilidad; probar 301 solo cuando exista destino."
+      },
+      "adzviser_addendum": {
+        "url": "/show-infantil-navideno/",
+        "sources": [
+          "E02",
+          "E04",
+          "E05"
+        ],
+        "new_evidence": "/show.html sin www tiene 7 clics/322 impresiones/posición 9,29 en W1; W0: 2/105/9,35. Los 28 días publicados suman 7/322. «show navideño»: 3/104/9,33 en W1. La URL propuesta no tiene estos datos propios.",
+        "hypothesis_result": "Confirmado rendimiento reciente reportado del legado; descartada la inferencia de ausencia de visibilidad por no aparecer en una captura SERP. Canónica y conservación en destino futuro pendientes.",
+        "provisional": "Refuerza preservar contenido y términos del legado durante el 301 ya autorizado para el lanzamiento; no cambia el momento aprobado.",
+        "residual_pending": "Inspección de ambos hosts, datos finales de W1, integridad del contenido y prueba del 301 cuando exista destino; no usar el reparto URL×dispositivo incompleto."
+      }
+    },
+    {
+      "url": "/fiesta-de-fin-de-ano-para-empresas/",
+      "original_phase4": {
+        "url": "/fiesta-de-fin-de-ano-para-empresas/",
+        "evidence": "S039: ideas y Endo Kuai comercial; S040: cenas/catering; S041: frases/imágenes. K003: 0/10/10 respectivamente.",
+        "status": "Necesidades diferenciadas: confirmado en capturas. Catering navideño mezcla hogares y señales corporativas, no se descarta. S041 muestra frases/tarjetas; variante de video pendiente. Oportunidad de fiesta: parcial.",
+        "provisional": "Distinguir celebración completa y opcionales; tratar saludo audiovisual según oferta real.",
+        "pending": "Capacidad, fechas, paquetes; consulta de producción de video de saludo y GSC. Cero estimado no demuestra demanda inexistente."
+      },
+      "adzviser_addendum": {
+        "url": "/fiesta-de-fin-de-ano-para-empresas/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Sin filas GSC para fiesta empresarial/catering/saludos navideños en H; sin evidencia Ads específica publicada.",
+        "hypothesis_result": "Pendiente evidencia propia; el show infantil no valida la demanda de fiesta corporativa.",
+        "provisional": "Mantener las necesidades diferenciadas y la oferta provisional de fase 4.",
+        "residual_pending": "Capacidad/fechas/paquetes y consulta específica de producción de video de saludo."
+      }
+    },
+    {
+      "url": "/servicios/fotografia/",
+      "original_phase4": {
+        "url": "/servicios/fotografia/",
+        "evidence": "S015: mayoría educativa/inspiracional; Pinterest de un estudio sin ubicación verificada. S016: proveedores locales. K003 publicitaria10, productos Lima null. L04: sesiones personales/familiares, usos comerciales y catálogos.",
+        "status": "Predominio informativo del genérico: confirmado en captura desktop. Keyword definitiva y destino legado: pendientes.",
+        "provisional": "Evaluar modificadores de productos/servicio y delimitar marcas frente a sesiones.",
+        "pending": "GSC de fotografia.html, SERP móvil, oferta/muestras y equivalencia con estudio disponible."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/fotografia/",
+        "sources": [
+          "E02",
+          "E03"
+        ],
+        "new_evidence": "/fotografia.html sin www: 0/21 en W1. Consultas publicadas: marca 7 impresiones y «fotografia y video corporativo lima» 1 impresión/posición 57. No es rendimiento de la URL futura.",
+        "hypothesis_result": "Confirmado desglose parcial del legado; una impresión no valida una keyword principal ni el destino definitivo.",
+        "provisional": "Conservar el contraste de productos/servicio y la delimitación de sesiones.",
+        "residual_pending": "Consultas completas, SERP móvil, oferta/muestras y equivalencia con estudio; no tratar filas omitidas como cero."
+      }
+    },
+    {
+      "url": "/servicios/fotos-corporativas/",
+      "original_phase4": {
+        "url": "/servicios/fotos-corporativas/",
+        "evidence": "S017: Mírame primero, stock tercero; CP06: galería/reserva; K003:20.",
+        "status": "SERP mixta con contratación de retratos: confirmada en captura. Competencia débil y rentabilidad: pendientes. Variante LinkedIn aún sin SERP propia.",
+        "provisional": "Mostrar entregas, preparación, retoque y modalidades comprobadas.",
+        "pending": "Oficina/set, permisos, plazos; GSC y móvil."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/fotos-corporativas/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "Única señal afín publicada: «fotografia y video corporativo lima», 1 impresión en /fotografia.html, posición 57; no identifica retratos LinkedIn.",
+        "hypothesis_result": "Pendiente evidencia propia específica de retratos.",
+        "provisional": "Sin cambio en entregas y modalidades provisionales; evitar presentar la señal afín como prueba del subservicio.",
+        "residual_pending": "Oficina/set, muestras, permisos y SERP específica de LinkedIn/móvil."
+      }
+    },
+    {
+      "url": "/servicios/marketing-digital/",
+      "original_phase4": {
+        "url": "/servicios/marketing-digital/",
+        "evidence": "S024 variante con Lima: agencias, curso y otras páginas; K003 null. L05 y PDF muestran branding, logotipos, social media y publicidad.",
+        "status": "Capa comercial de la variante local: confirmada. Principal sin Lima y equivalencia del alcance legado: pendientes.",
+        "provisional": "Aclarar canales, calendario, aprobación y reporte; conservar equivalencia del legado.",
+        "pending": "Oferta vigente de branding/publicidad, casos y consultas; SERP exacta de la principal del mapa."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/marketing-digital/",
+        "sources": [
+          "E02",
+          "E03"
+        ],
+        "new_evidence": "/marketing.html: 0/15 en W1; marca explica 6 impresiones. H incluye «reno online marketing»: 3 impresiones/posición 61,33.",
+        "hypothesis_result": "Confirmada atribución parcial de consultas al legado; no demuestra demanda comercial reciente de marketing.",
+        "provisional": "Conservar alcance y equivalencia de branding/publicidad con oferta vigente.",
+        "residual_pending": "Consultas completas, principal exacta del mapa, casos y prestaciones reales."
+      }
+    },
+    {
+      "url": "/servicios/desarrollo-web/",
+      "original_phase4": {
+        "url": "/servicios/desarrollo-web/",
+        "evidence": "S025 variante local: servicios/listados. L06: paquetes con plazos 7/11/18 días, title de 73 caracteres; PDF p.19–24 incluye web/e-commerce. K003 null.",
+        "status": "Contratación en la variante local: confirmada. Principal exacta sin Lima, vigencia de oferta y equivalencia: pendientes.",
+        "provisional": "Precisar entregables, propiedad, soporte y cotización.",
+        "pending": "Vigencia de paquetes/plazos, casos, alcance técnico y principal exacta; no trasladar prestaciones antiguas sin confirmación."
+      },
+      "adzviser_addendum": {
+        "url": "/servicios/desarrollo-web/",
+        "sources": [
+          "E02",
+          "E03"
+        ],
+        "new_evidence": "/web.html: 0/20 en W1; marca 5 impresiones y «nr diseño web» 3/posición 62,67.",
+        "hypothesis_result": "Confirmada atribución parcial del legado; rendimiento comercial de una nueva página pendiente.",
+        "provisional": "Conservar definición de entregables, propiedad y soporte sin trasladar plazos antiguos automáticamente.",
+        "residual_pending": "Vigencia de paquetes, casos, consulta exacta principal y equivalencia de la redirección."
+      }
+    },
+    {
+      "url": "/precios/",
+      "original_phase4": {
+        "url": "/precios/",
+        "evidence": "S042: seis de nueve orgánicos muestran rangos/importes; B.CONTENT #1. S043: guías. K0030, K00110, distintas fuentes/geografías.",
+        "status": "Presencia de resultados con precios: confirmada; causalidad del ranking y demanda para URL propia: pendientes.",
+        "provisional": "Mantener backlog; explicar factores de costo sin copiar tarifas ajenas.",
+        "pending": "Oferta, preguntas reales y relación con contenidos de servicios."
+      },
+      "adzviser_addendum": {
+        "url": "/precios/",
+        "sources": [
+          "E03",
+          "E08"
+        ],
+        "new_evidence": "Home en H: «productora audiovisual precios», 68 impresiones/0 clics/posición 33,75; «precios productora audiovisual», 1/0/41. Ads incluye «precio de filmacion de eventos»: 1 clic/S/1,55/0 conversiones.",
+        "hypothesis_result": "Confirmada señal histórica propia de precios. URL independiente sigue pendiente; no aporta tarifas de Rhino.",
+        "provisional": "Mantener backlog y factores de cotización sin crear ni publicar una nueva página.",
+        "residual_pending": "Oferta, preguntas reales, datos recientes y relación con contenido de servicios."
+      }
+    },
+    {
+      "url": "/blog/",
+      "original_phase4": {
+        "url": "/blog/",
+        "evidence": "S043/S044/S049 apoyan tres temas; S045 error40101; spot K003:10, coffee break:null.",
+        "status": "Apoyo editorial: parcial.",
+        "provisional": "Priorizar utilidad adicional a FAQs, sin crear slugs.",
+        "pending": "SERP de spot/coffee break; repetir preparación del evento; preguntas de clientes."
+      },
+      "adzviser_addendum": {
+        "url": "/blog/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publican consultas propias por artículo ni pruebas nuevas que resuelvan los temas editoriales pendientes.",
+        "hypothesis_result": "Sin cambio: apoyo editorial parcial.",
+        "provisional": "Conservar las hipótesis de utilidad y FAQs de fase 4, sin crear slugs.",
+        "residual_pending": "SERP y preguntas de clientes pendientes de la matriz original."
+      }
+    },
+    {
+      "url": "/portafolio/",
+      "original_phase4": {
+        "url": "/portafolio/",
+        "evidence": "L01 presenta cuatro proyectos; PDF contiene muestras.",
+        "status": "Existencia pública: confirmada; atribución: pendiente.",
+        "provisional": "Organizar pruebas por contribución documentada.",
+        "pending": "Permisos, entregables y filtros de servicios acreditados."
+      },
+      "adzviser_addendum": {
+        "url": "/portafolio/",
+        "sources": [
+          "E03",
+          "E09"
+        ],
+        "new_evidence": "El informe no añade datos por caso ni autorización de materiales; las 12 conversiones Ads son PAGE_VIEW.",
+        "hypothesis_result": "Atribución y eficacia de los casos pendientes; visitas no prueban resultados comerciales.",
+        "provisional": "Conservar pruebas por contribución documentada.",
+        "residual_pending": "Permisos, entregables y trazabilidad de resultados."
+      }
+    },
+    {
+      "url": "/portafolio/redinter-25-anos/",
+      "original_phase4": {
+        "url": "/portafolio/redinter-25-anos/",
+        "evidence": "L01: proyecto conmemorativo de 25 años.",
+        "status": "Descripción corporativa publicada: confirmada. Producción, autoría y alcance real de Rhino: pendientes.",
+        "provisional": "Preparar ficha de aportación y entregas.",
+        "pending": "Material, fecha, autoría y autorización."
+      },
+      "adzviser_addendum": {
+        "url": "/portafolio/redinter-25-anos/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publica evidencia nueva específica de este caso.",
+        "hypothesis_result": "Sin cambio; el aporte no resuelve atribución ni resultados.",
+        "provisional": "Conservar la recomendación provisional de la matriz inicial.",
+        "residual_pending": "Material, fecha, autoría, contribución y autorización."
+      }
+    },
+    {
+      "url": "/portafolio/premium-tasting-lima/",
+      "original_phase4": {
+        "url": "/portafolio/premium-tasting-lima/",
+        "evidence": "L01: evento vitivinícola, escrito Premiun.",
+        "status": "Organización por Rhino: pendiente.",
+        "provisional": "Usar Premium; describir trabajo probado, sin atribuir organización automáticamente.",
+        "pending": "Contrato/brief, cobertura y permiso."
+      },
+      "adzviser_addendum": {
+        "url": "/portafolio/premium-tasting-lima/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publica evidencia nueva específica de este caso.",
+        "hypothesis_result": "Sin cambio; el aporte no resuelve atribución ni resultados.",
+        "provisional": "Conservar la recomendación provisional de la matriz inicial.",
+        "residual_pending": "Contrato/brief, cobertura, rol organizativo y permiso."
+      }
+    },
+    {
+      "url": "/portafolio/bloom-of-colors/",
+      "original_phase4": {
+        "url": "/portafolio/bloom-of-colors/",
+        "evidence": "L01: cultura electrónica, música y arte.",
+        "status": "Organización/resultados: pendiente.",
+        "provisional": "Explicar tarea audiovisual y enlazar capacidades acreditadas.",
+        "pending": "Rol, entregas, material y aprobación."
+      },
+      "adzviser_addendum": {
+        "url": "/portafolio/bloom-of-colors/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publica evidencia nueva específica de este caso.",
+        "hypothesis_result": "Sin cambio; el aporte no resuelve atribución ni resultados.",
+        "provisional": "Conservar la recomendación provisional de la matriz inicial.",
+        "residual_pending": "Rol, entregas, material y aprobación."
+      }
+    },
+    {
+      "url": "/portafolio/heroe-adidas/",
+      "original_phase4": {
+        "url": "/portafolio/heroe-adidas/",
+        "evidence": "L01: reconocimiento a colaboradores.",
+        "status": "Que sea spot publicitario: pendiente.",
+        "provisional": "Clasificar según audiencia y uso reales.",
+        "pending": "Canales, derechos, alcance y producción ejecutada."
+      },
+      "adzviser_addendum": {
+        "url": "/portafolio/heroe-adidas/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No se publica evidencia nueva específica de este caso.",
+        "hypothesis_result": "Sin cambio; el aporte no resuelve atribución ni resultados.",
+        "provisional": "Conservar la recomendación provisional de la matriz inicial.",
+        "residual_pending": "Canales, derechos, alcance y clasificación según uso real."
+      }
+    },
+    {
+      "url": "/nosotros/",
+      "original_phase4": {
+        "url": "/nosotros/",
+        "evidence": "PDF p.2 afirma más de ocho años; F3: historia/meta pendientes.",
+        "status": "Experiencia acreditada: pendiente.",
+        "provisional": "Mostrar identidad, responsables y trayectoria verificable.",
+        "pending": "Personas, fechas, cargos y fotografías."
+      },
+      "adzviser_addendum": {
+        "url": "/nosotros/",
+        "sources": [
+          "E03"
+        ],
+        "new_evidence": "No hay nueva evidencia de equipo, trayectoria ni identidad.",
+        "hypothesis_result": "Sin cambio; experiencia acreditada pendiente.",
+        "provisional": "Conservar personas y trayectoria verificable como requisitos.",
+        "residual_pending": "Personas, fechas, cargos y fotografías."
+      }
+    },
+    {
+      "url": "/contacto/",
+      "original_phase4": {
+        "url": "/contacto/",
+        "evidence": "L01 publica teléfono, correo y horario; GET sin envío.",
+        "status": "Canales publicados: confirmada; funcionamiento: pendiente.",
+        "provisional": "Preparar cotización, datos reales y enlace a privacidad.",
+        "pending": "Recepción, WhatsApp/teléfono, campos y atención presencial."
+      },
+      "adzviser_addendum": {
+        "url": "/contacto/",
+        "sources": [
+          "E09"
+        ],
+        "new_evidence": "Las 12 conversiones registradas pertenecen a «Vista de una página»/PAGE_VIEW. No se acredita recepción de formulario, llamada o WhatsApp.",
+        "hypothesis_result": "Confirmada insuficiencia de esta métrica para probar contactos. No queda probado que no existan acciones configuradas con cero eventos.",
+        "provisional": "Conservar la necesidad de verificar recepción y distinguir interacción, contacto recibido y lead cualificado.",
+        "residual_pending": "Configuración de acciones, eventos disparadores, prueba de recepción y deduplicación; no se realizaron envíos."
+      }
+    },
+    {
+      "url": "/gracias/",
+      "original_phase4": {
+        "url": "/gracias/",
+        "evidence": "F3 C10: carga computada como envío; noindex previsto.",
+        "status": "Confirmación fiable: pendiente.",
+        "provisional": "Condicionar confirmación a aceptación; deduplicar y excluir sitemap.",
+        "pending": "Acceso directo, recarga y entrega efectiva."
+      },
+      "adzviser_addendum": {
+        "url": "/gracias/",
+        "sources": [
+          "E09"
+        ],
+        "new_evidence": "El conector no informa qué URL o evento dispara «Vista de una página».",
+        "hypothesis_result": "Pendiente; no puede atribuirse esa conversión a /gracias/ ni probar un envío.",
+        "provisional": "Conservar confirmación condicionada a aceptación y exclusión del sitemap.",
+        "residual_pending": "Disparador, acceso directo, recarga, deduplicación y entrega efectiva."
+      }
+    },
+    {
+      "url": "/politica-de-privacidad/",
+      "original_phase4": {
+        "url": "/politica-de-privacidad/",
+        "evidence": "Fase3: texto futuro pendiente. Los siete textos HTML extraídos no mencionan privacidad; no se rastreó cualquier URL posible.",
+        "status": "Ausencia de mención en textos examinados: confirmada. Existencia en otra URL y suficiencia legal: pendientes.",
+        "provisional": "Preparar contenido con responsable y flujo real.",
+        "pending": "Proveedores, tratamiento y revisión competente."
+      },
+      "adzviser_addendum": {
+        "url": "/politica-de-privacidad/",
+        "sources": [
+          "E09"
+        ],
+        "new_evidence": "El aporte no añade información sobre tratamiento de datos ni contenido de privacidad.",
+        "hypothesis_result": "Sin cambio; no se concluye cumplimiento a partir de métricas.",
+        "provisional": "Conservar la preparación del texto según responsable y flujo real.",
+        "residual_pending": "Proveedores, tratamiento y revisión competente."
+      }
+    },
+    {
+      "url": "404 (plantilla; URL no especificada)",
+      "original_phase4": {
+        "url": "404 (plantilla; URL no especificada)",
+        "evidence": "F3 C12: plantilla prevista; robots404 pertenece al legado.",
+        "status": "Error correcto en sitio futuro: pendiente.",
+        "provisional": "Mensaje útil, navegación disponible y HTTP404; fuera del sitemap.",
+        "pending": "Rutas inexistentes y comportamiento del hosting."
+      },
+      "adzviser_addendum": {
+        "url": "404 (plantilla; URL no especificada)",
+        "sources": [
+          "E05"
+        ],
+        "new_evidence": "Adzviser no suministra Inspección de URL ni pruebas HTTP de rutas futuras.",
+        "hypothesis_result": "Sin cambio; comportamiento de la plantilla pendiente.",
+        "provisional": "Conservar HTTP 404 y navegación útil previstos.",
+        "residual_pending": "Pruebas de rutas inexistentes en el hosting de destino."
+      }
+    },
+    {
+      "url": "/Brochure.pdf",
+      "original_phase4": {
+        "url": "/Brochure.pdf",
+        "evidence": "L08/L18: 200 final, PDF idéntico, 11.142.172 bytes, 31 páginas. Incluye activaciones p.26, fotografía p.28 y cobertura de foros p.29.",
+        "status": "Recuperación y catálogo parcial: confirmados. No desarrolla las 15 líneas vigentes; actualidad de sus afirmaciones: pendiente.",
+        "provisional": "Conservar ruta exacta; evaluar contenido/peso con el dueño. No descartar el material de eventos ya existente.",
+        "pending": "Permisos, enlaces, actualización y descarga separada de contacto."
+      },
+      "adzviser_addendum": {
+        "url": "/Brochure.pdf",
+        "sources": [
+          "E02",
+          "E03",
+          "E05"
+        ],
+        "new_evidence": "Ruta sin www: 0/13 en W1, posición 4,69; marca 5 impresiones. En H: 0/30 sin www y 0/2 con www. No hay medición de descargas en el aporte.",
+        "hypothesis_result": "Confirmada visibilidad reportada del PDF; no acredita descargas, contactos o actualidad del contenido.",
+        "provisional": "Conservar ruta exacta y separar descarga de contacto, como en fase 4.",
+        "residual_pending": "Inspección, enlaces, actualización, permisos y medición de descargas."
+      }
+    }
+  ]
+}

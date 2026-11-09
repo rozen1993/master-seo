@@ -1,0 +1,42 @@
+{
+  "date": "2026-11-05",
+  "target_dimensions": [
+    1536,
+    3072
+  ],
+  "images": [
+    {
+      "file": "01-cinematografica.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-63579fa1-f91a-42f2-9e78-e77ecf5a96ee.png",
+      "width": 724,
+      "height": 2172,
+      "bytes": 1797834,
+      "sha256": "2ee3da5c169c7e0a8bfa27f60e660976385653f06f499b26ff71f0cc13360500",
+      "generator": "image_gen builtin",
+      "generation_cost_usd": null,
+      "cost_status": "tool does not expose cost"
+    },
+    {
+      "file": "02-editorial.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-d3e209a0-367a-43a4-9497-35ace3ff3aa0.png",
+      "width": 724,
+      "height": 2172,
+      "bytes": 1765327,
+      "sha256": "4ed9022709787bb1e631bebb9699bf4a4c5f19a2d876ad08092c8b6c3a78ca42",
+      "generator": "image_gen builtin",
+      "generation_cost_usd": null,
+      "cost_status": "tool does not expose cost"
+    },
+    {
+      "file": "03-cobalto.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-44f204c5-4c7b-4acc-8392-b3d7b87c31e8.png",
+      "width": 724,
+      "height": 2172,
+      "bytes": 1791368,
+      "sha256": "d4e02d7d3831f6cd26c8b21c5c18564820382d4876bac36b1cf90e68f47150d7",
+      "generator": "image_gen builtin",
+      "generation_cost_usd": null,
+      "cost_status": "tool does not expose cost"
+    }
+  ]
+}

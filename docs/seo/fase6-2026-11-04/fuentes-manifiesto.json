@@ -1,0 +1,125 @@
+[
+  {
+    "copy": "fuente-00.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\00-traspaso.md",
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686",
+    "bytes": 54189,
+    "copia_paquete": "fuentes/fuente-00.md",
+    "sha256_copia": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686"
+  },
+  {
+    "copy": "fuente-03.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\03-arquitectura-catalogo-completo.md",
+    "sha256": "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8",
+    "bytes": 24339,
+    "copia_paquete": "fuentes/fuente-03.md",
+    "sha256_copia": "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8"
+  },
+  {
+    "copy": "fuente-06.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\06-contenido-de-paginas.md",
+    "sha256": "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388",
+    "bytes": 33685,
+    "copia_paquete": "fuentes/fuente-06.md",
+    "sha256_copia": "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388"
+  },
+  {
+    "copy": "fuente-07.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\07-especificacion-tecnica-y-brief-de-diseno.md",
+    "sha256": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f",
+    "bytes": 11501,
+    "copia_paquete": "fuentes/fuente-07.md",
+    "sha256_copia": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f"
+  },
+  {
+    "copy": "fuente-11.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\11-auditoria-y-plan-sem.md",
+    "sha256": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7",
+    "bytes": 15515,
+    "copia_paquete": "fuentes/fuente-11.md",
+    "sha256_copia": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7"
+  },
+  {
+    "copy": "fuente-CLAUDE.md",
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\CLAUDE.md",
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56",
+    "bytes": 9710,
+    "copia_paquete": "fuentes/fuente-CLAUDE.md",
+    "sha256_copia": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56"
+  },
+  {
+    "copy": "fuente-fase5.md",
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088",
+    "bytes": 68436,
+    "copia_paquete": "fuentes/FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "sha256_copia": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088"
+  },
+  {
+    "copy": "fuente-matriz-fase5.json",
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\MATRIZ-FASE-5.json",
+    "sha256": "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000",
+    "bytes": 121915,
+    "copia_paquete": "fuentes/MATRIZ-FASE-5.json",
+    "sha256_copia": "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000"
+  },
+  {
+    "copy": "fuente-comparacion-fase5.md",
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\COMPARACION-FASE-5.md",
+    "sha256": "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c",
+    "bytes": 37584,
+    "copia_paquete": "fuentes/COMPARACION-FASE-5.md",
+    "sha256_copia": "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c"
+  },
+  {
+    "copy": "fuente-verificacion-fase5.json",
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\verificacion-final.json",
+    "sha256": "6834d84b7651d53f7a6a615aa298be9b96b16efe055975d69ec69de3216d93ff",
+    "bytes": 4129,
+    "copia_paquete": "fuentes/verificacion-final.json",
+    "sha256_copia": "6834d84b7651d53f7a6a615aa298be9b96b16efe055975d69ec69de3216d93ff"
+  },
+  {
+    "copy": "fuente-politicas.json",
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\official-checks.json",
+    "sha256": "7ae8e1a61eec1b625fcc3cea912957bc31455ab2825d0e003463d1ca73f0e732",
+    "bytes": 2523,
+    "copia_paquete": "fuentes/fuente-politicas.json",
+    "sha256_copia": "7ae8e1a61eec1b625fcc3cea912957bc31455ab2825d0e003463d1ca73f0e732"
+  },
+  {
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+    "copia_paquete": "fuentes/FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+    "sha256": "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969",
+    "sha256_copia": "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969",
+    "bytes": 40014
+  },
+  {
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+    "copia_paquete": "fuentes/FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+    "sha256": "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb",
+    "sha256_copia": "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb",
+    "bytes": 34374
+  },
+  {
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\matriz-fase4-con-adenda.json",
+    "copia_paquete": "fuentes/matriz-fase4-con-adenda.json",
+    "sha256": "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762",
+    "sha256_copia": "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762",
+    "bytes": 50828
+  },
+  {
+    "source": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legacy-normalized.json",
+    "copia_paquete": "fuentes/legacy-normalized.json",
+    "sha256": "b4bcef82872b9908c770bd144a182983ac3a89bafffb4220ea02c318a70ff66f",
+    "sha256_copia": "b4bcef82872b9908c770bd144a182983ac3a89bafffb4220ea02c318a70ff66f",
+    "bytes": 67045
+  },
+  {
+    "source": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\vercel.json",
+    "copia_paquete": "fuentes/vercel.json",
+    "sha256": "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8",
+    "sha256_copia": "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8",
+    "bytes": 720
+  }
+]

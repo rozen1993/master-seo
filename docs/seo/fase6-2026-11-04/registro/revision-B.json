@@ -1,0 +1,181 @@
+{
+  "supuestos": [
+    "El paquete no fija gates explícitos para la revisión documental del componente B del pipeline core. Se usan como gates: consistencia interna entre los archivos de B y con la matriz F5 adjunta; ausencia de evidencia comercial inventada; límite de Ads S/110; ProfessionalService cerrado por G6; originales intactos según lo declarado.",
+    "El componente A (registro canónico fichas-37.json y enlaces.json) existe y se revisa por separado. Que no esté aquí no se trata como archivo inexistente.",
+    "No se exigen comprobaciones en vivo, despliegue ni autorización de lanzamiento. Todos los estados documentales son no aprobatorios.",
+    "Las longitudes NFC se comprobaron a mano en una muestra: P01 title/description, P06 H1 y P23 title coinciden. El resto no se recontó.",
+    "No se reabren las conclusiones sobre ProfessionalService, FAQ, Review ni la recepción de GSC/Ads; ya están cerradas con evidencia."
+  ],
+  "propuesta": "Conclusión: el componente B es coherente en lo esencial y apto para cerrarse con correcciones menores. No hay defectos críticos ni altos.\n\n**Lo que está bien**\n- IDs, URLs, prioridades y tipos de P01–P37 coinciden con F5. En la muestra revisada no se encontraron discrepancias.\n- rutas.json enumera exactamente 32 variantes (8 rutas × 4 combinaciones de protocolo y host). El host y el destino de fotografía quedan bloqueados como pendientes.\n- medicion.json contiene las 9 pruebas declaradas, separa los cuatro niveles y no envía datos personales a analítica.\n- schema.json descarta ProfessionalService de forma coherente con G6. Los requisitos de LocalBusiness (nombre y dirección obligatorios, teléfono recomendado) no se convierten en requisito para publicar el HTML.\n- El presupuesto de Ads (máximo S/110 al mes, objetivo de unos S/100) aparece igual en todos los documentos y no se autoriza ningún cambio en campañas.\n- No se ha encontrado evidencia comercial inventada.\n\n**Correcciones antes del cierre, en orden de impacto**\n1. **AC-01 y AC-18 (medio).** Son controles documentales y verificacion.json ya los da por superados, pero aceptacion.json los marca como no_ejecutado. Además, aceptacion.schema.json solo admite ese valor. Hay dos salidas:\n   - permitir un estado como «verificado_documental» con referencia a verificacion.json; o\n   - indicar expresamente que verificacion.json prevalece para los controles cuya clase es verificacion_documental.\n2. **Presupuesto de Ads (medio).** Conviene dejar escrito que la configuración reportada (S/7,77 al día) equivale a un límite nominal de unos S/236 al mes (30,4 × 7,77). Eso es más del doble del máximo de S/110. Es una condición que el dueño debe decidir; no se propone tocar la cuenta.\n3. **Ajustes menores de texto y registro (bajo):**\n   - campos revisor y fuente repetidos de forma genérica en aceptacion.json;\n   - errata «S132,26» en 07;\n   - la frase «Cada ficha requiere AC-01/02/03/05» en 02, que no encaja con la reserva y el PDF;\n   - posible desajuste del grafo (145 aristas en verificacion.json frente a 151 listadas en 02);\n   - AC-04 depende sin condición de que se resuelva el destino de fotografía.\n\nGrado de completitud: se revisaron completos los 15 archivos del componente B. Contra componente A, solo se pudo cruzar lo que reproduce la vista Markdown.",
+  "alternativas": [
+    "Dejar AC-01 y AC-18 como no_ejecutado y añadir en 04 una nota de que los controles documentales se registran solo en verificacion.json. Requiere menos cambios, pero deja dos estados distintos para el mismo control.",
+    "En lugar de añadir el aviso del límite nominal de Ads en 03, registrarlo como afirmación nueva (C11) en decisiones.json, con la clase reportado_no_reconsultado más un cálculo derivado."
+  ],
+  "riesgos": [
+    "Si la campaña reportada como ENABLED/ELIGIBLE/SERVING vuelve a entregar con S/7,77 al día, el límite nominal mensual (unos S/236) superaría el máximo de S/110. Esto es un riesgo operativo, no un gasto demostrado.",
+    "Mientras el esquema solo admita no_ejecutado, el registro de aceptación no puede guardar resultados, aunque 04 exige conservar el resultado observado.",
+    "Si el grafo de 145 aristas no excluye los nodos de reserva, de la plantilla 404 y del PDF por una regla documentada, la verificación del grafo podría no reflejar la vista Markdown."
+  ],
+  "verificacion": [
+    "Tras la corrección, comprobar que AC-01 y AC-18 tienen el mismo estado y la misma referencia que los controles 37_ids_unicos e integridad_originales de verificacion.json.",
+    "Recalcular las aristas desde enlaces.json (componente A) e indicar qué nodos de origen se excluyen para llegar a 145.",
+    "Buscar 'S132' en todo el paquete y unificar el formato a S/.",
+    "Comprobar que 03 o decisiones.json recogen el cálculo de 7,77 × 30,4 como condición que debe decidir el dueño, sin instrucción de cambiar la cuenta.",
+    "Volver a validar aceptacion.json contra el esquema modificado."
+  ],
+  "confianza": {
+    "nivel": "alta",
+    "motivo": "Los hallazgos demostrados citan texto literal de los archivos completos enviados. Las sospechas dependen de fichas-37.json, enlaces.json y de los archivos de registro, que no se recibieron en este componente."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "fichas-37.json y enlaces.json (componente A): necesarios para confirmar la regla del grafo de 145 aristas",
+      "decisiones.json, costes.json y fuentes-manifiesto.json",
+      "registro/originales-baseline.json y originals-before.json, para aclarar la dependencia de AC-18",
+      "fuentes/fuente-politicas.json"
+    ]
+  },
+  "findings": [
+    {
+      "title": "AC-01 y AC-18 constan como no_ejecutado aunque verificacion.json los registra como superados; el esquema impide reflejarlo",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "aceptacion.json AC-01, AC-18; aceptacion.schema.json properties.resultado; verificacion.json controles 37_ids_unicos e integridad_originales; 04-aceptacion-y-orden.md párrafo 1",
+      "evidence": "AC-01 y AC-18 tienen clase 'verificacion_documental' y momento 'documento', pero su resultado es 'no_ejecutado'. En verificacion.json, '37_ids_unicos' tiene passed: true y 'integridad_originales' tiene passed: true con 408 verificados. El esquema solo admite el enum ['no_ejecutado']. En 04 se afirma 'Todas las pruebas futuras están no_ejecutado', pero estos dos controles no son pruebas futuras.",
+      "verification": "Ampliar el enum (por ejemplo, verificado_documental) o declarar en 04 y en AC-01/AC-18 que el resultado vigente está en verificacion.json. Después, volver a validar el esquema."
+    },
+    {
+      "title": "La configuración de Ads reportada implica un límite nominal mensual superior a S/110 y no se declara como condición",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "03-requisitos-tecnicos.md § Ads; aceptacion.json AC-15; 05-decisiones.md D6-12",
+      "evidence": "03 cita 'S/7,77/día reportado' y 'Máximo S/110 mensual', y 07 recoge el estado ENABLED/ELIGIBLE/SERVING. Ningún archivo de B indica que 7,77 × 30,4 ≈ S/236,2 de límite nominal mensual, unas 2,15 veces el máximo. AC-15 pide 'límites reales', pero no menciona este conflicto. Es solo aritmética sobre datos ya reportados; no prueba gasto.",
+      "verification": "Añadir el cálculo como condición pendiente de decisión del dueño, con la clase reportado_no_reconsultado, sin instrucción de modificar la cuenta. Comprobar que no se presenta como gasto efectivo."
+    },
+    {
+      "title": "Los campos revisor y fuente de aceptacion.json son genéricos y no corresponden a los criterios",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "aceptacion.json, los 18 criterios (en especial AC-12, AC-14, AC-15 y AC-18)",
+      "evidence": "Todos los criterios tienen revisor 'SEO/negocio según alcance; revisión documental Claude' y fuente 'F5 diagnóstico y filas pertinentes'. AC-12 exige 'revisión aplicable' y su responsable es 'Dueño/revisor competente', pero el revisor no lo incluye. Los objetivos de AC-14 proceden del documento 07, según 03, y AC-18 procede de una instrucción del usuario, no de F5. Además, se nombra a Claude como revisor de pruebas futuras en vivo (AC-11).",
+      "verification": "Indicar en cada criterio el revisor y la fuente específicos, coherentes con la tabla de roles de 06-guia-entrega.md."
+    },
+    {
+      "title": "Errata en el formato de moneda del gasto histórico de Ads",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "07-trazabilidad-y-revision.md, párrafo de Ads",
+      "evidence": "Pone '150 clics/S132,26'. F5 y el resto del paquete usan 'S/132,26'.",
+      "verification": "Corregir a S/132,26 y buscar el patrón 'S1'/'S132' en todo el paquete."
+    },
+    {
+      "title": "La exigencia general de AC-01/02/03/05 incluye fichas a las que esos criterios no se aplican",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "02-fichas-37.md, párrafo introductorio; aceptacion.json AC-02 y AC-03",
+      "evidence": "El texto dice 'Cada ficha requiere además AC-01/02/03/05'. Sin embargo, AC-02 se limita a 'HTML candidato' y AC-03 a 'Metadatos HTML'. P25/P26 (reserva, no_crear_aun) y P37 (PDF, metadatos no_aplica_html) no pueden cumplirlos.",
+      "verification": "Matizar: 'según la clase de cada ficha', o enumerar las excepciones para la reserva, el PDF y la plantilla 404."
+    },
+    {
+      "title": "El recuento del grafo previsto (145) no coincide con los enlaces listados en la vista Markdown (151)",
+      "classification": "sospecha",
+      "severity": "low",
+      "location": "verificacion.json control grafo_previsto; 02-fichas-37.md, campo 'Enlaces previstos'",
+      "evidence": "Sumando los 'Enlaces previstos' de P01–P37 salen 151 (P02 aporta 23). Si se excluyen P25, P26, P36 y P37 como origen, salen 145, pero esa regla no está documentada en verificacion.json. Puede estar en enlaces.json (componente A), que no se ha recibido.",
+      "verification": "Recalcular desde enlaces.json y documentar en el detalle del control qué orígenes se excluyen y por qué."
+    },
+    {
+      "title": "AC-04 bloquea globalmente por el destino de fotografía sin la condición que admiten 03 y rutas.json",
+      "classification": "sospecha",
+      "severity": "low",
+      "location": "aceptacion.json AC-04 (alcance global, dependencia); 03-requisitos-tecnicos.md § Rutas; rutas.json fotografia.bloqueo",
+      "evidence": "La dependencia de AC-04 es 'destino fotografía resuelto' con alcance global. En cambio, 03 permite 'conservar el legado operativo o posponer ese corte', y rutas.json dice 'resolver_antes_del_corte_si_se_retira_legacy'. Que exista contradicción depende de si conservar el legado cuenta como 'resuelto'.",
+      "verification": "Redactar la dependencia de AC-04 con la misma condición que rutas.json, o aclarar que conservar el legado es una resolución válida."
+    },
+    {
+      "title": "La dependencia de AC-18 nombra un archivo distinto del baseline citado en 07",
+      "classification": "no_verificado",
+      "severity": "info",
+      "location": "aceptacion.json AC-18 dependencia; 07-trazabilidad-y-revision.md párrafo 1",
+      "evidence": "AC-18 depende de 'originals-before.json', mientras que 07 enlaza 'registro/originales-baseline.json' como baseline de 408 originales. Ninguno de los dos archivos se ha recibido.",
+      "verification": "Confirmar si son el mismo artefacto y unificar el nombre y la ruta."
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "gates": [
+    {
+      "name": "consistencia_ids_urls_prioridades_vs_F5",
+      "status": "passed",
+      "evidence": "Se compararon P01–P37 de 02-fichas con las tablas 4.1/4.2 de F5: URL, urgencia, impacto y confianza coinciden en todas las filas revisadas. P36 es null según AC-01."
+    },
+    {
+      "name": "longitudes_metadatos_muestra",
+      "status": "passed",
+      "evidence": "Recuento manual: P01 title 44 y description 130, P06 H1 44 y P23 title 47 coinciden con lo declarado. Los valores null no se cuentan como aprobados."
+    },
+    {
+      "name": "rutas_32_variantes",
+      "status": "passed",
+      "evidence": "rutas.json: 8 rutas × 4 combinaciones de protocolo y host = 32. host_canonico es null y el destino de fotografía es null y está bloqueado."
+    },
+    {
+      "name": "presupuesto_ads_S110",
+      "status": "passed",
+      "evidence": "S/110 como máximo y unos S/100 como objetivo, igual en README, 03, 05, AC-15 y 06, sin cambios de campaña. Aparte queda el hallazgo de que falta declarar el límite nominal."
+    },
+    {
+      "name": "schema_ProfessionalService_cerrado",
+      "status": "passed",
+      "evidence": "Coherente en schema.json (descartado_para_implementacion), D6-11, AC-09 y new-external-checks G6-PS."
+    },
+    {
+      "name": "estados_aceptacion_coherentes",
+      "status": "failed",
+      "evidence": "AC-01 y AC-18 figuran como no_ejecutado frente a los controles superados de verificacion.json, y el enum del esquema solo admite no_ejecutado."
+    },
+    {
+      "name": "grafo_enlaces",
+      "status": "not-run",
+      "evidence": "Requiere enlaces.json del componente A; la diferencia 145/151 queda como sospecha."
+    },
+    {
+      "name": "comprobacion_live_y_lanzamiento",
+      "status": "not-applicable",
+      "evidence": "Fuera del alcance documental, según la instrucción del usuario."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "aceptacion.json",
+      "purpose": "Estados de AC-01 y AC-18, y campos revisor/fuente por criterio",
+      "status": "reviewed"
+    },
+    {
+      "path": "aceptacion.schema.json",
+      "purpose": "El enum de resultado impide registrar resultados",
+      "status": "reviewed"
+    },
+    {
+      "path": "03-requisitos-tecnicos.md",
+      "purpose": "Falta declarar el conflicto entre el límite nominal de Ads y el máximo de S/110",
+      "status": "reviewed"
+    },
+    {
+      "path": "07-trazabilidad-y-revision.md",
+      "purpose": "Errata S132,26",
+      "status": "reviewed"
+    },
+    {
+      "path": "02-fichas-37.md",
+      "purpose": "Introducción sobre los criterios por clase; recuento de enlaces",
+      "status": "reviewed"
+    },
+    {
+      "path": "verificacion.json",
+      "purpose": "Regla del grafo de 145 aristas sin documentar",
+      "status": "reviewed"
+    }
+  ]
+}

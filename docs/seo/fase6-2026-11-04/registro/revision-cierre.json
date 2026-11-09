@@ -1,0 +1,200 @@
+{
+  "fecha_local": "2026-11-04",
+  "estado": "completo_documental",
+  "proceso": "Codex y Claude derivan por componente con paquete idéntico; comparación limpia; Codex escribe; Claude revisa; correcciones; segunda revisión limpia y controles locales",
+  "primeras_revisiones": "sin críticos/altos; medios y menores resueltos en correcciones-revision.json",
+  "revisiones_finales": [
+    {
+      "componente": "A",
+      "session_id": "6baad768-fba2-4bbc-a359-5d6dabd50a69",
+      "archivo": "registro/revision-A-final.json",
+      "hallazgos": [
+        {
+          "title": "El origen de algunas variantes contradice la intencion_fuente F5 de la misma ficha",
+          "classification": "demostrado",
+          "severity": "low",
+          "location": "fichas-37.json keyword.variantes_proveniencia en P01, P04, P08, P17 y P24 (ambiguos: P05, P18)",
+          "evidence": "P01: intencion_fuente 'V: agencia/empresa audiovisual', pero 'agencia audiovisual' tiene origen 'propuesta editorial F6'. P04: 'V: servicio/producción de videos corporativos', pero 'servicio de videos corporativos' tiene origen F6. P08: 'V: empresa organizadora', pero 'empresa organizadora de eventos' tiene origen F6. P17: 'V: producción/agencia BTL', pero 'producción BTL' tiene origen F6. P24: 'diseño y desarrollo de páginas web Lima (S025)' tiene origen 'propuesta editorial F6' y a la vez serp_exacta 'S025: variante exacta con Lima'; intencion_fuente dice 'S025 comprobó la variante con Lima'. Ambiguos: P05 'filmación de eventos' y P18 '…corporativos (pendiente)' figuran como '03/06 histórico' aunque están en la V de F5. El error es conservador: no presenta ninguna consulta como investigada sin estarlo.",
+          "verification": "Cotejar cada variante con la columna keyword/intención de F5 §4.1 y cambiar el origen a 'F5 Pxx' (y F4 S025 en P24). El control null_y_variantes debería comprobar la coherencia origen↔serp_exacta."
+        },
+        {
+          "title": "AC-08 no figura en las fichas de servicio que enlazan casos",
+          "classification": "demostrado",
+          "severity": "low",
+          "location": "fichas-37.json aceptacion de P04, P05 y P12 frente a aceptacion.json AC-08.paginas y enlaces.json",
+          "evidence": "AC-08.paginas = 'P27–P31 y casos usados en otras páginas'; regla: 'cada filtro, vínculo y frase coincide con expediente'. Las aristas P04→P28, P05→P29, P05→P30 y P12→P31 existen con la condición 'permiso_y_rol_del_caso_acreditados_para_la_relacion', pero la aceptación de P04, P05 y P12 no incluye AC-08 (sí P27–P31). D6-08 cierra 'Casos y enlaces a servicios según rol y permisos' con AC-08. El riesgo es bajo porque enlaces.json e insumos_pendientes (p. ej. P04 'rol/permiso de Redinter antes de usarlo') ya exigen el permiso.",
+          "verification": "Añadir AC-08 a P04, P05 y P12, o acotar AC-08.paginas a P27–P31 y remitir los enlaces desde servicios a enlaces.json. Regenerar la vista Markdown."
+        }
+      ],
+      "gates": [
+        {
+          "name": "cierre_F1_aceptacion_por_tipo_y_decisiones",
+          "status": "passed",
+          "evidence": "P19 lleva AC-04. P37 lleva AC-01/07/17 sin AC-02/03. P25/P26 solo AC-01. P36 incluye AC-07. AC-09 está en las fichas con schema_candidato. Los receptores de 301 llevan AC-04. Residual AC-08 registrado aparte como hallazgo bajo."
+        },
+        {
+          "name": "cierre_F2_tabla_GFM_01",
+          "status": "passed",
+          "evidence": "Cabecera y delimitador consecutivos en 01-arquitectura.md."
+        },
+        {
+          "name": "cierre_F3_procedencia_variantes",
+          "status": "passed",
+          "evidence": "Todas las variantes tienen origen y serp_exacta; el problema de origen en 5 fichas se registra como hallazgo bajo."
+        },
+        {
+          "name": "cierre_F4_responsables_bloques",
+          "status": "passed",
+          "evidence": "P33/P34: desarrollador y atención. P35: dueño y revisor. P36: desarrollador. P37: responsabilidad dividida."
+        },
+        {
+          "name": "cierre_F5_aristas_P36_y_recuento_148",
+          "status": "passed",
+          "evidence": "3 aristas P36 con condición plantilla_404_activa; 148 relacionadas = 148 aristas, iguales por origen."
+        },
+        {
+          "name": "cierre_F6_condicion_P27_P33",
+          "status": "passed",
+          "evidence": "Solo origen_y_destino_publicados_y_aprobados, con regla explícita."
+        },
+        {
+          "name": "cierre_F7_G6LB_localizador",
+          "status": "passed",
+          "evidence": "Localizador y hechos name/address/telephone presentes; el contenido de la captura no se ha visto."
+        },
+        {
+          "name": "cierre_S1_esquema_fichas",
+          "status": "passed",
+          "evidence": "fichas.schema.json exige prioridad con enums, keyword, indexacion y trazabilidad; aceptacion con enum de AC; relacionadas con patrón."
+        },
+        {
+          "name": "S2_enlaces_show_brochure",
+          "status": "not-applicable",
+          "evidence": "Registrado en no_adoptado con motivo editorial; no era defecto."
+        },
+        {
+          "name": "ads_ilustracion_y_maximo",
+          "status": "passed",
+          "evidence": "7,77 × 30 = 233,10 etiquetado como ilustración; S/110 coherente en README, 01, 03, D6-12 y AC-15."
+        },
+        {
+          "name": "anclas_AC01_AC18",
+          "status": "passed",
+          "evidence": "37_ids_unicos, tipos, urls_y_prioridades, estados_y_evidencia e integridad_originales (408) existen en verificacion.json."
+        },
+        {
+          "name": "rutas_32_y_vista_markdown",
+          "status": "not-run",
+          "evidence": "rutas.json y 02-fichas-37.md pertenecen a B y no se han aportado aquí."
+        }
+      ]
+    },
+    {
+      "componente": "B",
+      "session_id": "85f92d51-e1c1-49d5-81ab-ea8990cb558c",
+      "archivo": "registro/revision-B-final.json",
+      "hallazgos": [
+        {
+          "title": "Las fichas que usan casos de portafolio no listan AC-08, aunque su alcance cubre «casos usados en otras páginas»",
+          "classification": "demostrado",
+          "severity": "low",
+          "location": "aceptacion.json AC-08.paginas; 02-fichas-37.md, párrafo introductorio y «Aceptación por ficha» de P01, P04, P05, P08 y P12 (origen: fichas-37.json, componente A)",
+          "evidence": "AC-08.paginas = «P27–P31 y casos usados en otras páginas», con la regla «Permiso y rol acreditados... Caso sin permiso se omite». La introducción de 02 dice «Los criterios aplicables se enumeran en cada ficha». P01 incluye el bloque «Proyectos autorizados»; P04 el bloque «Caso corporativo acreditado» y el insumo «rol/permiso de Redinter»; P05 «permisos de Premium/Bloom»; P08 «Experiencia atribuible»; P12 «Adidas no es prueba de spot sin acreditar su uso». Ninguna de esas cinco fichas incluye AC-08 en su lista; solo P27–P31 lo llevan.",
+          "verification": "Añadir AC-08 en fichas-37.json a las fichas que muestran o afirman casos y regenerar 02, o declarar en la introducción de 02 que AC-08 se suma siempre que se use un caso. Después, volver a cruzar la lista de cada ficha con AC-08.paginas."
+        }
+      ],
+      "gates": [
+        {
+          "name": "cierre_AC01_AC18_estado_y_esquema",
+          "status": "passed",
+          "evidence": "AC-01 y AC-18 en verificado_documental con evidencia_resultado apuntando a controles existentes en verificacion.json. El enum del esquema está ampliado y evidencia_resultado admite string o null. 04 separa estos dos controles de las pruebas futuras. Los otros 16 criterios siguen en no_ejecutado con evidencia null."
+        },
+        {
+          "name": "cierre_ads_calculo_ilustrativo",
+          "status": "passed",
+          "evidence": "03 §Ads: 7,77×30 = S/233,10, etiquetado como ilustrativo y no como gasto ni como límite de Google. Máximo S/110 y objetivo de unos S/100 iguales en README, 03, D6-12, AC-15 y 06. No se autoriza ningún cambio."
+        },
+        {
+          "name": "cierre_revisor_fuente_especificos",
+          "status": "passed",
+          "evidence": "Los 18 criterios tienen fuente y revisor propios (AC-12 revisor competente, AC-14 07 A.4, AC-18 instrucción del usuario). Claude no figura como revisor de pruebas futuras."
+        },
+        {
+          "name": "cierre_moneda_S132_26",
+          "status": "passed",
+          "evidence": "07 párrafo de Ads: «150 clics/S/132,26». No queda ningún «S132» en los archivos recibidos."
+        },
+        {
+          "name": "cierre_intro_criterios_por_clase",
+          "status": "passed",
+          "evidence": "La introducción de 02 remite a los criterios de cada ficha. P25/P26 llevan AC-01; P36 AC-01/03/05/07/13; P37 AC-01/07/17. La regresión de AC-08 se registra aparte como hallazgo bajo."
+        },
+        {
+          "name": "cierre_grafo_148",
+          "status": "passed",
+          "evidence": "Recuento manual sobre 02: 118 (P01–P24) + 27 (P27–P35) + 3 (P36) = 148, con P25/P26/P37 en 0, igual que verificacion.json. Se contó sobre la vista Markdown, no sobre enlaces.json."
+        },
+        {
+          "name": "cierre_AC04_continuidad_legado",
+          "status": "passed",
+          "evidence": "La dependencia de AC-04 admite la continuidad del legado expresamente acordada y probada, igual que 03 §Rutas y rutas.json.fotografia.bloqueo."
+        },
+        {
+          "name": "cierre_AC18_nombre_baseline",
+          "status": "passed",
+          "evidence": "AC-18 y 07 citan registro/originales-baseline.json. No se ha inspeccionado su contenido."
+        },
+        {
+          "name": "regresiones_de_correcciones",
+          "status": "passed",
+          "evidence": "Ninguna regresión crítica, alta ni media. Una baja demostrada (AC-08 en las listas de cada ficha), registrada en findings."
+        },
+        {
+          "name": "hashes_y_validacion_JSON_ejecutada",
+          "status": "not-run",
+          "evidence": "Revisión de solo lectura sin herramientas. No se recalcularon los SHA-256 ni se ejecutó el validador; aceptacion.json se comprobó a mano: los 15 campos requeridos y los valores de resultado y prioridad son válidos."
+        }
+      ]
+    }
+  ],
+  "pruebas_web": "no ejecutadas; fuera de alcance",
+  "campanas": "sin cambios; máximo S/110 mensual preservado",
+  "originales": "408; comprobar verificacion.json",
+  "limitaciones": [
+    "Host y destino fotografía aún condicionados",
+    "Oferta, modalidades, permisos y casos requieren insumos",
+    "GSC/Ads reportados mediante PDF, no reconsultados",
+    "Codex auxiliar de segunda QA no entregó resultado por cuota; no se atribuye esa revisión como completada. Cotejo previo de legado sí concluido."
+  ],
+  "coste_Claude_usd_lista": 8.8381958,
+  "correcciones_posteriores_de_baja_severidad": {
+    "fecha": "2026-11-04",
+    "hallazgos_ultima_revision": [
+      {
+        "componente": "A",
+        "finding_index": 0,
+        "severidad": "low",
+        "resolucion": "Corregida procedencia explícita de siete variantes/abreviaciones F5; P24 enlaza F4 S025/F5 P24. No se atribuye nueva consulta.",
+        "verificacion": "Control procedencia_variantes_final; vista humana coherente"
+      },
+      {
+        "componente": "A",
+        "finding_index": 1,
+        "severidad": "low",
+        "resolucion": "AC-08 añadido a servicios con casos; también home/organización/marketing/web. Regla transversal explícita para futuros casos.",
+        "verificacion": "Control casos_AC08_final"
+      },
+      {
+        "componente": "B",
+        "finding_index": 0,
+        "severidad": "low",
+        "resolucion": "Misma corrección AC-08 en canon y vista humana, más regla transversal.",
+        "verificacion": "Control casos_AC08_final y vista_markdown"
+      }
+    ],
+    "revisor_correccion": "Codex raíz; cambios documentales menores comprobados localmente después de segunda revisión Claude",
+    "tercera_llamada": "No necesaria: sin críticos/altos/medios nuevos; no hay cambio de arquitectura ni funcionalidad",
+    "cambios_fuera_alcance": false
+  },
+  "hallazgos_documentales_abiertos": 0
+}

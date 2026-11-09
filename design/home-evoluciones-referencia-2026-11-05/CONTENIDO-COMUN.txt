@@ -1,0 +1,25 @@
+Brand: RHINO Audiovisuales
+Navigation: Servicios | Nosotros | Contacto
+Primary action: Consultar proyecto
+H1: Productora audiovisual en Lima
+Hero subtitle: Cobertura de eventos, streaming y podcast, y catering y coffee break para tu proyecto.
+Hero buttons: Consultar proyecto | Ver servicios
+Services heading: Servicios para tu proyecto
+Service title: Cobertura de eventos
+Service description: Registro audiovisual de eventos empresariales y sociales.
+Service title: Streaming y podcast
+Service description: Transmisión en vivo de eventos y grabación de episodios.
+Service title: Catering y coffee break
+Service description: Atención corporativa para reuniones y eventos de empresa.
+Each service link: Ver servicio
+Label near each illustrative photograph: Imágenes ilustrativas
+Catalogue heading: Más servicios
+Catalogue links: Producción audiovisual | Estudio fotográfico | Fotografía | Organización de eventos | Pantallas LED | Marketing digital y web
+Catalogue action: Ver servicios
+Contact heading: Cuéntanos tu proyecto
+Contact helper: Cómo solicitar una propuesta
+Three short actual user steps: 1. Elige el servicio | 2. Indica fecha y lugar | 3. Envía tu consulta
+Empty form field labels: Nombre | Correo | Servicio | Fecha | Lugar | Lo que necesitas
+Form link: Política de privacidad
+Form button: Consultar proyecto
+Footer: RHINO Audiovisuales | Lima | Servicios | Nosotros | Contacto | Política de privacidad

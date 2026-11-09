@@ -1,0 +1,111 @@
+{
+  "estado": "contrato_futuro_no_configurado",
+  "eventos": [
+    {
+      "nombre": "click_whatsapp",
+      "nivel": "interaccion",
+      "disparador": "Clic verificable en enlace WhatsApp",
+      "deduplicacion": "event_id opaco por interacción; no contenido del mensaje",
+      "limite": "No demuestra mensaje enviado ni recibido"
+    },
+    {
+      "nombre": "click_telefono",
+      "nivel": "interaccion",
+      "disparador": "Activación del enlace tel",
+      "deduplicacion": "event_id opaco por interacción",
+      "limite": "No demuestra llamada atendida"
+    },
+    {
+      "nombre": "descarga_brochure",
+      "nivel": "interaccion",
+      "disparador": "Solicitud o clic de descarga según método documentado",
+      "deduplicacion": "event_id y método de medición explícito",
+      "limite": "No demuestra lectura ni contacto"
+    },
+    {
+      "nombre": "solicitud_aceptada",
+      "nivel": "aceptado",
+      "disparador": "Backend acepta solicitud válida; una sola aceptación lógica",
+      "deduplicacion": "submission_id opaco persistente para reintentos del mismo envío",
+      "limite": "No usar carga de /gracias/, URL de retorno ni mero HTTP de la página"
+    },
+    {
+      "nombre": "solicitud_recibida",
+      "nivel": "recibido",
+      "disparador": "Recepción comprobada en buzón/CRM previsto",
+      "deduplicacion": "submission_id correlacionado en registro operativo",
+      "limite": "No inferirlo de respuesta del backend; no exportar datos personales a analítica"
+    },
+    {
+      "nombre": "lead_cualificado",
+      "nivel": "cualificado",
+      "disparador": "Responsable de atención aplica criterios acordados con dueño",
+      "deduplicacion": "submission_id y una transición de estado por solicitud",
+      "limite": "No importar a Ads hasta definir y aprobar conversión pertinente"
+    }
+  ],
+  "pruebas": [
+    {
+      "escenario": "envio_valido",
+      "esperado": "1 aceptado; luego comprobar 1 recibido con correlación; cualificado solo si revisado",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "validacion_rechazada",
+      "esperado": "0 aceptados; mensaje accesible y posibilidad de corregir",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "fallo_servidor",
+      "esperado": "0 aceptados salvo aceptación ya persistida; conservar estado y resolver incertidumbre sin duplicar",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "respuesta_perdida_y_reintento",
+      "esperado": "consultar/reusar identificador; 1 aceptación lógica y 1 recepción operativa",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "doble_clic",
+      "esperado": "1 aceptación lógica para misma solicitud",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "recarga_de_gracias",
+      "esperado": "0 nuevos aceptados/recibidos",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "acceso_directo_a_gracias",
+      "esperado": "0 aceptados; mensaje neutro, sin afirmar recepción",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "whatsapp_telefono_descarga",
+      "esperado": "solo interacciones; nunca lead automático",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    },
+    {
+      "escenario": "segundo_envio_distinto",
+      "esperado": "nuevo identificador; no deduplicar solicitudes legítimas diferentes",
+      "resultado": "no_ejecutado",
+      "evidencia": null
+    }
+  ],
+  "privacidad": "No enviar nombres, teléfonos, correo, mensaje ni URLs que los contengan a analítica. Identificador opaco no derivado de esos datos. Determinar almacenamiento y retención en inventario revisado.",
+  "canales_pendientes": [
+    "número y cuenta WhatsApp operativos",
+    "teléfono atendido",
+    "buzón/CRM destinatario y responsable",
+    "criterios de cualificación",
+    "disparador/importación y ventana de Ads"
+  ]
+}

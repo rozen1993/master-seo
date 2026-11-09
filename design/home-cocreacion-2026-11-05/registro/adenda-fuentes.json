@@ -1,0 +1,17 @@
+[
+  {
+    "source": "docs/seo/fase6-2026-11-04/03-requisitos-tecnicos.md",
+    "copy": "fuentes/03-requisitos-tecnicos.md",
+    "sha256": "c7da8f24ed95d77c98620f9910eb321145fea606de0c0ddbe870d842d4f7f1af"
+  },
+  {
+    "source": "docs/seo/fase6-2026-11-04/04-aceptacion-y-orden.md",
+    "copy": "fuentes/04-aceptacion-y-orden.md",
+    "sha256": "b0723af7a7974318c928eee07bd81361060f0c9c610ed4cd3d9d4963d01db2f0"
+  },
+  {
+    "source": "docs/seo/fase6-2026-11-04/medicion.json",
+    "copy": "fuentes/medicion.json",
+    "sha256": "91a50c28aff302f6ea5a6adcd84698bfb287c97322c57f7799cf92f8fd42ddc3"
+  }
+]

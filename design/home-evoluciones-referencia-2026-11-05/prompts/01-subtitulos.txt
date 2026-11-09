@@ -1,0 +1,36 @@
+Use case: ui-mockup. Create ONE complete, premium desktop homepage design as a PNG, a substantial polished evolution of the supplied reference image. The reference is the user's existing homepage mockup, not an instruction sheet. Keep its recognizable cinematic production-company identity: dark charcoal, powerful tall condensed display typography, warm photography of audiovisual production, precise warm accent color, and an elegant RHINO Audiovisuales wordmark. Make the design visibly more refined, legible and deliberate. Do not simply copy the original layout or make a generic agency template. This is a finished realistic website design, not a moodboard, wireframe, slide, device mockup or poster.
+Requested image EXACTLY 1440 pixels wide by 4200 pixels tall (aspect12:35); full scrolling DESKTOP page, 1440px desktop layout, not mobile. One page, no browser chrome. Top navigation to complete footer must fit. All three independently generated variants use this same canvas. Prioritize generous, confident typography and strong photography, not tiny dense text. Body and form labels should be visibly larger than in the source: aim24-28px body and20px utility on nominal1440canvas; crisp readable Spanish with correct accents. No clipped words. Real desktop columns where specified. Design every section through the footer with equal care.
+Preserve the visual spirit of the source, but remove redundant ticker/marquee, false REC/timecode, viewfinder corner ornaments and decorative service numbering. No unsupported demand ranking such as Lo que más nos piden. Do not invent customers, testimonials, achievements, prices, counts, years, logos, phone, email address, physical address, inventory, permits or promises. Form fields are EMPTY with labels; do not fill them with example values. A Correo input is allowed but there is no invented company email. No fake play controls, no technical prototype notes, no code or implementation text. The only numbering is the three genuine contact instructions supplied below.
+Photographs may be new anonymous illustrative production scenes with realistic hands, cameras and lighting, no visible brands or readable screens. Streaming shows generic transmission equipment at an event, not an identifiable owned podcast studio. Coffee-break scene is modest corporate hospitality, no menu or specific capacity. Label each photo/group Imágenes ilustrativas in readable sans-serif, not a tiny italic disclaimer. Never present photos as real Rhino projects or employees. Use solid text areas or controlled dark overlay; functional copy must never get lost in photographic detail. Buttons must have high-contrast labels, preferably black text on the warm accent. No palette codes, direction names or font names on the page.
+Draw ALL the following Spanish copy, organizing it as a page. The English labels are instructions and must not be rendered. Do not add further claims. All three variants have this identical content.
+Brand: RHINO Audiovisuales
+Navigation: Servicios | Nosotros | Contacto
+Primary action: Consultar proyecto
+H1: Productora audiovisual en Lima
+Hero subtitle: Cobertura de eventos, streaming y podcast, y catering y coffee break para tu proyecto.
+Hero buttons: Consultar proyecto | Ver servicios
+Services heading: Servicios para tu proyecto
+Service title: Cobertura de eventos
+Service description: Registro audiovisual de eventos empresariales y sociales.
+Service title: Streaming y podcast
+Service description: Transmisión en vivo de eventos y grabación de episodios.
+Service title: Catering y coffee break
+Service description: Atención corporativa para reuniones y eventos de empresa.
+Each service link: Ver servicio
+Label near each illustrative photograph: Imágenes ilustrativas
+Catalogue heading: Más servicios
+Catalogue links: Producción audiovisual | Estudio fotográfico | Fotografía | Organización de eventos | Pantallas LED | Marketing digital y web
+Catalogue action: Ver servicios
+Contact heading: Cuéntanos tu proyecto
+Contact helper: Cómo solicitar una propuesta
+Three short actual user steps: 1. Elige el servicio | 2. Indica fecha y lugar | 3. Envía tu consulta
+Empty form field labels: Nombre | Correo | Servicio | Fecha | Lugar | Lo que necesitas
+Form link: Política de privacidad
+Form button: Consultar proyecto
+Footer: RHINO Audiovisuales | Lima | Servicios | Nosotros | Contacto | Política de privacidad
+
+ART DIRECTION FOR THIS VARIANT:
+SUBTÍTULOS: the most faithful but more accomplished cinematic evolution. Palette charcoal#0F0E0D, graphite#1C1A18, bone#EFE9DF, tungsten#F2A541 sparingly, vermilion#FF4B2B only on main buttons. Large narrow expressive sans like Big Shoulders Display800, paired with Familjen Grotesk regular/semibold. Preserve the source's beautiful contrast between towering condensed type and a tiny restrained italic amber “en” inside the hero phrase only, not other body text.
+Navigation across top, legible wordmark left, links right and modest Consultar proyecto button. Hero around800px nominal tall: large anonymous camera operator and cinema camera clearly visible on RIGHT, warm bokeh event lights; H1 stacked on LEFT with a controlled near-black shadow zone. Full phrase readable with dominant Productora/Audiovisual/Lima and the small amber en. Subtitle and two clear CTAs below H1. Avoid a tiny letterboxed hero lost in black padding. Label below hero photograph.
+Then Services heading and THREE wide cinematic service scenes, vertically stacked with consistent width and restrained margins. Each photograph panoramic around2.39:1, NOT giant full-height posters. Under each image a perfectly legible graphite caption band: large service title on left, short description and Ver servicio on right, clear illustrative label. These captions are the signature, like thoughtfully designed film subtitles but left aligned. Separate photographs for event coverage, live recording/transmission equipment, and corporate coffee break. Never put the main service description on the photo. Maintain the whole page height by balancing crop widths and margin, never shrinking the text.
+After service bands, compact yet elegant two-column catalogue links on charcoal with small amber accent and large Más servicios heading. Contact area split between Cuéntanos tu proyecto and three short steps on left, generous graphite form right. Empty input fields legible with solid outlines: Nombre/Correo row, Servicio, Fecha/Lugar row, Lo que necesitas textarea, privacy link and full warm button. Complete footer with elegant modest wordmark and visible navigation, not the original giant low-contrast outlined RHINO. Entire page sophisticated and filmic, no pointless empty areas.

@@ -1,0 +1,627 @@
+[
+  {
+    "path": "CLAUDE.md",
+    "bytes": 4368,
+    "sha256": "b172c5f37682e5df578d87fb35ac6ef7cfbabaaebf520433751537a0681fb27d"
+  },
+  {
+    "path": "content\\datos-de-prueba.json",
+    "bytes": 7521,
+    "sha256": "cc956767f9b8477a263a482da0adc69aadc3b11ca252b81c5b195d81344cbd25"
+  },
+  {
+    "path": "design\\direcciones\\a-cine.html",
+    "bytes": 15945,
+    "sha256": "b7ae6c69764708ff69cfbe7c1b6979f6ba58e2f88a12cbc0b269add61e34f224"
+  },
+  {
+    "path": "design\\direcciones\\b-editorial.html",
+    "bytes": 19177,
+    "sha256": "0f82e3e031430a497837ea67c4f73fd9c259ef1b426731abe65534633f293fce"
+  },
+  {
+    "path": "design\\direcciones\\c-bold.html",
+    "bytes": 16410,
+    "sha256": "42290d38f08b59964e9832e23671d49adf8d6e5606065d8b347afca755e90c39"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\bebas.css",
+    "bytes": 762,
+    "sha256": "f02a6235eecbf281e283a7a9be205cc3d48271a003806df38164f64bfb17bf75"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\bebas_0.woff2",
+    "bytes": 8928,
+    "sha256": "16c95ce45a2922f52551d38d565d14c92cf257b8f219c89613407d81fdd21a39"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\bebas_1.woff2",
+    "bytes": 13768,
+    "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\fraunces.css",
+    "bytes": 3357,
+    "sha256": "c97f3643d5bef56883a32c3def43737af4862622643fae3d3cfcd335c0c25cdc"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\fraunces_0.woff2",
+    "bytes": 11572,
+    "sha256": "ce7b18aac7371cde4a740e54e252e9f02de67ff2ed444b18d1d04e66f50edeb0"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\fraunces_1.woff2",
+    "bytes": 33584,
+    "sha256": "a21ecfbf41fbc393e24ef9b7e38532a27e8da5e0a074aa7d66802d1b5ccec2f0"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\fraunces_2.woff2",
+    "bytes": 36620,
+    "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\grotesk.css",
+    "bytes": 3393,
+    "sha256": "423dd4c09bd187351b55cc7b688030202ba5568fafac865ea465fe3d00117ee8"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\grotesk_0.woff2",
+    "bytes": 6712,
+    "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\grotesk_1.woff2",
+    "bytes": 18940,
+    "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166"
+  },
+  {
+    "path": "design\\direcciones\\fonts\\grotesk_2.woff2",
+    "bytes": 22288,
+    "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d"
+  },
+  {
+    "path": "design\\direcciones\\fonts.css",
+    "bytes": 7512,
+    "sha256": "be665db2356ce802ba47ac4f17077db9f1f5ee225645322d58f1ac6365edafa6"
+  },
+  {
+    "path": "design\\direcciones\\png\\a-cine-escritorio.png",
+    "bytes": 916125,
+    "sha256": "d601694bda93840a7c4694262211624f23d50dd384717f71c5dba6499d8b8ca0"
+  },
+  {
+    "path": "design\\direcciones\\png\\a-cine-movil-vista.png",
+    "bytes": 1146325,
+    "sha256": "7a2aa820cc7c9b76e3ac8e2c37355efd350785a1859b6afcc77c11b01f081675"
+  },
+  {
+    "path": "design\\direcciones\\png\\a-cine-movil.png",
+    "bytes": 1730397,
+    "sha256": "dd9f21e12e340ad3cf43f875119a76d686e11528200bacfbc6211cfcc8bb7c62"
+  },
+  {
+    "path": "design\\direcciones\\png\\b-editorial-escritorio.png",
+    "bytes": 954667,
+    "sha256": "fd672fe069d95b403d1491f9682037df78ddeb1debd848936db0809d535f68bb"
+  },
+  {
+    "path": "design\\direcciones\\png\\b-editorial-movil-vista.png",
+    "bytes": 1103672,
+    "sha256": "d8cbebc77c2f375b8ea6786e6841b2ec3b79be24f8acf0957e9156bc559aeaae"
+  },
+  {
+    "path": "design\\direcciones\\png\\b-editorial-movil.png",
+    "bytes": 1637867,
+    "sha256": "70986a2e442ec3c25b4ba4e1fe9df73c6290f398d2239db746bdc0f63e1015f1"
+  },
+  {
+    "path": "design\\direcciones\\png\\c-bold-escritorio.png",
+    "bytes": 556139,
+    "sha256": "8baae3ef7da73be6156f5e9941efb82b2b92db600901a1131cad3de15fda0380"
+  },
+  {
+    "path": "design\\direcciones\\png\\c-bold-movil-vista.png",
+    "bytes": 1046232,
+    "sha256": "c6b30d4bc3d665d26102e246477f711cb766ce86ec6caf2188e1b45427b19cc5"
+  },
+  {
+    "path": "design\\direcciones\\png\\c-bold-movil.png",
+    "bytes": 1144998,
+    "sha256": "9223205cf76dad58bb4043322acef5dcf7655097abae876b8821422823d64704"
+  },
+  {
+    "path": "design\\direcciones\\render.js",
+    "bytes": 1126,
+    "sha256": "ef7d21a127c032ac19fe9b6d294be77b8d8325a4b8fbf379d57ee42cbc19b8b5"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\01-cinematografica.png",
+    "bytes": 1797834,
+    "sha256": "2ee3da5c169c7e0a8bfa27f60e660976385653f06f499b26ff71f0cc13360500"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\02-editorial.png",
+    "bytes": 1765327,
+    "sha256": "4ed9022709787bb1e631bebb9699bf4a4c5f19a2d876ad08092c8b6c3a78ca42"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\03-cobalto.png",
+    "bytes": 1791368,
+    "sha256": "d4e02d7d3831f6cd26c8b21c5c18564820382d4876bac36b1cf90e68f47150d7"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\CONTENIDO-COMUN.md",
+    "bytes": 3084,
+    "sha256": "3fc1d715c39fb0e5238b38096d61d4654841a53ee5fadcd56d087b4ed6e26775"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\CONTRATO.md",
+    "bytes": 2293,
+    "sha256": "eeec85b6f88859e8f4e192e534c5a94d64a8c107766f48d976a09a549584fd08"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\prompts\\00-comun.txt",
+    "bytes": 3484,
+    "sha256": "937b159dce2c95222206318a58ca6e4747b12ecdd82ba64215df19d1e40e4e55"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\prompts\\01-cinematografica.txt",
+    "bytes": 5250,
+    "sha256": "df9e65f0249951e59008d5540c91b6b86c9da69e454448ae590c8e825a4e7af7"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\prompts\\02-editorial.txt",
+    "bytes": 5574,
+    "sha256": "36f0a343a0773f4e19e031d3befd39476c1553317abd45c272d1cd7e42fed2bb"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\prompts\\03-cobalto.txt",
+    "bytes": 5636,
+    "sha256": "1b072bc4441c207765655750ee499132e2264a8d538fe1700ec74150dc9629d0"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\baseline.json",
+    "bytes": 26083,
+    "sha256": "25c9926b6e75fa1eda902d3adbc3abb27b57cd88ad4b1d41d05f69fdb5dafa3c"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\concepto-claude-envelope.json",
+    "bytes": 28407,
+    "sha256": "6eca69f9fb8532b59044b42e36b0c239cc898bbbcbe73dd2126bee979805162f"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\concepto-claude.json",
+    "bytes": 13866,
+    "sha256": "433ce27d47585166097be7211dcb5779b41b07b62a2cedc0f227f6c2ec24fd74"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\concepto-input.json",
+    "bytes": 162497,
+    "sha256": "ba947575f5273572804545f4d1fada7eb560446023515059ebdb19309a23a1e7"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\concepto-run.json",
+    "bytes": 307,
+    "sha256": "ff64ccfe93ee5925eeeafaa6fbc70c6f4684d46b287608f73d6da719a824e5c5"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\concepto-stderr.log",
+    "bytes": 3598,
+    "sha256": "2d15402ad82644f95760ce4ab62c166277644dab0454f61f36b0958c9cd78175"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\registro\\generacion.json",
+    "bytes": 1542,
+    "sha256": "1ce091e8a61ba2b4c8de87ba890576bc057c51e8a8bee652558da265dc832e7c"
+  },
+  {
+    "path": "design\\propuestas-home-2026-11-05\\REVISIONES.md",
+    "bytes": 2264,
+    "sha256": "da7d40ba9e2935a2cfdc09edbe4eed528fca48cfba83f12de05f0ab727cfb051"
+  },
+  {
+    "path": "docs\\seo\\00-traspaso.md",
+    "bytes": 718,
+    "sha256": "761e3e27a4fba293f69d8aaaa9ff85dea09d08e26a766161dc24cb530c01ecbb"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\00-traspaso.md",
+    "bytes": 54189,
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\01-estrategia-y-arquitectura.md",
+    "bytes": 22385,
+    "sha256": "0882e0a0e18eb74f0c1ca6fd43e049b3507fbe187fb7e25d0a47aca7437e9226"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\02-investigacion-de-mercado.md",
+    "bytes": 11997,
+    "sha256": "66f0afc03bd4fe9f9fb22f6541f7bbb81e1bec356339d7052e1d6caac271b3be"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\03-arquitectura-catalogo-completo.md",
+    "bytes": 24339,
+    "sha256": "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\04-proyecciones-y-plan-sem.md",
+    "bytes": 15988,
+    "sha256": "7d953d2ed9bd7aaa906e83e1c52fc630b7760f2f9dae66436ddf9a6157ad3ae9"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\05-prioridades-del-dueno-y-campana.md",
+    "bytes": 13139,
+    "sha256": "117d6397fef1ac890311c61f378036f5c4df6f11b75cd96ed495530de79ae579"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\06-contenido-de-paginas.md",
+    "bytes": 33685,
+    "sha256": "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\07-especificacion-tecnica-y-brief-de-diseno.md",
+    "bytes": 11501,
+    "sha256": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\08-auditoria.md",
+    "bytes": 12504,
+    "sha256": "151fd89e66397665d77bcd18d5feef9e3b7c73a6d2f735fdab0a84a9edced2a9"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\09-revision-critica-y-oportunidades.md",
+    "bytes": 10935,
+    "sha256": "c340b61208de724d39838707960ab7ab6e8f7eb4cb566fa1cbbd7a6335201cd7"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\10-tercera-auditoria.md",
+    "bytes": 11883,
+    "sha256": "4f9736b219cd346c7ab3381ba19ec788d2c29a7d8079b900490994dc769b4dd4"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\11-auditoria-y-plan-sem.md",
+    "bytes": 15515,
+    "sha256": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\CLAUDE-anterior.md",
+    "bytes": 9710,
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\README.md",
+    "bytes": 2843,
+    "sha256": "025571378b8d6688b8fa11c96ad7f45c9ac9b9489a3ba5688667cf9297e2ce85"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\traslado.json",
+    "bytes": 25523,
+    "sha256": "198c6816ca1ce88dca77174adccc4dd17dce80abe9c17e8a99ef980c25c09693"
+  },
+  {
+    "path": "docs\\seo\\archivo\\plan-anterior-2026-11-05\\verificacion-archivo.json",
+    "bytes": 1512,
+    "sha256": "d9e3cb78324959e3ddea68eea4cb88e7d5f8680c97f8a4b4384cd8ed38b6a172"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\01-arquitectura.md",
+    "bytes": 4762,
+    "sha256": "89b1b63f341c5a9ad93be5ab2a48ec935b653ee83136abeb8a89a9b4fb074477"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\02-fichas-37.md",
+    "bytes": 103433,
+    "sha256": "b637058121bc446399299eae3f19ba4d3452a028842e96dd2e65e92a1de4828d"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\03-requisitos-tecnicos.md",
+    "bytes": 9512,
+    "sha256": "c7da8f24ed95d77c98620f9910eb321145fea606de0c0ddbe870d842d4f7f1af"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\04-aceptacion-y-orden.md",
+    "bytes": 2691,
+    "sha256": "b0723af7a7974318c928eee07bd81361060f0c9c610ed4cd3d9d4963d01db2f0"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\05-decisiones.md",
+    "bytes": 7318,
+    "sha256": "95807595eb3f9b8be0e6d31f347ac25b7cb0d2a9b4e154aec939763d1db65de4"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\06-guia-entrega.md",
+    "bytes": 3636,
+    "sha256": "0d9c497852df4feb5a2b546365b16925bee18b61d8e5d91b04e606e4c2bdb8d5"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\07-trazabilidad-y-revision.md",
+    "bytes": 7320,
+    "sha256": "1de3217a6a52cd401a68d66fff82401bb4892fb40c12e11411a4820ced5f80a2"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\aceptacion.json",
+    "bytes": 15647,
+    "sha256": "b1a1d7a3adfb15e6cb0c0bc3a3b22a0c2eece3d4d9801c908fd5c2cb4459fbf9"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\aceptacion.schema.json",
+    "bytes": 2161,
+    "sha256": "5031a2af6d6f084665d797a1dd1b5c1859af7093e6f190e22a2061f20e00cd9c"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\costes.json",
+    "bytes": 12376,
+    "sha256": "fe4c328ed44ccb4b4c88506bb8e837dfa862b3ea6c3a50fb5f6b66811dd66c29"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\decisiones.json",
+    "bytes": 8736,
+    "sha256": "caeb47cd84792d15e52e89c6864ea833322ce2bf7141828cb718aaa094d78e2e"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\enlaces.json",
+    "bytes": 23069,
+    "sha256": "3945beece3f2cb9ab94814bbbff39e09ace4776ad4263fd00eedeed1db0802b7"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fichas-37.json",
+    "bytes": 121483,
+    "sha256": "ec97e45fb2de4effc353c2a705f94906e9c38ce73985aefbc97a279754e3f46c"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fichas.schema.json",
+    "bytes": 9643,
+    "sha256": "769d438b04ce6f3e5075d26f1e9b75a2950480a118ed5d3bf637f8bd8646a47b"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\COMPARACION-FASE-5.md",
+    "bytes": 37584,
+    "sha256": "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+    "bytes": 34374,
+    "sha256": "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+    "bytes": 40014,
+    "sha256": "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "bytes": 68436,
+    "sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-00.md",
+    "bytes": 54189,
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-03.md",
+    "bytes": 24339,
+    "sha256": "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-06.md",
+    "bytes": 33685,
+    "sha256": "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-07.md",
+    "bytes": 11501,
+    "sha256": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-11.md",
+    "bytes": 15515,
+    "sha256": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-CLAUDE.md",
+    "bytes": 9710,
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-politicas.json",
+    "bytes": 2523,
+    "sha256": "7ae8e1a61eec1b625fcc3cea912957bc31455ab2825d0e003463d1ca73f0e732"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\legacy-normalized.json",
+    "bytes": 67045,
+    "sha256": "b4bcef82872b9908c770bd144a182983ac3a89bafffb4220ea02c318a70ff66f"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\MATRIZ-FASE-5.json",
+    "bytes": 121915,
+    "sha256": "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\matriz-fase4-con-adenda.json",
+    "bytes": 50828,
+    "sha256": "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\vercel.json",
+    "bytes": 720,
+    "sha256": "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes\\verificacion-final.json",
+    "bytes": 4129,
+    "sha256": "6834d84b7651d53f7a6a615aa298be9b96b16efe055975d69ec69de3216d93ff"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\fuentes-manifiesto.json",
+    "bytes": 6263,
+    "sha256": "b18ce0b89b14a4745c04609b45905b3a44f28d31138672d7ba2997fbc2f5a629"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\manifest.json",
+    "bytes": 10257,
+    "sha256": "4f4a77e10ca19e67b4a18e27fbc5f06aa1e22732ef157a138f12e98f54571e0c"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\medicion.json",
+    "bytes": 4205,
+    "sha256": "91a50c28aff302f6ea5a6adcd84698bfb287c97322c57f7799cf92f8fd42ddc3"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\README.md",
+    "bytes": 2233,
+    "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\claude-A-derivacion.json",
+    "bytes": 20587,
+    "sha256": "57ef6578ba58d3a88bfa333ffdf840be0008251183381ccda6c950a5560d442f"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\claude-B-derivacion.json",
+    "bytes": 18809,
+    "sha256": "89fc69bf6643ab59fc3220122e1e18666cdb6b00bfdfd262ef94642e222455b8"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\codex-A.json",
+    "bytes": 13867,
+    "sha256": "bc7c367ba06bdcc2b0037a67bec40ce60b4e9221b5ad07bff69e76c9c11e0d79"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\codex-B.json",
+    "bytes": 13570,
+    "sha256": "1d10cc01a15227d1bbb5ad9a093caa897a7f240e9d12c9c9bab1a2067d4e202e"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\comparison-A.json",
+    "bytes": 14968,
+    "sha256": "94e4b1ffddccb9af52886c447149926a27bd013ac7178e786707dfe7d8a12e49"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\comparison-B.json",
+    "bytes": 15789,
+    "sha256": "fa05b822851adc596a69bf88b3ff6c55f7dc3c6f867f678281a4b29e0ff5bb2e"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\comparison-input-integrity.json",
+    "bytes": 945,
+    "sha256": "f81f3a37f30a32fc1d4ed291438738ea8cbb9cee55251d5b88e0847dfe2cca9b"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\correcciones-finales-menores.json",
+    "bytes": 1246,
+    "sha256": "f91e97cc7568182920e178417e751ceda16c32d0cf06dd993151af485d429ce6"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\correcciones-revision.json",
+    "bytes": 1161,
+    "sha256": "6b24254df82fe62b1faa42cc59d4f073b30293e475d7ee757a7dd7f24425d1fa"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\estado-final.json",
+    "bytes": 1182,
+    "sha256": "3e745abf766bc9b601d853de60e7954a335a89ba36560b8442f1f3cea110b5e8"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\independence-seal.json",
+    "bytes": 897,
+    "sha256": "0f983e16ad6f336217df118e6c84c248e0af5c42208da5a7ee0e9f5bd376fc43"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\new-external-checks.json",
+    "bytes": 1577,
+    "sha256": "8a716bfca9ee5169f3c068a348b1fa346b1e7a625125a71d424a74f285f35f33"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\originales-baseline.json",
+    "bytes": 95553,
+    "sha256": "143d9b54ea9c986de34c327a753167ead3a72d49438e24ebfee29c56ccc9eba0"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-A-final.json",
+    "bytes": 10970,
+    "sha256": "79d9521f9bd070c9054ee1122d5b0845973e12f020d759ccb4858258e7e5faf8"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-A.json",
+    "bytes": 15109,
+    "sha256": "96bd451d5eb11d4cbc067036ccc88f2078cec2940465b43f27ef7d3904ca108e"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-B-final.json",
+    "bytes": 12100,
+    "sha256": "039aac3b6645f166b62250b665d1c06562a56d6b5f46c3de746ebb8be14f43bd"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-B.json",
+    "bytes": 14784,
+    "sha256": "9c99630b440e69a4029007515ceee8e3386a570a0070bf6fc92137e88ee4d4bc"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-cierre.json",
+    "bytes": 12417,
+    "sha256": "11fbcf705e26173c85ef68afe3740cf5ad76e8416eaf6780681dddd55425c6b7"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-entradas-finales.json",
+    "bytes": 4435,
+    "sha256": "5bfb622930ffb37fb8a30bef341b4b77d940a49f1fe81571bf036c9bfbfb45a6"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\revision-entradas-iniciales.json",
+    "bytes": 4372,
+    "sha256": "a296cf5e202952bb82d319b55397bbf1cf0e5cc897121c664030406cdfaa6409"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-A-final.json",
+    "bytes": 926,
+    "sha256": "9a882c5c8708e7841d484295072964e5e7dd80176d5289675f968b64537b5cc6"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-A.json",
+    "bytes": 947,
+    "sha256": "54a56eda98aab3a0ea887e8a8c5790c7217eca734490c4fdea2105a8b37324e9"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-B-final.json",
+    "bytes": 944,
+    "sha256": "3ca0821825b0c58b955238dff47f10d95940095d1c3375da6e91455722be170e"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-B.json",
+    "bytes": 928,
+    "sha256": "8757bffb0b14498e4a08230d30697cf36b218fbbf1166f3850ee06d15c9d05d6"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\rutas.json",
+    "bytes": 14844,
+    "sha256": "74c053aa063ae37053655e6422b5e455aeaedc06991b5a5a4f4633e72f87975b"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\schema.json",
+    "bytes": 3393,
+    "sha256": "8a22f707628a06b5429bd2f6f4548f227fd3abd012e1528d38c5f6ebb47f4055"
+  },
+  {
+    "path": "docs\\seo\\fase6-2026-11-04\\verificacion.json",
+    "bytes": 4946,
+    "sha256": "d20712fc3dc6e56e492f0205b221b73a4c0e3b86ce5f5c9f2338baf74faf0028"
+  },
+  {
+    "path": "docs\\seo\\README.md",
+    "bytes": 1999,
+    "sha256": "f41a7b600005e1280581eecc62d7bd3257e562c1360dd1385896b30755f0a672"
+  },
+  {
+    "path": "docs\\seo\\SEM.md",
+    "bytes": 1482,
+    "sha256": "1990b3de6f27c8b38ee1c9cd838f6afbdbbb091fb8d8c8b210ab05798c1878d0"
+  },
+  {
+    "path": "vercel.json",
+    "bytes": 720,
+    "sha256": "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8"
+  }
+]

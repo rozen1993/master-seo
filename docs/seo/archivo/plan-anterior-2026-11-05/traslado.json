@@ -1,0 +1,358 @@
+{
+    "date_local":  "2026-11-05",
+    "state":  "archived_content_unchanged",
+    "authorization":  "Usuario solicita archivar el plan anterior para concentrarse en el nuevo",
+    "destructive_deletion":  false,
+    "originals":  [
+                      {
+                          "original_path":  "docs/seo/00-traspaso.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/00-traspaso.md",
+                          "bytes":  54189,
+                          "sha256":  "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\00-traspaso.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\00-traspaso.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/01-estrategia-y-arquitectura.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/01-estrategia-y-arquitectura.md",
+                          "bytes":  22385,
+                          "sha256":  "0882e0a0e18eb74f0c1ca6fd43e049b3507fbe187fb7e25d0a47aca7437e9226",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\01-estrategia-y-arquitectura.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\01-estrategia-y-arquitectura.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/02-investigacion-de-mercado.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/02-investigacion-de-mercado.md",
+                          "bytes":  11997,
+                          "sha256":  "66f0afc03bd4fe9f9fb22f6541f7bbb81e1bec356339d7052e1d6caac271b3be",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\02-investigacion-de-mercado.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\02-investigacion-de-mercado.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/03-arquitectura-catalogo-completo.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/03-arquitectura-catalogo-completo.md",
+                          "bytes":  24339,
+                          "sha256":  "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\03-arquitectura-catalogo-completo.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\03-arquitectura-catalogo-completo.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/04-proyecciones-y-plan-sem.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/04-proyecciones-y-plan-sem.md",
+                          "bytes":  15988,
+                          "sha256":  "7d953d2ed9bd7aaa906e83e1c52fc630b7760f2f9dae66436ddf9a6157ad3ae9",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\04-proyecciones-y-plan-sem.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\04-proyecciones-y-plan-sem.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/05-prioridades-del-dueno-y-campana.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/05-prioridades-del-dueno-y-campana.md",
+                          "bytes":  13139,
+                          "sha256":  "117d6397fef1ac890311c61f378036f5c4df6f11b75cd96ed495530de79ae579",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\05-prioridades-del-dueno-y-campana.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\05-prioridades-del-dueno-y-campana.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/06-contenido-de-paginas.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/06-contenido-de-paginas.md",
+                          "bytes":  33685,
+                          "sha256":  "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\06-contenido-de-paginas.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\06-contenido-de-paginas.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/07-especificacion-tecnica-y-brief-de-diseno.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/07-especificacion-tecnica-y-brief-de-diseno.md",
+                          "bytes":  11501,
+                          "sha256":  "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\07-especificacion-tecnica-y-brief-de-diseno.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\07-especificacion-tecnica-y-brief-de-diseno.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/08-auditoria.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/08-auditoria.md",
+                          "bytes":  12504,
+                          "sha256":  "151fd89e66397665d77bcd18d5feef9e3b7c73a6d2f735fdab0a84a9edced2a9",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\08-auditoria.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\08-auditoria.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/09-revision-critica-y-oportunidades.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/09-revision-critica-y-oportunidades.md",
+                          "bytes":  10935,
+                          "sha256":  "c340b61208de724d39838707960ab7ab6e8f7eb4cb566fa1cbbd7a6335201cd7",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\09-revision-critica-y-oportunidades.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\09-revision-critica-y-oportunidades.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/10-tercera-auditoria.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/10-tercera-auditoria.md",
+                          "bytes":  11883,
+                          "sha256":  "4f9736b219cd346c7ab3381ba19ec788d2c29a7d8079b900490994dc769b4dd4",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\10-tercera-auditoria.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\10-tercera-auditoria.md"
+                      },
+                      {
+                          "original_path":  "docs/seo/11-auditoria-y-plan-sem.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/11-auditoria-y-plan-sem.md",
+                          "bytes":  15515,
+                          "sha256":  "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\11-auditoria-y-plan-sem.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\11-auditoria-y-plan-sem.md"
+                      },
+                      {
+                          "original_path":  "CLAUDE.md",
+                          "archived_path":  "docs/seo/archivo/plan-anterior-2026-11-05/CLAUDE-anterior.md",
+                          "bytes":  9710,
+                          "sha256":  "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56",
+                          "original_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\CLAUDE.md",
+                          "archived_absolute":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\CLAUDE-anterior.md"
+                      }
+                  ],
+    "phase6_before":  [
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/01-arquitectura.md",
+                              "sha256":  "89b1b63f341c5a9ad93be5ab2a48ec935b653ee83136abeb8a89a9b4fb074477"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/02-fichas-37.md",
+                              "sha256":  "b637058121bc446399299eae3f19ba4d3452a028842e96dd2e65e92a1de4828d"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/03-requisitos-tecnicos.md",
+                              "sha256":  "c7da8f24ed95d77c98620f9910eb321145fea606de0c0ddbe870d842d4f7f1af"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/04-aceptacion-y-orden.md",
+                              "sha256":  "b0723af7a7974318c928eee07bd81361060f0c9c610ed4cd3d9d4963d01db2f0"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/05-decisiones.md",
+                              "sha256":  "95807595eb3f9b8be0e6d31f347ac25b7cb0d2a9b4e154aec939763d1db65de4"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/06-guia-entrega.md",
+                              "sha256":  "0d9c497852df4feb5a2b546365b16925bee18b61d8e5d91b04e606e4c2bdb8d5"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/07-trazabilidad-y-revision.md",
+                              "sha256":  "1de3217a6a52cd401a68d66fff82401bb4892fb40c12e11411a4820ced5f80a2"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/aceptacion.json",
+                              "sha256":  "b1a1d7a3adfb15e6cb0c0bc3a3b22a0c2eece3d4d9801c908fd5c2cb4459fbf9"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/aceptacion.schema.json",
+                              "sha256":  "5031a2af6d6f084665d797a1dd1b5c1859af7093e6f190e22a2061f20e00cd9c"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/costes.json",
+                              "sha256":  "fe4c328ed44ccb4b4c88506bb8e837dfa862b3ea6c3a50fb5f6b66811dd66c29"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/decisiones.json",
+                              "sha256":  "caeb47cd84792d15e52e89c6864ea833322ce2bf7141828cb718aaa094d78e2e"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/enlaces.json",
+                              "sha256":  "3945beece3f2cb9ab94814bbbff39e09ace4776ad4263fd00eedeed1db0802b7"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fichas-37.json",
+                              "sha256":  "ec97e45fb2de4effc353c2a705f94906e9c38ce73985aefbc97a279754e3f46c"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fichas.schema.json",
+                              "sha256":  "769d438b04ce6f3e5075d26f1e9b75a2950480a118ed5d3bf637f8bd8646a47b"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes-manifiesto.json",
+                              "sha256":  "b18ce0b89b14a4745c04609b45905b3a44f28d31138672d7ba2997fbc2f5a629"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/manifest.json",
+                              "sha256":  "4f4a77e10ca19e67b4a18e27fbc5f06aa1e22732ef157a138f12e98f54571e0c"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/medicion.json",
+                              "sha256":  "91a50c28aff302f6ea5a6adcd84698bfb287c97322c57f7799cf92f8fd42ddc3"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/README.md",
+                              "sha256":  "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/rutas.json",
+                              "sha256":  "74c053aa063ae37053655e6422b5e455aeaedc06991b5a5a4f4633e72f87975b"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/schema.json",
+                              "sha256":  "8a22f707628a06b5429bd2f6f4548f227fd3abd012e1528d38c5f6ebb47f4055"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/verificacion.json",
+                              "sha256":  "d20712fc3dc6e56e492f0205b221b73a4c0e3b86ce5f5c9f2338baf74faf0028"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/COMPARACION-FASE-5.md",
+                              "sha256":  "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+                              "sha256":  "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+                              "sha256":  "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+                              "sha256":  "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-00.md",
+                              "sha256":  "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-03.md",
+                              "sha256":  "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-06.md",
+                              "sha256":  "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-07.md",
+                              "sha256":  "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-11.md",
+                              "sha256":  "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-CLAUDE.md",
+                              "sha256":  "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/fuente-politicas.json",
+                              "sha256":  "7ae8e1a61eec1b625fcc3cea912957bc31455ab2825d0e003463d1ca73f0e732"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/legacy-normalized.json",
+                              "sha256":  "b4bcef82872b9908c770bd144a182983ac3a89bafffb4220ea02c318a70ff66f"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/MATRIZ-FASE-5.json",
+                              "sha256":  "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/matriz-fase4-con-adenda.json",
+                              "sha256":  "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/vercel.json",
+                              "sha256":  "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/fuentes/verificacion-final.json",
+                              "sha256":  "6834d84b7651d53f7a6a615aa298be9b96b16efe055975d69ec69de3216d93ff"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/claude-A-derivacion.json",
+                              "sha256":  "57ef6578ba58d3a88bfa333ffdf840be0008251183381ccda6c950a5560d442f"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/claude-B-derivacion.json",
+                              "sha256":  "89fc69bf6643ab59fc3220122e1e18666cdb6b00bfdfd262ef94642e222455b8"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/codex-A.json",
+                              "sha256":  "bc7c367ba06bdcc2b0037a67bec40ce60b4e9221b5ad07bff69e76c9c11e0d79"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/codex-B.json",
+                              "sha256":  "1d10cc01a15227d1bbb5ad9a093caa897a7f240e9d12c9c9bab1a2067d4e202e"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/comparison-A.json",
+                              "sha256":  "94e4b1ffddccb9af52886c447149926a27bd013ac7178e786707dfe7d8a12e49"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/comparison-B.json",
+                              "sha256":  "fa05b822851adc596a69bf88b3ff6c55f7dc3c6f867f678281a4b29e0ff5bb2e"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/comparison-input-integrity.json",
+                              "sha256":  "f81f3a37f30a32fc1d4ed291438738ea8cbb9cee55251d5b88e0847dfe2cca9b"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/correcciones-finales-menores.json",
+                              "sha256":  "f91e97cc7568182920e178417e751ceda16c32d0cf06dd993151af485d429ce6"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/correcciones-revision.json",
+                              "sha256":  "6b24254df82fe62b1faa42cc59d4f073b30293e475d7ee757a7dd7f24425d1fa"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/estado-final.json",
+                              "sha256":  "3e745abf766bc9b601d853de60e7954a335a89ba36560b8442f1f3cea110b5e8"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/independence-seal.json",
+                              "sha256":  "0f983e16ad6f336217df118e6c84c248e0af5c42208da5a7ee0e9f5bd376fc43"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/new-external-checks.json",
+                              "sha256":  "8a716bfca9ee5169f3c068a348b1fa346b1e7a625125a71d424a74f285f35f33"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/originales-baseline.json",
+                              "sha256":  "143d9b54ea9c986de34c327a753167ead3a72d49438e24ebfee29c56ccc9eba0"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-A-final.json",
+                              "sha256":  "79d9521f9bd070c9054ee1122d5b0845973e12f020d759ccb4858258e7e5faf8"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-A.json",
+                              "sha256":  "96bd451d5eb11d4cbc067036ccc88f2078cec2940465b43f27ef7d3904ca108e"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-B-final.json",
+                              "sha256":  "039aac3b6645f166b62250b665d1c06562a56d6b5f46c3de746ebb8be14f43bd"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-B.json",
+                              "sha256":  "9c99630b440e69a4029007515ceee8e3386a570a0070bf6fc92137e88ee4d4bc"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-cierre.json",
+                              "sha256":  "11fbcf705e26173c85ef68afe3740cf5ad76e8416eaf6780681dddd55425c6b7"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-entradas-finales.json",
+                              "sha256":  "5bfb622930ffb37fb8a30bef341b4b77d940a49f1fe81571bf036c9bfbfb45a6"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/revision-entradas-iniciales.json",
+                              "sha256":  "a296cf5e202952bb82d319b55397bbf1cf0e5cc897121c664030406cdfaa6409"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/validation-revision-A-final.json",
+                              "sha256":  "9a882c5c8708e7841d484295072964e5e7dd80176d5289675f968b64537b5cc6"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/validation-revision-A.json",
+                              "sha256":  "54a56eda98aab3a0ea887e8a8c5790c7217eca734490c4fdea2105a8b37324e9"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/validation-revision-B-final.json",
+                              "sha256":  "3ca0821825b0c58b955238dff47f10d95940095d1c3375da6e91455722be170e"
+                          },
+                          {
+                              "path":  "docs/seo/fase6-2026-11-04/registro/validation-revision-B.json",
+                              "sha256":  "8757bffb0b14498e4a08230d30697cf36b218fbbf1166f3850ee06d15c9d05d6"
+                          }
+                      ]
+}

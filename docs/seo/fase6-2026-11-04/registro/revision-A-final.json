@@ -1,0 +1,187 @@
+{
+  "supuestos": [
+    "El paquete no define gates explícitos para la fase review del pipeline core; se usan como gates el cierre de cada hallazgo previo de revision-A.json y la ausencia de regresiones en los archivos completos recibidos.",
+    "intencion_fuente de cada ficha se toma como reflejo de la columna keyword/intención de F5 §4.1, como ya estableció la revisión inicial (p. ej. P03 'V: producción de videos'). No se ha visto la matriz F5 literal en esta pasada.",
+    "rutas.json, schema.json, medicion.json, 02-fichas-37.md, costes.json y la captura G6-LB existen y se revisan en B o fuera de esta pasada; su ausencia aquí no los hace inexistentes.",
+    "La actualización anunciada del cierre administrativo (costes, registro/revision-cierre.json) no se trata como defecto.",
+    "AC-01/AC-18 verificado_documental solo acredita el control documental, no funcionalidad futura."
+  ],
+  "propuesta": "Aprobar el componente A: los 7 hallazgos demostrados y las 2 sospechas de la revisión inicial están cerrados. Hay dos correcciones opcionales de severidad baja, sin bloqueo: (1) en variantes_proveniencia, cambiar el origen a 'F5 Pxx' en P01 'agencia audiovisual', P04 'servicio de videos corporativos', P08 'empresa organizadora de eventos' y P17 'producción BTL', y en P24 'diseño y desarrollo de páginas web Lima (S025)' indicar origen F4/F5 S025; revisar también P05 'filmación de eventos' y P18 '…corporativos (pendiente)'. (2) Añadir AC-08 a la aceptación de P04, P05 y P12, o acotar en aceptacion.json AC-08.paginas a P27–P31 y remitir los enlaces desde servicios a las condiciones de enlaces.json. Después, regenerar 02-fichas-37.md y volver a ejecutar verificacion.json.",
+  "alternativas": [
+    "Aceptar el estado actual y anotar en correcciones-revision.json que los orígenes 'propuesta editorial F6' son conservadores y que AC-08 se garantiza mediante las condiciones de arista de enlaces.json."
+  ],
+  "riesgos": [
+    "Si variantes_proveniencia se usa como pista de auditoría, P24 se contradice: dice que la variante es una propuesta F6 y a la vez que se comprobó en S025.",
+    "Quien consulte solo la ficha P04, P05 o P12 no verá el criterio AC-08 que su vista por ficha omite, aunque la condición de permiso aparece en enlaces.json e insumos_pendientes.",
+    "El control null_y_variantes figura como passed porque cada variante tiene procedencia, pero no comprueba que esa procedencia sea correcta."
+  ],
+  "verificacion": [
+    "Recontadas las relacionadas de P01–P37 (148) y las aristas por origen de enlaces.json (148), con igualdad por origen; P36→P01/P02/P33 presentes.",
+    "Revisada la aceptación de P19 (incluye AC-04), P25/P26 (solo AC-01), P34 (sin AC-09, schema vacío), P36 (AC-01/03/05/07/13) y P37 (AC-01/07/17).",
+    "AC-09 está presente en todas las fichas con schema_candidato no vacío y ausente en P25, P26, P34, P36 y P37.",
+    "Contrastados variantes_proveniencia.origen con intencion_fuente en las 37 fichas; incoherencias en P01, P04, P08, P17 y P24, y casos ambiguos en P05 y P18.",
+    "Contrastado AC-08.paginas ('casos usados en otras páginas') con las aristas P04→P28, P05→P29/P30 y P12→P31 y con la aceptación de esas fichas.",
+    "Las claves de las filas de fichas-37.json y aceptacion.json coinciden con sus esquemas (additionalProperties false).",
+    "Aritmética Ads: 7,77 × 30 = 233,10. Longitudes recontadas: P01 = 44 y P23 = 47.",
+    "No ejecutado: rutas.json, 02-fichas-37.md, captura de G6-LB y matriz F5 literal."
+  ],
+  "confianza": {
+    "nivel": "alta",
+    "motivo": "Los cierres y los dos hallazgos nuevos se demuestran contrastando los archivos completos recibidos. Lo no comprobado se limita a archivos de B o no aportados, y no afecta al dictamen sobre A."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "fuentes/MATRIZ-FASE-5.json literal (la revisión inicial ya la cotejó)",
+      "rutas.json (32 combinaciones / 8 paths), revisado en B",
+      "schema.json y medicion.json, revisados en B",
+      "02-fichas-37.md (vista generada), revisado en B",
+      "Captura de Google LocalBusiness citada por el localizador de G6-LB",
+      "costes.json y registro/revision-cierre.json, pendientes de actualización anunciada"
+    ]
+  },
+  "findings": [
+    {
+      "title": "El origen de algunas variantes contradice la intencion_fuente F5 de la misma ficha",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fichas-37.json keyword.variantes_proveniencia en P01, P04, P08, P17 y P24 (ambiguos: P05, P18)",
+      "evidence": "P01: intencion_fuente 'V: agencia/empresa audiovisual', pero 'agencia audiovisual' tiene origen 'propuesta editorial F6'. P04: 'V: servicio/producción de videos corporativos', pero 'servicio de videos corporativos' tiene origen F6. P08: 'V: empresa organizadora', pero 'empresa organizadora de eventos' tiene origen F6. P17: 'V: producción/agencia BTL', pero 'producción BTL' tiene origen F6. P24: 'diseño y desarrollo de páginas web Lima (S025)' tiene origen 'propuesta editorial F6' y a la vez serp_exacta 'S025: variante exacta con Lima'; intencion_fuente dice 'S025 comprobó la variante con Lima'. Ambiguos: P05 'filmación de eventos' y P18 '…corporativos (pendiente)' figuran como '03/06 histórico' aunque están en la V de F5. El error es conservador: no presenta ninguna consulta como investigada sin estarlo.",
+      "verification": "Cotejar cada variante con la columna keyword/intención de F5 §4.1 y cambiar el origen a 'F5 Pxx' (y F4 S025 en P24). El control null_y_variantes debería comprobar la coherencia origen↔serp_exacta."
+    },
+    {
+      "title": "AC-08 no figura en las fichas de servicio que enlazan casos",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fichas-37.json aceptacion de P04, P05 y P12 frente a aceptacion.json AC-08.paginas y enlaces.json",
+      "evidence": "AC-08.paginas = 'P27–P31 y casos usados en otras páginas'; regla: 'cada filtro, vínculo y frase coincide con expediente'. Las aristas P04→P28, P05→P29, P05→P30 y P12→P31 existen con la condición 'permiso_y_rol_del_caso_acreditados_para_la_relacion', pero la aceptación de P04, P05 y P12 no incluye AC-08 (sí P27–P31). D6-08 cierra 'Casos y enlaces a servicios según rol y permisos' con AC-08. El riesgo es bajo porque enlaces.json e insumos_pendientes (p. ej. P04 'rol/permiso de Redinter antes de usarlo') ya exigen el permiso.",
+      "verification": "Añadir AC-08 a P04, P05 y P12, o acotar AC-08.paginas a P27–P31 y remitir los enlaces desde servicios a enlaces.json. Regenerar la vista Markdown."
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "gates": [
+    {
+      "name": "cierre_F1_aceptacion_por_tipo_y_decisiones",
+      "status": "passed",
+      "evidence": "P19 lleva AC-04. P37 lleva AC-01/07/17 sin AC-02/03. P25/P26 solo AC-01. P36 incluye AC-07. AC-09 está en las fichas con schema_candidato. Los receptores de 301 llevan AC-04. Residual AC-08 registrado aparte como hallazgo bajo."
+    },
+    {
+      "name": "cierre_F2_tabla_GFM_01",
+      "status": "passed",
+      "evidence": "Cabecera y delimitador consecutivos en 01-arquitectura.md."
+    },
+    {
+      "name": "cierre_F3_procedencia_variantes",
+      "status": "passed",
+      "evidence": "Todas las variantes tienen origen y serp_exacta; el problema de origen en 5 fichas se registra como hallazgo bajo."
+    },
+    {
+      "name": "cierre_F4_responsables_bloques",
+      "status": "passed",
+      "evidence": "P33/P34: desarrollador y atención. P35: dueño y revisor. P36: desarrollador. P37: responsabilidad dividida."
+    },
+    {
+      "name": "cierre_F5_aristas_P36_y_recuento_148",
+      "status": "passed",
+      "evidence": "3 aristas P36 con condición plantilla_404_activa; 148 relacionadas = 148 aristas, iguales por origen."
+    },
+    {
+      "name": "cierre_F6_condicion_P27_P33",
+      "status": "passed",
+      "evidence": "Solo origen_y_destino_publicados_y_aprobados, con regla explícita."
+    },
+    {
+      "name": "cierre_F7_G6LB_localizador",
+      "status": "passed",
+      "evidence": "Localizador y hechos name/address/telephone presentes; el contenido de la captura no se ha visto."
+    },
+    {
+      "name": "cierre_S1_esquema_fichas",
+      "status": "passed",
+      "evidence": "fichas.schema.json exige prioridad con enums, keyword, indexacion y trazabilidad; aceptacion con enum de AC; relacionadas con patrón."
+    },
+    {
+      "name": "S2_enlaces_show_brochure",
+      "status": "not-applicable",
+      "evidence": "Registrado en no_adoptado con motivo editorial; no era defecto."
+    },
+    {
+      "name": "ads_ilustracion_y_maximo",
+      "status": "passed",
+      "evidence": "7,77 × 30 = 233,10 etiquetado como ilustración; S/110 coherente en README, 01, 03, D6-12 y AC-15."
+    },
+    {
+      "name": "anclas_AC01_AC18",
+      "status": "passed",
+      "evidence": "37_ids_unicos, tipos, urls_y_prioridades, estados_y_evidencia e integridad_originales (408) existen en verificacion.json."
+    },
+    {
+      "name": "rutas_32_y_vista_markdown",
+      "status": "not-run",
+      "evidence": "rutas.json y 02-fichas-37.md pertenecen a B y no se han aportado aquí."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "fichas-37.json",
+      "purpose": "Registro canónico de las 37 fichas",
+      "status": "reviewed"
+    },
+    {
+      "path": "fichas.schema.json",
+      "purpose": "Contrato de fichas",
+      "status": "reviewed"
+    },
+    {
+      "path": "aceptacion.json",
+      "purpose": "Criterios AC-01…AC-18",
+      "status": "reviewed"
+    },
+    {
+      "path": "aceptacion.schema.json",
+      "purpose": "Contrato de aceptación",
+      "status": "reviewed"
+    },
+    {
+      "path": "enlaces.json",
+      "purpose": "Grafo previsto (148 aristas)",
+      "status": "reviewed"
+    },
+    {
+      "path": "decisiones.json",
+      "purpose": "Decisiones y afirmaciones",
+      "status": "reviewed"
+    },
+    {
+      "path": "01-arquitectura.md",
+      "purpose": "Mapa y tandas",
+      "status": "reviewed"
+    },
+    {
+      "path": "03-requisitos-tecnicos.md",
+      "purpose": "Requisitos técnicos, medición y Ads",
+      "status": "reviewed"
+    },
+    {
+      "path": "README.md",
+      "purpose": "Índice y precedencia",
+      "status": "reviewed"
+    },
+    {
+      "path": "verificacion.json",
+      "purpose": "Controles documentales",
+      "status": "reviewed"
+    },
+    {
+      "path": "registro/new-external-checks.json",
+      "purpose": "G6-PS/G6-LB",
+      "status": "reviewed"
+    },
+    {
+      "path": "registro/correcciones-revision.json",
+      "purpose": "Registro de correcciones",
+      "status": "reviewed"
+    }
+  ]
+}

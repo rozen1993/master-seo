@@ -1,0 +1,30 @@
+{
+  "file": "claude-A-review-envelope.json",
+  "schema": "peer-response.schema.json",
+  "passed": true,
+  "errors": [],
+  "sha256": "ead202a9f2432e6ebd26628dbbbd5eefc641d9bfe851bce5681557d502b5d26e",
+  "words_approx": 1815,
+  "session_id": "115d0c79-d07d-46c3-9078-3b4f1ce72f53",
+  "modelUsage": {
+    "claude-opus-5-5": {
+      "inputTokens": 2,
+      "outputTokens": 19129,
+      "cacheReadInputTokens": 3049,
+      "cacheCreationInputTokens": 110631,
+      "webSearchRequests": 0,
+      "costUSD": 1.2682457999999999,
+      "contextWindow": 1000000,
+      "maxOutputTokens": 128000,
+      "thinkingTokens": 12300,
+      "cacheCreationEphemeral5mInputTokens": 0,
+      "cacheCreationEphemeral1hInputTokens": 110631,
+      "canonicalModel": "claude-opus-5-5",
+      "provider": "firstParty",
+      "costBasis": "list"
+    }
+  },
+  "total_cost_usd": 1.2682457999999999,
+  "duration_ms": 173121,
+  "is_error": false
+}

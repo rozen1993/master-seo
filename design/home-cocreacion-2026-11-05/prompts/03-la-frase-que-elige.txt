@@ -1,0 +1,37 @@
+Use case: ui-mockup.
+Create ONE premium art-directed high-fidelity FULL HOMEPAGE mockup, desktop website, as a single opaque PNG, not code. Entire page from navigation through footer, straight-on flat website image, no browser chrome, no device, no tilted presentation. Requested canvas EXACTLY 1440 pixels wide by 3840 pixels tall, aspect ratio 3:8. This is a wide desktop composition captured as a long scrolling page, NOT a mobile page. Keep this identical canvas for all three separately generated proposals.
+Subject: Rhino Audiovisuales in Lima. The page helps visitors choose a service and enquire. Create a confident distinctive production studio design; every decision intentional, beautiful type hierarchy, calm aligned navigation, large editorial spacing. Respect the direction below. Make a polished finished visual design, not a wireframe or generic template.
+Only render the Spanish page text specified below. ALL supplied copy must be present, spelled correctly with accents, as real readable typography. Organize into the stated sections; labels like HEADER/TEXT/SECTION are instructions and must NOT be drawn. H1 must be visibly largest; body text and captions readable, no tiny footer. Avoid filler, repeated paragraphs or duplicate decorative headings. Content fits the whole page; preserve footer and ample bottom margin. Aim for body24px and labels20px on the nominal1440px canvas.
+Commercial constraints: no prices, years, counts, testimonials, customer logos, awards, fake portfolio, timecodes, playback controls, address, email, phone, WhatsApp or response-time promises. No fictional business claims. Use a provisional typographic wordmark reading Rhino Audiovisuales; no animal icon. Images are invented illustrative scenes and MUST be identified by the exact nearby text Imágenes ilustrativas. No stock images of known people or real brands. Never label illustrations as client work, our team, our studio or projects. The three services are separate options, not stages or an all-in-one package. Do not connect their scenes. No fake text inside photographed screens or equipment logos.
+Keep all text on solid surfaces, never over photos. CTA labels visible on strong contrast; no all-caps tiny copy. No emoji, star ratings, unnecessary icons, mockup labels or palette/font names on the page. Spanish spelling is critical.
+EXACT PAGE COPY:
+HEADER: Rhino Audiovisuales | Servicios | Sobre Rhino | Contacto
+H1: Productora audiovisual en Lima
+INTRO: Cobertura de eventos, streaming y podcast, catering y coffee break.
+HERO PRIMARY BUTTON: Consultar proyecto
+HERO SECONDARY LINK: Ver servicios
+SECTION HEADING: Elige según tu encargo
+SERVICE 1 TITLE: Cobertura de eventos
+SERVICE 1 TEXT: Foto o video para registrar tu evento. Cuéntanos fecha, lugar y qué necesitas cubrir.
+SERVICE 2 TITLE: Streaming y podcast
+SERVICE 2 TEXT: Transmisión de eventos o grabación de episodios. Describe qué necesitas emitir o grabar.
+SERVICE 3 TITLE: Catering y coffee break
+SERVICE 3 TEXT: Atención para reuniones y eventos de empresa. Comparte fecha, lugar y número de asistentes.
+SECTION: Otros servicios
+FOUR CATEGORY LABELS: Producción audiovisual | Fotografía y estudio | Organización y alquiler para eventos | Servicios digitales
+LINK: Ver servicios
+SECTION: Sobre Rhino
+TEXT: Rhino Audiovisuales, en Lima, cuenta con estudio fotográfico propio y servicios para eventos empresariales y sociales.
+LINK: Sobre Rhino
+SECTION: Cómo solicitar una propuesta
+TEXT: Cuéntanos qué necesitas, cuándo y dónde. Si tienes referencias, puedes incluirlas.
+THREE UNNUMBERED LABELS: El encargo | Fecha y lugar | Necesidades y referencias
+FINAL PRIMARY BUTTON: Consultar proyecto
+FOOTER: Rhino Audiovisuales | Lima | Servicios | Sobre Rhino | Contacto | Política de privacidad
+SMALL LEGIBLE LABEL BELOW HERO VISUAL AND BELOW SERVICE VISUALS: Imágenes ilustrativas
+
+DIRECTION:
+LA FRASE QUE ELIGE. Bold intelligent typographic production studio direction, exceptionally disciplined and clear. Warm almost-white #FAFAF5 hero, deep cabin blue #1A2A9E H1 and HERO BUTTON with white label. Middle service section entirely cabin blue, off-white type and precise yellow #F5D90A underlines under literal service names only. Ink #0C1233 body on pale surfaces; mist blue #DDE3FA for other services/about. Final enquiry and footer cabin blue with yellow Consultar proyecto button and dark ink label. Never yellow button on a pale surface.
+Typography: distinctive broad display sans like Bricolage Grotesque700, complementary highly readable Atkinson Hyperlegible body. H1 about112px, largest on page, in two-three considered lines without squashing. Service names58-64px, body24px. Wide desktop 12-column rhythm, no mobile stacking of tiny cards.
+Composition: quiet blue navigation on pale hero. Hero predominantly typographic, around700-760px nominal height: complete H1, short intro, blue primary button and secondary Ver servicios. No floating peripheral image in hero. Transition decisively into blue service section. Heading Elige según tu encargo then THREE spacious horizontal options. Each literal service name in large white type with a confident yellow underline matching its width (8-10px nominal). Below it readable concise copy. On the opposite side a small rectangular blue/off-white duotone conceptual photograph, clearly tied to the option: anonymous event/camera; microphone/conversation recording; cups/coffee break. Images modest, text is protagonist. Scene images independent, no branding or recognizable venue. Place Imágenes ilustrativas neatly nearby.
+After blue service block, a mist-blue area contains Otros servicios with four families in a restrained two-column type layout, and Sobre Rhino with paragraph and link. No dividing hairline newspaper layout. Close with a clear blue enquiry section, unnumbered labels, yellow button, and complete footer. Signature: choosing an assignment through literal underlined service phrases. No giant slogan other than actual H1, no random numbered codes, no bento cards, no stickers or unexplained graphics. Every line spelled accurately; full footer inside canvas.

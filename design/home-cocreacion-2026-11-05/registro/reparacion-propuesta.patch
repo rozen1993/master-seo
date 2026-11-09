@@ -1,0 +1,74 @@
+--- installed/invoke-claude.ps1
++++ proposed/invoke-claude.ps1
+@@ -735,10 +735,11 @@
+                 throw 'Lectura protegida requiere Claude Code >= 2.1.295 (hooks fail-closed). Usa minimal con un paquete explicito. No se actualiza la CLI automaticamente.'
+             }
+             if ([string]::IsNullOrWhiteSpace($ReadManifest)) { throw 'project con herramientas requiere ReadManifest JSON con una lista de archivos explicitos.' }
+-            $readPaths = @([IO.File]::ReadAllText($ReadManifest) | ConvertFrom-Json)
+-            $safePaths = @($readPaths | ForEach-Object { (Get-ClaudexSafeFile -Root $resolvedProjectPath -Path ([string]$_)).FullName })
++            $readPaths = ConvertFrom-Json -InputObject ([IO.File]::ReadAllText($ReadManifest)) -ErrorAction Stop
++            if ($readPaths -isnot [Array] -or $readPaths.Count -eq 0 -or @($readPaths | Where-Object { $_ -isnot [string] }).Count -gt 0) { throw 'ReadManifest requiere un array no vacio de rutas de texto.' }
++            $safePaths = @($readPaths | ForEach-Object { (Get-ClaudexSafeFile -Root $resolvedProjectPath -Path ([string]$_) -AllowRasterImage).FullName })
+             $temporaryPolicyPath = Join-Path ([IO.Path]::GetTempPath()) ('claudex-policy-' + [guid]::NewGuid().ToString('N') + '.json')
+-            [IO.File]::WriteAllText($temporaryPolicyPath, (@{root=$resolvedProjectPath;files=$safePaths} | ConvertTo-Json -Depth 4), $utf8NoBom)
++            [IO.File]::WriteAllText($temporaryPolicyPath, (@{root=$resolvedProjectPath;files=$safePaths;allowStructuredOutput=($OutputFormat -eq 'json')} | ConvertTo-Json -Depth 4), $utf8NoBom)
+             $sessionSettingsObject.hooks = @{ PreToolUse = @(@{ matcher = '.*'; hooks = @(@{
+                 type = 'command'; command = (Join-Path $PSHOME 'powershell.exe');
+                 args = @('-NoProfile','-NonInteractive','-ExecutionPolicy','Bypass','-File',(Join-Path $PSScriptRoot 'read-guard.ps1'),'-PolicyPath',$temporaryPolicyPath);
+--- installed/read-guard.ps1
++++ proposed/read-guard.ps1
+@@ -4,12 +4,19 @@
+     . (Join-Path $PSScriptRoot 'context-policy.ps1')
+     $policy = [IO.File]::ReadAllText($PolicyPath) | ConvertFrom-Json
+     $event = [Console]::In.ReadToEnd() | ConvertFrom-Json
++    if ($event.tool_name -ceq 'StructuredOutput' -and $policy.allowStructuredOutput -eq $true) { exit 0 }
+     if ($event.tool_name -notin @('Read','Grep')) { throw 'Solo lectura de archivos concretos.' }
+     $path = if ($event.tool_name -eq 'Read') { $event.tool_input.file_path } else { $event.tool_input.path }
+     if ([string]::IsNullOrWhiteSpace($path)) { throw 'Ruta explicita requerida.' }
+-    $file = Get-ClaudexSafeFile -Root $policy.root -Path $path
++    $file = Get-ClaudexSafeFile -Root $policy.root -Path $path -AllowRasterImage:($event.tool_name -ceq 'Read')
+     if (@($policy.files) -inotcontains $file.FullName) { throw 'Archivo fuera del alcance del paquete.' }
+-    Assert-ClaudexSafeText ([IO.File]::ReadAllText($file.FullName))
++    if ($file.Extension -in @('.png', '.jpg', '.jpeg')) {
++        if ($event.tool_name -cne 'Read') { throw 'Las imagenes solo admiten Read.' }
++        $imageBytes = [IO.File]::ReadAllBytes($file.FullName)
++        Assert-ClaudexSafeText ([Text.Encoding]::GetEncoding(28591).GetString($imageBytes))
++    } else {
++        Assert-ClaudexSafeText ([IO.File]::ReadAllText($file.FullName))
++    }
+     # No allow override: retain the CLI's normal permission checks.
+     exit 0
+ } catch {
+--- installed/context-policy.ps1
++++ proposed/context-policy.ps1
+@@ -15,7 +15,7 @@
+ }
+ 
+ function Get-ClaudexSafeFile {
+-    param([string] $Root, [string] $Path)
++    param([string] $Root, [string] $Path, [switch] $AllowRasterImage)
+     $rootPath = [IO.Path]::GetFullPath($Root).TrimEnd('\', '/')
+     $candidate = if ([IO.Path]::IsPathRooted($Path)) { $Path } else { Join-Path $rootPath $Path }
+     $full = [IO.Path]::GetFullPath($candidate)
+@@ -31,6 +31,20 @@
+         if ($node.FullName.TrimEnd('\') -ieq $rootPath) { break }
+         $node = if ($node -is [IO.FileInfo]) { $node.Directory } else { $node.Parent }
+     }
+-    if ($item.Length -gt 262144) { throw 'Archivo demasiado grande; divide la revision por componentes completos.' }
++    $isRasterImage = $item.Extension -in @('.png', '.jpg', '.jpeg')
++    if ($AllowRasterImage -and $isRasterImage) {
++        if ($item.Length -gt 10485760) { throw 'Imagen demasiado grande; limite de 10 MiB.' }
++        $stream = [IO.File]::Open($item.FullName, [IO.FileMode]::Open, [IO.FileAccess]::Read, [IO.FileShare]::Read)
++        try {
++            $header = New-Object byte[] 8
++            $count = $stream.Read($header, 0, $header.Length)
++        } finally { $stream.Dispose() }
++        $validSignature = if ($item.Extension -ieq '.png') {
++            $count -eq 8 -and [BitConverter]::ToString($header) -ceq '89-50-4E-47-0D-0A-1A-0A'
++        } else { $count -ge 3 -and $header[0] -eq 0xFF -and $header[1] -eq 0xD8 -and $header[2] -eq 0xFF }
++        if (-not $validSignature) { throw 'Firma de imagen no coincide con su extension.' }
++    } elseif ($item.Length -gt 262144) {
++        throw 'Archivo demasiado grande; divide la revision por componentes completos.'
++    }
+     return $item
+ }

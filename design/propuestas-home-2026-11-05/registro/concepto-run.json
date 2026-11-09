@@ -1,0 +1,10 @@
+﻿{
+    "step":  "concepto",
+    "phase":  "derive",
+    "profile":  "o/high",
+    "collaboration":  "revision_cruzada_roles_diferenciados",
+    "started":  "2026-11-05T01:16:00.4012543-05:00",
+    "ended":  "2026-11-05T01:17:48.4589818-05:00",
+    "exit_code":  0,
+    "packet_bytes":  162497
+}

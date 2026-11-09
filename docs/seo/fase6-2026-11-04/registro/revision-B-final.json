@@ -1,0 +1,138 @@
+{
+  "supuestos": [
+    "El paquete no define gates explícitos para esta pasada de revisión del pipeline core. Se usan cinco: cierre de cada hallazgo de registro/revision-B.json; ausencia de regresiones en los textos corregidos; coherencia interna de B; límite de Ads S/110; y ausencia de afirmaciones de implementación o publicación.",
+    "El componente A (fichas-37.json, enlaces.json) existe y se revisa por separado. 02-fichas-37.md se trata como su vista humana generada.",
+    "No se recalcularon los SHA-256 declarados ni se ejecutó un validador JSON: es una revisión de solo lectura sin herramientas. La conformidad con el esquema se comprobó leyendo los datos.",
+    "La actualización administrativa anunciada de 07 (§Revisión de archivos resultantes), de costes y de revision-cierre.json no se trata como defecto.",
+    "El cálculo 7,77×30 ilustrativo, G6-PS/G6-LB, que la publicación no está aprobada y el alcance documental de AC-01 y AC-18 se aceptan como decisiones deliberadas ya declaradas."
+  ],
+  "propuesta": "**Conclusión: los 8 hallazgos de la primera revisión de B quedan cerrados. Hay una regresión menor (baja) y ningún defecto crítico, alto ni medio. El componente B puede cerrarse.**\n\n**Cierre de los hallazgos anteriores (comprobado en los archivos completos)**\n1. **AC-01 y AC-18, resultado (medio): cerrado.**\n   - aceptacion.json les asigna `verificado_documental`, con `evidencia_resultado` apuntando a controles que existen en verificacion.json (37_ids_unicos, tipos, urls_y_prioridades, estados_y_evidencia, integridad_originales).\n   - El esquema ahora admite cinco valores de resultado y `evidencia_resultado` acepta string o null.\n   - 04 distingue estos dos controles documentales de las pruebas futuras.\n   - Los otros 16 criterios siguen en no_ejecutado con evidencia null; ninguno tiene resultado simulado.\n2. **Límite nominal de Ads (medio): cerrado.** 03 §Ads presenta 7,77×30 = S/233,10 como cálculo ilustrativo (la aritmética es correcta). Aclara que no es gasto observado, ni límite efectivo de Google, ni estado actual de la cuenta, y no autoriza cambios.\n3. **Revisor y fuente genéricos (bajo): cerrado.**\n   - Los 18 criterios tienen ya fuente y revisor específicos.\n   - AC-12 incluye al revisor competente; AC-14 cita 07 A.4; AC-18 cita la instrucción del usuario.\n   - Claude ya no figura como revisor de pruebas futuras.\n4. **Moneda (bajo): cerrado.** 07 pone «S/132,26». No queda ningún «S132» en los archivos recibidos.\n5. **Introducción de 02 (bajo): cerrado.** Ahora remite a los criterios de cada ficha. P25/P26 solo llevan AC-01 y P37 lleva AC-01/07/17, coherente con el alcance de AC-02 y AC-03.\n6. **Grafo (sospecha): cerrado.**\n   - Recuento manual de «Enlaces previstos» en 02: P01–P24 dan 118, P27–P35 dan 27 y P36 da 3, en total 148.\n   - P25, P26 y P37 tienen 0, tal como dice la regla documentada en verificacion.json.\n7. **AC-04 y fotografía (sospecha): cerrado.** La dependencia ahora admite «continuidad del legado expresamente acordada y probada», igual que 03 y rutas.json (`resolver_antes_del_corte_si_se_retira_legacy`).\n8. **Nombre del baseline de AC-18 (info): cerrado en cuanto al nombre.** AC-18 y 07 citan ambos registro/originales-baseline.json. No he visto el contenido de ese archivo.\n\n**Comprobaciones de coherencia sin problemas:**\n- verificacion.json cuenta 33 html, 2 reservas, 1 plantilla 404 y 1 PDF; coincide con 02.\n- G6-LB tiene localizador y su efecto en schema.json y 03 es coherente: no exige GBP ni dirección para publicar HTML.\n- Las excepciones de description para gracias/404 y los null de los casos son consistentes entre 03, AC-03 y 02.\n\n**Regresión detectada (baja):** AC-08 abarca «P27–P31 y casos usados en otras páginas», y la introducción de 02 dice que los criterios aplicables «se enumeran en cada ficha». Sin embargo, las fichas que usan o afirman casos no incluyen AC-08:\n- P01 (bloque «Proyectos autorizados»);\n- P04 («Caso corporativo acreditado», Redinter);\n- P05 (permisos Premium/Bloom);\n- P08 («Experiencia atribuible»);\n- P12 (Adidas).\n\nAC-02 cubre en parte el riesgo de permisos inventados, así que el impacto es bajo. Como 02 se genera desde fichas-37.json, la corrección corresponde al canon de A.\n\n**Completitud:** se revisaron completos los 16 archivos de B. Quedan sin comprobar los hashes, el contenido del baseline y los archivos de A.",
+  "alternativas": [
+    "Añadir AC-08 a la lista de criterios de P01, P04, P05, P08 y P12 en fichas-37.json y regenerar 02. Es la opción recomendada porque mantiene la ficha como lista completa.",
+    "Alternativa sin tocar el canon de A: precisar en la introducción de 02 que AC-08 se suma a cualquier ficha que muestre o enlace un caso, como ya se hace con las comprobaciones globales de migración."
+  ],
+  "riesgos": [
+    "Quien implemente siguiendo solo la lista de criterios de cada ficha podría publicar en P04 o P12 un caso (Redinter, Adidas) sin pasar el control de expediente de AC-08. AC-02 lo mitiga en parte.",
+    "Los SHA-256 y el resultado de integridad de los 408 originales se aceptan tal como los declara verificacion.json; esta pasada no los recalculó."
+  ],
+  "verificacion": [
+    "Tras corregir AC-08, comprobar que todas las fichas cuyos bloques, insumos o dependencias mencionan casos, expedientes o permisos de proyectos listan AC-08, o que la introducción de 02 lo declara como criterio que se suma.",
+    "Regenerar 02 desde fichas-37.json y confirmar que el recuento de aristas sigue en 148 y que la vista Markdown mantiene la igualdad exacta con el JSON.",
+    "Volver a validar aceptacion.json contra aceptacion.schema.json con el validador local y recalcular los SHA-256 de los archivos modificados para el manifiesto.",
+    "Cuando se haga el cierre administrativo, actualizar 07 §Revisión, costes.json y registro/revision-cierre.json."
+  ],
+  "confianza": {
+    "nivel": "alta",
+    "motivo": "Cada cierre y la regresión se apoyan en texto literal de los archivos completos recibidos. Las 148 aristas se recontaron una a una sobre la vista de 02. Quedan fuera los hashes, el baseline y los archivos de A."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "fichas-37.json y enlaces.json (componente A): canon desde el que se genera 02; la corrección de AC-08 se aplicaría allí",
+      "registro/originales-baseline.json: el contenido de los 408 hashes no se inspeccionó",
+      "decisiones.json, costes.json y fuentes-manifiesto.json: solo se revisó su vista o referencia",
+      "Recálculo de los SHA-256 declarados de los archivos recibidos: no se ejecutó (sin herramientas)"
+    ]
+  },
+  "findings": [
+    {
+      "title": "Las fichas que usan casos de portafolio no listan AC-08, aunque su alcance cubre «casos usados en otras páginas»",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "aceptacion.json AC-08.paginas; 02-fichas-37.md, párrafo introductorio y «Aceptación por ficha» de P01, P04, P05, P08 y P12 (origen: fichas-37.json, componente A)",
+      "evidence": "AC-08.paginas = «P27–P31 y casos usados en otras páginas», con la regla «Permiso y rol acreditados... Caso sin permiso se omite». La introducción de 02 dice «Los criterios aplicables se enumeran en cada ficha». P01 incluye el bloque «Proyectos autorizados»; P04 el bloque «Caso corporativo acreditado» y el insumo «rol/permiso de Redinter»; P05 «permisos de Premium/Bloom»; P08 «Experiencia atribuible»; P12 «Adidas no es prueba de spot sin acreditar su uso». Ninguna de esas cinco fichas incluye AC-08 en su lista; solo P27–P31 lo llevan.",
+      "verification": "Añadir AC-08 en fichas-37.json a las fichas que muestran o afirman casos y regenerar 02, o declarar en la introducción de 02 que AC-08 se suma siempre que se use un caso. Después, volver a cruzar la lista de cada ficha con AC-08.paginas."
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "gates": [
+    {
+      "name": "cierre_AC01_AC18_estado_y_esquema",
+      "status": "passed",
+      "evidence": "AC-01 y AC-18 en verificado_documental con evidencia_resultado apuntando a controles existentes en verificacion.json. El enum del esquema está ampliado y evidencia_resultado admite string o null. 04 separa estos dos controles de las pruebas futuras. Los otros 16 criterios siguen en no_ejecutado con evidencia null."
+    },
+    {
+      "name": "cierre_ads_calculo_ilustrativo",
+      "status": "passed",
+      "evidence": "03 §Ads: 7,77×30 = S/233,10, etiquetado como ilustrativo y no como gasto ni como límite de Google. Máximo S/110 y objetivo de unos S/100 iguales en README, 03, D6-12, AC-15 y 06. No se autoriza ningún cambio."
+    },
+    {
+      "name": "cierre_revisor_fuente_especificos",
+      "status": "passed",
+      "evidence": "Los 18 criterios tienen fuente y revisor propios (AC-12 revisor competente, AC-14 07 A.4, AC-18 instrucción del usuario). Claude no figura como revisor de pruebas futuras."
+    },
+    {
+      "name": "cierre_moneda_S132_26",
+      "status": "passed",
+      "evidence": "07 párrafo de Ads: «150 clics/S/132,26». No queda ningún «S132» en los archivos recibidos."
+    },
+    {
+      "name": "cierre_intro_criterios_por_clase",
+      "status": "passed",
+      "evidence": "La introducción de 02 remite a los criterios de cada ficha. P25/P26 llevan AC-01; P36 AC-01/03/05/07/13; P37 AC-01/07/17. La regresión de AC-08 se registra aparte como hallazgo bajo."
+    },
+    {
+      "name": "cierre_grafo_148",
+      "status": "passed",
+      "evidence": "Recuento manual sobre 02: 118 (P01–P24) + 27 (P27–P35) + 3 (P36) = 148, con P25/P26/P37 en 0, igual que verificacion.json. Se contó sobre la vista Markdown, no sobre enlaces.json."
+    },
+    {
+      "name": "cierre_AC04_continuidad_legado",
+      "status": "passed",
+      "evidence": "La dependencia de AC-04 admite la continuidad del legado expresamente acordada y probada, igual que 03 §Rutas y rutas.json.fotografia.bloqueo."
+    },
+    {
+      "name": "cierre_AC18_nombre_baseline",
+      "status": "passed",
+      "evidence": "AC-18 y 07 citan registro/originales-baseline.json. No se ha inspeccionado su contenido."
+    },
+    {
+      "name": "regresiones_de_correcciones",
+      "status": "passed",
+      "evidence": "Ninguna regresión crítica, alta ni media. Una baja demostrada (AC-08 en las listas de cada ficha), registrada en findings."
+    },
+    {
+      "name": "hashes_y_validacion_JSON_ejecutada",
+      "status": "not-run",
+      "evidence": "Revisión de solo lectura sin herramientas. No se recalcularon los SHA-256 ni se ejecutó el validador; aceptacion.json se comprobó a mano: los 15 campos requeridos y los valores de resultado y prioridad son válidos."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "aceptacion.json",
+      "purpose": "Cierre de AC-01/18, revisor/fuente, AC-04 y AC-18; alcance de AC-08",
+      "status": "reviewed"
+    },
+    {
+      "path": "aceptacion.schema.json",
+      "purpose": "Enum de resultado ampliado y evidencia_resultado nullable",
+      "status": "reviewed"
+    },
+    {
+      "path": "03-requisitos-tecnicos.md",
+      "purpose": "Cálculo Ads ilustrativo, G6-LB, rutas",
+      "status": "reviewed"
+    },
+    {
+      "path": "02-fichas-37.md",
+      "purpose": "Introducción, criterios de cada ficha y recuento de 148 aristas; regresión AC-08",
+      "status": "reviewed"
+    },
+    {
+      "path": "07-trazabilidad-y-revision.md",
+      "purpose": "Moneda S/132,26 y nombre del baseline",
+      "status": "reviewed"
+    },
+    {
+      "path": "verificacion.json",
+      "purpose": "Controles a los que apunta aceptacion.json y regla del grafo",
+      "status": "reviewed"
+    },
+    {
+      "path": "registro/new-external-checks.json",
+      "purpose": "Localizador de G6-LB",
+      "status": "reviewed"
+    }
+  ]
+}

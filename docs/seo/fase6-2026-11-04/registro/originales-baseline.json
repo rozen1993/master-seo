@@ -1,0 +1,2042 @@
+[
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\CLAUDE.md",
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56",
+    "bytes": 9710
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\content\\datos-de-prueba.json",
+    "sha256": "cc956767f9b8477a263a482da0adc69aadc3b11ca252b81c5b195d81344cbd25",
+    "bytes": 7521
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\a-cine.html",
+    "sha256": "b7ae6c69764708ff69cfbe7c1b6979f6ba58e2f88a12cbc0b269add61e34f224",
+    "bytes": 15945
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\b-editorial.html",
+    "sha256": "0f82e3e031430a497837ea67c4f73fd9c259ef1b426731abe65534633f293fce",
+    "bytes": 19177
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\c-bold.html",
+    "sha256": "42290d38f08b59964e9832e23671d49adf8d6e5606065d8b347afca755e90c39",
+    "bytes": 16410
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts.css",
+    "sha256": "be665db2356ce802ba47ac4f17077db9f1f5ee225645322d58f1ac6365edafa6",
+    "bytes": 7512
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas.css",
+    "sha256": "f02a6235eecbf281e283a7a9be205cc3d48271a003806df38164f64bfb17bf75",
+    "bytes": 762
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas_0.woff2",
+    "sha256": "16c95ce45a2922f52551d38d565d14c92cf257b8f219c89613407d81fdd21a39",
+    "bytes": 8928
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas_1.woff2",
+    "sha256": "a7c90c89240c134f7fdd33d40c000ec90b79d675ea53e8cc5a6d423c073de412",
+    "bytes": 13768
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces.css",
+    "sha256": "c97f3643d5bef56883a32c3def43737af4862622643fae3d3cfcd335c0c25cdc",
+    "bytes": 3357
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_0.woff2",
+    "sha256": "ce7b18aac7371cde4a740e54e252e9f02de67ff2ed444b18d1d04e66f50edeb0",
+    "bytes": 11572
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_1.woff2",
+    "sha256": "a21ecfbf41fbc393e24ef9b7e38532a27e8da5e0a074aa7d66802d1b5ccec2f0",
+    "bytes": 33584
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_2.woff2",
+    "sha256": "7f9d191d999336d3b9790afa72e1358e50a13b06d4f289341e92a311967a80f9",
+    "bytes": 36620
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk.css",
+    "sha256": "423dd4c09bd187351b55cc7b688030202ba5568fafac865ea465fe3d00117ee8",
+    "bytes": 3393
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_0.woff2",
+    "sha256": "8895e3d49825128bfa5238e4c96e9b432d7a3dadbe5c17c6081267398305dc71",
+    "bytes": 6712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_1.woff2",
+    "sha256": "952dddb45d2f96f71cbf3b7f510b24379afc3c89ea02fcf89d377b45d62c0166",
+    "bytes": 18940
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_2.woff2",
+    "sha256": "0640890476fc1198ab4de571fb658de443c4d85b66466ec09534a8737ab1ce9d",
+    "bytes": 22288
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-escritorio.png",
+    "sha256": "d601694bda93840a7c4694262211624f23d50dd384717f71c5dba6499d8b8ca0",
+    "bytes": 916125
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-movil.png",
+    "sha256": "dd9f21e12e340ad3cf43f875119a76d686e11528200bacfbc6211cfcc8bb7c62",
+    "bytes": 1730397
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-movil-vista.png",
+    "sha256": "7a2aa820cc7c9b76e3ac8e2c37355efd350785a1859b6afcc77c11b01f081675",
+    "bytes": 1146325
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-escritorio.png",
+    "sha256": "fd672fe069d95b403d1491f9682037df78ddeb1debd848936db0809d535f68bb",
+    "bytes": 954667
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-movil.png",
+    "sha256": "70986a2e442ec3c25b4ba4e1fe9df73c6290f398d2239db746bdc0f63e1015f1",
+    "bytes": 1637867
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-movil-vista.png",
+    "sha256": "d8cbebc77c2f375b8ea6786e6841b2ec3b79be24f8acf0957e9156bc559aeaae",
+    "bytes": 1103672
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-escritorio.png",
+    "sha256": "8baae3ef7da73be6156f5e9941efb82b2b92db600901a1131cad3de15fda0380",
+    "bytes": 556139
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-movil.png",
+    "sha256": "9223205cf76dad58bb4043322acef5dcf7655097abae876b8821422823d64704",
+    "bytes": 1144998
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-movil-vista.png",
+    "sha256": "c6b30d4bc3d665d26102e246477f711cb766ce86ec6caf2188e1b45427b19cc5",
+    "bytes": 1046232
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\render.js",
+    "sha256": "ef7d21a127c032ac19fe9b6d294be77b8d8325a4b8fbf379d57ee42cbc19b8b5",
+    "bytes": 1126
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\00-traspaso.md",
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686",
+    "bytes": 54189
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\01-estrategia-y-arquitectura.md",
+    "sha256": "0882e0a0e18eb74f0c1ca6fd43e049b3507fbe187fb7e25d0a47aca7437e9226",
+    "bytes": 22385
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\02-investigacion-de-mercado.md",
+    "sha256": "66f0afc03bd4fe9f9fb22f6541f7bbb81e1bec356339d7052e1d6caac271b3be",
+    "bytes": 11997
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\03-arquitectura-catalogo-completo.md",
+    "sha256": "57211c0e827bd1d610e069753144ad8c6d1a3b444b83a8ae6bac11f3681a76e8",
+    "bytes": 24339
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\04-proyecciones-y-plan-sem.md",
+    "sha256": "7d953d2ed9bd7aaa906e83e1c52fc630b7760f2f9dae66436ddf9a6157ad3ae9",
+    "bytes": 15988
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\05-prioridades-del-dueno-y-campana.md",
+    "sha256": "117d6397fef1ac890311c61f378036f5c4df6f11b75cd96ed495530de79ae579",
+    "bytes": 13139
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\06-contenido-de-paginas.md",
+    "sha256": "4f8e083eeb4e4a36b78284572c948c8703b8bcbb7574938babc94c1a80c95388",
+    "bytes": 33685
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\07-especificacion-tecnica-y-brief-de-diseno.md",
+    "sha256": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f",
+    "bytes": 11501
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\08-auditoria.md",
+    "sha256": "151fd89e66397665d77bcd18d5feef9e3b7c73a6d2f735fdab0a84a9edced2a9",
+    "bytes": 12504
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\09-revision-critica-y-oportunidades.md",
+    "sha256": "c340b61208de724d39838707960ab7ab6e8f7eb4cb566fa1cbbd7a6335201cd7",
+    "bytes": 10935
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\10-tercera-auditoria.md",
+    "sha256": "4f9736b219cd346c7ab3381ba19ec788d2c29a7d8079b900490994dc769b4dd4",
+    "bytes": 11883
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\11-auditoria-y-plan-sem.md",
+    "sha256": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7",
+    "bytes": 15515
+  },
+  {
+    "path": "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\vercel.json",
+    "sha256": "f0c249da2984b84aa1a1166cc668a140307c3b2ea508a7cc7607dea5b42239f8",
+    "bytes": 720
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\build-final-report.py",
+    "sha256": "3e5869e2d92b4b4d01e9bce445797beb9cc8f8d915cd76f1995af6e90f93e6b4",
+    "bytes": 46151
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-compare-envelope.json",
+    "sha256": "cb14344268df3b9dc857bd2ea046e2b62d84ffa1bee5bde8646009cde258f36e",
+    "bytes": 35975
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-compare-run.json",
+    "sha256": "d9ba622f9081e7e2986bc0c81627610382fa6346b1116ab5ef76a2e7d87e09aa",
+    "bytes": 588
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-compare-stderr.log",
+    "sha256": "19d3bce471099e224c023657ccf6a0e6faadfcfcca1a355995319ddc0a3f9fc5",
+    "bytes": 3668
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-derive-envelope.json",
+    "sha256": "60225c2c5c54e333d7b7df2f981b8f5e4a563074bc8a8d0b0df60b8f8c8e47e8",
+    "bytes": 53083
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-derive-readable.md",
+    "sha256": "e5ecececc6359dd308c2addcb257b392db80a15cee6c493b924b34254f821347",
+    "bytes": 15032
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-derive-run.json",
+    "sha256": "d2c1cf3781a096582fdc0b2bec020c55c617c9373c45b0c2a6139cd652317b88",
+    "bytes": 585
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-derive-stderr.log",
+    "sha256": "f3ab56177782a9099def51db69e588a1ccefe70b301893c973ad7fa60cf54457",
+    "bytes": 3694
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-A-matrix.json",
+    "sha256": "c1b1815c9e5296832368555484ea7532054309597854bd9964507cad1fa3043a",
+    "bytes": 20343
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-compare-envelope.json",
+    "sha256": "17a47df77ddc47e27dfafa3f24c8a34985ab9b95741ef143ee536ead0e125027",
+    "bytes": 43395
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-compare-run.json",
+    "sha256": "165806d3e6ee35969ead3d2c2850b28120c1a4931ac4a96d2335b88c55885904",
+    "bytes": 588
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-compare-stderr.log",
+    "sha256": "c754e4c49c490c1bbf153005d1bfed7ae033280fbc416fd286e71e1d3efb29bf",
+    "bytes": 3686
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-derive-envelope.json",
+    "sha256": "3daf4d58a76f475a86aa4b0994d49bc0e70f1d9eb6939c6154fa0278946233a4",
+    "bytes": 68949
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-derive-readable.md",
+    "sha256": "147a7be64350e830adc917bb8367686470dac626b9e693cdd17e12deaeaa5c06",
+    "bytes": 16113
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-derive-run.json",
+    "sha256": "da5f876d40a2054a21ffea1a9662bbeedc7aeb0fc12dd4db0d578c42505d097d",
+    "bytes": 585
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\claude-B-derive-stderr.log",
+    "sha256": "409cf63c3615b5ef791d7340eb806069223b2cabb90f5516e78a1a460844a67b",
+    "bytes": 3688
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\codex-A-matrix.json",
+    "sha256": "be165197627179ae8a4c7f7a219996cacf0f1cb485544e4d0860f516de8b55de",
+    "bytes": 27393
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\codex-A.json",
+    "sha256": "256bbb3656b36c354640c60e48c0081be1a73f743e79f8cb2e00720a2f0fc289",
+    "bytes": 24492
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\codex-B.json",
+    "sha256": "1ad1e47f38042d72b6f83672acc80de972d2ec7a014d3f419faedfe655da2d95",
+    "bytes": 17732
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\COMPARACION-FASE-5.md",
+    "sha256": "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c",
+    "bytes": 37584
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\compare-input-A.txt",
+    "sha256": "bfdc74d348e026b93d4698bb8aa4e37e280e0d3e10786d8cbc1fa88878bc617b",
+    "bytes": 232715
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\compare-input-B.txt",
+    "sha256": "d48cb03939b9a35d5bc3b20f89aa2e2ba5a99384271b5386553fcb0522dfc9af",
+    "bytes": 262110
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\comparison-A.json",
+    "sha256": "5004a9098602ef8ca1decb5e9d4fd3a27b970d7796e9bb1695ffc3318c2f34e9",
+    "bytes": 17763
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\comparison-B.json",
+    "sha256": "38c7afbc89bdf9c9c8c0839f3bea1dadd0dfa3087395f13097dcfe99905a99c8",
+    "bytes": 21081
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\comparison-input-integrity.json",
+    "sha256": "d4b25e4ce40b7427c80babf2b005bf843c824c95c463fd434ccf321634c774b5",
+    "bytes": 2592
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\comprobacion-editorial-fuentes.json",
+    "sha256": "90d35498e0219beefed5e9efbe5106d8a9f1db3403a90e780c7f2b69c850161c",
+    "bytes": 3673
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-00.md",
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686",
+    "bytes": 54189
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-07.md",
+    "sha256": "f1244332fa4d597ad330c6bdcceb35b727a6591902c317f67c5b34c801949a1f",
+    "bytes": 11501
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-11.md",
+    "sha256": "b9bde418e97c05c8ab37be786b3c7d0752915d880030adda868953b11cc824e7",
+    "bytes": 15515
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-adenda.md",
+    "sha256": "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb",
+    "bytes": 34374
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-anexo-mercado.md",
+    "sha256": "bb93f0ab3a20e42bead68d383d7733a81b9fe9fe57c9dedbcadd84cdb0e0e856",
+    "bytes": 17994
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-CLAUDE.md",
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56",
+    "bytes": 9710
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-facts-adzviser.json",
+    "sha256": "deaf4409334dda6d2d16a3be3d28ce5103eb9b098bbb4e837698ab9be1778125",
+    "bytes": 10619
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-fase3.md",
+    "sha256": "1a6fc839e80af3c89657da48d08d6265ea41332e23c08745ab32c24760d11c1a",
+    "bytes": 47322
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-fase4.md",
+    "sha256": "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969",
+    "bytes": 40014
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-google-fase4.json",
+    "sha256": "de8a5496a5edd3966b14fb7e51f4b021e9cec938cea69571c8477844db3b0224",
+    "bytes": 7405
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\context-matriz-adenda.json",
+    "sha256": "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762",
+    "bytes": 50828
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\execution-costs.json",
+    "sha256": "1c6bcf325483cf5839b82d5f85de322efc456b75de128ac494accaecda126caf",
+    "bytes": 2019
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\execution-status.json",
+    "sha256": "8d9787cf81d1377e6a61fc4d452dfd6b4c6e2b4e822f0874cc85fe70f6d4600d",
+    "bytes": 1331
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+    "sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088",
+    "bytes": 68436
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\fase4-snapshot.json",
+    "sha256": "e3fbaa7c6eee5e6f052ce263e59fabc0b53997f8006fa65184b1c96b8a6041fc",
+    "bytes": 73715
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\independence-seal.json",
+    "sha256": "44065a4db30bec68f096e996adf4d1707374740391ed83522126bf6ce34f651c",
+    "bytes": 819
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\MATRIZ-FASE-5.json",
+    "sha256": "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000",
+    "bytes": 121915
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\neutral-A.json",
+    "sha256": "73ffb5d1d51fadbbb945ab1d01fe9eff1fd282da5e8115bee64fcf568f0447f3",
+    "bytes": 188864
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\neutral-B.json",
+    "sha256": "aa63817621b8df41f5c6e6bfe8f36ae6d2bebf8bfbb4b193a624c1749edb8947",
+    "bytes": 215884
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\official-checks.json",
+    "sha256": "7ae8e1a61eec1b625fcc3cea912957bc31455ab2825d0e003463d1ca73f0e732",
+    "bytes": 2523
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\operational-log.json",
+    "sha256": "ff5d1db1f9966fb27b4a75787817c7b4fa7714df4fc5ae33b176f02897596a69",
+    "bytes": 694
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\preflight-denied-A-run.json",
+    "sha256": "7f783db6e9dce74cfbdbeba776851088ed5adc9e2657c1bc95d94c97317d190b",
+    "bytes": 585
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\preflight-denied-A-stderr.log",
+    "sha256": "21ddb71b690bcfc7f19ba472bb0c0ee2559ca4b8f4d3d2f7b7b80e7cd65be5d8",
+    "bytes": 1376
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\preflight-denied-B-run.json",
+    "sha256": "680b120798c9cf096542784703a70240662a01b7bd058c0deebf9f27997a3e8d",
+    "bytes": 585
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\preflight-denied-B-stderr.log",
+    "sha256": "d022dfb9d1f599316ff65fd4021f84679e86f94fbf81e2ffcda0d5b35566ea20",
+    "bytes": 1376
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\prepare-comparisons.py",
+    "sha256": "464b2c936462b6d49f2d7a4231fbff204bd95cc753906dcaa96c6f79d67a236a",
+    "bytes": 3131
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\prepare-packets.ps1",
+    "sha256": "ddbe3b986369ca266006087be50a8528a57aafeaa392c07f861780d638e955f5",
+    "bytes": 8818
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\run-peer.ps1",
+    "sha256": "dfd6013315676872a4149323cce9565ce1802e5bf6ddd0eea2c6fd2aa4d7a448",
+    "bytes": 4329
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\source-manifest.json",
+    "sha256": "a9d95ee6510539e8e85d432582bc86f637b05464ce76137b387bf2add5b35e89",
+    "bytes": 2900
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\source-snapshot.json",
+    "sha256": "7e106463008e14d6549473131a53a05c7f2a851b15e7584799d8e624c7c7813f",
+    "bytes": 7584
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\user-update-2026-11-04.json",
+    "sha256": "8b10c58a3e4e3edd54e7641e7a4b7e0f68ab8408b41ece457b4e8b234cc054d2",
+    "bytes": 960
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validate-final.py",
+    "sha256": "5933d86597dce9e1af6e0cf62de3d2ae6bf9a09eea5cad761b8ae9194bfa6821",
+    "bytes": 5813
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validate-part.py",
+    "sha256": "675bdd05650b270647825ab23aa31abaece0e7b4fcb975cfbd32602203ab6984",
+    "bytes": 4140
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-A-codex.json",
+    "sha256": "1ac3275695d5d62772bf05b11a1038b6bdd4c15fa1367bd1e5989069f71b27b6",
+    "bytes": 309
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-A-compare.json",
+    "sha256": "a3b4e5be31cdace2fd46bdbdfd7bf35d6f6ddff175c710ba0dff3e6070cdda0d",
+    "bytes": 996
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-A-derive.json",
+    "sha256": "5b3395c4e84822294a28a4d33625c650166b794c2da60119360ecfb60cbdc7dc",
+    "bytes": 1035
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-B-codex.json",
+    "sha256": "2cea45e26b407032fdd8df3a23d173a2f8def135ef4bda10a07b93e89ffdb6c4",
+    "bytes": 287
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-B-compare.json",
+    "sha256": "8c1486a563b7c99864ce182344f1d8993fbd2f72a9f4234ddd7e35917d70340d",
+    "bytes": 1000
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\validation-B-derive.json",
+    "sha256": "face1c4d4027039d350db1f967bb94264fb15c50d11ea036bcb091535c4cc2ed",
+    "bytes": 1000
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\verificacion-final.json",
+    "sha256": "6834d84b7651d53f7a6a615aa298be9b96b16efe055975d69ec69de3216d93ff",
+    "bytes": 4129
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\verificacion-fuentes-originales.md",
+    "sha256": "12b33c6fcca9e479e7231ba02fde3f5596443546a7faaa17f5c654f08641d594",
+    "bytes": 3081
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase5-20261103\\web-source-capture.json",
+    "sha256": "9ab67eed00d803f834efdbc04d8ea24e1f5d8c2fd0a92c20dc91aadcedae5519",
+    "bytes": 66321
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-claude-raw.json",
+    "sha256": "c53eec7f33a59b572d432577aaf6994b894fc0f287a7060febfda75aeb9981a3",
+    "bytes": 181
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\DIAGNOSTICO-REINTENTO.md",
+    "sha256": "49b1b42935449f3bf5f68545e00dd60ed49d31608869fd01b2c39010c46699e0",
+    "bytes": 3499
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\events.jsonl",
+    "sha256": "956c65763d1bb7ea79636805316ff61929c35fae647cfeb6ce5ec714da92f031",
+    "bytes": 8819
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\request.txt",
+    "sha256": "ab99c0540f37b65c3d6ce7dd04ff2f1b1dbe8c09997be432f0db975f453610e4",
+    "bytes": 4385
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\result-envelope.json",
+    "sha256": "4f8fbe85db5a7e9c6e7d1ef539aa763e528acad49f4d939374dc3e9b1b322e08",
+    "bytes": 5856
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\run-status.json",
+    "sha256": "552813fe079d5dc442cb0cf8f0a7cda365ceef8f1211b4caabe6eaf2a4c12caa",
+    "bytes": 389
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\adzviser-retry\\verification.json",
+    "sha256": "66ea5752c29bac9b5cc360a3d2e2de30fafb66c02f9010ba6e4f64f7ebc38045",
+    "bytes": 211
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\ANEXO-DATOS-FASE-4.md",
+    "sha256": "bb93f0ab3a20e42bead68d383d7733a81b9fe9fe57c9dedbcadd84cdb0e0e856",
+    "bytes": 17994
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\build-addendum.py",
+    "sha256": "940f7dd624745fed3712936792b8e5f7cc19285da371bc4e9db7a828d3c6b4e9",
+    "bytes": 43434
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\evidencia-adzviser.json",
+    "sha256": "deaf4409334dda6d2d16a3be3d28ce5103eb9b098bbb4e837698ab9be1778125",
+    "bytes": 10619
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\matriz-fase4-con-adenda.json",
+    "sha256": "d9732d4cee65373efaed6296cdb32ab520b07e49e20c2463803eb33f2f6af762",
+    "bytes": 50828
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-01.png",
+    "sha256": "9f7e281a889b15baa74ca70aa176e758c7cbdad92dfbb2470eadfdd8351ed974",
+    "bytes": 205871
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-02.png",
+    "sha256": "37d6c8df270ca3a711e37ea6adcd03fb8d8021b6a91efa3d95aad69b8981fbf8",
+    "bytes": 185327
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-03.png",
+    "sha256": "37753aaf2f65cdf479143c927efb76feb559767e9edb2698ba984da8b383545b",
+    "bytes": 178857
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-04.png",
+    "sha256": "eff390d0b1a3d669f5858b95f1ee0e5f3a78f88d030dd62351cb32198ab8a4cb",
+    "bytes": 192400
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-05.png",
+    "sha256": "ecd23b6f6d4e3d5ad4a6b83b0c107338ef5e9c60c4195eb5fd0de48e6dd6b610",
+    "bytes": 195129
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-06.png",
+    "sha256": "2b344585fd0efe63ca60566354791b15f36eb04f7e577df6f524bc1e84025387",
+    "bytes": 231667
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-07.png",
+    "sha256": "fac1f0d9d174ceef13d0107375dc94e607e1dcdb85126ba0cd4e9a28c91d5d42",
+    "bytes": 181805
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-08.png",
+    "sha256": "2c6ee4c4826390ddf992e1083462698abfc922ac9df83a8370754ffc0a1ba0c0",
+    "bytes": 203914
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-09.png",
+    "sha256": "73f01e76d550f15023003aa8595669546f8080cc4c8971b63bfb03b5c5f66456",
+    "bytes": 209804
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\page-10.png",
+    "sha256": "0f132e0c59a635dc7550ee7447db4fa422e56f17891a4fb74e617ae04b262950",
+    "bytes": 89938
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\pdf-text.json",
+    "sha256": "2f6b204436f43848d72573017894f179b7566a0f75d8da04d5fc2bda62059879",
+    "bytes": 58615
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\pdf-text.txt",
+    "sha256": "391544ac0c0ad82e8970887b624c776b64bf3b57091b1c53a054811284c6e4e4",
+    "bytes": 57667
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\aporte-adzviser\\verificacion-adenda.json",
+    "sha256": "2e48864f3d5dd9a2f4a0ecf19f31966acf57583b16c8a8877aa318df982ac437",
+    "bytes": 2446
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\brochure-contact-1.png",
+    "sha256": "2dc115a2ecedd310d19e3b2f52ad4a20bdbcdc1868fc3071e846b497cb3ef4d5",
+    "bytes": 706996
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\brochure-contact-2.png",
+    "sha256": "13d2f06ec2aba56f01ffd037cee57386ab122b2cffb5679ceba9f86dfb3a179a",
+    "bytes": 777180
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\brochure-text.json",
+    "sha256": "132f61ae50df9e45d3e9964c555ed950c56daacdde790bc8d79447691afe2795",
+    "bytes": 3416
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\build-data-annex.py",
+    "sha256": "0a26ad09d39e687f00ece8170e78099813235c09b0047ce44dd3b4608c9068eb",
+    "bytes": 5537
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\build-final-report.py",
+    "sha256": "778a7ea9667c4d6aa1cfb746ef5d8018436a96b32ab837755b09abc86e55568b",
+    "bytes": 9555
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-A-compare-envelope.json",
+    "sha256": "052017597f0fba32e6d4e929c02be34f8856915e95a26f9506269c4d65916153",
+    "bytes": 24498
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-A-derive-envelope.json",
+    "sha256": "4223b32566b07616fbc9341380da7fc84360e840db6670544da9cac6673fa69b",
+    "bytes": 25814
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-B-compare-envelope.json",
+    "sha256": "73a05dce654e3d9a2be7ed4ca5592db50cdef33862f143494e402b21ea091596",
+    "bytes": 26211
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-B-derive-envelope.json",
+    "sha256": "7c1f5142f4f3329d45612e93f63cfd6510e0d04e24eb7f4a8d1c663fbda93169",
+    "bytes": 29875
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-C-compare-envelope.json",
+    "sha256": "ac78d09aa9ff064b9eadd858039ccedd1dd150d57aa250478ba634a99ecfec01",
+    "bytes": 27251
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\claude-C-derive-envelope.json",
+    "sha256": "199e951344b4626b2902a74fe25d2b71068b994630ad34027b876d41b4335b7b",
+    "bytes": 29418
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\codex-A.json",
+    "sha256": "0d2765cb57c00d485c20b1f1e4a6478bd22c87a1591e658bb23e8d3a1688093a",
+    "bytes": 11661
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\codex-B.json",
+    "sha256": "04da4e4b010bab33bb9970ed39e55468c5f6721d68a4e5beee6c65dad97f7c8e",
+    "bytes": 10651
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\codex-C.json",
+    "sha256": "1305649d8d1ca3c293a9dd7e758c0c9532cbdaa080b9e019f46d80e650edb630",
+    "bytes": 10737
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\collection-notes.json",
+    "sha256": "b82fb76ea60577490c617c240553cbf180d0eb21e731e35fa0e5f67a7652fc69",
+    "bytes": 7181
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-collection-notes.json",
+    "sha256": "e899078c48a8ce025f7091060b16766388f393550e20be1a175f713b6055dae4",
+    "bytes": 6889
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-competitor-pages.json",
+    "sha256": "0e6ead2784bf4ba73cbc2d2a6ffa3eb141b88087ccd7e2adcc7469bfc73b9a45",
+    "bytes": 12689
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-competitors-a.json",
+    "sha256": "05b591e487aa79dfcdf550c1a422530b4ac3277c87ec2e3be1e2fdde99143c06",
+    "bytes": 8789
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-competitors-b.json",
+    "sha256": "d3eda98e18dbe7db2e0f8d5c30f7d27fcb12681a7bf2855a160c2ad48b7b78d4",
+    "bytes": 4595
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-competitors-c.json",
+    "sha256": "d71af650c362ed9defcbbb9d669b3dd7ff9b7d52baf975a3cb72c7828c7942be",
+    "bytes": 3196
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-domain-overlap.json",
+    "sha256": "17a35fa16567d95d4b46c118ae59e56f204434bfc5b04753530aa47a51518884",
+    "bytes": 3033
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-google-policies.json",
+    "sha256": "de8a5496a5edd3966b14fb7e51f4b021e9cec938cea69571c8477844db3b0224",
+    "bytes": 7405
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-legacy.json",
+    "sha256": "0b04702129b39079c0109db35ba4e2b4eb56a5bc226e6b5c8509a315e4e59615",
+    "bytes": 46958
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-metrics-a.json",
+    "sha256": "1670c3a5e0baf0c0256971481ac40266deb81aabf3172befe5bdd0c52fafa5ef",
+    "bytes": 8691
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-metrics-b.json",
+    "sha256": "d7f37105ef35e82509d6c62e41321c47dd754e51e591550d14006b4e11edcffa",
+    "bytes": 9390
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-metrics-c.json",
+    "sha256": "9287e1928edd2582d0968618fca890bfe931d9f3811827f00e3fdaac446928bb",
+    "bytes": 6648
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-metrics.json",
+    "sha256": "459329efbb9d015bcb632ad968b463bc7ad1d3442022dc1bacba5a7dd9c5a992",
+    "bytes": 17976
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-serps-a.json",
+    "sha256": "5428401bc6efdb8769c38ce77a63d637dba788e5187535cb6796e52b111d5626",
+    "bytes": 59068
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-serps-b.json",
+    "sha256": "518c35d0b74d31f45c2ad2e92ddf21a9ee2420a8afa47c0cb1d2355833c0fbb7",
+    "bytes": 72522
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-serps-c.json",
+    "sha256": "a0f0a0ec6feaef7a44e0c7a59afda984e016be3f5606d6067a8eb897c0fb272b",
+    "bytes": 31423
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\compact-serps.json",
+    "sha256": "f0d56fdf47ad095a88e1681756a9f6efe3d978692ae358d6579ca0d190c7c664",
+    "bytes": 159240
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\COMPARACION-FASE-4.md",
+    "sha256": "e7c4c0387c8e75ab4b37f3e5c819ea10af872acda489de2db3d0ecc63680b505",
+    "bytes": 24459
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\competitor-pages.json",
+    "sha256": "6e983a7f5db5416cf394ea38586fd5083c1aa0910a02420b3b22bf3eb31c1ec8",
+    "bytes": 15229
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\context-00-traspaso.md",
+    "sha256": "3d66e1f692572932d9bb827466018b2aa93303612893dfbc727df3371b593686",
+    "bytes": 54189
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\context-CLAUDE.md",
+    "sha256": "a0edeaa21734b9520c7fb017108f1222d4388c3bfe64bfd5a4af6f6e0f162f56",
+    "bytes": 9710
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\context-FASE-3.md",
+    "sha256": "1a6fc839e80af3c89657da48d08d6265ea41332e23c08745ab32c24760d11c1a",
+    "bytes": 47322
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\domain-overlap.json",
+    "sha256": "92cec3a9251163b2d232b33a80892bbab9b0e77957827a7bd4deb86df11cc68a",
+    "bytes": 6657
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\evidence-integrity.json",
+    "sha256": "475bd86085885741af0082c0387e0158022b36b1cf2a1bc2952418e0125147bd",
+    "bytes": 684
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\execution-costs.json",
+    "sha256": "b259bb32a25d9b154fe5bf343f097be65e240101701028fb61c2f39701f34e0c",
+    "bytes": 1850
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+    "sha256": "1edc2fe2c0361170ebe01146df7d141efbdf11b976b806716e89988499af42cb",
+    "bytes": 34374
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+    "sha256": "4b9c6ac9f036e1d77222b2e827a4d5d4722074b9376b80e94930de54422dc969",
+    "bytes": 40014
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\fetch-full-data.py",
+    "sha256": "66772122c31b109a40e6b98eb5871a32091f1cd57bf09b861dd4c409cbb06c38",
+    "bytes": 1903
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\google-policies.json",
+    "sha256": "0a6fd65af0bc34910f5fc2d41dc1438fc3fb57f75f0243adb9a8a9e1e5bea582",
+    "bytes": 8111
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\K001-keywords.json",
+    "sha256": "7b608cbb98ea6995e1e0c6f641c23d646a53df2150bf1a9cd72bc5ea09e84459",
+    "bytes": 63180
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\K002-keywords.json",
+    "sha256": "7953c5b56004277f84c51f206648ec15649eff0da02f7c95a234da4766a47ca2",
+    "bytes": 6437
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\K003-keywords-full.json",
+    "sha256": "150fd0d3d07a41db878e85dab381ec0f20ac2806fde48605014c92ddecc4720e",
+    "bytes": 112109
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\keyword-metrics.json",
+    "sha256": "cdad7b5bf2fe186939e3e22b06707d110190e4df5197a846c0bb6917dfdc0b6c",
+    "bytes": 32806
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legacy-normalized.json",
+    "sha256": "b4bcef82872b9908c770bd144a182983ac3a89bafffb4220ea02c318a70ff66f",
+    "bytes": 67045
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\curl.stdout.json",
+    "sha256": "cabc3112d319ec0ca9d614caa0f3717bbebf48924b0a3a28f6949c41110737f8",
+    "bytes": 9795
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\headers.raw.txt",
+    "sha256": "a3f1d81a92145357fb765d9f836fd2cb6791546de5be0a49f5c26375b2915c9b",
+    "bytes": 314
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\observation.json",
+    "sha256": "c887193e966d821165cf4f649c92cabaf14af7435a7f7fac46da05d24e72cf9e",
+    "bytes": 17711
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\request.json",
+    "sha256": "6f28713b48ba3d23df23937112899c358d581b555a4b04ffebb5a93036210f5b",
+    "bytes": 1036
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\01_rhinoaudiovisuales_com_home\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\curl.stdout.json",
+    "sha256": "31f63034686aeaa1cc1a6d0e7eaeed3b11a6c2832b31e2715e3974ee9e6ac470",
+    "bytes": 9841
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\headers.raw.txt",
+    "sha256": "a3f1d81a92145357fb765d9f836fd2cb6791546de5be0a49f5c26375b2915c9b",
+    "bytes": 314
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\observation.json",
+    "sha256": "924e32a4dbc822e085d4dddee173935e5997b51a96bc43aa75d63a63945064ff",
+    "bytes": 17769
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\request.json",
+    "sha256": "dfbefe0bead4660ba9cf06a3d473d0485b880441a609b200e4790dfd349d241a",
+    "bytes": 1068
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\02_rhinoaudiovisuales_com_index_html\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\body.bin",
+    "sha256": "8a7bf7f7022bf063bf8c778e3a6bf31de5acb791424f0505a79a5404c1a02f44",
+    "bytes": 22280
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\curl.stdout.json",
+    "sha256": "286460943a5efa54dbc130fd70fea7e24e564632526a5aa894165e7bd809dc8b",
+    "bytes": 9839
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\headers.raw.txt",
+    "sha256": "62d37523bfff76160cb530a2249616b45688e7a4e5bdf3a0ea445c1a8c334a03",
+    "bytes": 313
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\observation.json",
+    "sha256": "03fae3a3679a7e5e15364c9128b4772e33dfff412185545712f3da78c8d1527e",
+    "bytes": 15583
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\request.json",
+    "sha256": "b907a71b97c5ad9fec8117a3edb55924b5dfeaf0de2b3f0c77f6fa2335572ad0",
+    "bytes": 1068
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\03_rhinoaudiovisuales_com_video_html\\text.txt",
+    "sha256": "4b79a60e9965467fcf8130cd9c82114277dba6f250bbfd1d3bf74ab639ae28a0",
+    "bytes": 6872
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\body.bin",
+    "sha256": "19aef6030bd64117c7d9d420d7f87598ff335e5bf36b664f150f418d36317510",
+    "bytes": 13299
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\curl.stdout.json",
+    "sha256": "67d240f60cd8e57ba2c2d2a7969b1e08c7324e3d5dd7774e325233216da256a5",
+    "bytes": 9864
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\headers.raw.txt",
+    "sha256": "343baadeda49b4066711be0f50ae162603c9d22fe9aeff4ab2f55fc02362e733",
+    "bytes": 313
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\observation.json",
+    "sha256": "57d79d91d3e0e27f5336ebf74d29cc2b8970778696a4480494d41e12c6afeb98",
+    "bytes": 7931
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\request.json",
+    "sha256": "4c79af4d04d11f5c02ac964521eab845e390e3809024e1785d2bed49a5b8a017",
+    "bytes": 1088
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\04_rhinoaudiovisuales_com_fotografia_html\\text.txt",
+    "sha256": "5d4f53fee8b59b5b7491c0445c917a8f6e2c6d91124c856009fca89f53bf3da8",
+    "bytes": 1706
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\body.bin",
+    "sha256": "e9154616da0e2461360bd0563749f90d1bb6ecacb717ae7bdafd1054f494e767",
+    "bytes": 18080
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\curl.stdout.json",
+    "sha256": "7694dda93da9939188300d338e4fff152a8b77701c4ebd29bec3a95f2d899db5",
+    "bytes": 9859
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\headers.raw.txt",
+    "sha256": "009b1b4944f2d6699c5924e459d53aaf3e83e536342090386dddb2b93208d5a9",
+    "bytes": 313
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\observation.json",
+    "sha256": "2475aebde5ecb80b5eaea8095af3275a91683db3834a64d5d82f55b039e25800",
+    "bytes": 9901
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\request.json",
+    "sha256": "6a71ebe3b796ba474e499d29513d421dd2ac36cd8a2dc7a599ff7d4fe813d37f",
+    "bytes": 1084
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\05_rhinoaudiovisuales_com_marketing_html\\text.txt",
+    "sha256": "74aa07c17c70efdc0c3c02714700864bbd82e2d6c5c7da3c641f257178faa602",
+    "bytes": 2409
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\body.bin",
+    "sha256": "aa89664c2f0657ba744b26547e939ecdb17059fe8e981c393ab3859f1cf2faed",
+    "bytes": 18367
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\curl.stdout.json",
+    "sha256": "5f90df73c491cb7439a916b6132372d3cb334141662b41b789bfed027c8ffa35",
+    "bytes": 9829
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\headers.raw.txt",
+    "sha256": "171519c461d59f14b0a59da59102e9c6e66dda5db5ff133dc260887e2ba8c457",
+    "bytes": 313
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\observation.json",
+    "sha256": "9ee7b7e4a00c7a0a17da55aaa6cfa78ca9a0a19d5993206d39aaacdc9115659b",
+    "bytes": 10155
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\request.json",
+    "sha256": "be6720da55ae5ec146b54b2e118c5da8fda0728545abffd10dc6cbd02b9c6754",
+    "bytes": 1060
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\06_rhinoaudiovisuales_com_web_html\\text.txt",
+    "sha256": "9ec1d9e634cf4a5396c337dd625a6c2dae0c89f3d159a440925045ed450d8d5d",
+    "bytes": 2718
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\body.bin",
+    "sha256": "60dbb69420c78b736b5747af11184f26cb7fc79c65438ad69adaff22d051f845",
+    "bytes": 25137
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\curl.stdout.json",
+    "sha256": "badb6794004fb0e5b3e98cdb14c6f0e0d9f7f84dd5a100721f611d66fca02a30",
+    "bytes": 9835
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\headers.raw.txt",
+    "sha256": "fb4fc572ec6fb045c071104f3dd7482b3a29fc6510503fcb6e755f9cd9c5db5c",
+    "bytes": 313
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\observation.json",
+    "sha256": "50424fa5dc8fbbb5098d2ea6e61bbf7f84a78ffcce2375daaaba2a2bdbdc93f0",
+    "bytes": 21013
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\request.json",
+    "sha256": "00911f0fa425098f6ec6d24e0c6ac22651bbb936275d27887d27486401edbf04",
+    "bytes": 1064
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\07_rhinoaudiovisuales_com_show_html\\text.txt",
+    "sha256": "80a37476193640524dd71e61f6745ed470747ea1db4c1943459a02f58844b16a",
+    "bytes": 6628
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\body.bin",
+    "sha256": "d3050db169b7787eff50e93f2b64c8c022174dbab4b9209f3b1a7d035c9cf3b5",
+    "bytes": 11142172
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\Brochure.pdf",
+    "sha256": "d3050db169b7787eff50e93f2b64c8c022174dbab4b9209f3b1a7d035c9cf3b5",
+    "bytes": 11142172
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\curl.stdout.json",
+    "sha256": "96d60a6f45f6381596804bb62375fb334599f36175713df3e0ce00b50cfe5d34",
+    "bytes": 9864
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\headers.raw.txt",
+    "sha256": "e26aa91a2bdae0fdb602aac8da7bb74349e613b4ae8b58cebcc0efc16d5536a7",
+    "bytes": 273
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\observation.json",
+    "sha256": "38bb7dc600d4777bcc98b3ca48fcc17eb03c62f8df6229aa5b5a2e674eb90eac",
+    "bytes": 2212
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\08_rhinoaudiovisuales_com_Brochure_pdf\\request.json",
+    "sha256": "7bf6f22565f0fe69ecc52e88111d78dd84d07f807b457ce83e953a2c447ecc21",
+    "bytes": 1076
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\body.bin",
+    "sha256": "7d04f7431bbfa41a04bcc7e6b98b9de0d919756c4c671c5785c99fff45f16402",
+    "bytes": 13
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\curl.stdout.json",
+    "sha256": "4cfd8fba9cf9ca1d1e54557c8d8c8b814dbb377c00ca61e4c08a26a70116d753",
+    "bytes": 9851
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\headers.raw.txt",
+    "sha256": "a8c8cae1d3b35d237528861b6b34183c8bd89c7b0cd66c53c6e86043312f583b",
+    "bytes": 144
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\observation.json",
+    "sha256": "1cf15d0f806b090a0bc47d9f822a43bc187b7b60481949328c871124f2ff9b8e",
+    "bytes": 2433
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\request.json",
+    "sha256": "7bb22fb537c07fb1dc6f9182833c6c5663fe9648c2b81d38b357bad13a08b9ca",
+    "bytes": 1068
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\09_rhinoaudiovisuales_com_robots_txt\\text.txt",
+    "sha256": "7d04f7431bbfa41a04bcc7e6b98b9de0d919756c4c671c5785c99fff45f16402",
+    "bytes": 13
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\body.bin",
+    "sha256": "82526fbaaf6daf34b89af361c52f39f3eab2b5f62f22afc0d0116977f012f953",
+    "bytes": 1419
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\curl.stdout.json",
+    "sha256": "2127397a8b50809cf8c80392e80b9e7271d76fd3f33e58e71c3aa8b9d72fe098",
+    "bytes": 9847
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\headers.raw.txt",
+    "sha256": "b5737c009795bab43bb38026b7c4302361de6aed57bdc42010c6d909ab9407c9",
+    "bytes": 317
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\observation.json",
+    "sha256": "3f25184473f60bc3458b4266a88749c4dfb83f8463572c76f710580a8fe03831",
+    "bytes": 2216
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\10_rhinoaudiovisuales_com_sitemap_xml\\request.json",
+    "sha256": "65cca5716cda3c7660a2173ec671b7cd20f65c9e61c995ee535a81c78b67f13f",
+    "bytes": 1072
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\curl.stdout.json",
+    "sha256": "6389fd7319697fa92f5920fcfcfcc648833e3d93927c8d7d7b4e250974443e1b",
+    "bytes": 9806
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\headers.raw.txt",
+    "sha256": "f566e62bf7eaa620b90317fe2fa60d6e3668a4fb2674116ee413648cf25a5a61",
+    "bytes": 510
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\observation.json",
+    "sha256": "b51c47f9c6a1925fe27c438250f2b298196871c887998896644d990c49013246",
+    "bytes": 18253
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\request.json",
+    "sha256": "c0cf65257100052cf4d048eb252e2eb2f565769c153574298a14f050d0578105",
+    "bytes": 1052
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\11_www_rhinoaudiovisuales_com_home\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\curl.stdout.json",
+    "sha256": "1885edfb8921c6d668428c51726e6766d535a7d2c7b5a47eaaa2a0069bcc5f5d",
+    "bytes": 9852
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\headers.raw.txt",
+    "sha256": "5d4ace4b1a12115b0b8ea38f309f2cbb1c48df1cd3eb74c86c647c635a978b2f",
+    "bytes": 520
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\observation.json",
+    "sha256": "6dccd7e5ab42ff4ff66a644aee98006fe0095604f155cbb6b097d494fa0ce910",
+    "bytes": 18351
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\request.json",
+    "sha256": "9970a6ed21b83636af4988c35fd459965fa8868827bc40467399c438ff0e4f33",
+    "bytes": 1084
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\12_www_rhinoaudiovisuales_com_index_html\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\body.bin",
+    "sha256": "8a7bf7f7022bf063bf8c778e3a6bf31de5acb791424f0505a79a5404c1a02f44",
+    "bytes": 22280
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\curl.stdout.json",
+    "sha256": "4d44f3696b547e917549d81d3747b5c5019ac8cb6817be8f044f8e6336273b58",
+    "bytes": 9851
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\headers.raw.txt",
+    "sha256": "083f8a792784a520a659081685e0a64eb01ac945b0e724fec869fbaf7de07992",
+    "bytes": 519
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\observation.json",
+    "sha256": "8826a844a914e34d4fd21b7aa60d2e299b5b0cc5cc4077a5b4b9033cf365bdb0",
+    "bytes": 16165
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\request.json",
+    "sha256": "0e98a0bf87e5ab0a322b3b5025133fc8a2677cf5d3f82f1bb65303e316b32fba",
+    "bytes": 1084
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\13_www_rhinoaudiovisuales_com_video_html\\text.txt",
+    "sha256": "4b79a60e9965467fcf8130cd9c82114277dba6f250bbfd1d3bf74ab639ae28a0",
+    "bytes": 6872
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\body.bin",
+    "sha256": "19aef6030bd64117c7d9d420d7f87598ff335e5bf36b664f150f418d36317510",
+    "bytes": 13299
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\curl.stdout.json",
+    "sha256": "bfd53d0f7dfca0b85ad56646dabd32c804ac0339ac908b670acef5c117ea9fcb",
+    "bytes": 9876
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\headers.raw.txt",
+    "sha256": "8f32e3820b0f368106c88f374b721c1f74a5fa57de3170b002ab24fd248413a1",
+    "bytes": 524
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\observation.json",
+    "sha256": "cc86894638886fc093c3e0ba495cc4a517492fd6e88d16c87b7bb4f07a60c88d",
+    "bytes": 8533
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\request.json",
+    "sha256": "fcae363fad136b97c883d8129cf45480283ff4b0e53a067a3846541f728c896d",
+    "bytes": 1104
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\14_www_rhinoaudiovisuales_com_fotografia_html\\text.txt",
+    "sha256": "5d4f53fee8b59b5b7491c0445c917a8f6e2c6d91124c856009fca89f53bf3da8",
+    "bytes": 1706
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\body.bin",
+    "sha256": "e9154616da0e2461360bd0563749f90d1bb6ecacb717ae7bdafd1054f494e767",
+    "bytes": 18080
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\curl.stdout.json",
+    "sha256": "b1e272f52bb4aa2a048ad78bc6dd85f93f966d030c70d7d88cc8b7c45a309427",
+    "bytes": 9871
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\headers.raw.txt",
+    "sha256": "f2d89d18e60345a085137c544c8a0dd89c32bdcc2102c6b11e33a7bf76c595dd",
+    "bytes": 523
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\observation.json",
+    "sha256": "af058f75c87a0c480955c53d5d039e791d6022165f0474226aeb299e4337b996",
+    "bytes": 10499
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\request.json",
+    "sha256": "8af16e2b898f190c6f3166e5f1bdbced21d0c23c591c7f4c4357d909d7c65c5b",
+    "bytes": 1100
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\15_www_rhinoaudiovisuales_com_marketing_html\\text.txt",
+    "sha256": "74aa07c17c70efdc0c3c02714700864bbd82e2d6c5c7da3c641f257178faa602",
+    "bytes": 2409
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\body.bin",
+    "sha256": "aa89664c2f0657ba744b26547e939ecdb17059fe8e981c393ab3859f1cf2faed",
+    "bytes": 18367
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\curl.stdout.json",
+    "sha256": "3cc27d16c595ee630e551d7b0612d5741c6eb69042525209bfe2662772f3c346",
+    "bytes": 9841
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\headers.raw.txt",
+    "sha256": "242f9a4735856c649058bc9e837745b84dec709bee33b88283d5474e646deae4",
+    "bytes": 517
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\observation.json",
+    "sha256": "74a76973293a62f302cbd2336ddeb59aae379b81111ff82c5c5cbd1fc3535d08",
+    "bytes": 10729
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\request.json",
+    "sha256": "7f8926480200fe164a35de02065d33daf110c322a2edda10e05484f835208d13",
+    "bytes": 1076
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\16_www_rhinoaudiovisuales_com_web_html\\text.txt",
+    "sha256": "9ec1d9e634cf4a5396c337dd625a6c2dae0c89f3d159a440925045ed450d8d5d",
+    "bytes": 2718
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\body.bin",
+    "sha256": "60dbb69420c78b736b5747af11184f26cb7fc79c65438ad69adaff22d051f845",
+    "bytes": 25137
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\curl.stdout.json",
+    "sha256": "e57fdd286cc508c263b787a769005a439f037c71fdf4147d8a466f073a64b7a8",
+    "bytes": 9846
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\headers.raw.txt",
+    "sha256": "0c669a0b8b95f801b81294027da449bba7d6e787abbccb6e48a2e5ba9e68314c",
+    "bytes": 518
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\observation.json",
+    "sha256": "a416c58e8f291cdc1728641a11c29f3c49f0a0a283cf18246d5add4d0aeac985",
+    "bytes": 21591
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\request.json",
+    "sha256": "d5ff0171d40c5243a2eb35ef202a07a8369645dfc522a5d8c23aa3073903ee8c",
+    "bytes": 1080
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\17_www_rhinoaudiovisuales_com_show_html\\text.txt",
+    "sha256": "80a37476193640524dd71e61f6745ed470747ea1db4c1943459a02f58844b16a",
+    "bytes": 6628
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\body.bin",
+    "sha256": "d3050db169b7787eff50e93f2b64c8c022174dbab4b9209f3b1a7d035c9cf3b5",
+    "bytes": 11142172
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\Brochure.pdf",
+    "sha256": "d3050db169b7787eff50e93f2b64c8c022174dbab4b9209f3b1a7d035c9cf3b5",
+    "bytes": 11142172
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\curl.stdout.json",
+    "sha256": "8d74ca97e8347e4844648eafc0b5946ebb5804367c558ddeac6953f9e2ca4fcd",
+    "bytes": 9876
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\headers.raw.txt",
+    "sha256": "d3becc6c6985dc88b590cb3faa559aa464bbbfa41c08d31e85fba8bcbb774f07",
+    "bytes": 481
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\observation.json",
+    "sha256": "b7034e80d18d5ee09c5ea4e0a27dc99d01be3f390f33c9c03eca48f4fe9fb143",
+    "bytes": 2802
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\18_www_rhinoaudiovisuales_com_Brochure_pdf\\request.json",
+    "sha256": "97831d7d954d18ddb740edfabd98c11ce98c81e080a92782e596e7e5bbf973cc",
+    "bytes": 1092
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\body.bin",
+    "sha256": "7d04f7431bbfa41a04bcc7e6b98b9de0d919756c4c671c5785c99fff45f16402",
+    "bytes": 13
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\curl.stdout.json",
+    "sha256": "727c02ad1fa18a44a5e9b98b13203bc823afd10140b2bebfb976c997522981c4",
+    "bytes": 9862
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\headers.raw.txt",
+    "sha256": "f33540832e0b0f06cc208b3bf2f9d46813533e88c304b067afc9d2a9879fb7e3",
+    "bytes": 350
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\observation.json",
+    "sha256": "a90e07f45608f4cdc98f033d858fe97b21467e314bd76210f9b1209d31a2fa7f",
+    "bytes": 3015
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\request.json",
+    "sha256": "9936227950e74a866768524470984d639d8240114d99482d76ccad0d97e7fa83",
+    "bytes": 1084
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\19_www_rhinoaudiovisuales_com_robots_txt\\text.txt",
+    "sha256": "7d04f7431bbfa41a04bcc7e6b98b9de0d919756c4c671c5785c99fff45f16402",
+    "bytes": 13
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\body.bin",
+    "sha256": "82526fbaaf6daf34b89af361c52f39f3eab2b5f62f22afc0d0116977f012f953",
+    "bytes": 1419
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\curl.stdout.json",
+    "sha256": "997d1b807210a9fe1d62003865f8d3f5ca2e15128e5a49a8ae2f4774b4e7e79c",
+    "bytes": 9859
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\headers.raw.txt",
+    "sha256": "e450764bb8a142f1a980340808e9c395d764e25cfb16feb48a4ee256a8776ee4",
+    "bytes": 524
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\observation.json",
+    "sha256": "e9e665d886f417186b599563c368457a89c55f94d36848302224cc99ae92ff4f",
+    "bytes": 2802
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\20_www_rhinoaudiovisuales_com_sitemap_xml\\request.json",
+    "sha256": "7840781215486a6541ca66ca37b6a57e5d859948e17d40f51c8f6159852ed657",
+    "bytes": 1088
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\curl.stdout.json",
+    "sha256": "dab565bd2b69d980f64190c2a8189fe45a8a2cf645e0333b42fc6216ffe660bb",
+    "bytes": 9791
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\headers.raw.txt",
+    "sha256": "8b13564dbca9554a12e8a5c7a85995f79fe3b745faa1ab629ad0d74b3e0b0edc",
+    "bytes": 510
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\observation.json",
+    "sha256": "62e85116666a0e1632619032216cd73da3d9eaecdbc610c0827d579047607243",
+    "bytes": 18226
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\request.json",
+    "sha256": "76699fa9155c73ddf07b807da80c15b1c2b1311e34fed61d475338e711bd7bff",
+    "bytes": 1034
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\21_rhinoaudiovisuales_com_home\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\body.bin",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\curl.stderr.txt",
+    "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "bytes": 0
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\curl.stdout.json",
+    "sha256": "414472b0be925df9a9e53e0cde9c39cb169acf4874c46c45052b284cbcbdcd37",
+    "bytes": 9803
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\headers.raw.txt",
+    "sha256": "81fde6b647bbd0a37717cf4362e02f6528791afa2dcf6d878459545a0fc6d268",
+    "bytes": 510
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\observation.json",
+    "sha256": "c59cf6507722d4d3d0a6a73cc68f38dcf54b463f2412bc7209b156f38f444303",
+    "bytes": 18250
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\request.json",
+    "sha256": "9cff1b91f8daa4440b73b2933490723c965253e0a32aada7d2acb6af3e19829c",
+    "bytes": 1050
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\22_www_rhinoaudiovisuales_com_home\\text.txt",
+    "sha256": "ed03f0056b10e9648262d466b228a7c70d92e3f2bbc6835ed267adb2b9909a5f",
+    "bytes": 7130
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\collect.py",
+    "sha256": "a7e75156a42ec931be3ab96cd238a43a21bd9b4ee88069253abf182051b408c5",
+    "bytes": 7781
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\observations.json",
+    "sha256": "58db8b90eee17d7bfebe21bd54fc7d4dae5ec905a547357ac76a304bc2fa13f2",
+    "bytes": 287208
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\probe.headers.txt",
+    "sha256": "cd1a5b681cb5d013eb25d65389a0774cb74fb4c7ec24ade5f1019e77aba33d15",
+    "bytes": 314
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\legado\\probe.html",
+    "sha256": "0ba480ef1666608db19dbf1e80d2291910fd8bd0ebf6b6e02a45bc42fe54697e",
+    "bytes": 47712
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\locations.json",
+    "sha256": "9826bfc502668b72bb3de3545d35d304ae515c89c60d4fc71e89271f5a8d77e5",
+    "bytes": 10066
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\matrix-final.json",
+    "sha256": "104c67b791a5e97e105d918a7eff23b0b6e6d893b62e7d482d779165da23fd4a",
+    "bytes": 20862
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\neutral-A.json",
+    "sha256": "fa4d2c162c3e59b192ce6f23dbbaafec97bb6e3ebc0da7d3a72c77c3eb8584b0",
+    "bytes": 208565
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\neutral-B.json",
+    "sha256": "937f96218af7276802068f438e5153f2fc82eaceecd6f9757bb300ec8b5c85a5",
+    "bytes": 219149
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\neutral-C.json",
+    "sha256": "61b7dca43cbcc248e0d661bb884c91d14f425543b03a1669ad500b44b0c72db8",
+    "bytes": 228855
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\normalize-evidence.py",
+    "sha256": "3ded4bdedea59c06b90b6be3cf4fa2f3e7d288b0e1c7f9d36fd235e2a2cfdb56",
+    "bytes": 9573
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\peer-validation.json",
+    "sha256": "5043a36c63cefeae5c6cc7bfe842a268fd74c71feb1d47dacddc927c28c0898f",
+    "bytes": 15594
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\prepare-packets.ps1",
+    "sha256": "72bd20706853de16ea6b8a71d83a3dad8211fe43f33c6c1799b291f61bc06f0f",
+    "bytes": 6090
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\query-plan.json",
+    "sha256": "db6221a367d494a92738fdecda6c8d7c62311232d7f7e02c8ac46f4521391806",
+    "bytes": 1740
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\report-intro.md",
+    "sha256": "9afb997b51645c95c34d832e8a1e3b06233434ede4eb93d7404267a2e2ceb94c",
+    "bytes": 9172
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\report-tail.md",
+    "sha256": "49704f89f55c4e43b277a1c8792825d2758509f64e4200a3c7ea44aec1d5a39b",
+    "bytes": 12534
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\research-manifest.json",
+    "sha256": "84403b3cf84ae25263b4342ac96af44994c4eed82a7ef9b400befe80e36c5aaf",
+    "bytes": 12042
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\retry-adzviser.py",
+    "sha256": "c290707f29e6b2128b983d8153db8e48e03201819fa63539611a68298a5b3b7b",
+    "bytes": 8862
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\run-peer.ps1",
+    "sha256": "6261f55cb7659b159cf9c5c3906d353402c462a3ffa304cc460fda0b5b338df1",
+    "bytes": 3284
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-001.json",
+    "sha256": "e04680625dd21b2b3a268dc38b70a230f42f3a051179b28d33c82c8d3477de4e",
+    "bytes": 14794
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-002.json",
+    "sha256": "6d77b2bc4f0ed340c3b44e8ce57f4be9c48c74a958fd459b0e3f7be393749fb1",
+    "bytes": 18024
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-003.json",
+    "sha256": "4a82b69df1fca4c0012be2408c4b18e8a45fc8bdaecf073ed6c049a324121241",
+    "bytes": 15402
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-004.json",
+    "sha256": "54d2aeed9e645f70f85bb0221c3bbd0779f2bf9361abfde7d155b2a0b962b05f",
+    "bytes": 13322
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-005.json",
+    "sha256": "9a03af203a0b348100407b9aee1d981a9a0567cb812a2f5e1a0fb4ab7d9929b1",
+    "bytes": 34910
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-006.json",
+    "sha256": "1922ac6c02d137c1b6d18d3af217e69b49ee77aa371a1336e6b8e6b9149d2c5c",
+    "bytes": 36188
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-007.json",
+    "sha256": "a637209fa6367a45ddc93bffe6f739af5935c35db5fdec76a0f9ef2493b450fa",
+    "bytes": 11203
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-008.json",
+    "sha256": "32866393b21e024dba4b4a210bcef5c1711e9b9a83f7b3baf6795627d8139834",
+    "bytes": 20777
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-009.json",
+    "sha256": "1077243a35cdb793c72cdcceaf510084c6af909e3e265f9b6282b080c4c1ef39",
+    "bytes": 8486
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-010.json",
+    "sha256": "6305b6cd358e2067813b7664b6dbf23c708d3e206c4f311cae6c565013ed2c49",
+    "bytes": 29207
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-011.json",
+    "sha256": "817c631661ab78f6da6673059311c7cde4704d7245287e1ce513149606b229b7",
+    "bytes": 8027
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-012.json",
+    "sha256": "d08218d6a9cc71dc69a1c38f1e6447c64c1195f59d3373017c6bf8f9048979db",
+    "bytes": 20808
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-013.json",
+    "sha256": "bba9d1367205dd1eabc95c906c11678f1b815da29a77263a8eeda3f235ee31f9",
+    "bytes": 21085
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-014.json",
+    "sha256": "89208ac627d60d0c2d4da824c4ca490346db4e5ed4f221c4691865c080956e2d",
+    "bytes": 19344
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-015.json",
+    "sha256": "36cc1314eb9c192327f86899c697e4927677d5a03edac3319840dea6d2a85f92",
+    "bytes": 40369
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-016.json",
+    "sha256": "7bbcf54755c282f97210247845c02ec1f7ec6446ef4512a6025fa97218e3f9c6",
+    "bytes": 11087
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-017.json",
+    "sha256": "4b9a64a211751d9d13d45ad523b9f859280af4384b069884521b465e2368b2c6",
+    "bytes": 25194
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-018.json",
+    "sha256": "c2e66c286d029ca2ae08da0a1fe338aae8b3c8991d301019bb03d70bb152004a",
+    "bytes": 14233
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-019.json",
+    "sha256": "4c69af24494c008d8e4f294c3acbf433219c9256e00e2d93d1c22be30d402ebd",
+    "bytes": 10754
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-020.json",
+    "sha256": "3c1a6fdbef126cc637394aa25b6e7cfa318b907da44a1e8d870caf09f11ca781",
+    "bytes": 16547
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-021.json",
+    "sha256": "c2d90a61c3127522be4708061ab0df8941f4271d7d89811e0908b746759bc54a",
+    "bytes": 16437
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-022.json",
+    "sha256": "08aa31b1e091290c1fd6f0646cfcd664dd397435f9ea85ea9be39c6dfb2c4566",
+    "bytes": 18132
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-023.json",
+    "sha256": "a245f950b38cae1e667b4c2644e9363b8242055caa85a055d04ed74e4b6909ff",
+    "bytes": 18306
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-024.json",
+    "sha256": "b1b6b77a1937a749dd648851f49a8794a38207f8d73b78664e6627ebc4adf9b6",
+    "bytes": 18119
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-025.json",
+    "sha256": "4082ef8a2e8f45e0a90c017a099edc719152acd41d5edcf924e6f76b6fb28c63",
+    "bytes": 10607
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-026.json",
+    "sha256": "efd5163a8bdb331a65a438346db08eb5a6f3baca7fc918bcc49dd52d4f089e20",
+    "bytes": 30126
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-027.json",
+    "sha256": "6c0b5417dd6cb5c41cd324e9c5752d29b4dafa3bf5c5922cb42f780eeb4ed651",
+    "bytes": 40350
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-028.json",
+    "sha256": "6f93ab8be112fc6e14607745ab2f7f3d896fbbb8fb47d6b50649c6185fc54821",
+    "bytes": 8226
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-029.json",
+    "sha256": "455e8601c1afa1c430161508ae9f6fa5e93649bca6780b48c422cc5599e00d43",
+    "bytes": 9904
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-030.json",
+    "sha256": "5efc4c6b41ec734d80220e4dcc5ecf385ba3bf30c1ce96a6c957853da038e360",
+    "bytes": 17542
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-031.json",
+    "sha256": "55433a22d052ab1cc724a6fedb792cda38bcd0de699b296723497b6cc9df831a",
+    "bytes": 13340
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-032.json",
+    "sha256": "6133f4ee11bba3dcae37df574fc64985901ff9b02452f12d6608c0e526cb5525",
+    "bytes": 22003
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-033.json",
+    "sha256": "3d2a36970bcfbdcc10e54fa0a2f50eeccd1a98e932130f5f2d3990dc16cb2895",
+    "bytes": 22818
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-034.json",
+    "sha256": "a81a88c9498837e6713b3a3a7c4dffa829ddb664369deb5b9c592b4c4efbeed8",
+    "bytes": 40998
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-035.json",
+    "sha256": "6b26632d243bdf80768764306650efe2a816ae6437a2967ac7d9d71884efb26d",
+    "bytes": 40380
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-036.json",
+    "sha256": "7d3869301f027101b73376f54f0aa9becd36fffde6b869f0355ee1e65ee4a351",
+    "bytes": 11813
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-037.json",
+    "sha256": "4d66b6de56b474068e2c1fbc7e0f3598829129422936dddedf941562f662a0af",
+    "bytes": 29528
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-038.json",
+    "sha256": "e9e871b293be3f9f76f43fe0924b95ac973d7c05c0cde393cf2b725a9ff2481c",
+    "bytes": 17845
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-039.json",
+    "sha256": "45b97012a96bdb5819d268139e1e781f891010a6578f5ee9d614557d974743e6",
+    "bytes": 12438
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-040.json",
+    "sha256": "b8112cd63ca8efc153b1ad5af6345d544e2cbf773c565682a776404370874d0e",
+    "bytes": 10877
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-041.json",
+    "sha256": "f3a525991e474ad9d5bc92e7ca2c2be3c936904d7b4a2bc298df6fafa6a43ced",
+    "bytes": 20653
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-042.json",
+    "sha256": "3bf2b167c68de37e753a1f9c86424f0435c1b0dee400dd72f92572b0482d5b8a",
+    "bytes": 16681
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-043.json",
+    "sha256": "000f3f1b1a173c714fa96385158051dd8d291b021484614a86b4de0be1fcb9ed",
+    "bytes": 10294
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-044.json",
+    "sha256": "7f312ce51abd45ab3d7eb7ae864b08e2c9185b3ddf8827134ddc86ab922188c9",
+    "bytes": 11245
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-045.json",
+    "sha256": "01e43c5aa179f022d29acb6842ff6f61bb2e39bc35edee16efe0b50980af1fa9",
+    "bytes": 502
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-046.json",
+    "sha256": "32ded286ed1835964120c6ef54d452d0e3be33eaedf94f998eae331384debb3c",
+    "bytes": 12128
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-047.json",
+    "sha256": "1cfcef2d00eb511197f50f0ec2704874614eeac53becacbb710fad57d2012121",
+    "bytes": 14339
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-048.json",
+    "sha256": "91860da1386db68d2413327d1961c90a96b65a6028283131296f7672e606e3ef",
+    "bytes": 21497
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-049.json",
+    "sha256": "435be03224ffd7362a12dd97365b7a16546e5da9426a7a4e6bcf08abefee4616",
+    "bytes": 10396
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-050.json",
+    "sha256": "5837e349942eabad8f60a6b751b436758244e32ec22f0386178916bdc57807d2",
+    "bytes": 12186
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-051.json",
+    "sha256": "e57083456b5cdf707cf29bee9e1a7ac885433112cd5ae1c10d7d9544e6f462f1",
+    "bytes": 9986
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-052.json",
+    "sha256": "735f6b9c7e30daa14c1f3629d829a1f18244ab88c5c3d6d4dcd4d43f14a5991b",
+    "bytes": 14536
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-053.json",
+    "sha256": "8a1932ac58464d5f1a4607abd3dc6ad042cccfdfc8219d0f7246abbf97358a5f",
+    "bytes": 17652
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\serp-normalized.json",
+    "sha256": "169f17f74876722167599a9705b9ccf35c1892857c17bc6ce8c43d1d7fffb562",
+    "bytes": 225544
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\validate-peer.py",
+    "sha256": "a44b2dfbd82a0c6e076a8b4d0e286164314ece4ff29653cd4717e6dd9b7a67e6",
+    "bytes": 15300
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\verificacion-final.json",
+    "sha256": "3743bc845a35deb043f83239fa86ffa028f944650f317dd806a4ac994e223d1c",
+    "bytes": 2350
+  },
+  {
+    "path": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase4-20261103\\verify-evidence.py",
+    "sha256": "625105dd740a16d4014bd51a00c52f8377b51054ef011f510553a7c76eeddb8f",
+    "bytes": 3188
+  }
+]

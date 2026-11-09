@@ -1,0 +1,152 @@
+{
+  "checked_at_utc": "2026-11-04T07:41:58.128012+00:00",
+  "result": "passed",
+  "errors": [],
+  "matrix_rows": 37,
+  "matrix_unique_urls": 37,
+  "source_row_set_match": true,
+  "markdown_tables": {
+    "tables": 2,
+    "rows_each": 37,
+    "id_occurrences": 74
+  },
+  "source_integrity_independent_check": {
+    "agent": "/root/fase5_verificacion_final",
+    "checked_at_utc": "2026-11-04T07:34:52Z",
+    "read_only": true,
+    "repo_files_hash_and_bytes": {
+      "matched": 40,
+      "total": 40
+    },
+    "prior_phase4_files_hash_and_bytes": {
+      "matched": 300,
+      "total": 300
+    },
+    "manifest_sources_sha256": {
+      "matched": 11,
+      "total": 11
+    },
+    "manifest_copies_sha256": {
+      "matched": 11,
+      "total": 11
+    },
+    "sealed_neutral_packets_hash_and_bytes": {
+      "matched": 2,
+      "total": 2
+    },
+    "sealed_codex_outputs_hash_and_bytes": {
+      "matched": 2,
+      "total": 2
+    },
+    "source": "Independent verifier tool execution reported to host; checks prove equality to preserved snapshots, not external authenticity."
+  },
+  "pdf_sha256_preserved": true,
+  "pdf_sha256": "d070db1959cce0715a294dd502765130962f114bc8532926beb13c325651c181",
+  "comparison_inputs": [
+    {
+      "component": "A",
+      "bytes": 232715,
+      "unchanged": true
+    },
+    {
+      "component": "B",
+      "bytes": 262110,
+      "unchanged": true
+    }
+  ],
+  "local_links": [
+    {
+      "target": "context-00.md",
+      "exists": true
+    },
+    {
+      "target": "context-07.md",
+      "exists": true
+    },
+    {
+      "target": "context-11.md",
+      "exists": true
+    },
+    {
+      "target": "context-CLAUDE.md",
+      "exists": true
+    },
+    {
+      "target": "../claudex-master-seo-fase3-20261102/FASE-3-AUDITORIA-DOCUMENTAL-2026-11-03.md",
+      "exists": true
+    },
+    {
+      "target": "../claudex-master-seo-fase4-20261103/FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+      "exists": true
+    },
+    {
+      "target": "../claudex-master-seo-fase4-20261103/ANEXO-DATOS-FASE-4.md",
+      "exists": true
+    },
+    {
+      "target": "../claudex-master-seo-fase4-20261103/aporte-adzviser/matriz-fase4-con-adenda.json",
+      "exists": true
+    },
+    {
+      "target": "../claudex-master-seo-fase4-20261103/FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+      "exists": true
+    },
+    {
+      "target": "context-facts-adzviser.json",
+      "exists": true
+    },
+    {
+      "target": "source-manifest.json",
+      "exists": true
+    },
+    {
+      "target": "verificacion-fuentes-originales.md",
+      "exists": true
+    },
+    {
+      "target": "comprobacion-editorial-fuentes.json",
+      "exists": true
+    },
+    {
+      "target": "official-checks.json",
+      "exists": true
+    },
+    {
+      "target": "context-google-fase4.json",
+      "exists": true
+    },
+    {
+      "target": "MATRIZ-FASE-5.json",
+      "exists": true
+    },
+    {
+      "target": "COMPARACION-FASE-5.md",
+      "exists": true
+    },
+    {
+      "target": "execution-costs.json",
+      "exists": true
+    },
+    {
+      "target": "verificacion-final.json",
+      "exists": true
+    }
+  ],
+  "claude_distinct_sessions": 4,
+  "models": [
+    "claude-opus-5-5"
+  ],
+  "claude_total_usd_list_estimate": "5.1703842",
+  "phase6_started": false,
+  "campaign_changes": false,
+  "content_QA": "Report distinguishes documentary facts, dated external observations, PDF-reported account data, owner decisions and hypotheses. Fields validated mechanically; residual commercial/technical questions remain pending.",
+  "report_sha256": "5694296d88107ccd37ab232b7406857865a67be753a8d0ce43868fb7bb134088",
+  "matrix_sha256": "f546ca18c7e52a1800869a7bd6dc10638d35e434f10bb0e0559edc2f5422c000",
+  "comparison_sha256": "2bbcef1901eb90e7c5a949c6532f0899f8febba4ebb5737c76a023e33c2a700c",
+  "limitations": [
+    "Word targets exceeded in Claude outputs; all text preserved.",
+    "Private GSC/Ads not re-queried; PDF is reported evidence.",
+    "Read-only audit; future production checks not executed.",
+    "Peer Codex artifact persistence deviated from literal no-write peer instruction; only new review artifacts written."
+  ]
+}

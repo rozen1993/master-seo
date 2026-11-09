@@ -1,0 +1,147 @@
+[
+  {
+    "component": "A",
+    "path": "README.md",
+    "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81"
+  },
+  {
+    "component": "A",
+    "path": "03-requisitos-tecnicos.md",
+    "sha256": "c7da8f24ed95d77c98620f9910eb321145fea606de0c0ddbe870d842d4f7f1af"
+  },
+  {
+    "component": "A",
+    "path": "aceptacion.json",
+    "sha256": "b1a1d7a3adfb15e6cb0c0bc3a3b22a0c2eece3d4d9801c908fd5c2cb4459fbf9"
+  },
+  {
+    "component": "A",
+    "path": "aceptacion.schema.json",
+    "sha256": "5031a2af6d6f084665d797a1dd1b5c1859af7093e6f190e22a2061f20e00cd9c"
+  },
+  {
+    "component": "A",
+    "path": "verificacion.json",
+    "sha256": "9349d3a0d33111293cc1e66060db7f313559b34632f926a02fbfa9bad70b9dbb"
+  },
+  {
+    "component": "A",
+    "path": "registro/new-external-checks.json",
+    "sha256": "8a716bfca9ee5169f3c068a348b1fa346b1e7a625125a71d424a74f285f35f33"
+  },
+  {
+    "component": "A",
+    "path": "registro/correcciones-revision.json",
+    "sha256": "6b24254df82fe62b1faa42cc59d4f073b30293e475d7ee757a7dd7f24425d1fa"
+  },
+  {
+    "component": "A",
+    "path": "01-arquitectura.md",
+    "sha256": "89b1b63f341c5a9ad93be5ab2a48ec935b653ee83136abeb8a89a9b4fb074477"
+  },
+  {
+    "component": "A",
+    "path": "fichas-37.json",
+    "sha256": "4ad4596b3a061284537cc51f3f187fb305133b9db732841772f459123789a214"
+  },
+  {
+    "component": "A",
+    "path": "fichas.schema.json",
+    "sha256": "769d438b04ce6f3e5075d26f1e9b75a2950480a118ed5d3bf637f8bd8646a47b"
+  },
+  {
+    "component": "A",
+    "path": "enlaces.json",
+    "sha256": "3945beece3f2cb9ab94814bbbff39e09ace4776ad4263fd00eedeed1db0802b7"
+  },
+  {
+    "component": "A",
+    "path": "decisiones.json",
+    "sha256": "caeb47cd84792d15e52e89c6864ea833322ce2bf7141828cb718aaa094d78e2e"
+  },
+  {
+    "component": "A",
+    "path": "registro/revision-A.json",
+    "sha256": "96bd451d5eb11d4cbc067036ccc88f2078cec2940465b43f27ef7d3904ca108e"
+  },
+  {
+    "component": "B",
+    "path": "README.md",
+    "sha256": "4912e600f3f9687a7a3cc8c4ca999d699e497dfedd1418fe4e1f1538c0ffcb81"
+  },
+  {
+    "component": "B",
+    "path": "03-requisitos-tecnicos.md",
+    "sha256": "c7da8f24ed95d77c98620f9910eb321145fea606de0c0ddbe870d842d4f7f1af"
+  },
+  {
+    "component": "B",
+    "path": "aceptacion.json",
+    "sha256": "b1a1d7a3adfb15e6cb0c0bc3a3b22a0c2eece3d4d9801c908fd5c2cb4459fbf9"
+  },
+  {
+    "component": "B",
+    "path": "aceptacion.schema.json",
+    "sha256": "5031a2af6d6f084665d797a1dd1b5c1859af7093e6f190e22a2061f20e00cd9c"
+  },
+  {
+    "component": "B",
+    "path": "verificacion.json",
+    "sha256": "9349d3a0d33111293cc1e66060db7f313559b34632f926a02fbfa9bad70b9dbb"
+  },
+  {
+    "component": "B",
+    "path": "registro/new-external-checks.json",
+    "sha256": "8a716bfca9ee5169f3c068a348b1fa346b1e7a625125a71d424a74f285f35f33"
+  },
+  {
+    "component": "B",
+    "path": "registro/correcciones-revision.json",
+    "sha256": "6b24254df82fe62b1faa42cc59d4f073b30293e475d7ee757a7dd7f24425d1fa"
+  },
+  {
+    "component": "B",
+    "path": "02-fichas-37.md",
+    "sha256": "7af39dc0288537a5fdc8a7a8e88dc64ef616aeee8c0bd62701b8a89624da2dd4"
+  },
+  {
+    "component": "B",
+    "path": "04-aceptacion-y-orden.md",
+    "sha256": "b0723af7a7974318c928eee07bd81361060f0c9c610ed4cd3d9d4963d01db2f0"
+  },
+  {
+    "component": "B",
+    "path": "05-decisiones.md",
+    "sha256": "95807595eb3f9b8be0e6d31f347ac25b7cb0d2a9b4e154aec939763d1db65de4"
+  },
+  {
+    "component": "B",
+    "path": "06-guia-entrega.md",
+    "sha256": "0d9c497852df4feb5a2b546365b16925bee18b61d8e5d91b04e606e4c2bdb8d5"
+  },
+  {
+    "component": "B",
+    "path": "07-trazabilidad-y-revision.md",
+    "sha256": "0338ce12a8463e890cde0651664956f964dd24f34d395909ccc4c962feda251f"
+  },
+  {
+    "component": "B",
+    "path": "rutas.json",
+    "sha256": "74c053aa063ae37053655e6422b5e455aeaedc06991b5a5a4f4633e72f87975b"
+  },
+  {
+    "component": "B",
+    "path": "medicion.json",
+    "sha256": "91a50c28aff302f6ea5a6adcd84698bfb287c97322c57f7799cf92f8fd42ddc3"
+  },
+  {
+    "component": "B",
+    "path": "schema.json",
+    "sha256": "8a22f707628a06b5429bd2f6f4548f227fd3abd012e1528d38c5f6ebb47f4055"
+  },
+  {
+    "component": "B",
+    "path": "registro/revision-B.json",
+    "sha256": "9c99630b440e69a4029007515ceee8e3386a570a0070bf6fc92137e88ee4d4bc"
+  }
+]

@@ -1,0 +1,27 @@
+{
+  "sealed_at_utc": "2026-11-04T20:21:22.962784+00:00",
+  "claude_calls_before_codex_complete": 0,
+  "persistence": "Anfitrion guarda respuestas completas de mensajes finales Codex; los pares no escriben. Solo formato JSON cambiado, no campos ni texto.",
+  "files": [
+    {
+      "file": "neutral-A.json",
+      "bytes": 211856,
+      "sha256": "339c52425ab7a680dcd7a4a3f6bdf1850640e9bb6e5e945de91ec76c8abb0825"
+    },
+    {
+      "file": "neutral-B.json",
+      "bytes": 210562,
+      "sha256": "6a69ea02b7f921f2ee47ef013553d31e218bbd278bd23b0ed5310325c2362894"
+    },
+    {
+      "file": "codex-A.json",
+      "bytes": 13867,
+      "sha256": "bc7c367ba06bdcc2b0037a67bec40ce60b4e9221b5ad07bff69e76c9c11e0d79"
+    },
+    {
+      "file": "codex-B.json",
+      "bytes": 13570,
+      "sha256": "1d10cc01a15227d1bbb5ad9a093caa897a7f240e9d12c9c9bab1a2067d4e202e"
+    }
+  ]
+}

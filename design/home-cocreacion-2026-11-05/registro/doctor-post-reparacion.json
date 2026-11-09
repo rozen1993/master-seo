@@ -1,0 +1,16 @@
+{
+  "date": "2026-11-05",
+  "command": "doctor.ps1 -ProjectPath C:/Users/MARCO/Desktop/MASTER-SEO -RunTests",
+  "exit_code": 0,
+  "cli_version": "2.1.316",
+  "checks": [
+    {"name": "PowerShell syntax", "status": "passed"},
+    {"name": "JSON schemas", "status": "passed"},
+    {"name": "Skill entrypoint", "status": "passed"},
+    {"name": "CLI / launcher / minimal DryRun", "status": "passed"},
+    {"name": "Regression suite (no model)", "status": "passed"}
+  ],
+  "model_calls": 0,
+  "authentication": "not-run",
+  "billing": "not-run"
+}

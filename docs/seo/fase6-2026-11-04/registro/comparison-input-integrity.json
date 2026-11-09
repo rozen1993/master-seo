@@ -1,0 +1,34 @@
+[
+  {
+    "component": "A",
+    "bytes": 240210,
+    "sha256": "1e30017b5f566bf43d1ea8b2e2a788090a707cca6e03c44b1db7455a3f0e74c4",
+    "all_fields_preserved": true,
+    "neutral_files": [
+      "fuente-CLAUDE.md",
+      "fuente-fase5.md",
+      "matriz-operativa-fase5.json",
+      "fuente-03.md",
+      "fuente-06.md"
+    ],
+    "omissions": [],
+    "format": "lossless field/content rendering; file metadata preserved"
+  },
+  {
+    "component": "B",
+    "bytes": 237333,
+    "sha256": "a1bec3c40b9bf382d33abead473862dfedb3fea04f51b1ae6a69b0279520bd4a",
+    "all_fields_preserved": true,
+    "neutral_files": [
+      "fuente-CLAUDE.md",
+      "fuente-00.md",
+      "fuente-fase5.md",
+      "fuente-comparacion-fase5.md",
+      "fuente-verificacion-fase5.json",
+      "fuente-07.md",
+      "fuente-11.md"
+    ],
+    "omissions": [],
+    "format": "lossless field/content rendering; file metadata preserved"
+  }
+]

@@ -1,0 +1,24 @@
+{
+  "use_case": "ui-mockup",
+  "tool": "built-in image_gen",
+  "requested_canvas": [
+    1440,
+    3840
+  ],
+  "actual_dimensions": "pending",
+  "prompts": [
+    "prompts/01-cine-con-bandas.txt",
+    "prompts/02-papel.txt",
+    "prompts/03-la-frase-que-elige.txt"
+  ],
+  "common_copy": "CONTENIDO-COMUN-FINAL.txt",
+  "joint_source": [
+    "CODEX-A-DERIVACION.md",
+    "CLAUDE-B-DERIVACION.json",
+    "COMPARACION-LIMPIA.json",
+    "CODEX-CRITICA-Y-REFINAMIENTO.md",
+    "CLAUDE-COCREACION.json",
+    "CODEX-CIERRE-CREATIVO.md",
+    "CLAUDE-CIERRE-CREATIVO.json"
+  ]
+}

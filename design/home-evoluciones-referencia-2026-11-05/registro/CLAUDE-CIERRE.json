@@ -1,0 +1,76 @@
+{
+  "supuestos": [
+    "El encargo prohíbe escribir o generar archivos, así que no creé el archivo de plan. La entrega es esta respuesta de par.",
+    "La referencia original.png ya la examiné con Read en mi derivación. Todavía no existe ningún PNG resultante y no afirmo haber inspeccionado ninguno.",
+    "El paquete no fija los gates de la fase de render. Los gates de los PNG quedan sin ejecutar hasta que Codex escriba los archivos.",
+    "«Servicios sociales confirmados» (D6-07) solo se aplica aquí a Cobertura, donde P05 lo respalda. No se aplica al catering, que P07 define como corporativo."
+  ],
+  "propuesta": "Cierro las tres rutas para que Codex las genere. Acepto casi toda la crítica de Astra y corrijo dos detalles: la descripción de catering y la regla de no rellenar altura.\n\nCOPY COMÚN, idéntico en las tres rutas (también corrige mi comparación, que dejaba «Elige según tu encargo» en Corte cálido):\n- Bajada (acepto la crítica de Astra): «Cobertura de eventos, streaming y podcast, y catering y coffee break para tu proyecto.» No atribuye eventos sociales al catering.\n- Sección: «Servicios para tu proyecto».\n- Cobertura de eventos: «Registro audiovisual de eventos empresariales y sociales.» Lo respaldan P05 y D6-07.\n- Streaming y podcast: «Transmisión en vivo de eventos y grabación de episodios.»\n- Catering y coffee break (acepto con un ajuste): «Atención corporativa para reuniones y eventos de empresa.» Repetir el título no aportaba nada; me quedo en el ámbito de P07.\n- Sin cambios: catálogo, tres pasos, campos Nombre y Correo vacíos, botón «Consultar proyecto» y pie.\n\nSUBTÍTULOS (acepto la corrección geométrica: 1296 px de ancho dan 542 px de alto y no caben en 480).\n- Hero a sangre de 1440×820, con el H1 dominante a la izquierda, la cámara a la derecha y «en» en ámbar.\n- Bandas: encuadre de 1104×462 (2,39:1) con 168 px de negro a cada lado. Debajo, una franja de 118 px: título a 40 px a la izquierda; frase a 20 px y «Ver servicio →» a 18 px a la derecha; aviso a 16 px en la franja.\n- Presupuesto vertical: 80+820+140+3×628+320+700+260 ≈ 4204 px. Si sobra altura se recorta la foto, nunca el cuerpo del texto.\n\nLUZ DE RODAJE (acepto todo).\n- H1 entero sobre negro. Una panorámica de 1440×480 cruza la costura entre negro y plata, mitad en cada superficie.\n- Tres columnas de 400 px con 48 px de separación y fotos 4:3, sin cajas ni sombras.\n- Mantengo Antonio por coherencia con la tipografía condensada; la identidad de la ruta la dan la costura y las columnas.\n\nCORTE CÁLIDO (acepto el bloque naranja continuo con texto negro, contraste ≈5,6:1).\n- Las filas se separan con aire y una línea al 20 % de negro. Cada fila lleva a la derecha una foto 3:2 con color neutro.\n- Hero vertical de unos 560 px de ancho. El texto queda al menos a 64 px y la foto no recorta rostro ni cámara.\n\n«NO AÑADIR RELLENO»: lo acepto, con una corrección. Los PNG deben medir lo mismo; si una ruta queda corta, la diferencia va como aire en contacto y pie, nunca como contenido inventado.\n\nCONTROLES COMUNES antes de generar: la foto de streaming muestra cámara o transmisión de un evento sin interior identificable. El aviso a 16 px va junto a cada grupo de fotos. No hay REC, timecode ni números, salvo los pasos de contacto. No hay ningún canal de Rhino visible.",
+  "alternativas": [
+    "Subtítulos con texto al lado de la imagen en lugar de debajo: se descarta porque rompe la metáfora del subtítulo y estrecha la línea de lectura.",
+    "Usar la proporción 2,39:1 también en el hero: se descarta porque empequeñece la foto principal, como advirtió Astra."
+  ],
+  "riesgos": [
+    "Subtítulos: el negro a los lados puede leerse como un hueco vacío si la franja de texto no ocupa visualmente el mismo ancho que el encuadre.",
+    "Corte cálido: si el etalonaje no es neutro, las fotos sobre naranja pueden adquirir una dominante naranja.",
+    "Luz de rodaje: la panorámica de la costura puede competir con el H1 si no se respeta el reparto mitad y mitad.",
+    "Que las alturas reales de los tres PNG no coincidan en la medición."
+  ],
+  "verificacion": [
+    "Medir las dimensiones reales de los tres PNG; deben ser iguales.",
+    "Comprobar en cada PNG que el copy es literalmente idéntico, incluida la cabecera «Servicios para tu proyecto».",
+    "Ampliar las franjas, los avisos y el pie para confirmar los mínimos de 20 y 16 px.",
+    "Confirmar que ninguna descripción atribuye eventos sociales al catering.",
+    "Hacer una revisión visual compartida de los PNG reales por ambos pares."
+  ],
+  "confianza": {
+    "nivel": "alta",
+    "motivo": "Los ajustes se apoyan en P05, P07 y D6-07, y en aritmética verificable. Las rutas siguen siendo planes sin render."
+  },
+  "context_assessment": {
+    "status": "sufficient",
+    "missing": [
+      "Gates formales de la fase de render, que se definirán cuando existan los PNG"
+    ]
+  },
+  "findings": [
+    {
+      "title": "La bajada de la comparación extendía «eventos sociales» a todos los servicios, incluido el catering",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "comparison.recomendacion, Copy común, Bajada",
+      "evidence": "Decía «Foto, video, streaming y catering para eventos empresariales y sociales», pero P07 define el catering como corporativo.",
+      "verification": "Contraste con la fila P07 y con D6-07"
+    },
+    {
+      "title": "La geometría de las bandas de Subtítulos no cabía en 480 px",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "comparison.recomendacion, ruta 1",
+      "evidence": "1296 entre 2,39 da 542 px, más que la banda de 480; se corrige a 1104×462 más una franja de 118.",
+      "verification": "Cálculo aritmético"
+    },
+    {
+      "title": "El copy no era el mismo en las tres rutas",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "comparison.recomendacion, Corte cálido",
+      "evidence": "Usaba «Elige según tu encargo» frente a «Servicios para tu proyecto» en las otras dos; se unifica.",
+      "verification": "Lectura de la comparación"
+    }
+  ],
+  "gates": [
+    {
+      "name": "Sin escritura ni generación de archivos",
+      "status": "passed",
+      "evidence": "No se usó ninguna herramienta de escritura"
+    },
+    {
+      "name": "PNG de igual tamaño y revisión visual compartida",
+      "status": "not-run",
+      "evidence": "Los PNG todavía no existen"
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable"
+}

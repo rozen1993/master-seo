@@ -1,0 +1,79 @@
+{
+  "reglas": [
+    {
+      "tipo": "Organization",
+      "ambito": "entidad",
+      "datos_y_validez": "Nombre y URL reales; identidad consistente. Datos opcionales solo si verificados.",
+      "elegibilidad": "No promete resultado enriquecido.",
+      "estado": "permitido_condicionado"
+    },
+    {
+      "tipo": "WebSite",
+      "ambito": "sitio",
+      "datos_y_validez": "Nombre y URL del host acordado.",
+      "elegibilidad": "No promete presentación concreta.",
+      "estado": "permitido_condicionado"
+    },
+    {
+      "tipo": "WebPage / BreadcrumbList",
+      "ambito": "HTML público",
+      "datos_y_validez": "Breadcrumb coherente con navegación real; sin rutas ausentes.",
+      "elegibilidad": "Evaluar guía aplicable antes de implementar; no garantiza apariencia.",
+      "estado": "permitido_condicionado"
+    },
+    {
+      "tipo": "Service",
+      "ambito": "servicios",
+      "datos_y_validez": "Servicio visible y vigente, proveedor real, área atendida comprobada. Sin precios inventados.",
+      "elegibilidad": "Validez semántica no equivale a función enriquecida de Google.",
+      "estado": "permitido_condicionado"
+    },
+    {
+      "tipo": "VideoObject / ImageObject",
+      "ambito": "material",
+      "datos_y_validez": "Archivo o incrustación real, autoría/permiso, metadatos verificables.",
+      "elegibilidad": "Completar requisitos oficiales vigentes al implementar.",
+      "estado": "condicionado_a_material"
+    },
+    {
+      "tipo": "LocalBusiness",
+      "ambito": "entidad local",
+      "datos_y_validez": "Verificar entidad y dirección física reales; no inventar sede ni sustituir por dirección genérica.",
+      "elegibilidad": "Para elegibilidad local de Google: name y address son obligatorios; teléfono recomendado. No exige GBP para publicar HTML.",
+      "estado": "condicionado_sin_bloquear_HTML"
+    },
+    {
+      "tipo": "ProfessionalService",
+      "ambito": "ninguna nueva",
+      "datos_y_validez": "Tipo deprecado: no usar en la nueva especificación.",
+      "elegibilidad": "Sustituye recomendación histórica; ver G6-PS.",
+      "estado": "descartado_para_implementacion"
+    },
+    {
+      "tipo": "FAQPage",
+      "ambito": "FAQ editorial",
+      "datos_y_validez": "FAQ útil visible si responde preguntas reales; no requerir markup FAQ para este proyecto.",
+      "elegibilidad": "G5-FAQ: no prometer FAQ enriquecida.",
+      "estado": "no_requerido"
+    },
+    {
+      "tipo": "Review / AggregateRating propios",
+      "ambito": "entidad propia",
+      "datos_y_validez": "Reseñas textuales reales con permisos pueden mostrarse; este paquete no encarga ese marcado de la entidad propia.",
+      "elegibilidad": "No elegible para estrellas autocontroladas de Organization/LocalBusiness (G5-REV). No prohibición universal del vocabulario.",
+      "estado": "no_implementar_en_entidad_propia"
+    },
+    {
+      "tipo": "FoodEstablishment",
+      "ambito": "catering",
+      "datos_y_validez": "No inferir establecimiento por ofrecer catering.",
+      "elegibilidad": "Estudiar solo con establecimiento real y caso aplicable.",
+      "estado": "pendiente_no_encargado"
+    }
+  ],
+  "fuentes": [
+    "fuentes/fuente-politicas.json",
+    "registro/new-external-checks.json"
+  ],
+  "estado": "requisitos; ningun_marcado_implementado"
+}

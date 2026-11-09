@@ -1,0 +1,33 @@
+Use case: ui-mockup.
+Genera una sola imagen PNG: propuesta visual de una home completa de escritorio para Rhino Audiovisuales, desde la cabecera hasta el pie. Lienzo objetivo EXACTO 1536 × 3072 píxeles, vertical 1:2. Vista frontal plana de la página, sin navegador, dispositivos, perspectivas, sombras exteriores ni presentación sobre un fondo. No generar HTML.
+Composición completa, texto español nítido y bien escrito, fotografías grandes, márgenes exteriores iguales de 64 px. No cortar cabecera ni pie. No añadir textos a los indicados. Títulos máximo dos líneas. Párrafos aproximadamente 24 px; nota global aproximadamente 18 px y contraste suficiente.
+Usar exactamente este contenido y este orden:
+CABECERA: Marca tipográfica “RHINO”, con “Audiovisuales” junto a ella o debajo, menor. Sin inventar símbolo ni logotipo oficial. Menú: “Servicios” “Nosotros” “Contacto”
+HERO: H1 “Productora audiovisual en Lima”
+Bajada “Cobertura de eventos, streaming, podcast y catering corporativo.”
+Botón “Consultar proyecto”. Enlace “Ver servicios”
+INMEDIATAMENTE DESPUÉS DEL HERO: nota global una vez, legible “Imágenes ilustrativas; no corresponden a trabajos de Rhino.”
+SERVICIOS: Título “Servicios”
+Primer servicio: “Cobertura de eventos” / “Registro audiovisual de eventos empresariales y sociales.” / “Ver servicio”
+Segundo servicio: “Streaming y podcast” / “Transmisión de eventos y producción de episodios.” / “Ver servicio”
+Tercer servicio: “Catering corporativo” / “Comparte la fecha, el lugar y el número de asistentes.” / “Ver servicio”
+CATÁLOGO: Título “Más servicios”
+Lista: “Producción audiovisual” / “Fotografía” / “Organización de eventos corporativos” / “Alquiler de pantallas LED” / “Servicios digitales”
+CONTACTO: Título “Cuéntanos tu proyecto”
+Texto “Indica el servicio, la fecha, el lugar y lo que necesitas.”
+Botón “Consultar proyecto”
+PIE: “Rhino Audiovisuales” / “Servicios” “Nosotros” “Contacto” “Política de privacidad”
+FOTOGRAFÍA: Exactamente cuatro fotografías originales generadas. Una hero y una por servicio. No repetir una fotografía. Hero: encuentro empresarial contemporáneo visto desde una cámara de video a un lado; escenario sencillo y asistentes desenfocados, sin espectacularidad masiva ni marcas. Cobertura: encuadre distinto y cercano de una cámara registrando una presentación, sujeto desenfocado al fondo. Streaming/podcast: dos micrófonos sobre mesa, cámara al fondo, iluminación cuidada, sin nombres de estudio/logos/interfaces/pantallas con texto. Catering: mesa empresarial con vajilla y bandejas de bocados naturales, sin carteles/menús/precios/marcas. Coherencia fotográfica. Sin caras identificables ni lugares reconocibles. Imágenes ilustran categorías, no trabajos reales de Rhino.
+No añadir clientes, logos, casos, testimonios, estadísticas, años, plazos, precios, teléfonos, correo, dirección, mapa o incluidos. No proceso, FAQ, portafolio o formulario. No “premium”, “integral”, “todo en uno”. No iconos de servicios, tarjetas con iconos, miniaturas numerosas, numeraciones, etiquetas pequeñas en mayúsculas, monospace, líneas finas decorativas, degradados decorativos, cristal, sombras de tarjetas. No poner elementos sobre palabras. No dibujar instrucciones, cotas, coordenadas, colores hex escritos ni el nombre de la dirección.
+
+DIRECCIÓN B: PLIEGO EDITORIAL.
+Oferta presentada como pliego editorial contemporáneo: fotografía, títulos serif y composición abierta; no insinuar un paquete integral.
+Paleta blanco mineral #F5F6F2 dominante, tinta verde oscuro #182A23, verde bosque #254B3C en botones y contacto. Sin beige amarillo, terracota, dorado o pastel decorativo.
+Títulos serif editorial contemporánea similar a Fraunces, sobria; cuerpo sans abierta similar a Source Sans 3. H1 unos 76 px, máximo dos líneas; servicios 46 px. Marca RHINO sencilla.
+Cabecera blanca de 100 px, marca izquierda, menú derecha.
+Hero asimétrico 48% texto izquierda y 52% fotografía derecha. Foto vertical grande sin borde ni sombra, casi toda la altura; actividad centrada. H1 en dos líneas "Productora" / "audiovisual en Lima". Bajada breve, botón verde con texto blanco y enlace. Nada centrado. Hero termina alrededor de y1000; nota global inmediatamente debajo en tinta oscura con aire suficiente.
+Servicios: pliego fotográfico, no fila de tres tarjetas. Título al margen. Cobertura en una franja con foto horizontal ancha a la izquierda y copy a la derecha. Debajo streaming/podcast a la izquierda y catering a la derecha, cada cual foto horizontal grande con título, descripción y enlace debajo. Bloques abiertos sin cajas ni contornos. Igual tamaño de título para los tres servicios. Cobertura se lee primero; todos con peso. Conjunto termina alrededor de y2200.
+Más servicios: compacto sobre blanco, título izquierda y lista amplia de cinco categorías derecha; ordenar con espacio y alineación, sin reglas finas ni cajas.
+Contacto: campo verde bosque de ancho completo, aproximadamente y2570–2890. Título serif blanco grande, texto blanco, botón blanco con letras verdes. Título/texto izquierda y botón derecha.
+Pie blanco mineral: nombre y enlaces oscuros; no directorio extenso. Ajustar alturas para encajar toda la página en 1536×3072 sin cortar u omitir.
+Fotografías luminosas, naturales, color moderado, comida real y personas desenfocadas. Sin sepia, discoteca, lujo ostentoso o nostalgia.

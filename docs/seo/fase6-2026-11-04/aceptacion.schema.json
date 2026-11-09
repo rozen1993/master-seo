@@ -1,0 +1,96 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "type": "object",
+  "required": [
+    "criterios"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "criterios": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "paginas",
+          "prioridad",
+          "momento",
+          "alcance_bloqueo",
+          "responsable",
+          "regla",
+          "metodo",
+          "dependencia",
+          "fuente",
+          "fecha_fuente",
+          "clase",
+          "resultado",
+          "evidencia_resultado",
+          "revisor"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "paginas": {
+            "type": "string"
+          },
+          "prioridad": {
+            "type": "string",
+            "enum": [
+              "P0",
+              "P1",
+              "P2"
+            ]
+          },
+          "momento": {
+            "type": "string"
+          },
+          "alcance_bloqueo": {
+            "type": "string"
+          },
+          "responsable": {
+            "type": "string"
+          },
+          "regla": {
+            "type": "string"
+          },
+          "metodo": {
+            "type": "string"
+          },
+          "dependencia": {
+            "type": "string"
+          },
+          "fuente": {
+            "type": "string"
+          },
+          "fecha_fuente": {
+            "type": "string"
+          },
+          "clase": {
+            "type": "string"
+          },
+          "resultado": {
+            "type": "string",
+            "enum": [
+              "no_ejecutado",
+              "verificado_documental",
+              "superado",
+              "fallido",
+              "no_aplica_justificado"
+            ]
+          },
+          "evidencia_resultado": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "revisor": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

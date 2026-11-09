@@ -1,0 +1,168 @@
+{
+  "fecha": "2026-11-04",
+  "hora_utc": "2026-11-05T03:30:38.382741+00:00",
+  "alcance": "paquete documental; sin build, despliegue, HTTP actual, contacto ni campaña",
+  "passed": true,
+  "controles": [
+    {
+      "control": "37_ids_unicos",
+      "passed": true,
+      "detalle": "P01–P37, mismo orden F5"
+    },
+    {
+      "control": "tipos",
+      "passed": true,
+      "detalle": {
+        "html": 33,
+        "reserva": 2,
+        "plantilla_404": 1,
+        "pdf": 1
+      }
+    },
+    {
+      "control": "urls_y_prioridades",
+      "passed": true,
+      "detalle": "URL y urgencia/impacto/confianza exactas; única normalización 404 → null documentada"
+    },
+    {
+      "control": "estados_y_evidencia",
+      "passed": true,
+      "detalle": "Hipótesis y pendientes F4/adenda preservados literalmente"
+    },
+    {
+      "control": "metadatos_longitudes",
+      "passed": true,
+      "detalle": {
+        "fallos": [],
+        "null_no_cuenta_como_aprobado": true,
+        "DOM_H1": "prueba futura no ejecutada"
+      }
+    },
+    {
+      "control": "vista_markdown",
+      "passed": true,
+      "detalle": "37 secciones y todos los metadatos del JSON representados"
+    },
+    {
+      "control": "grafo_previsto",
+      "passed": true,
+      "detalle": {
+        "aristas_previstas": 148,
+        "publicable_verificado": 0,
+        "regla": "HTML y plantilla404 incluidos; reservas y PDF sin aristas salientes encargadas; igualdad exacta relacionadas↔grafo"
+      }
+    },
+    {
+      "control": "rutas_y_host",
+      "passed": true,
+      "detalle": "32 variantes; host y receptor fotografía pendientes"
+    },
+    {
+      "control": "aceptacion_y_dependencias",
+      "passed": true,
+      "detalle": "AC-01/18 documentales verificados; requisitos futuros sin resultados simulados"
+    },
+    {
+      "control": "aceptacion_por_tipo",
+      "passed": true,
+      "detalle": "Cierres de migración, PDF/404 y schema presentes; excepciones HTML respetadas"
+    },
+    {
+      "control": "null_y_variantes",
+      "passed": true,
+      "detalle": "Null explícito nunca aprobado; cada variante tiene procedencia y estado SERP"
+    },
+    {
+      "control": "casos_AC08_final",
+      "passed": true,
+      "detalle": "Criterio de expediente/permiso en fichas con casos y regla transversal"
+    },
+    {
+      "control": "procedencia_variantes_final",
+      "passed": true,
+      "detalle": "Variantes S024/S025 remiten F4/F5; cada procedencia del canon coincide con la vista humana; siete abreviaciones corregidas manualmente"
+    },
+    {
+      "control": "presupuesto",
+      "passed": true,
+      "detalle": "S/110 mensual campañas; ninguna modificación"
+    },
+    {
+      "control": "integridad_originales",
+      "passed": true,
+      "detalle": {
+        "verificados": 408,
+        "alterados": []
+      }
+    },
+    {
+      "control": "copias_fuente",
+      "passed": true,
+      "detalle": {
+        "copias": 16,
+        "fallos": []
+      }
+    },
+    {
+      "control": "contratos_JSON",
+      "passed": true,
+      "detalle": {
+        "errores": [],
+        "metodo": "validador local de los keywords usados: type/enum/pattern/required/additionalProperties/items/minItems/maxItems; sin librería externa"
+      }
+    },
+    {
+      "control": "enlaces_locales_documentos",
+      "passed": true,
+      "detalle": {
+        "rotos": [],
+        "alcance": "Markdown operativo raíz; fuentes históricas preservadas sin reparar enlaces originales"
+      }
+    },
+    {
+      "control": "tabla_arquitectura",
+      "passed": true,
+      "detalle": "Cabecera y delimitador GFM consecutivos"
+    },
+    {
+      "control": "modelo_efectivo",
+      "passed": true,
+      "detalle": [
+        {
+          "archivo": "claude-A-compare-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-A-derive-r1-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-A-review-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-A-review-r2-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-B-compare-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-B-derive-r1-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-B-review-envelope.json",
+          "modelo_opus": true
+        },
+        {
+          "archivo": "claude-B-review-r2-envelope.json",
+          "modelo_opus": true
+        }
+      ]
+    }
+  ],
+  "pruebas_futuras": "no ejecutadas; aceptacion.json y medicion.json",
+  "revision_claude": "ver registro/revision-cierre.json si existe; verificación automática no sustituye revisión"
+}

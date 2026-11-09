@@ -1,0 +1,10 @@
+{
+    "task":  "Technical vision preflight only, not design derivation. execute pipeline core. Use Read now on the ONE permitted JPEG file: C:/Users/MARCO/Desktop/MASTER-SEO/design/home-cocreacion-2026-11-05/referencias/00-prueba-vision.jpg . Inspect actual pixels. Describe in Spanish: background color, exact visible words, approximate placement, type character and arrangement/repetition of text. Do not infer from filename or website memory. If Read is denied or image is not rendered, state that vision is not verified. No tools except this Read; no writing, no plan file, no ExitPlanMode available. Respond using peer-response schema with concise proposal containing visual description, verification indicating whether image was actually rendered, context_assessment, findings and confidence. About 250 words maximum.",
+    "constraints":  "Do not design yet. Both peers must see the same image. No website research or previous designs.",
+    "evidence":  "One read-authorized JPEG capture, no textual image description provided. This test is separate from the blind design derivation.",
+    "risk":  "low",
+    "scope":  "Only supplied files; report missing callers or dependencies, do not infer them.",
+    "files":  [
+
+              ]
+}

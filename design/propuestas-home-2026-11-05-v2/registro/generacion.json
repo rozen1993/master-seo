@@ -1,0 +1,45 @@
+{
+  "date": "2026-11-05",
+  "target_dimensions": [
+    1440,
+    2880
+  ],
+  "images": [
+    {
+      "file": "01-visor-r.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-58e71780-a641-4635-a713-8f0b32f19027.png",
+      "width": 748,
+      "height": 2103,
+      "bytes": 1786177,
+      "sha256": "753a10bad3f470237ce305b6b92476866699c89441ccb0a7a47799d17d1a1806",
+      "generator": "image_gen builtin",
+      "cost_usd": null,
+      "cost_status": "not exposed by tool",
+      "status": "pending review"
+    },
+    {
+      "file": "02-fuera-de-campo.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-18576e0e-cc3e-4621-818c-585bcd2f7dc5.png",
+      "width": 748,
+      "height": 2103,
+      "bytes": 1827663,
+      "sha256": "e911f4aa32cc24e0d41f614024e39f6e73c33f4cdf799539753a97b518017fff",
+      "generator": "image_gen builtin",
+      "cost_usd": null,
+      "cost_status": "not exposed by tool",
+      "status": "pending review"
+    },
+    {
+      "file": "03-mesa-de-produccion.png",
+      "source": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-67c283a1-2498-48cb-8125-2f9557cd9b9b.png",
+      "width": 748,
+      "height": 2103,
+      "bytes": 1804770,
+      "sha256": "c3fae3f1558646989b0a543a109845d15f0d6e079bef935226f3d8bf41dadb67",
+      "generator": "image_gen builtin",
+      "cost_usd": null,
+      "cost_status": "not exposed by tool",
+      "status": "pending review"
+    }
+  ]
+}

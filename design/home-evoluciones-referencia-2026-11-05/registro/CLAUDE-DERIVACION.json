@@ -1,0 +1,162 @@
+{
+  "supuestos": [
+    "Vi la referencia real con Read (1440×4195 reducida a 884×2576; factor ×1.63). Las ubicaciones indicadas son aproximadas y están en píxeles del original.",
+    "El encargo prohíbe escribir archivos y el modo plan también lo impide. Por eso no creé el archivo de plan ni llamé a ExitPlanMode: la entrega es este informe estructurado.",
+    "Por instrucción ciega, no leí propuestas del otro par ni de otras carpetas de design/.",
+    "El paquete no fija gates de PNG para esta fase de planificación. Los gates de aceptación sobre las imágenes (dimensiones, revisión visual compartida) quedan pendientes de la fase de render, que hará el escritor único (Codex).",
+    "Base común en las tres: H1 «Productora audiovisual en Lima»; marca Rhino Audiovisuales; navegación Servicios · Nosotros · Contacto; CTA «Consultar proyecto» y «Ver servicios»; bloque «Servicios para tu proyecto» con las 3 prioridades; lista secundaria con Producción audiovisual, Estudio fotográfico, Fotografía, Organización de eventos corporativos, Alquiler de pantallas LED y Marketing digital y desarrollo web; «Cómo pedir una propuesta» en 3 pasos del usuario; formulario conceptual (Servicio, Fecha, Lugar, Lo que necesitas, Nombre, Cómo contactarte [vacío], enlace a privacidad); footer con enlaces a servicios y privacidad. No se muestran teléfono, correo, dirección, cifras ni clientes.",
+    "Piso de legibilidad a 1440: texto corrido ≥18 px, etiquetas ≥14 px, sin texto en contorno de bajo contraste, contraste AA.",
+    "La paleta casi negra con bermellón coincide con el default n.º 2 de la skill. La referencia la fija, así que se respeta, pero cada dirección desplaza el peso cromático hacia el ámbar tungsteno o hacia superficies claras."
+  ],
+  "propuesta": "**Lectura crítica del original.** Lo que vale la pena conservar: el H1 condensado a gran escala, la foto de rodaje y el bermellón en los CTA. Lo que falla: el adorno falso (REC/TC, marcas de visor), una franja de servicios duplicada y una marquesina recortada que solo repite. También el ranking «Lo que más nos piden» sin evidencia, la numeración 01–08 que no expresa ninguna secuencia y varios textos que no se leen bien: aviso ilustrativo, etiquetas sobre fotos y pie. Falta el estudio fotográfico. El formulario no tiene nombre ni medio de contacto y muestra una nota técnica al cliente. El logotipo gigante del pie gasta unos 250 px.\n\n---\n**A · «Subtítulos» (todo oscuro, proporción de cine)**\nHex: Carbón #0F0E0D · Grafito #1C1A18 · Hueso #EFE9DF · Tungsteno #F2A541 · Bermellón #FF4B2B (solo CTA)\nTipos: Big Shoulders Display 800 (titulares) · Familjen Grotesk 400/600 (texto, 18–20 px)\n```\n[nav ......................... Consultar proyecto]\n|██ franja negra █████████████████████████████|\n| foto 2.39:1   PRODUCTORA AUDIOVISUAL EN LIMA |\n|██ «Imágenes ilustrativas» · bajada ██ CTA CTA|\nSERVICIOS PARA TU PROYECTO\n|█ COBERTURA DE EVENTOS ████ foto 2.39:1 █████|\n|  empresariales y sociales · Ver servicio →   |\n|█ STREAMING Y PODCAST █ … |█ CATERING Y COFFEE BREAK █ …\n[lista 2 col: más servicios]  [Cómo pedir: 1·2·3]\n[formulario sobre grafito]   [footer de 4 columnas]\n```\nGesto: cada imagen va enmarcada en proporción 2.39:1, y el texto vive en la franja negra, centrado como un subtítulo legible. Ahí también queda el aviso «Imágenes ilustrativas», pegado a cada foto.\nMejoras: las tres prioridades pasan a bandas a todo el ancho, con texto grande. Se eliminan marquesina, REC/TC y números. El aviso de imagen ilustrativa aparece en cada banda.\nAutocrítica: tres bandas apiladas alargan la página; hay que limitar cada banda a unos 520 px. Además, la página entera oscura cansa a la vista, así que el formulario tiene que ser muy legible.\n\n---\n**B · «Corte» (claro y oscuro alternados)**\nHex: Hueso #F1ECE3 · Carbón #121110 · Tungsteno #E39B3A · Óxido #D9472A · Cemento #8A847B (solo líneas)\nTipos: Antonio 700 (titulares) · Schibsted Grotesk 400/600 (texto)\n```\n| HUESO               |  FOTO A SANGRE         |\n| PRODUCTORA          |                        |\n| AUDIOVISUAL EN LI|MA  (la palabra cruza)   |\n| bajada · CTA CTA    | «Imágenes ilustrativas» |\n==== HUESO: Elige según tu encargo ====\n| Cobertura | Para qué | Qué nos cuentas | → |\n| Streaming | …        | …               | → |\n| Catering  | …        | …               | → |\n---- CARBÓN: fotos ilustrativas 3 col + más servicios ----\n==== HUESO: Cómo pedir una propuesta 1·2·3 ====\n---- CARBÓN: formulario | footer ----\n```\nGesto: el H1 cruza la costura entre el panel claro y la foto. «LIMA» cambia de tinta al pasar de un lado al otro.\nMejoras: las decisiones comerciales se leen sobre superficie clara. Cada servicio dice para qué sirve y qué dato pide. La foto ya no compite con el texto.\nAutocrítica: lo claro se acerca a la plantilla crema más serif. Por eso lleva tipo condensado en lugar de serif, y el óxido se usa solo en los CTA. Alternar superficies exige ritmo exacto, o la página se fragmenta.\n\n---\n**C · «Un solo recorrido» (el selector de encargo como tesis)**\nHex: Carbón cálido #161210 · Cuero #2A211B · Hueso #F3EEE6 · Ámbar #F0A33C · Bermellón #FF4B2B\nTipos: League Gothic (titulares) · Hanken Grotesk 400/600 (texto)\n```\n[nav ........................ Consultar proyecto]\nPRODUCTORA AUDIOVISUAL EN LIMA        [foto]\nbajada                 «Imágenes ilustrativas»\n┌¿Qué necesitas?────────────────────────────┐\n│[Cobertura de eventos][Streaming y podcast]│\n│[Catering y coffee break]   Ver servicios →│\n└───────────────────────────────────────────┘\n3 tarjetas de cuero: foto + para qué + Ver servicio\nmás servicios (chips grandes) · estudio fotográfico\nCómo pedir: 1 Elige · 2 Indica fecha/lugar · 3 Envía\nFORMULARIO: el mismo selector de 3 opciones + campos\nfooter\n```\nGesto: el selector del hero se repite como primer campo del formulario, con las mismas etiquetas y el mismo orden. Vocabulario idéntico de principio a fin.\nMejoras: el CTA principal llega antes, y la jerarquía comercial queda explícita. Las superficies de cuero sustituyen el negro plano. El formulario pide nombre y medio de contacto, sin datos inventados.\nAutocrítica: el selector puede parecer un control que funciona. El render debe dejar claro que son enlaces a servicios. Además, el hero cede impacto fotográfico frente a A.\n\n**Recomendación:** A es la evolución más fiel; B, la más legible para vender; C, la más clara como recorrido comercial.",
+  "alternativas": [
+    "Mantener la marquesina tipográfica, pero rellena, legible y sin recortar, usada una sola vez como separador. Se descartó porque solo repite las prioridades.",
+    "Incluir el bloque «Proyectos autorizados» (P01) como estado vacío explícito. No se incluye hasta acreditar rol y permisos (D6-08)."
+  ],
+  "riesgos": [
+    "Fotos generadas que sugieran un set de podcast o un estudio propios (la tarjeta de streaming del original muestra un set con bandera peruana). Hay que evitar interiores identificables o rotularlos como ilustrativos.",
+    "Que el render reintroduzca microtexto en etiquetas, aviso o pie.",
+    "Que la dirección B derive a la estética crema genérica.",
+    "Que el selector de C se lea como control funcional o como formulario que ya envía.",
+    "Que las dimensiones reales difieran de 1440×4200 entre las tres; hay que medirlas."
+  ],
+  "verificacion": [
+    "Abrir cada PNG resultante y medir sus dimensiones reales; las tres deben coincidir.",
+    "Comprobar en cada PNG: H1 exacto, CTA «Consultar proyecto» y «Ver servicios», 3 prioridades, estudio fotográfico presente, sin «Lo que más nos piden», sin REC/TC ni numeración decorativa, aviso «Imágenes ilustrativas» junto a cada grupo de fotos, formulario sin nota técnica ni datos de contacto, enlace a privacidad.",
+    "Revisión visual compartida de los PNG reales por ambos pares, con ampliaciones de etiquetas y pie para confirmar la legibilidad.",
+    "Confirmar que no se tocó original.png (sha256 baab3bbe…) y que los archivos nuevos están solo en una carpeta de diseño nueva."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Vi la referencia, pero a resolución reducida: algunos textos pequeños (etiquetas de tarjetas, aviso) no se pueden confirmar con exactitud. Las direcciones son planes; no hay renders verificados."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "Lectura a resolución completa de las zonas con texto pequeño (sin herramienta de recorte)",
+      "Nombre exacto de las fuentes del original (lo infiero visualmente)",
+      "Gates formales de la fase de render de PNG"
+    ]
+  },
+  "findings": [
+    {
+      "title": "Adorno de grabación falso (REC, LIMA·PE, TC 00:00:12:08) y marcas de visor",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "original.png, hero, y≈145 px, esquina superior derecha; marcas en las esquinas",
+      "evidence": "Se ve el punto rojo con «REC» y un timecode; el brief pide retirarlos.",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "Encabezado «Lo que más nos piden» implica un ranking de demanda sin evidencia",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "y≈1435 px",
+      "evidence": "Encabezado visible «LO QUE MÁS nos piden».",
+      "verification": "Read de original.png; restricción del brief"
+    },
+    {
+      "title": "Numeración 01–08 sin secuencia real, y franja de servicios duplicada",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "franja y≈915 px; tarjetas y≈1565 px; lista y≈2410–2780 px",
+      "evidence": "Los servicios 01/02/03 aparecen en la franja y otra vez en las tarjetas; el catálogo sigue con 04–08.",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "Marquesina en contorno, recortada y de bajo contraste",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "y≈1075–1225 px",
+      "evidence": "«VENTOS · STREAMING · PO» cortado por los bordes; «STREAMING» en contorno gris sobre negro.",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "Aviso de imágenes ilustrativas en microtexto y ausente junto a las tarjetas",
+      "classification": "sospecha",
+      "severity": "high",
+      "location": "hero y≈807 px (cursiva diminuta); tarjetas y≈1530–2170 px",
+      "evidence": "El aviso del hero es muy pequeño. En las tarjetas no se ve ningún aviso a esta resolución.",
+      "verification": "Confirmar a resolución completa"
+    },
+    {
+      "title": "Falta el estudio fotográfico, servicio confirmado, en el catálogo",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "lista «Más servicios», y≈2410–2780 px",
+      "evidence": "La lista solo contiene Producción, Fotografía, Organización, Pantallas LED y Servicios digitales.",
+      "verification": "Read de original.png frente a D6-07/P09"
+    },
+    {
+      "title": "El formulario no tiene nombre ni medio de contacto y muestra una nota técnica al cliente",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "y≈3080–3600 px; nota en y≈3510 px",
+      "evidence": "Los campos son Servicio, Fecha, Lugar y Lo que necesitas. Debajo aparece la nota «Formulario de maqueta: campos y destino pendientes de definir». No se ve enlace a privacidad junto al formulario.",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "Chips decorativos que duplican los campos del formulario",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "y≈3580 px",
+      "evidence": "Chips Servicio/Fecha/Lugar/Lo que necesitas sin función propia.",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "La descripción de catering es una instrucción, no una descripción del servicio",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "franja y≈945 px; tarjeta y≈2025 px",
+      "evidence": "«Comparte la fecha, el lugar y el número de asistentes».",
+      "verification": "Read de original.png"
+    },
+    {
+      "title": "La foto de streaming puede insinuar un set de podcast propio",
+      "classification": "sospecha",
+      "severity": "medium",
+      "location": "tarjeta central y≈1530–2170 px",
+      "evidence": "Se ve un set con micrófonos y una bandera; C04 deja el set propio sin confirmar.",
+      "verification": "Revisión visual y del rótulo a resolución completa"
+    },
+    {
+      "title": "El logotipo gigante en contorno del pie consume espacio y el pie no lleva enlaces a servicios",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "y≈3800–4150 px",
+      "evidence": "«RHINO» en contorno con la O bermellón; el pie solo tiene 4 enlaces en texto pequeño.",
+      "verification": "Read de original.png"
+    }
+  ],
+  "gates": [
+    {
+      "name": "Inspección real de la referencia",
+      "status": "passed",
+      "evidence": "Read de design/home-evoluciones-referencia-2026-11-05/fuentes/original.png"
+    },
+    {
+      "name": "Sin escritura de archivos ni generación de imágenes",
+      "status": "passed",
+      "evidence": "Solo usé herramientas de lectura"
+    },
+    {
+      "name": "Ciego frente a otras propuestas",
+      "status": "passed",
+      "evidence": "Solo leí original.png"
+    },
+    {
+      "name": "PNG de 1440×~4200 iguales y revisión visual compartida",
+      "status": "not-run",
+      "evidence": "Corresponde a la fase de render del escritor Codex"
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "artifacts": [
+    {
+      "path": "design/home-evoluciones-referencia-2026-11-05/fuentes/original.png",
+      "purpose": "Referencia visual del usuario",
+      "status": "reviewed"
+    }
+  ]
+}

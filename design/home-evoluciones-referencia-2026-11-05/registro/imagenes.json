@@ -1,0 +1,32 @@
+[
+  {
+    "file": "01-subtitulos.png",
+    "generated_original": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-62ea0bda-2ffd-425f-a8ef-f3d5f1c11a9f.png",
+    "width": 735,
+    "height": 2140,
+    "format": "PNG",
+    "bytes": 1920133,
+    "sha256": "1090a163324cb4c9ce3f85e353f2b16569e29a2252d981e38566c9e238d2e7bd",
+    "prompt": "prompts/01-subtitulos.txt"
+  },
+  {
+    "file": "02-luz-de-rodaje.png",
+    "generated_original": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-b64e1f91-f0e6-4b0c-a396-2f3804d97507.png",
+    "width": 735,
+    "height": 2140,
+    "format": "PNG",
+    "bytes": 1870368,
+    "sha256": "0a52067f48ac98e38653b028343d9fdd47eda19289af117e93b4556125fbf8da",
+    "prompt": "prompts/02-luz-de-rodaje.txt"
+  },
+  {
+    "file": "03-corte-calido.png",
+    "generated_original": "C:\\Users\\MARCO\\.codex\\generated_images\\01a19f45-4bc4-7862-8f9c-a278c32b145d\\exec-c92fa8a1-264f-4354-b916-44c1229b8960.png",
+    "width": 735,
+    "height": 2140,
+    "format": "PNG",
+    "bytes": 1792837,
+    "sha256": "6a6dca78fad5786045d784c2a3dc4926572b622f70e501d9a7de71f3a45147bc",
+    "prompt": "prompts/03-corte-calido.txt"
+  }
+]

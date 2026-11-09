@@ -1,0 +1,73 @@
+{
+  "references": [
+    {
+      "file": "01-henry.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "03-iconoclast.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "04-division.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "05-velour.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "09-lovesong-index.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "11-stink.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "12-mvsm.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    },
+    {
+      "file": "13-builders.jpg",
+      "size": [
+        1000,
+        750
+      ],
+      "sha256_match": true
+    }
+  ],
+  "count": 8,
+  "new_home_png_generated": false,
+  "phase": "common_packet_and_independent_codex_derivation_complete",
+  "claude_dependency": "awaiting_user_authorization_for_installed_tool_repair",
+  "codex_artifact": "CODEX-A-DERIVACION.md"
+}

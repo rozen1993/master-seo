@@ -1,0 +1,338 @@
+{
+  "host_canonico": null,
+  "elegir_por": "inspeccion_indexada_de_ambos_hosts_y_variantes_mas_coherencia_de_migracion; prueba_en_vivo_no_predice_canonica",
+  "reglas": [
+    {
+      "origen": "http://rhinoaudiovisuales.com/",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": null,
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": null,
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": null,
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": null,
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/index.html",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L02",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/index.html",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L02",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/index.html",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L02",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/index.html",
+      "destino_path": "/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L02",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/video.html",
+      "destino_path": "/servicios/produccion-audiovisual/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L03",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/video.html",
+      "destino_path": "/servicios/produccion-audiovisual/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L03",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/video.html",
+      "destino_path": "/servicios/produccion-audiovisual/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L03",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/video.html",
+      "destino_path": "/servicios/produccion-audiovisual/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L03",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/fotografia.html",
+      "destino_path": null,
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "pendiente_decision_L04",
+      "evidencia_legacy": "L04",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/fotografia.html",
+      "destino_path": null,
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "pendiente_decision_L04",
+      "evidencia_legacy": "L04",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/fotografia.html",
+      "destino_path": null,
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "pendiente_decision_L04",
+      "evidencia_legacy": "L04",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/fotografia.html",
+      "destino_path": null,
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "pendiente_decision_L04",
+      "evidencia_legacy": "L04",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/marketing.html",
+      "destino_path": "/servicios/marketing-digital/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L05",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/marketing.html",
+      "destino_path": "/servicios/marketing-digital/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L05",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/marketing.html",
+      "destino_path": "/servicios/marketing-digital/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L05",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/marketing.html",
+      "destino_path": "/servicios/marketing-digital/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L05",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/web.html",
+      "destino_path": "/servicios/desarrollo-web/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L06",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/web.html",
+      "destino_path": "/servicios/desarrollo-web/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L06",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/web.html",
+      "destino_path": "/servicios/desarrollo-web/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L06",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/web.html",
+      "destino_path": "/servicios/desarrollo-web/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L06",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/show.html",
+      "destino_path": "/show-infantil-navideno/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L07",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/show.html",
+      "destino_path": "/show-infantil-navideno/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L07",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/show.html",
+      "destino_path": "/show-infantil-navideno/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L07",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/show.html",
+      "destino_path": "/show-infantil-navideno/",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "301_a_destino_200",
+      "evidencia_legacy": "L07",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://rhinoaudiovisuales.com/Brochure.pdf",
+      "destino_path": "/Brochure.pdf",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": "L08/L18",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "http://www.rhinoaudiovisuales.com/Brochure.pdf",
+      "destino_path": "/Brochure.pdf",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": "L08/L18",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://rhinoaudiovisuales.com/Brochure.pdf",
+      "destino_path": "/Brochure.pdf",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": "L08/L18",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    },
+    {
+      "origen": "https://www.rhinoaudiovisuales.com/Brochure.pdf",
+      "destino_path": "/Brochure.pdf",
+      "destino_host": "HOST_CANONICO_PENDIENTE",
+      "resultado_requerido": "200_en_https_host_canonico; 301_de_normalizacion_en_otras_variantes",
+      "evidencia_legacy": "L08/L18",
+      "equivalencia_destino": "no_verificada; no_destino_desarrollado",
+      "momento": "ensayo_previo_y_corte_real",
+      "estado": "especificado_no_ejecutado"
+    }
+  ],
+  "fotografia": {
+    "destino_configurado_en_original": "/servicios/fotografia/",
+    "destino_aprobado": null,
+    "candidatos": [
+      "/servicios/fotografia/",
+      "/servicios/estudio-fotografico/"
+    ],
+    "criterio": "equivalencia_con_todo_L04; no_disponibilidad_de_tanda",
+    "bloqueo": "migracion_de_fotografia; resolver_antes_del_corte_si_se_retira_legacy"
+  },
+  "normalizacion": "HTML con barra final; PDF nombre exacto sin barra final. Objetivo un salto directo; documentar/evaluar cadenas. Conservar parámetros necesarios de atribución; no crear redirects abiertos.",
+  "nota": "No es una configuración desplegable; HOST_CANONICO_PENDIENTE y destino null impiden activarla."
+}

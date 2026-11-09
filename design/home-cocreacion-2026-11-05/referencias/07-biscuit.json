@@ -1,0 +1,15 @@
+{
+  "url": "https://biscuitfilmworks.com/",
+  "capture_api": "https://image.thum.io/get/width/1000/crop/900/maxAge/1/allowJPG/noanimate/https://biscuitfilmworks.com/",
+  "observed_utc": "2026-11-05T17:24:56.462201+00:00",
+  "bytes": 12472,
+  "content_type": "image/jpeg",
+  "headers": {
+    "Date": "Thu, 05 Nov 2026 17:26:27 GMT",
+    "Content-Type": "image/jpeg",
+    "Cache-Control": "no-cache, no-store, must-revalidate"
+  },
+  "file": "07-biscuit.jpg",
+  "charge": "free public endpoint; no account/key supplied",
+  "capture_freshness": "maxAge/1 requested; actual browser capture timestamp not independently exposed"
+}

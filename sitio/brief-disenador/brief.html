@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="es-PE">
+<head>
+<meta charset="utf-8">
+<title>Brief de diseño · Página de inicio · Rhino Audiovisuales</title>
+<style>
+  @page { size: A4; margin: 18mm 16mm 18mm 16mm; }
+  :root { --ink:#16130f; --muted:#5d574f; --line:#d9d3ca; --accent:#e8501f; --soft:#f6f2ec; }
+  * { box-sizing: border-box; }
+  body { font-family: "Segoe UI", Arial, sans-serif; color: var(--ink); font-size: 10.5pt; line-height: 1.5; margin: 0; }
+  h1 { font-size: 26pt; line-height: 1.1; margin: 0 0 6pt; letter-spacing: -0.01em; }
+  h2 { font-size: 15pt; margin: 0 0 8pt; padding-top: 4pt; border-top: 3px solid var(--accent); display: inline-block; }
+  h3 { font-size: 11.5pt; margin: 14pt 0 4pt; }
+  p { margin: 0 0 7pt; }
+  .page { page-break-after: always; }
+  .page:last-child { page-break-after: auto; }
+  .kicker { color: var(--accent); font-weight: 700; letter-spacing: .08em; text-transform: uppercase; font-size: 9pt; margin-bottom: 10pt; }
+  .meta { color: var(--muted); font-size: 9.5pt; }
+  .box { background: var(--soft); border-left: 4px solid var(--accent); padding: 9pt 12pt; margin: 10pt 0; }
+  table { width: 100%; border-collapse: collapse; margin: 6pt 0 10pt; font-size: 9.5pt; }
+  th, td { text-align: left; vertical-align: top; padding: 5pt 6pt; border-bottom: 1px solid var(--line); }
+  th { background: var(--ink); color: #fff; font-weight: 600; }
+  tr { page-break-inside: avoid; }
+  td.sec { font-weight: 700; white-space: nowrap; }
+  code, .copy { font-family: Consolas, monospace; font-size: 9pt; background: #eee8df; padding: 0 3pt; border-radius: 2pt; }
+  ul, ol { margin: 0 0 8pt; padding-left: 16pt; }
+  li { margin-bottom: 3pt; }
+  .no li::marker { content: "✕  "; color: var(--accent); font-weight: 700; }
+  .si li::marker { content: "✓  "; color: #2c7a3f; font-weight: 700; }
+  .cols { display: flex; gap: 12pt; }
+  .cols > div { flex: 1; }
+  figure { margin: 0; }
+  figure img { width: 100%; border: 1px solid var(--line); display: block; }
+  figcaption { font-size: 8.5pt; color: var(--muted); margin-top: 4pt; }
+  .tall img { max-height: 205mm; width: auto; max-width: 100%; margin: 0 auto; }
+  .tri img { height: 175mm; width: auto; max-width: 100%; }
+  table.tight { font-size: 8.4pt; line-height: 1.32; }
+  table.tight th, table.tight td { padding: 3pt 5pt; }
+  .check li { list-style: none; margin-left: -16pt; }
+  .check li::before { content: "☐  "; }
+</style>
+</head>
+<body>
+
+<!-- ===================== PÁGINA 1 ===================== -->
+<section class="page">
+  <div class="kicker">Brief de diseño · Encargo 1</div>
+  <h1>Página de inicio<br>Rhino Audiovisuales</h1>
+  <p class="meta">Lima, 6 de noviembre de 2026 · Preparado a partir del plan SEO de la nueva web · Documento para el diseñador</p>
+
+  <div class="box">
+    <strong>En una frase:</strong> diseñar la página de inicio de la nueva web de Rhino Audiovisuales. Con ella se define el estilo visual que después heredarán las demás páginas. La estructura y los textos ya están decididos. Lo que te pedimos es la forma.
+  </div>
+
+  <h3>Quién es Rhino</h3>
+  <p>Productora audiovisual de Lima. Hoy los servicios prioritarios son tres: <strong>cobertura de eventos</strong>, <strong>streaming y podcast</strong>, y <strong>catering y coffee break</strong>. Además ofrece producción audiovisual, video corporativo, organización de eventos, pantallas LED, fotografía, estudio fotográfico, marketing digital y desarrollo web.</p>
+
+  <h3>Para quién es la página</h3>
+  <p>Empresas y personas de Lima que buscan una productora para un evento o proyecto concreto. Muchas llegan desde Google y desde anuncios, casi siempre en el celular. La página debe ayudarles a <strong>elegir el servicio que necesitan y pedir una cotización</strong>.</p>
+
+  <h3>Qué recibes con este brief</h3>
+  <ul>
+    <li><strong>La estructura de la página sin diseño</strong> (archivo <code>sitio/index.html</code> y su captura, página 3). Ya está dividida sección por sección y lleva el texto definitivo.</li>
+    <li><strong>El texto exacto</strong> de cada sección, con sus enlaces (página 4).</li>
+    <li><strong>Las reglas que no se pueden romper</strong> (página 5).</li>
+    <li><strong>Las referencias visuales</strong> exploradas hasta ahora (páginas 6 y 7).</li>
+  </ul>
+
+  <h3>Qué te pedimos entregar</h3>
+  <ol>
+    <li><strong>La página de inicio en escritorio</strong>, a 1440 px de ancho.</li>
+    <li><strong>La página de inicio en móvil</strong>, a 390 px de ancho. Es la versión más importante.</li>
+    <li><strong>Una página de servicio de prueba</strong>: <em>Cobertura de eventos</em>, para comprobar que el estilo funciona fuera de la portada. Su estructura te la enviaremos por separado.</li>
+    <li><strong>Una guía de estilo breve</strong> con colores, tipografías, tamaños de texto, espaciados y los componentes: cabecera, botón principal y secundario, tarjeta de servicio, lista de servicios, bloque de imagen con rótulo, pasos numerados y pie de página.</li>
+  </ol>
+  <p class="meta">El formato de entrega (Figma u otro) lo acordamos contigo. La web todavía no está aprobada para publicarse: este encargo es de diseño.</p>
+</section>
+
+<!-- ===================== PÁGINA 2 ===================== -->
+<section class="page">
+  <h2>1. Cómo está organizada la página</h2>
+  <p>Son cinco secciones más la cabecera y el pie, en este orden. <strong>El orden y el contenido de cada sección están decididos</strong>. Puedes proponer cambios de composición, pero no quitar ni agregar secciones sin consultarlo.</p>
+
+  <table>
+    <tr><th style="width:18%">Sección</th><th style="width:42%">Qué tiene que lograr</th><th>Qué contiene</th></tr>
+    <tr><td class="sec">Cabecera</td><td>Orientar y dejar la cotización siempre a mano.</td><td>Logo · menú (Servicios, Portafolio, Nosotros, Contacto) · botón «Consultar proyecto».</td></tr>
+    <tr><td class="sec">1 · Portada</td><td>Decir en segundos qué es Rhino y en qué ciudad trabaja. Es lo primero que se ve en el celular.</td><td>Título principal, subtítulo, frase sobre qué coordina Rhino (pendiente), botones «Consultar proyecto» y «Ver servicios», foto principal.</td></tr>
+    <tr><td class="sec">2 · Servicios prioritarios</td><td>Destacar los tres servicios que más importan al negocio. Es la sección más importante después de la portada.</td><td>Tres bloques iguales: foto, nombre del servicio, una frase y un enlace a su página.</td></tr>
+    <tr><td class="sec">3 · Más servicios</td><td>Mostrar que hay más oferta, sin competir con los tres prioritarios.</td><td>Lista de nueve servicios <strong>sin enlace</strong> y un solo enlace a la página de todos los servicios.</td></tr>
+    <tr><td class="sec">4 · Proyectos</td><td>Dar prueba con trabajos reales.</td><td>Hasta tres casos (imagen, título, servicio), enlace al portafolio y enlace a «Nosotros». <strong>Condicionada</strong>: solo aparece si cada cliente dio permiso. Diséñala de modo que la página funcione igual si esta sección no existe.</td></tr>
+    <tr><td class="sec">5 · Cómo solicitar</td><td>Que pedir una cotización parezca fácil.</td><td>Título, tres pasos numerados, frase sobre la respuesta (pendiente) y enlace a la página de contacto.</td></tr>
+    <tr><td class="sec">Pie</td><td>Cerrar con los datos de contacto y los enlaces legales.</td><td>Logo, «Lima», teléfono, WhatsApp y correo (pendientes de verificar), menú y Política de privacidad.</td></tr>
+  </table>
+
+  <div class="box">
+    <strong>El formulario no va en la portada.</strong> Todos los botones de cotización llevan a la página <code>/contacto/</code>, donde está el formulario con estos campos: Nombre, Correo, Servicio, Fecha, Lugar y Lo que necesitas, más el enlace a la política de privacidad. Diseñar el formulario en la portada sería una decisión distinta, que habría que aprobar aparte.
+  </div>
+
+  <h3>Textos marcados como pendientes</h3>
+  <p>Cuatro textos todavía dependen del dueño: la frase sobre qué coordina Rhino, los casos con permiso, los datos de contacto y el tiempo de respuesta. Reserva su espacio con una extensión razonable y <strong>no los rellenes con textos inventados</strong>, ni siquiera en el diseño final.</p>
+</section>
+
+<!-- ===================== PÁGINA 3 ===================== -->
+<section class="page">
+  <h2>2. La estructura, sin diseño</h2>
+  <p>Así se ve hoy la página: solo HTML, sin estilos, y cada sección dentro de un recuadro. Las imágenes aparecen rotas a propósito porque todavía no hay fotografías. Tu diseño se aplicará sobre esta misma estructura.</p>
+  <figure class="tall"><img src="img/estructura.jpg" alt="Captura de la página de inicio sin diseño"><figcaption>Archivo: <code>sitio/index.html</code> · captura a 1440 px.</figcaption></figure>
+</section>
+
+<!-- ===================== PÁGINA 4 ===================== -->
+<section class="page">
+  <h2>3. Texto exacto</h2>
+  <p>Usa estos textos tal como están. El título principal y los textos de los enlaces están escritos para Google: <strong>no los cambies sin consultar</strong>. Si un texto no te cabe, avísanos y lo resolvemos juntos.</p>
+
+  <table class="tight">
+    <tr><th style="width:15%">Sección</th><th style="width:17%">Elemento</th><th style="width:38%">Texto</th><th>Lleva a</th></tr>
+    <tr><td class="sec">Cabecera</td><td>Menú</td><td>Servicios · Portafolio · Nosotros · Contacto</td><td>/servicios/ · /portafolio/ · /nosotros/ · /contacto/</td></tr>
+    <tr><td></td><td>Botón</td><td>Consultar proyecto</td><td>/contacto/</td></tr>
+    <tr><td class="sec">1 · Portada</td><td>Título principal (H1, único en la página)</td><td><strong>Productora audiovisual en Lima</strong></td><td>—</td></tr>
+    <tr><td></td><td>Subtítulo</td><td>Cobertura de eventos, streaming y podcast, y catering y coffee break para tu proyecto.</td><td>—</td></tr>
+    <tr><td></td><td>Botones</td><td>Consultar proyecto · Ver servicios</td><td>/contacto/ · /servicios/</td></tr>
+    <tr><td></td><td>Rótulo de la foto</td><td>Imágenes ilustrativas</td><td>—</td></tr>
+    <tr><td class="sec">2 · Prioritarios</td><td>Título</td><td>Servicios para tu proyecto</td><td>—</td></tr>
+    <tr><td></td><td>Servicio 1</td><td>Cobertura de eventos — Registro audiovisual de eventos empresariales y sociales.</td><td>Enlace «Cobertura audiovisual de eventos» → /servicios/cobertura-de-eventos/</td></tr>
+    <tr><td></td><td>Servicio 2</td><td>Streaming y podcast — Transmisión en vivo de eventos y grabación de episodios.</td><td>Enlace «Streaming de eventos y producción de podcast» → /servicios/streaming-y-podcast/</td></tr>
+    <tr><td></td><td>Servicio 3</td><td>Catering y coffee break — Atención corporativa para reuniones y eventos de empresa.</td><td>Enlace «Catering corporativo en Lima» → /servicios/catering-corporativo/</td></tr>
+    <tr><td class="sec">3 · Más servicios</td><td>Título</td><td>Más servicios</td><td>—</td></tr>
+    <tr><td></td><td>Lista (sin enlaces)</td><td>Producción audiovisual · Video corporativo · Organización de eventos · Alquiler de pantallas LED · Fotografía · Fotos corporativas · Estudio fotográfico · Marketing digital · Desarrollo web</td><td>—</td></tr>
+    <tr><td></td><td>Enlace</td><td>Servicios audiovisuales y para eventos</td><td>/servicios/</td></tr>
+    <tr><td class="sec">4 · Proyectos</td><td>Título y enlaces</td><td>Proyectos · «Proyectos de Rhino Audiovisuales» · «Conoce Rhino Audiovisuales»</td><td>/portafolio/ · /nosotros/</td></tr>
+    <tr><td class="sec">5 · Cómo solicitar</td><td>Título</td><td>Cuéntanos tu proyecto</td><td>—</td></tr>
+    <tr><td></td><td>Pasos</td><td>Cómo solicitar una propuesta: 1. Elige el servicio. 2. Indica fecha y lugar. 3. Envía tu consulta.</td><td>—</td></tr>
+    <tr><td></td><td>Enlace</td><td>Consulta y cotiza tu proyecto</td><td>/contacto/</td></tr>
+    <tr><td class="sec">Pie</td><td>Datos y menú</td><td>RHINO Audiovisuales · Lima · Servicios · Nosotros · Contacto · Política de privacidad</td><td>… · /politica-de-privacidad/</td></tr>
+  </table>
+  <p class="meta">Los enlaces de los servicios pueden verse como «Ver servicio» siempre que el texto accesible del enlace sea el indicado. Lo resolverá desarrollo; en el diseño basta con marcarlo.</p>
+</section>
+
+<!-- ===================== PÁGINA 5 ===================== -->
+<section class="page">
+  <h2>4. Reglas que no se pueden romper</h2>
+
+  <div class="cols">
+    <div>
+      <h3>No incluir</h3>
+      <ul class="no">
+        <li>Cifras inventadas: años de experiencia, número de eventos, clientes atendidos.</li>
+        <li>Logos de clientes, testimonios, reseñas, estrellas o premios sin autorización y prueba.</li>
+        <li>Precios, capacidades de equipo o tamaño del equipo humano.</li>
+        <li>Dirección exacta, RUC o razón social.</li>
+        <li>Decorados que imitan datos, como «REC», códigos de tiempo, números de sección o microtextos falsos.</li>
+        <li>Enlaces a servicios que todavía no tienen página.</li>
+      </ul>
+    </div>
+    <div>
+      <h3>Sí respetar</h3>
+      <ul class="si">
+        <li>Un solo título principal (H1), escrito como texto real y no dentro de una imagen.</li>
+        <li>Las fotos que no sean trabajos de Rhino llevan el rótulo «Imágenes ilustrativas».</li>
+        <li>Botón principal de cotización visible en la cabecera y en la portada.</li>
+        <li>Botones y enlaces táctiles de al menos 44 px en móvil.</li>
+        <li>Buen contraste de texto, sobre todo encima de fotos y de colores intensos.</li>
+        <li>Foco visible al navegar con teclado.</li>
+      </ul>
+    </div>
+  </div>
+
+  <h3>Rendimiento (lo que el diseño puede ayudar a cumplir)</h3>
+  <p>La página de inicio debe pesar <strong>menos de 1 MB</strong> en el celular, sin contar videos, y cargar rápido: el contenido principal en <strong>menos de 2,5 s</strong> y sin saltos de diseño mientras carga. Esto pide:</p>
+  <ul>
+    <li>Pocas tipografías: idealmente una familia para títulos y otra para texto, con los pesos justos.</li>
+    <li>Una sola imagen grande arriba. Las demás pueden cargar después.</li>
+    <li>Nada de video automático en la portada sin una decisión aparte.</li>
+    <li>Proporciones fijas para las imágenes (por ejemplo, 16:9 o 4:3), para reservar su espacio desde el inicio.</li>
+  </ul>
+
+  <h3>Fotografía</h3>
+  <p>Todavía no hay fotos reales de trabajos de Rhino. Diseña con imágenes de muestra <strong>rotuladas como ilustrativas</strong> y pensando en que después se reemplazarán por fotos reales de eventos, transmisiones y catering. El estilo no debe depender de una foto concreta.</p>
+</section>
+
+<!-- ===================== PÁGINA 6 ===================== -->
+<section class="page">
+  <h2>5. Referencia del dueño</h2>
+  <p>Esta es la imagen de referencia que aportó el dueño. Le gusta el <strong>carácter cinematográfico</strong>, la <strong>tipografía fuerte y condensada</strong> en los títulos y los <strong>acentos cálidos</strong> (naranja y bermellón sobre negro). Tómala como punto de partida de tono, no como plantilla: su texto es anterior y no coincide con el contenido actual.</p>
+  <figure class="tall"><img src="img/referencia.jpg" alt="Imagen de referencia del dueño"><figcaption>Referencia del dueño (autoría no comprobada). No usar sus textos ni datos.</figcaption></figure>
+</section>
+
+<!-- ===================== PÁGINA 7 ===================== -->
+<section class="page">
+  <h2>6. Exploraciones previas</h2>
+  <p>Tres direcciones generadas con IA a partir de la referencia y del texto actual. <strong>No son diseños aprobados</strong>: el dueño todavía no ha elegido, son de baja resolución y tienen erratas. Sirven para ver qué caminos ya se probaron.</p>
+  <div class="cols tri">
+    <figure><img src="img/dir-01.jpg" alt="Dirección 01"><figcaption><strong>01 · Subtítulos.</strong> Portada amplia con la cámara visible y servicios en bandas horizontales. Lectura clara, pero larga y repetitiva.</figcaption></figure>
+    <figure><img src="img/dir-02.jpg" alt="Dirección 02"><figcaption><strong>02 · Luz de rodaje.</strong> La más cercana a la referencia: portada negra y servicios en tres columnas sobre fondo claro. Errata: «Fotografia».</figcaption></figure>
+    <figure><img src="img/dir-03.jpg" alt="Dirección 03"><figcaption><strong>03 · Corte cálido.</strong> Bloque naranja para los servicios y catálogo en lista limpia. La de más personalidad; hay que revisar el contraste. Errata: «audiosisual».</figcaption></figure>
+  </div>
+</section>
+
+<!-- ===================== PÁGINA 8 ===================== -->
+<section class="page">
+  <h2>7. Lista de comprobación antes de entregar</h2>
+  <ul class="check">
+    <li>Están las cinco secciones, la cabecera y el pie, en el orden indicado.</li>
+    <li>Los textos son los de la página 4, sin cambios ni erratas.</li>
+    <li>Hay un solo título principal: «Productora audiovisual en Lima».</li>
+    <li>Las fotos de muestra llevan el rótulo «Imágenes ilustrativas».</li>
+    <li>No aparecen cifras, logos de clientes, reseñas ni otros datos inventados.</li>
+    <li>Los nueve servicios de «Más servicios» se ven como texto y no como enlaces.</li>
+    <li>La página se ve bien y se entiende sin la sección 4 (Proyectos).</li>
+    <li>Los espacios de los textos pendientes están reservados y marcados.</li>
+    <li>Están las versiones de escritorio (1440 px) y móvil (390 px).</li>
+    <li>Está la página de prueba de Cobertura de eventos con el mismo estilo.</li>
+    <li>La guía de estilo incluye colores, tipografías y componentes.</li>
+    <li>Los contrastes son legibles y los botones táctiles miden al menos 44 px en móvil.</li>
+  </ul>
+
+  <div class="box">
+    <strong>Dudas o propuestas:</strong> si crees que algún texto, el orden de las secciones o alguna regla perjudica el diseño, dilo antes de resolverlo por tu cuenta. Muchas de estas reglas vienen del plan SEO y de los permisos de clientes, y cambiarlas requiere una decisión del dueño.
+  </div>
+</section>
+
+</body>
+</html>

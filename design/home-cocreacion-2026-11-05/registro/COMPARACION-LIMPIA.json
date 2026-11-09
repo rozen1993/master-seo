@@ -1,0 +1,85 @@
+{
+  "pipeline": "core",
+  "coincidencias": [
+    "Mismo núcleo de contenido en ambos: H1 «Productora audiovisual en Lima», CTA «Consultar proyecto» (P33) y «Ver servicios» (P02), las tres prioridades en orden P05/P06/P07, privacidad al pie y rótulo «Imágenes ilustrativas». Es fiel a BRIEF-COMUN y a fichas-37 P01.",
+    "Ninguno incluye proyectos, logotipos, cifras, reels, iconos de reproducción ni archivos numerados. Ambos descartan la numeración ornamental, como pide la skill frontend-design.",
+    "Ambos mencionan el estudio propio (D6-07) sin inventar instalaciones, alquiler ni un set de podcast.",
+    "Las observaciones visuales coinciden en lo esencial sin copiarse. Henry: azul sobre noche con lectura débil. Iconoclast: fotograma desenfocado y menú minúsculo. Division: marca condensada y título serif fino. Velour: frase monumental con miniaturas periféricas. Love Song: tabla sobre rojo con números, autores y años. Stink: polo rojo, local de comida, subtítulo amarillo y cookies. MVSM: fondo claro y mosaico de 2 y luego 3 imágenes con etiquetas blancas. Builders: declaración centrada, tres accesos y díptico de escalera mecánica y calle nocturna. Claude añade detalles compatibles (corte en y≈585 en Iconoclast, etiqueta sobre cielo claro en MVSM).",
+    "Principio común: el texto funcional nunca va sobre la fotografía (superficies sólidas en Codex; rótulos, miniaturas o bandas en Claude).",
+    "Ambos parten de un ancho de 1440 px. Las alturas (4000 y 4320) son aspiracionales; las fija y verifica el operador.",
+    "Ambos detectan el riesgo de que las imágenes ilustrativas se lean como trabajos de Rhino, y el de que juntar las prioridades insinúe coordinación integral (C02)."
+  ],
+  "discrepancias": [
+    {
+      "punto": "Bloque «Proyectos autorizados» de P01",
+      "claude": "Lo omite, pero dice que la omisión necesita que Marco y el editor la acepten antes de generar.",
+      "codex": "Lo omite directamente, sin dejar espacios vacíos.",
+      "evidencia": "BRIEF-COMUN: «omitir la falsa prueba social o identificar claramente imágenes ilustrativas». Además, el usuario ya autorizó los mockups sin proyectos inventados.",
+      "resolucion": "Para los mockups vale lo de Codex: omitir es aplicar el límite y no hace falta preguntar otra vez. La reserva de Claude solo importa para el copy de producción de P01, que queda fuera de esta fase."
+    },
+    {
+      "punto": "Cómo se nombra el estudio propio",
+      "claude": "«con estudio fotográfico propio»",
+      "codex": "«Contamos con estudio propio»",
+      "evidencia": "D6-07 y P09: el estudio confirmado es fotográfico. C04 condiciona el «set propio de podcast». En una home que anuncia streaming y podcast, «estudio propio» a secas puede leerse como set de podcast.",
+      "resolucion": "Usar la redacción de Claude, «estudio fotográfico propio». Es la más precisa y la que mejor evita una afirmación condicionada."
+    },
+    {
+      "punto": "«Más servicios»",
+      "claude": "Nueve servicios concretos de tanda A (P03, P04, P08, P09, P11, P21, P22, P23 y P24), excluyendo la tanda B.",
+      "codex": "Cuatro familias: Producción audiovisual · Fotografía y estudio · Servicios para eventos · Servicios digitales.",
+      "evidencia": "06-guia-entrega: «No enlazar destinos de tanda B…» (Claude cita bien el pasaje). Las familias salen de 01-arquitectura. La tanda A tampoco está publicada; en ambos casos los enlaces son conceptuales.",
+      "resolucion": "Las dos opciones respetan el límite. Recomiendo las familias de Codex: en un PNG es menos texto, hay menos riesgo de que el generador lo deforme y no se fija una lista de destinos. Es una preferencia, no un defecto de la otra."
+    },
+    {
+      "punto": "Mención de los eventos sociales",
+      "claude": "«eventos empresariales y sociales» en Cobertura y en Sobre Rhino.",
+      "codex": "No los menciona.",
+      "evidencia": "D6-07 y C01: los servicios sociales están confirmados por el dueño. P05 recoge registro empresarial y social.",
+      "resolucion": "Incluirlos una vez, en Sobre Rhino. Es un hecho confirmado y no hace falta repetirlo."
+    },
+    {
+      "punto": "Etiqueta de navegación institucional",
+      "claude": "«Nosotros» / «Conoce Rhino»",
+      "codex": "«Sobre Rhino»",
+      "evidencia": "El BRIEF pide acceso a «sobre Rhino». P32 tiene la URL /nosotros/ y el H1 «Conoce Rhino Audiovisuales».",
+      "resolucion": "Ninguna es un error. Elegir una y usarla igual en la cabecera, el bloque y el pie, porque la skill pide vocabulario constante."
+    },
+    {
+      "punto": "Equipamiento en las imágenes",
+      "claude": "Muestra cámara de espaldas y cámara con micrófonos en un evento genérico.",
+      "codex": "Solo gestos (encuentro, escucha, manos con taza), sin equipos.",
+      "evidencia": "El BRIEF prohíbe prometer equipamiento, no representarlo. C04 condiciona el set de podcast.",
+      "resolucion": "Una vía intermedia: equipo genérico, sin marca y fuera de un estudio, para que «Streaming y podcast» sea reconocible. Una imagen de «voz y escucha» sin equipo puede no comunicar la categoría (sospecha, sin verificar en un PNG)."
+    },
+    {
+      "punto": "Contraste",
+      "claude": "Da ratios planificados (5,1:1, ≈9:1, ≈6,5:1, ≈8:1).",
+      "codex": "Marca los tonos secundarios como «sujeto a contraste».",
+      "evidencia": "No se ha medido nada en ningún PNG. El propio Claude dice que los valores planificados no prueban nada.",
+      "resolucion": "Tratar todos los ratios como no verificados hasta muestrear los PNG."
+    },
+    {
+      "punto": "Integridad del paquete",
+      "claude": "Hashes no verificados (gate not-run).",
+      "codex": "Declara verificado el SHA256 0EAD2E7B…",
+      "evidencia": "Son capacidades distintas, no hechos que se contradigan.",
+      "resolucion": "Queda verificado por Codex y no verificado por Claude. No afecta a la comparación."
+    }
+  ],
+  "recomendacion": "## Diferencias estéticas decisivas\n| Eje | Codex | Claude |\n|---|---|---|\n| Composición | A: hero partido y bandas alternas · B: collage de papel escalonado · C: columna fotográfica vertical | A: multivista 2×2 · B: H1 monumental con frases-opción · C: encuadre 2,39:1 con bandas negras |\n| Tipografía | Archivo SemiCondensed/Narrow, Bricolage, Source Sans, Figtree, Instrument | Archivo expandida, Bricolage 800, Newsreader, monos de utilidad |\n| Color | azul sala + rosa mineral · lila + coral + salvia · blanco + verde profundo | blanco + tally rojo · azul cabina + amarillo subtítulo · garúa + tungsteno |\n| Imagen | foto editorial sin equipos · ilustración de papel · detalles diurnos | 16:9 en monitor · miniaturas en duotono · documental tungsteno |\n\nHay dos convergencias: cine (Codex A y Claude C) y tipografía grande (Codex C y Claude B). Además se repiten Bricolage, Archivo e Instrument.\n\n## Tres rutas para refinar\n1. **Cine con bandas (híbrida por mérito).** Base: las bandas negras como interfaz, de Claude C. Garantizan contraste del H1 y del CTA sea cual sea la imagen generada, y corrigen el defecto observado en Henry. Añadir las tres bandas panorámicas de prioridades de Codex A, que dan el mismo peso a P05, P06 y P07 y resuelven el hero de Claude C, que solo muestra cobertura. Display serif (Newsreader) para separarse de las otras rutas. Una sola paleta: garúa + tungsteno, que está anclada en Lima.\n2. **Mesa de montaje (Codex B).** Es la estrategia de imagen más honesta, porque una ilustración no puede pasar por trabajo de Rhino. También es la más distinta en material y color. Hay que refinar figuras adultas y sobrias. Si la ruta 3 conserva Bricolage, esta necesita otro display.\n3. **La frase que elige (Claude B).** Su gesto codifica la función de P01 («elegir por encargo»), y el azul saturado con miniaturas en duotono se aleja de las rutas 1 y 2. Conviene aplicarle la contención de Codex C: el hero en torno a 1/5 del lienzo y las frases-opción bien por debajo del H1.\n\nQuedan en reserva: Multivista (Claude A), con el gesto más propio del oficio pero riesgo de verse como bento o SaaS y de reforzar C02, y Luz de día (Codex C), la más cercana a un catálogo genérico.\n\n## Cuestiones concretas para cocrear\n- ¿«Sobre Rhino» o «Nosotros»? Elegir uno y usarlo en todas partes.\n- Fijar «estudio fotográfico propio» y una mención a eventos sociales.\n- ¿Familias o lista de servicios en «Más servicios»? Recomiendo familias.\n- ¿CTA también en la cabecera? Claude sí, Codex no.\n- Imagen de streaming: ¿equipo genérico fuera de estudio o solo gesto?\n- Reparto de tipografías sin repeticiones entre rutas (Bricolage solo en una, Archivo solo en una).\n- Cuerpo de texto de 20–24 px para que se lea al tamaño de inspección.\n- Altura común: la decide el operador.\n\nNo autorizo implementación web ni cambios de SEO o campañas. La elección final es de Marco, después de ver los tres PNG.",
+  "riesgos": [
+    "El generador puede deformar texto en español (tildes, «Imágenes», «Lima») o cortar líneas. Es el principal riesgo para la aceptación y queda sin verificar.",
+    "Las rutas 1 y 3 pueden volver a parecerse si comparten escala de H1 y tipografía. Cada ruta necesita un reparto tipográfico exclusivo.",
+    "Las imágenes de cine pueden leerse como trabajos de Rhino aunque lleven el rótulo. Mitigación: planos genéricos, de espaldas, sin marcas, y el rótulo cerca de las imágenes.",
+    "La ilustración de papel puede verse infantil o poco B2B (sospecha que el propio Codex planteó; hay que contrastarlo con Marco).",
+    "Azul y amarillo puede evocar marcas de retail (sospecha de Claude). Hay una alternativa más oscura en reserva.",
+    "Los ratios de contraste no se han medido. Ningún gate puede declararse aprobado hasta muestrear los PNG.",
+    "Presentar las tres prioridades juntas puede insinuar coordinación integral o contrato único (C02). La copy no debe hablar de paquetes combinados.",
+    "Conflicto de entorno: el modo plan pide escribir un plan y llamar a ExitPlanMode, pero esas herramientas no están disponibles y el encargo prohíbe escribir. No se generó ningún archivo."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Confianza alta en las coincidencias y discrepancias de contenido, que he cotejado con fichas-37, D6-07, C02/C04 y 06-guia-entrega. Confianza media en la selección estética: está basada en planes escritos y en las observaciones registradas por cada par, no en imágenes vistas en esta sesión ni en PNG generados. El contraste y la tipografía siguen sin verificar."
+  }
+}

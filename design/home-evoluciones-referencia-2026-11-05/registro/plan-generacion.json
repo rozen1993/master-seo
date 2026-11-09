@@ -1,0 +1,22 @@
+{
+  "requested_canvas": [
+    1440,
+    4200
+  ],
+  "reference": "fuentes/original.png",
+  "common_copy": "CONTENIDO-COMUN.txt",
+  "variants": [
+    "01-subtitulos",
+    "02-luz-de-rodaje",
+    "03-corte-calido"
+  ],
+  "sources": [
+    "CODEX-DERIVACION.md",
+    "CLAUDE-DERIVACION.json",
+    "COMPARACION.json",
+    "CODEX-COCREACION.md",
+    "CLAUDE-CIERRE.json"
+  ],
+  "image_engine": "built-in image_gen",
+  "html_created": false
+}

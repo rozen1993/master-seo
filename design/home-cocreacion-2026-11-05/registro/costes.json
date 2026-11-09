@@ -1,0 +1,102 @@
+{
+  "date": "2026-11-05",
+  "claude_calls": [
+    {
+      "step": "cocreacion",
+      "envelope": "cocreacion-claude-envelope.json",
+      "complete": true,
+      "estimated_list_usd": 1.234191,
+      "billing_confirmed": false,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 8,
+          "outputTokens": 12927,
+          "cacheReadInputTokens": 355255,
+          "cacheCreationInputTokens": 113071,
+          "webSearchRequests": 0,
+          "costUSD": 1.234191,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 6085,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 113071,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "cost_source": "CLI envelope"
+    },
+    {
+      "step": "comparacion",
+      "envelope": "comparacion-claude-envelope.json",
+      "complete": true,
+      "estimated_list_usd": 1.107796,
+      "billing_confirmed": false,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 10119,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 113176,
+          "webSearchRequests": 0,
+          "costUSD": 1.107796,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 5164,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 113176,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "cost_source": "CLI envelope"
+    },
+    {
+      "step": "derivacion",
+      "envelope": "derivacion-claude-envelope.json",
+      "complete": true,
+      "estimated_list_usd": 1.4562857999999999,
+      "billing_confirmed": false,
+      "model_usage": {
+        "claude-opus-5-5": {
+          "inputTokens": 4,
+          "outputTokens": 28840,
+          "cacheReadInputTokens": 98469,
+          "cacheCreationInputTokens": 107472,
+          "webSearchRequests": 0,
+          "costUSD": 1.4562857999999999,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 14672,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 107472,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "cost_source": "CLI envelope"
+    },
+    {
+      "step": "vision",
+      "envelope": "vision-claude-envelope.json",
+      "complete": false,
+      "estimated_list_usd": 0.2777006,
+      "billing_confirmed": false,
+      "model_usage": {},
+      "cost_source": "preserved CLI stderr from vision test"
+    }
+  ],
+  "known_estimated_list_total_usd": 4.0759734,
+  "unknown_is_not_zero": true,
+  "web_cost": "not exposed per call",
+  "screenshot_endpoint": "public free access, no subscription/key used",
+  "image_generation_cost": "not yet recorded",
+  "codex_cost": "not exposed per call",
+  "new_dataforseo_calls": 0,
+  "campaign_changes": false,
+  "ads_monthly_cap_pen": 110,
+  "ads_cap_is_not_tool_budget": true
+}

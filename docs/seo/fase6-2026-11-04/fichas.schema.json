@@ -1,0 +1,368 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Contrato documental F6 de 37 fichas",
+  "type": "object",
+  "required": [
+    "version",
+    "fecha",
+    "naturaleza",
+    "rows"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string"
+    },
+    "fecha": {
+      "type": "string"
+    },
+    "naturaleza": {
+      "type": "string"
+    },
+    "rows": {
+      "type": "array",
+      "minItems": 37,
+      "maxItems": 37,
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "url",
+          "url_fuente_fase5",
+          "tipo",
+          "familia",
+          "tanda_propuesta",
+          "estado_estructura",
+          "estado_contenido",
+          "estado_publicacion",
+          "prioridad_fase5",
+          "funcion_y_limite",
+          "intencion_fuente",
+          "keyword",
+          "metadatos",
+          "bloques",
+          "cta",
+          "insumos_pendientes",
+          "schema_candidato",
+          "indexacion_objetivo",
+          "relacionadas",
+          "dependencias_fase5",
+          "aceptacion",
+          "trazabilidad"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^P(0[1-9]|[12][0-9]|3[0-7])$"
+          },
+          "url": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "url_fuente_fase5": {
+            "type": "string"
+          },
+          "tipo": {
+            "type": "string",
+            "enum": [
+              "html",
+              "reserva",
+              "plantilla_404",
+              "pdf"
+            ]
+          },
+          "familia": {
+            "type": "string"
+          },
+          "tanda_propuesta": {
+            "type": "string"
+          },
+          "estado_estructura": {
+            "type": "string"
+          },
+          "estado_contenido": {
+            "type": "string"
+          },
+          "estado_publicacion": {
+            "type": "string",
+            "enum": [
+              "no_aprobada"
+            ]
+          },
+          "prioridad_fase5": {
+            "type": "object",
+            "required": [
+              "urgency",
+              "impact",
+              "confidence"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "urgency": {
+                "type": "string",
+                "enum": [
+                  "P0",
+                  "P1",
+                  "P2"
+                ]
+              },
+              "impact": {
+                "type": "string",
+                "enum": [
+                  "alto",
+                  "medio",
+                  "bajo"
+                ]
+              },
+              "confidence": {
+                "type": "string",
+                "enum": [
+                  "alta",
+                  "media",
+                  "baja"
+                ]
+              }
+            }
+          },
+          "funcion_y_limite": {
+            "type": "string"
+          },
+          "intencion_fuente": {
+            "type": "string"
+          },
+          "keyword": {
+            "type": "object",
+            "required": [
+              "principal",
+              "estado",
+              "variantes",
+              "evidencia",
+              "variantes_proveniencia"
+            ],
+            "properties": {
+              "principal": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "estado": {
+                "type": "string"
+              },
+              "variantes": {
+                "type": "array"
+              },
+              "evidencia": {
+                "type": "string"
+              },
+              "variantes_proveniencia": {
+                "type": "array"
+              }
+            },
+            "additionalProperties": false
+          },
+          "metadatos": {
+            "type": "object",
+            "required": [
+              "title",
+              "h1",
+              "description"
+            ],
+            "additionalProperties": false,
+            "properties": {
+              "title": {
+                "type": "object",
+                "required": [
+                  "valor",
+                  "estado",
+                  "caracteres"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "valor": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "estado": {
+                    "type": "string"
+                  },
+                  "caracteres": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "h1": {
+                "type": "object",
+                "required": [
+                  "valor",
+                  "estado",
+                  "caracteres"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "valor": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "estado": {
+                    "type": "string"
+                  },
+                  "caracteres": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                }
+              },
+              "description": {
+                "type": "object",
+                "required": [
+                  "valor",
+                  "estado",
+                  "caracteres"
+                ],
+                "additionalProperties": false,
+                "properties": {
+                  "valor": {
+                    "type": [
+                      "string",
+                      "null"
+                    ]
+                  },
+                  "estado": {
+                    "type": "string"
+                  },
+                  "caracteres": {
+                    "type": [
+                      "integer",
+                      "null"
+                    ]
+                  }
+                }
+              }
+            }
+          },
+          "bloques": {
+            "type": "array"
+          },
+          "cta": {
+            "type": "string"
+          },
+          "insumos_pendientes": {
+            "type": "string"
+          },
+          "schema_candidato": {
+            "type": "array"
+          },
+          "indexacion_objetivo": {
+            "type": "object",
+            "required": [
+              "objetivo",
+              "sitemap",
+              "canonical"
+            ],
+            "properties": {
+              "objetivo": {
+                "type": "string"
+              },
+              "sitemap": {
+                "type": "string"
+              },
+              "canonical": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          },
+          "relacionadas": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^P(0[1-9]|[12][0-9]|3[0-7])$"
+            }
+          },
+          "dependencias_fase5": {
+            "type": "string"
+          },
+          "aceptacion": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "enum": [
+                "AC-01",
+                "AC-02",
+                "AC-03",
+                "AC-04",
+                "AC-05",
+                "AC-06",
+                "AC-07",
+                "AC-08",
+                "AC-09",
+                "AC-10",
+                "AC-11",
+                "AC-12",
+                "AC-13",
+                "AC-14",
+                "AC-15",
+                "AC-16",
+                "AC-17",
+                "AC-18"
+              ]
+            }
+          },
+          "trazabilidad": {
+            "type": "object",
+            "required": [
+              "fuente",
+              "fila",
+              "fecha_consolidacion",
+              "evidencia",
+              "hipotesis_fase4",
+              "hipotesis_adenda",
+              "verificacion_externa_pendiente",
+              "cuenta_negocio_pendiente"
+            ],
+            "properties": {
+              "fuente": {
+                "type": "string"
+              },
+              "fila": {
+                "type": "string"
+              },
+              "fecha_consolidacion": {
+                "type": "string"
+              },
+              "evidencia": {
+                "type": "string"
+              },
+              "hipotesis_fase4": {
+                "type": "string"
+              },
+              "hipotesis_adenda": {
+                "type": "string"
+              },
+              "verificacion_externa_pendiente": {
+                "type": "string"
+              },
+              "cuenta_negocio_pendiente": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    }
+  }
+}

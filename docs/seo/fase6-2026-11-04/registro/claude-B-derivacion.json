@@ -1,0 +1,167 @@
+{
+  "pipeline": "core",
+  "input_class": "bundled-artifact",
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "MATRIZ-FASE-5.json completa: solo constan las dos tablas del informe F5; los campos por fila (responsables, cierre, hipótesis F4) no se han leído",
+      "Docs 03 y 06 originales: los title, H1 y metas concretos de las 37 fichas no se ven aquí; los aporta el componente A",
+      "vercel.json: F5 lo comprobó a nivel de archivo (seis 301); no se ha releído aquí",
+      "Registros brutos F4 (L01–L22, S001–S053, CP01–CP08), adenda AD E01–E09, Q01–Q13 y official-checks.json: se usan como referencias de F5, sin reverificar",
+      "content/datos-de-prueba.json y design/direcciones/: no se han enviado",
+      "Salida del componente A de F6: no se ha recibido (correcto para una derivación independiente)"
+    ]
+  },
+  "supuestos": [
+    "El paquete no fija extensión ni formato de los documentos nuevos. Supongo un paquete modular en Markdown con registros JSON comprobables mecánicamente. Lo decide quien escriba, tras la comparación.",
+    "El componente A entrega las 37 fichas con los ID P01–P37 de F5. El componente B se une a ellas por ID y URL y no repite su contenido.",
+    "El modo plan pedía crear un archivo de plan y llamar a ExitPlanMode. Prevalece el contrato del paquete, sin escritura ni herramientas: no he escrito nada y la respuesta va solo por StructuredOutput.",
+    "El paquete no define las pruebas del paquete documental para el pipeline core. Las propongo en verificacion y las marco como propuesta.",
+    "Los criterios de Google (FAQ, Review, Inspección de URL, noindex) se toman como resueltos en F5 con su fecha de comprobación del 03-11-2026. No se han vuelto a consultar.",
+    "Roles sin nombres de persona, salvo Marco como quien decide (así figura en F5). No se fijan plazos."
+  ],
+  "findings": [
+    {
+      "title": "La medición equipara cargar /gracias/ con un formulario enviado e importa interacciones como conversiones de Ads",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-07.md A.6; fuente-11.md §3.6 (puntos 2–3)",
+      "evidence": "07 A.6: «form_submit (carga de /gracias/)… whatsapp_click, phone_click, brochure_download… se importan a Google Ads como conversiones». 11 §3.6 trata los clics en WhatsApp y en tel: como conversiones principales. F5 D02 lo resuelve con cuatro niveles: interacción, aceptado, recibido y cualificado.",
+      "verification": "El documento de medición nuevo sustituye esos apartados. Prueba documental: ningún evento de nivel interacción figura como principal propuesta; el evento de envío no depende de la carga de la página."
+    },
+    {
+      "title": "Staging: noindex combinado con un robots que bloquea el rastreo",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-07.md A.7, «Staging (previo)»",
+      "evidence": "«noindex (cabecera X-Robots-Tag y robots que bloquea)». F5 D08 y G5-NOINDEX: Google no puede leer un noindex que no deja rastrear. Es una contradicción del documento, no un fallo de despliegue.",
+      "verification": "La política de indexación nueva ofrece dos opciones excluyentes (noindex legible o acceso restringido). La prueba real corresponde al control de lanzamiento."
+    },
+    {
+      "title": "07 conserva public/show.html y habla de 12 servicios",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-07.md A.2 (árbol public/ y src/content/servicios) y B.5.3",
+      "evidence": "«show.html # fase A: se conserva» frente a la decisión del dueño de redirigirlo con 301 desde el lanzamiento (CLAUDE.md, 00 §9.1). «12 servicios» frente a las 20 páginas de servicio de F5 §1.",
+      "verification": "El registro de vigencia marca 07 A.2 y B.5 como sustituidos. Prueba: ningún documento nuevo menciona show.html como archivo publicado."
+    },
+    {
+      "title": "El ejemplo de redirecciones de 07 no coincide con vercel.json",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fuente-07.md A.5",
+      "evidence": "Cuatro reglas con permanent:true (308), mientras la nota dice que el repositorio usa statusCode 301. Faltan /index.html y /show.html en el bloque. F5 D01: el archivo tiene seis 301, comprobado a nivel de archivo, no de despliegue.",
+      "verification": "El contrato de URL nuevo es la única fuente de las reglas y no copia el ejemplo. Pendiente: cotejar sus filas con vercel.json."
+    },
+    {
+      "title": "07 trata FAQPage y Review como si dieran resultados enriquecidos",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-07.md A.3 (JSON-LD); fuente-00.md §10.2",
+      "evidence": "F5 D08: Google retiró los resultados FAQ desde el 07-05-2026, y las reseñas propias de Organization/LocalBusiness no dan estrellas. 07 lo mezcla con el resto del marcado sin separar el marcado de la elegibilidad.",
+      "verification": "La matriz de schema separa «se puede marcar» de «resultado elegible». Prueba: ningún documento nuevo promete estrellas ni FAQ enriquecidas."
+    },
+    {
+      "title": "ProfessionalService es un subtipo de LocalBusiness en schema.org",
+      "classification": "sospecha",
+      "severity": "medium",
+      "location": "fuente-07.md A.3; F5 D08 («no literalmente LocalBusiness»)",
+      "evidence": "En la jerarquía de schema.org, ProfessionalService hereda de LocalBusiness. F5 acierta en lo literal, pero los requisitos de entidad local (como la dirección) previsiblemente también afectan a ProfessionalService. No contradice F5, que pide revisar la elegibilidad; la completa.",
+      "verification": "Consultar schema.org/ProfessionalService y la guía de LocalBusiness de Google (consulta externa que no se ha hecho aquí). Mientras tanto, la matriz condiciona ProfessionalService a una dirección real o usa solo Organization."
+    },
+    {
+      "title": "Los originales mantienen afirmaciones ya corregidas: máximo S/100, «No apta», horario validado, canónica confirmada, la migración elimina el bloqueo",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "CLAUDE.md «Publicidad»; 00 §1.4, §3.4, §11, §15; 11 §2 S10, §3.1, §3.7",
+      "evidence": "La instrucción vigente del usuario fija un máximo de S/110 (F5, introducción). E07 reporta ENABLED/ELIGIBLE/SERVING (F5 D03). Los datos por franja horaria no validan el filtro lunes–sábado (comparación B). La causa del vacío sigue desconocida (F5 D04).",
+      "verification": "El registro de vigencia lista cada afirmación con su estado nuevo y su fuente. Búsqueda de frases en los documentos nuevos: ninguna se reproduce como hecho."
+    },
+    {
+      "title": "Si la campaña llega a entregar con la configuración observada, superaría S/110 y saldría de Lima y Callao",
+      "classification": "sospecha",
+      "severity": "high",
+      "location": "F5 D03; comparación B, discrepancia de presupuesto",
+      "evidence": "S/7,77 al día con Perú y PRESENCE_OR_INTEREST equivalen a unos S/233 nominales en 30 días. No hay entrega demostrada desde el 01-03.",
+      "verification": "Control de Ads: captura de la configuración conciliada con el plan y vista previa aprobada. No se ejecuta en este paquete."
+    },
+    {
+      "title": "La lista de lanzamiento exige que todas las URL respondan 200, sin excepción para el 404",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fuente-07.md A.7, punto 2",
+      "evidence": "«Todas las URLs responden 200» frente a F5 P36: hace falta un 404 real fuera del sitemap.",
+      "verification": "El control de lanzamiento distingue las clases de URL: indexables 200, legado 301, inexistentes 404."
+    },
+    {
+      "title": "La canónica elegida por Google, el acceso de Googlebot real y el despliegue de las redirecciones no están verificados",
+      "classification": "no_verificado",
+      "severity": "high",
+      "location": "F5 D01, A01, §6.1 y §6.5",
+      "evidence": "E05: url_inspection null. Lo comprobado es un archivo local, no un despliegue.",
+      "verification": "A01: Inspección de URL, en datos indexados, de la home, /show.html y /index.html en ambos hosts. La hace el dueño con acceso a GSC; no forma parte del paquete documental."
+    }
+  ],
+  "propuesta": "CONTRATO DEL COMPONENTE B (documentos nuevos, sin editar los originales; se une al componente A por ID P01–P37 y URL)\n\nB0 Índice y registro de vigencia. Orden de prevalencia: usuario y S/110 > resoluciones F5 > matriz F5 > F4 con adenda > históricos. Tabla con estos campos: afirmación, documento:sección de origen, estado (hecho, reportado, decisión del dueño, hipótesis, sustituido), fuente, fecha del dato, qué la sustituye. Incluye los hallazgos de esta respuesta. El aviso de CLAUDE.md de actualizar 00 se atiende con este registro, sin tocar 00.\n\nB1 Contrato de URL y migración. Una fila por combinación de ruta antigua (/, /index.html, /video.html, /fotografia.html, /marketing.html, /web.html, /show.html, /Brochure.pdf) con cada variante de host (https y http, con y sin www). El host queda como variable {HOST_CANONICO}, con dos ramas documentadas y sin elegir ninguna. Campos por fila: origen, respuesta esperada (301, 200 o 404), destino, número de saltos objetivo (uno; si hay cadena, se registra como desviación), destino 200 pertinente, ID de la ficha A, comparación de contenido (L03–L07), dependencia (A01 o A11), estado (preparado o condicionado) y prueba futura. Queda fijado: el 301 del show desde el lanzamiento y /Brochure.pdf en la misma ruta, sin 301 y con la mayúscula exacta. Queda condicionado: el destino de /fotografia.html, decidido por equivalencia completa con L04. Para las URL nuevas, la variante sin barra final redirige a la versión con barra.\n\nB2 Política de indexación por clase de URL. Clases: servicio o página publicada; tanda B o reserva sin publicar (no existe, no se enlaza, no va al sitemap); auxiliar (/gracias/ con noindex legible, fuera del sitemap y de la navegación); 404 (código real, fuera del sitemap); PDF (200 y sin noindex salvo decisión expresa); legado (301 y fuera del sitemap nuevo); staging (noindex legible o acceso restringido, nunca combinado con bloqueo de rastreo). Campos: meta robots, X-Robots-Tag, sitemap, canonical absoluta, si se enlaza internamente.\n\nB3 Contrato de metadatos. Campos: title, description, H1, canonical, og:title, og:image absoluta, lang es-PE y breadcrumb. Las reglas 60/155/un H1 son convenciones locales, no límites de Google. Prueba de coherencia: title, H1, meta, incluidos y condiciones describen la misma prestación. En la home y el show se conserva el foco del legado (title y H1 distintos, sin identidad literal). No hay mínimo de palabras.\n\nB4 Matriz de datos estructurados. Campos: tipo, página o clase, condición de uso, dato real que necesita, fuente o aprobador, estado y elegibilidad declarada. Columnas separadas para «se puede marcar» y «posible resultado en Google». Organization y WebSite: sí. ProfessionalService/LocalBusiness: solo con dirección y nombre, dirección y teléfono reales. BreadcrumbList: sí. Service: con oferta aprobada. FAQPage: opcional y sin prometer resultado. Review/AggregateRating de la propia entidad: no. VideoObject: solo con video real y permiso. La elegibilidad nunca es requisito para que una página exista.\n\nB5 Diccionario de medición. Campos: evento, nivel (interacción, aceptado, recibido o cualificado), disparador, clave de deduplicación, destino en GA4, propuesta para Ads (principal o secundaria, pendiente de aprobación) y prueba. Aceptado: respuesta correcta del servicio de envío, no la carga de /gracias/. Recibido: la llegada al buzón o al registro se confirma. Cualificado: marca manual del responsable de atención según criterios escritos por el dueño. WhatsApp, teléfono y descarga se quedan en interacción.\n\nB6 Inventario de tratamiento de datos. Campos: dato, finalidad, proveedor (formulario, GTM/GA4, Ads), destino, conservación, responsable y estado de revisión competente. No emite dictamen legal. El Libro de Reclamaciones y la política de privacidad quedan como preguntas para el asesor.\n\nB7 Accesibilidad y rendimiento, como verificación futura. Contraste AA de 4,5:1, un H1, alt descriptivo, zonas táctiles de 44 px, texto en HTML. Los objetivos de LCP, INP y CLS se miden en la implementación (laboratorio primero; datos de campo cuando existan). No condicionan el paquete documental.\n\nB8 Registro de condiciones comerciales y afirmaciones. Campos: afirmación, página, estado (aprobada, pendiente o retirada), evidencia, aprobador, fecha y permiso de nombre o material. Cubre los incluidos de cobertura, LED, sonido y fotos corporativas, los cuatro casos, la antigüedad en /nosotros/, los permisos de catering y drone, y la regla de no simular datos de prueba.\n\nB9 Revisiones por rol: SEO, editor, desarrollo y QA, analítica, Ads, asesor competente y Marco. Cada P0 tiene un rol responsable y un cierre observable; no se asignan personas ni plazos.\n\nB10 Anexo de Ads, separado. Máximo de S/110 al mes. Recalcular con la regla de lo que queda del mes entre los días que quedan. Ningún cambio sin vista previa y aprobación expresa. Aceptar el paquete no aprueba cambios.\n\nB11 Guía de entrega. Cuatro bandejas por ficha y requisito: preparado para maquetar; condicionado (con la dependencia indicada); backlog (tanda B, /precios/, /blog/, S5, S6); pruebas futuras. Variables abiertas: host, hosting y diseño.\n\nCONTROLES (no se confunden entre sí)\n• Paquete documental (D): las 37 filas de A enlazadas; cada requisito tiene fuente y estado; las búsquedas de frases prohibidas no dan resultados; el host sigue como variable; hay cero plazos inventados; los hashes de los originales no cambian.\n• Lanzamiento (L): A01 hecho; cada fila de B1 se prueba con peticiones reales; 404 real; PDF con 200; sitemap solo con indexables del host elegido; noindex retirado; formulario aceptado y recibido una sola vez, sin evento por acceso directo o recarga; cero datos de prueba y cero marcadores; permisos de los casos; texto de privacidad revisado.\n• Ads (A): entrega diagnosticada o declarada desconocida; configuración conciliada con Lima y Callao por presencia; presupuesto de S/110 o menos recalculado; vista previa aprobada; decisión explícita de Marco sobre el show antes del 15-11.\n• Después de publicar (no condiciona la publicación): seguimiento en GSC, solicitud de indexación, sitemap temporal, Bing e IndexNow, Core Web Vitals de campo y consultas por URL.\n\nORDEN. B0 a B11 se redactan en paralelo. A01 resuelve la variable de B1. El diseño y la construcción (sin elegir) usan B1 a B8. Después: staging, control L, publicación y seguimiento. La vía de Ads es independiente: A04 y A05 van antes que A06.\n\nDECISIONES DE MARCO: canónica tras la inspección; hosting; dirección visual; destino de /fotografia.html; separar o no el podcast; modalidades del estudio; show en Ads; conciliación de la campaña; permisos de los casos; aprobación del registro de vigencia.",
+  "alternativas": [
+    "Un solo documento con todo el componente B: se lee más fácil, pero no admite comprobaciones mecánicas por registro. Lo descarto.",
+    "Esperar a A01 para redactar B1: bloquearía la entrega sin necesidad. Lo descarto: el host queda como variable con dos ramas.",
+    "Escribir B4 y B5 como código (JSON-LD o GTM): el paquete lo prohíbe. Lo descarto: solo contrato y campos."
+  ],
+  "riesgos": [
+    "Que se lea la aceptación del paquete como permiso para publicar o para cambiar Ads.",
+    "Que el desarrollador copie el ejemplo de 07 A.5 o el show.html de 07 A.2 si no se ha leído B0.",
+    "Elegir el host antes de A01 y contradecir la canónica que usa Google.",
+    "Que la campaña entregue con la configuración observada y supere S/110 (sospecha).",
+    "Que B5 se implemente contando interacciones como contactos y desvíe pujas y horarios.",
+    "Que la sospecha sobre ProfessionalService se quede sin comprobar y se acabe prometiendo un resultado local sin dirección real.",
+    "Que la extensión de los documentos supere lo que el dueño pide leer; se mitiga con las bandejas de B11."
+  ],
+  "verificacion": [
+    "D1: las 37 filas de A tienen su referencia en B1, B2 o B11, con ID y URL únicos.",
+    "D2: cada fila de B1 cubre las cuatro variantes de host, con dependencia y prueba futura.",
+    "D3: búsqueda en los documentos nuevos de «S/ 100 al mes como máximo», «No apta» como estado actual, «validado», «elimina el bloqueo», «competencia débil» y «estrellas»: cero resultados como hecho.",
+    "D4: cada P0 tiene un rol y un cierre observable; no hay fechas ni plazos nuevos.",
+    "D5: B4 tiene separadas las columnas de marcado y de elegibilidad.",
+    "D6: B5 no usa la carga de /gracias/ como disparador de envío.",
+    "D7: los SHA-256 de los originales coinciden con el manifiesto F5 tras la escritura.",
+    "D8: los enlaces locales del paquete se resuelven."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Alta en las contradicciones de 07, 11 y 00, demostradas contra su propio texto y contra F5. Media en la estructura del paquete, a falta de la matriz JSON, los docs 03 y 06 y la salida de A. La sospecha sobre schema.org no se ha comprobado externamente."
+  },
+  "gates": [
+    {
+      "name": "Paquete documental (D)",
+      "status": "not-run",
+      "evidence": "Solo se propone; el escritor lo ejecuta tras la comparación."
+    },
+    {
+      "name": "Lanzamiento (L)",
+      "status": "not-applicable",
+      "evidence": "No hay implementación ni host elegido; no es requisito de esta fase."
+    },
+    {
+      "name": "Ads (A)",
+      "status": "not-run",
+      "evidence": "No se ha consultado ni modificado la cuenta."
+    }
+  ],
+  "deviations": [
+    {
+      "category": "other",
+      "before": "El modo plan pedía crear un archivo de plan y llamar a ExitPlanMode.",
+      "after": "No se escribió nada; la salida va solo por StructuredOutput.",
+      "reason": "El contrato del paquete prohíbe la escritura y las herramientas al par.",
+      "impact": "Ninguno sobre el contenido; el anfitrión conserva la respuesta."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "(carpeta F6 que decida el anfitrión)/B0…B11",
+      "purpose": "Paquete del componente B descrito en propuesta",
+      "status": "planned"
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+Use case: ui-mockup.
+Create ONE premium art-directed high-fidelity FULL HOMEPAGE mockup, desktop website, as a single opaque PNG, not code. Entire page from navigation through footer, straight-on flat website image, no browser chrome, no device, no tilted presentation. Requested canvas EXACTLY 1440 pixels wide by 3840 pixels tall, aspect ratio 3:8. This is a wide desktop composition captured as a long scrolling page, NOT a mobile page. Keep this identical canvas for all three separately generated proposals.
+Subject: Rhino Audiovisuales in Lima. The page helps visitors choose a service and enquire. Create a confident distinctive production studio design; every decision intentional, beautiful type hierarchy, calm aligned navigation, large editorial spacing. Respect the direction below. Make a polished finished visual design, not a wireframe or generic template.
+Only render the Spanish page text specified below. ALL supplied copy must be present, spelled correctly with accents, as real readable typography. Organize into the stated sections; labels like HEADER/TEXT/SECTION are instructions and must NOT be drawn. H1 must be visibly largest; body text and captions readable, no tiny footer. Avoid filler, repeated paragraphs or duplicate decorative headings. Content fits the whole page; preserve footer and ample bottom margin. Aim for body24px and labels20px on the nominal1440px canvas.
+Commercial constraints: no prices, years, counts, testimonials, customer logos, awards, fake portfolio, timecodes, playback controls, address, email, phone, WhatsApp or response-time promises. No fictional business claims. Use a provisional typographic wordmark reading Rhino Audiovisuales; no animal icon. Images are invented illustrative scenes and MUST be identified by the exact nearby text Imágenes ilustrativas. No stock images of known people or real brands. Never label illustrations as client work, our team, our studio or projects. The three services are separate options, not stages or an all-in-one package. Do not connect their scenes. No fake text inside photographed screens or equipment logos.
+Keep all text on solid surfaces, never over photos. CTA labels visible on strong contrast; no all-caps tiny copy. No emoji, star ratings, unnecessary icons, mockup labels or palette/font names on the page. Spanish spelling is critical.
+EXACT PAGE COPY:
+HEADER: Rhino Audiovisuales | Servicios | Sobre Rhino | Contacto
+H1: Productora audiovisual en Lima
+INTRO: Cobertura de eventos, streaming y podcast, catering y coffee break.
+HERO PRIMARY BUTTON: Consultar proyecto
+HERO SECONDARY LINK: Ver servicios
+SECTION HEADING: Elige según tu encargo
+SERVICE 1 TITLE: Cobertura de eventos
+SERVICE 1 TEXT: Foto o video para registrar tu evento. Cuéntanos fecha, lugar y qué necesitas cubrir.
+SERVICE 2 TITLE: Streaming y podcast
+SERVICE 2 TEXT: Transmisión de eventos o grabación de episodios. Describe qué necesitas emitir o grabar.
+SERVICE 3 TITLE: Catering y coffee break
+SERVICE 3 TEXT: Atención para reuniones y eventos de empresa. Comparte fecha, lugar y número de asistentes.
+SECTION: Otros servicios
+FOUR CATEGORY LABELS: Producción audiovisual | Fotografía y estudio | Organización y alquiler para eventos | Servicios digitales
+LINK: Ver servicios
+SECTION: Sobre Rhino
+TEXT: Rhino Audiovisuales, en Lima, cuenta con estudio fotográfico propio y servicios para eventos empresariales y sociales.
+LINK: Sobre Rhino
+SECTION: Cómo solicitar una propuesta
+TEXT: Cuéntanos qué necesitas, cuándo y dónde. Si tienes referencias, puedes incluirlas.
+THREE UNNUMBERED LABELS: El encargo | Fecha y lugar | Necesidades y referencias
+FINAL PRIMARY BUTTON: Consultar proyecto
+FOOTER: Rhino Audiovisuales | Lima | Servicios | Sobre Rhino | Contacto | Política de privacidad
+SMALL LEGIBLE LABEL BELOW HERO VISUAL AND BELOW SERVICE VISUALS: Imágenes ilustrativas
+
+DIRECTION:
+CINE CON BANDAS. Film language translated into clear surfaces, NOT a black luxury template. Dominant cool mist gray #CDD2CE throughout the main page. Near-black #0B0B0A bands only for header/H1, hero action strip, final enquiry and footer; warm projection white #F2F1EC text on bands; ink #1A1D1C on gray; tungsten #E0912F exclusively primary-button fills on black with black labels. The majority of the page should feel light mist gray. Editorial expressive sturdy serif like Newsreader500 for display, refined humanist sans like Hanken Grotesk400/600 for body. Serif H1 about94px, service titles40px, body24px. Not wispy, not italic.
+Composition: small quiet desktop navigation in black top band. H1 large on separate black band. Wide cinematic panoramic hero photo (2.39:1) of anonymous silhouettes and warm lights in a gathering, no identifiable facade, venue or architectural landmark. Hero intro and actions in black band immediately below image; label Imágenes ilustrativas below on gray. Then section Elige según tu encargo followed by THREE spacious horizontal service rows, alternating photograph/text sides, equal weight. Use independent warm documentary illustration photos: anonymous event audience/camera operator seen from behind; a separate tabletop microphone and unbranded camera recording setting (not a purported owned studio); a modest coffee-break detail of cups and a few neutral pastries, no menu or capacity implications. Rectangular panoramas, black narrow frame, no text on photo. Text lives in gray alongside image. Labels visible near photos.
+Below services: generous gray block with four category labels laid in two columns, then a spacious Sobre Rhino block with actual provided copy only. Finish black enquiry band with heading, paragraph, unnumbered prompts and conspicuous tungsten Consultar proyecto button. Complete restrained footer. Signature: repetition of horizontal cinematic bands and warm images, sophisticated serif/sans tension. No cards, dashboard, filmstrip sprockets, play buttons or unnecessary ornament. Fit within the full canvas with footer comfortably visible.

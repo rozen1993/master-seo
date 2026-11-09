@@ -1,0 +1,15 @@
+{
+  "url": "https://lovesong.tv/",
+  "capture_api": "https://image.thum.io/get/width/1000/crop/900/maxAge/1/allowJPG/noanimate/https://lovesong.tv/",
+  "observed_utc": "2026-11-05T09:02:27.029065+00:00",
+  "bytes": 42846,
+  "content_type": "image/jpeg",
+  "headers": {
+    "Date": "Thu, 05 Nov 2026 09:03:58 GMT",
+    "Content-Type": "image/jpeg",
+    "Cache-Control": "no-cache, no-store, must-revalidate"
+  },
+  "file": "00-prueba-vision.jpg",
+  "charge": "free public endpoint; no account/key supplied",
+  "capture_freshness": "maxAge/1 requested; actual browser capture timestamp not independently exposed"
+}

@@ -1,0 +1,315 @@
+{
+  "alcance": "solo fase 6; no suma costes previos de fases 1–5",
+  "claude_llamadas": [
+    {
+      "archivo": "claude-A-compare-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-A-compare-envelope.json",
+      "sha256": "9bc7e6612c0415beb734b20d76051c23581071eca115bd9d7dae1bd13ca4b39c",
+      "session_id": "e23cf7e3-3c24-4c47-a5f2-62e64142c42c",
+      "phase": "compare",
+      "component": "A",
+      "started_at": "2026-11-04T15:32:26.7360424-05:00",
+      "ended_at": "2026-11-04T15:34:47.9358310-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 13955,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 104364,
+          "webSearchRequests": 0,
+          "costUSD": 1.11402,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 7996,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 104364,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.11402,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-A-derive-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-A-derive-envelope.json",
+      "sha256": "d0c9f6fe9e0df643236f539da0e7f72c0efba37fbb79bf5614b11368aacbe235",
+      "session_id": null,
+      "phase": "derive",
+      "component": "A",
+      "started_at": "2026-11-04T15:21:43.8857782-05:00",
+      "ended_at": "2026-11-04T15:21:55.9168417-05:00",
+      "exit_code": 1,
+      "is_error": true,
+      "modelUsage": {},
+      "total_cost_usd": null,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-A-derive-r1-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-A-derive-r1-envelope.json",
+      "sha256": "857f690c678c6fab3276a80a17d3039e99476785d918318fd9b3ec38abe54241",
+      "session_id": "43ec9740-5829-4c0b-b355-150be45a37fc",
+      "phase": "derive",
+      "component": "A",
+      "started_at": "2026-11-04T15:28:23.9388819-05:00",
+      "ended_at": "2026-11-04T15:31:43.7861899-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 20152,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 97316,
+          "webSearchRequests": 0,
+          "costUSD": 1.181576,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 11472,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 97316,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.181576,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-A-review-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-A-review-envelope.json",
+      "sha256": "ead202a9f2432e6ebd26628dbbbd5eefc641d9bfe851bce5681557d502b5d26e",
+      "session_id": "115d0c79-d07d-46c3-9078-3b4f1ce72f53",
+      "phase": "review",
+      "component": "A",
+      "started_at": "2026-11-04T15:49:24.5018258-05:00",
+      "ended_at": "2026-11-04T15:52:26.7690280-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 19129,
+          "cacheReadInputTokens": 3049,
+          "cacheCreationInputTokens": 110631,
+          "webSearchRequests": 0,
+          "costUSD": 1.2682457999999999,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 12300,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 110631,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.2682457999999999,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-A-review-r2-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-A-review-r2-envelope.json",
+      "sha256": "567b1203bf55fe8f91966bf6f02406d8f4564dd9912fa57aae94e33a641b1e2c",
+      "session_id": "6baad768-fba2-4bbc-a359-5d6dabd50a69",
+      "phase": "review",
+      "component": "A",
+      "started_at": "2026-11-04T22:26:14.6173944-05:00",
+      "ended_at": "2026-11-04T22:28:46.8291468-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 16069,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 102206,
+          "webSearchRequests": 0,
+          "costUSD": 1.139036,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 9758,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 102206,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.139036,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-B-compare-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-B-compare-envelope.json",
+      "sha256": "1b653c20d93f1058533c67802ba87f3b330ca58629e467e428a1f806ddcb4d68",
+      "session_id": "2026f4ba-e546-4170-a14b-37b7adf50000",
+      "phase": "compare",
+      "component": "B",
+      "started_at": "2026-11-04T15:32:47.1254660-05:00",
+      "ended_at": "2026-11-04T15:34:40.5273187-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 11054,
+          "cacheReadInputTokens": 2372,
+          "cacheCreationInputTokens": 103665,
+          "webSearchRequests": 0,
+          "costUSD": 1.0508823999999999,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 4480,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 103665,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.0508823999999999,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-B-derive-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-B-derive-envelope.json",
+      "sha256": "e1191b7fc8135e995168895a26b4f9443614cddf0a15b72a24cfca04c87382a3",
+      "session_id": null,
+      "phase": "derive",
+      "component": "B",
+      "started_at": "2026-11-04T15:21:57.9523549-05:00",
+      "ended_at": "2026-11-04T15:22:07.6375330-05:00",
+      "exit_code": 1,
+      "is_error": true,
+      "modelUsage": {},
+      "total_cost_usd": null,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-B-derive-r1-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-B-derive-r1-envelope.json",
+      "sha256": "f39da4c598b2426f2265caf7e0bc8a54694abafa6ca55b95e101890f2056fbb1",
+      "session_id": "f4f270df-568e-4ab7-8826-7b22d030f34b",
+      "phase": "derive",
+      "component": "B",
+      "started_at": "2026-11-04T15:28:43.5214022-05:00",
+      "ended_at": "2026-11-04T15:30:50.2890579-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 12026,
+          "cacheReadInputTokens": 3049,
+          "cacheCreationInputTokens": 96526,
+          "webSearchRequests": 0,
+          "costUSD": 1.0133458,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 4381,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 96526,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.0133458,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-B-review-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-B-review-envelope.json",
+      "sha256": "c4195f6ccc57215c2e148af609885a53863e4c8e8f20d18b3206923dea3d511d",
+      "session_id": "909206f2-963c-4d8e-8417-6c310f3c6086",
+      "phase": "review",
+      "component": "B",
+      "started_at": "2026-11-04T15:49:25.5483027-05:00",
+      "ended_at": "2026-11-04T15:51:53.8677708-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 15361,
+          "cacheReadInputTokens": 3049,
+          "cacheCreationInputTokens": 100714,
+          "webSearchRequests": 0,
+          "costUSD": 1.1135498,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 9523,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 100714,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 1.1135498,
+      "basis": "estimacion_CLI_lista_no_factura"
+    },
+    {
+      "archivo": "claude-B-review-r2-envelope.json",
+      "ruta_auditoria": "C:\\Users\\MARCO\\AppData\\Local\\Temp\\claudex-master-seo-fase6-20261104\\claude-B-review-r2-envelope.json",
+      "sha256": "2ecb00ee69a4b8ac13bdb51095b7deedfb6ae72a15b6db5165d77afebd42e052",
+      "session_id": "85f92d51-e1c1-49d5-81ab-ea8990cb558c",
+      "phase": "review",
+      "component": "B",
+      "started_at": "2026-11-04T22:26:15.3291084-05:00",
+      "ended_at": "2026-11-04T22:28:05.6384120-05:00",
+      "exit_code": 0,
+      "is_error": false,
+      "modelUsage": {
+        "claude-opus-5-5": {
+          "inputTokens": 2,
+          "outputTokens": 11647,
+          "cacheReadInputTokens": 0,
+          "cacheCreationInputTokens": 90574,
+          "webSearchRequests": 0,
+          "costUSD": 0.9575400000000001,
+          "contextWindow": 1000000,
+          "maxOutputTokens": 128000,
+          "thinkingTokens": 6550,
+          "cacheCreationEphemeral5mInputTokens": 0,
+          "cacheCreationEphemeral1hInputTokens": 90574,
+          "canonicalModel": "claude-opus-5-5",
+          "provider": "firstParty",
+          "costBasis": "list"
+        }
+      },
+      "total_cost_usd": 0.9575400000000001,
+      "basis": "estimacion_CLI_lista_no_factura"
+    }
+  ],
+  "claude_total_usd_reportado_lista": 8.8381958,
+  "dataforseo": {
+    "llamadas_nuevas": 0,
+    "coste_nuevo_usd": 0
+  },
+  "cuentas_privadas": {
+    "consultas_nuevas_GSC_Ads_Adzviser": 0
+  },
+  "web": {
+    "llamadas": 2,
+    "paginas_unicas": 2,
+    "coste_usd": null,
+    "motivo": "herramienta no informa coste",
+    "fuentes": "registro/new-external-checks.json"
+  },
+  "codex_coste_usd": null,
+  "total_facturado": null,
+  "google_ads": {
+    "maximo_mensual_pen": 110,
+    "objetivo_aproximado_pen": 100,
+    "cambios": 0,
+    "nota": "límite exclusivo de campañas; no confundir con herramientas"
+  },
+  "uso": "Sin cuota porcentual inventada. modelUsage/canonicalModel prueba ruta; total_cost_usd no prueba factura."
+}

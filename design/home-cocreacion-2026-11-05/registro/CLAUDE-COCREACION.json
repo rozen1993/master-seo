@@ -1,0 +1,132 @@
+{
+  "supuestos": [
+    "No pude releer las dos derivaciones completas. El paquete no da sus rutas y el hook de Claudex rechazó Glob y Grep en design/home-cocreacion-2026-11-05/. Recupero las posiciones a partir de la comparación limpia y de la crítica de Codex que vienen en el paquete. No supongo nada más de esos archivos.",
+    "En esta sesión volví a abrir 01-henry.jpg y 05-velour.jpg. Henry: texto azul sobre un fotograma nocturno con nieve, y el H1 se confunde con el coche. Velour: frase condensada en crema sobre negro, con miniaturas en los bordes. Las otras seis las doy por examinadas en las derivaciones.",
+    "El modo plan pide un archivo de plan y ExitPlanMode, pero no tengo esas herramientas y el encargo prohíbe escribir. No se escribió ningún archivo.",
+    "Lienzo operativo: 1440 × 3840 px. Ni las fuentes ni el contraste quedan garantizados hasta medir los PNG.",
+    "El paquete core no trae gates propios de imagen. Uso como criterios la sección Aceptación de BRIEF-COMUN y la adenda."
+  ],
+  "propuesta": "## Conclusión\n\nAcepto lo esencial del cierre de Codex: las tres rutas, «estudio fotográfico propio», cuatro familias, «Sobre Rhino» igual en todas partes, CTA solo en el hero y en el cierre, sin proyectos, y equipo genérico permitido. Su corrección «las bandas permiten controlar el contraste, no lo garantizan» es acertada y la adopto. Propongo **7 cambios concretos**. Ninguno reabre el alcance.\n\n## Acuerdos (aceptados sin cambios)\n- Tres rutas con identidad propia: cine con bandas, papel y tipográfica. Bricolage solo en la 3; Archivo en ninguna.\n- No hay CTA en la cabecera. «Contacto» es el nombre de un lugar y «Consultar proyecto» es una acción, así que pueden convivir.\n- Una ilustración también puede parecer trabajo propio. Llevará la etiqueta y servirá solo para explicar categorías.\n- Ninguna escena continua ni conector gráfico entre las tres prioridades (C02).\n- Nombres de servicio literales, sin metáforas.\n\n## Cambios al cierre de Codex\n\n1. **Copy duplicado en el hero.** «Elige según tu encargo» y, más abajo, «Empieza por tu encargo» dicen lo mismo. El hero queda como enumeración y el imperativo pasa a ser el titular de la sección.\n2. **«Servicios para eventos» es ambiguo.** Las tres prioridades ya son de la familia Eventos (01-arquitectura), así que la cuarta familia parece repetirlas. Cambio a **«Organización y alquiler para eventos»**: P08 y P11 son tanda A. Es un nombre de categoría y no promete inventario.\n3. **Textos de servicio con la misma estructura y longitud.** Así pesan igual en bandas y opciones, y el generador tiene menos texto que deformar. Cada uno: un descriptor y una instrucción, unas 14 palabras.\n4. **Cine: riesgo de caer en el look por defecto «negro + un acento».** El fondo dominante será garúa. Las bandas negras ocupan como máximo el 35 % del lienzo. Tungsteno solo como relleno del CTA o filete fino, nunca como texto sobre garúa (sospecha de bajo contraste). El hero no reutiliza la escena de cobertura, porque volvería a favorecer P05: será un plano de ambientación anónimo (fachada o acceso a un local con garúa al atardecer, sin rostros reconocibles), sin créditos ni pies de foto que lo parezcan.\n5. **Papel: riesgo de parecer animación infantil.** Rhino tiene un show infantil (P19), y lila, coral y figuras de papel pueden leerse como servicio para niños, no como proveedor B2B. Cambios: la berenjena domina las superficies amplias y la salvia hace de base clara; el lila queda como tono secundario y el coral solo en el CTA y un acento por escena. Papel fotografiado mate, con profundidad real, proporciones adultas, sin caras sonrientes ni confeti.\n6. **Tipográfica: el subrayado amarillo sobre fondo claro desaparece.** #F5D90A sobre #FAFAF5 apenas se distingue, así que la firma se perdería (sospecha). Se invierte el orden: hero sobre claro con H1 en cabina, y la sección de las tres opciones sobre cabina con texto claro y subrayado amarillo de 8–10 px ajustado al ancho de cada nombre. El amarillo solo aparece ahí y en el CTA.\n7. **Bloque de cierre:** «Cómo solicitar una propuesta», que es el bloque literal de P01. Los tres rótulos van sin números (no son pasos obligatorios).\n\n## Especificación final\n\n**Común:** 1440 × 3840 px. Texto mínimo de 20 px; pie de 18 px. «Imágenes ilustrativas» legible (≥18 px) bajo el hero y bajo el grupo de servicios. Sin logotipos, cifras, timecodes, botones de play ni numeración.\n\n### 1 · Cine con bandas\n- **Colores:** banda #0B0B0A · texto #F2F1EC · garúa #CDD2CE (fondo dominante) · tinta #1A1D1C · tungsteno #E0912F (relleno del CTA, filetes).\n- **Tipografía:** Newsreader 500 (display, nunca sobre la foto) · Hanken Grotesk 400/600. Tamaños: H1 94 / H2 48 / servicio 40 / cuerpo 24 / etiqueta 20.\n- **Composición:**\n```\n[banda: Rhino · Servicios Sobre Rhino Contacto]\n[banda: H1 Productora audiovisual en Lima]\n[imagen 2,39:1 a todo el ancho — ambientación]\n[banda: subtítulo + Consultar proyecto | Ver servicios] etiqueta\ngarúa: Elige según tu encargo\n[img 2,39:1 en marco negro | texto]  ×3, alternando lados\ngarúa: Otros servicios (4 familias) · Sobre Rhino\n[banda: Cómo solicitar… + CTA]  [pie]\n```\n- **Firma:** la banda de cine como interfaz que repite el ritmo de la página.\n- **Imágenes:** documental cálido. Público anónimo con una cámara genérica al fondo. Mesa con micrófonos sin marca, y para la transmisión un monitor genérico. Detalle de coffee break sin menú abundante.\n\n### 2 · Papel\n- **Colores:** berenjena #36204D (dominante) · salvia #B6CEC2 (base clara) · blanco #FBFAFC (tarjetas de texto) · lila #D6C8ED (secundario) · coral #F39D88 (CTA y un acento por escena, con texto berenjena).\n- **Tipografía:** Syne 700 · Figtree 400/600. Tamaños: H1 98 en 2–3 líneas / H2 50 / servicio 38 / cuerpo 24 / etiqueta 20.\n- **Composición:** H1 sobre berenjena con una escena de papel a la derecha. Luego tres escenas separadas y escalonadas, cada una con su texto en tarjeta blanca. Después las familias, «Sobre Rhino» sobre salvia, el cierre tipográfico y el pie.\n- **Firma:** profundidad de papel cortado fotografiado, mate y adulta.\n- **Autocrítica:** sin cintas, pegatinas ni texto inclinado. Si una escena no se reconoce como su servicio, reducir la ilustración y dar más peso al título.\n\n### 3 · La frase que elige\n- **Colores:** claro #FAFAF5 · cabina #1A2A9E · amarillo #F5D90A (solo subrayado y CTA) · tinta #0C1233 · niebla #DDE3FA.\n- **Tipografía:** Bricolage Grotesque 700 · Atkinson Hyperlegible 400/700. Tamaños: H1 112 en las líneas que necesite / opciones 58–64 / H2 44 / cuerpo 24 / etiqueta 20.\n- **Composición:** hero claro de 700–760 px con H1 en cabina, subtítulo y CTA. Luego una sección cabina con las tres opciones en tipografía grande y subrayadas, cada una con una miniatura en duotono asociada. Después familias y «Sobre Rhino» sobre niebla, el cierre y el pie en cabina.\n- **Firma:** el nombre del servicio, subrayado, funciona como acceso.\n- **Autocrítica:** el H1 siempre mayor que las opciones; nada flotante sin función.\n\n## Copy común final\n- **Cabecera:** Rhino Audiovisuales · Servicios · Sobre Rhino · Contacto\n- **H1:** **Productora audiovisual en Lima**\n- **Subtítulo:** Cobertura de eventos, streaming y podcast, catering y coffee break, y más servicios para tu proyecto.\n- **Botones:** Consultar proyecto · Ver servicios\n- **Titular de sección:** **Elige según tu encargo**\n- **Cobertura de eventos:** Foto o video para registrar tu evento. Cuéntanos fecha, lugar y qué necesitas cubrir.\n- **Streaming y podcast:** Transmisión de eventos o grabación de episodios. Describe qué necesitas emitir o grabar.\n- **Catering y coffee break:** Atención para reuniones y eventos de empresa. Comparte fecha, lugar y número de asistentes.\n- **Otros servicios:** Producción audiovisual · Fotografía y estudio · Organización y alquiler para eventos · Servicios digitales. Enlace: Ver servicios.\n- **Sobre Rhino:** Rhino Audiovisuales, en Lima, cuenta con estudio fotográfico propio y servicios para eventos empresariales y sociales. Enlace: Sobre Rhino.\n- **Cómo solicitar una propuesta:** Cuéntanos qué necesitas, cuándo y dónde. Si tienes referencias, puedes incluirlas. Rótulos: El encargo · Fecha y lugar · Necesidades y referencias. Botón: Consultar proyecto.\n- **Pie:** Rhino Audiovisuales · Lima · Servicios · Sobre Rhino · Contacto · Política de privacidad\n- **Etiqueta junto a las imágenes:** Imágenes ilustrativas",
+  "alternativas": [
+    "Mantener «Servicios para eventos» como familia: lo descarto porque se confunde con las tres prioridades, que ya pertenecen a Eventos.",
+    "Hero de cine reutilizando la escena de cobertura (propuesta de Codex): lo descarto porque vuelve a sesgar hacia P05. Prefiero un plano de ambientación anónimo.",
+    "Paleta papel con lila dominante (original de Codex): la paso a secundaria por el riesgo de lectura infantil.",
+    "Opciones de la ruta 3 sobre fondo claro con subrayado amarillo: lo descarto porque el subrayado perdería visibilidad.",
+    "CTA también en la cabecera: no lo pongo; con el hero, el cierre y el enlace Contacto basta en el PNG."
+  ],
+  "riesgos": [
+    "El generador puede deformar el español (tildes, «Imágenes», «Organización») o cortar líneas. Por eso los textos de servicio se igualaron y se acortaron.",
+    "Cuatro fotografías en la ruta cine pueden leerse como portafolio aunque lleven etiqueta. Mitigación: personas anónimas, sin créditos, etiqueta próxima.",
+    "La ruta papel puede seguir pareciendo infantil aunque se cambie la paleta (sospecha, a confirmar en el PNG y con Marco).",
+    "Azul y amarillo pueden evocar marcas de retail. Mitigación: el amarillo limitado a los subrayados y al CTA.",
+    "«Organización y alquiler para eventos» nombra categorías de tanda A todavía condicionadas. Es aceptable como acceso a P02, no como promesa de inventario.",
+    "Ningún contraste está medido; los ratios son de plan."
+  ],
+  "verificacion": [
+    "Medir que los tres PNG miden exactamente 1440 × 3840 px.",
+    "Leer en cada PNG el H1, los dos CTA, los tres nombres de servicio, las cuatro familias, «estudio fotográfico propio», «Política de privacidad» e «Imágenes ilustrativas». Comprobar que no haya texto cortado ni tildes deformadas.",
+    "Muestrear el contraste del texto sobre bandas y tarjetas, del CTA tungsteno y coral, y del subrayado amarillo sobre cabina.",
+    "Comprobar que no aparecen logotipos, cifras, numeración, play, timecodes ni créditos, y que ninguna imagen parece un caso real.",
+    "Ver los tres juntos en miniatura y comprobar que se distinguen por composición, tipografía y material, no solo por la paleta.",
+    "Comprobar que el copy es idéntico en las tres rutas."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Alta en los cambios de copy y contenido, cotejados con fichas-37 (P01, P05–P08, P11), 01-arquitectura, D6-07 y C02/C04. Media en las decisiones estéticas: son planes no renderizados, el contraste no está medido y no pude releer las derivaciones originales."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "Rutas y contenido de las dos derivaciones completas: no figuran en el paquete y el hook rechazó Glob y Grep",
+      "Los PNG aún no existen, así que no hay revisión visual de resultados",
+      "En esta sesión solo se reabrieron 01-henry.jpg y 05-velour.jpg"
+    ]
+  },
+  "findings": [
+    {
+      "title": "El subtítulo del hero repite el titular de la sección",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "codex_peer_critique › Copy idéntico: hero «Elige según tu encargo» y sección «Empieza por tu encargo»",
+      "evidence": "Dos frases con la misma función, una en el hero y otra en el titular de la sección siguiente. La skill pide que cada elemento haga un solo trabajo.",
+      "verification": "Comparación del copy propuesto en el paquete"
+    },
+    {
+      "title": "La familia «Servicios para eventos» se solapa con las prioridades",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "codex_peer_critique › Otros servicios; fuentes/01-arquitectura.md (P05, P06 y P07 en la familia Eventos)",
+      "evidence": "P05, P06 y P07 pertenecen a la familia Eventos. Mostrar después «Servicios para eventos» como otra familia hace ambiguo qué contiene.",
+      "verification": "Tabla de 01-arquitectura.md"
+    },
+    {
+      "title": "El subrayado amarillo sobre fondo claro puede perder visibilidad",
+      "classification": "sospecha",
+      "severity": "medium",
+      "location": "Ruta tipográfica: #F5D90A sobre #FAFAF5",
+      "evidence": "Los dos tonos tienen una luminancia muy alta y parecida. Es la firma de la ruta.",
+      "verification": "Muestrear el PNG generado"
+    },
+    {
+      "title": "La ruta papel puede leerse como servicio infantil",
+      "classification": "sospecha",
+      "severity": "medium",
+      "location": "Ruta papel; P19 show infantil navideño",
+      "evidence": "Pastel lila y coral con figuras de papel, en una marca que también vende un show infantil.",
+      "verification": "Revisión visual del PNG y criterio de Marco"
+    },
+    {
+      "title": "La ruta cine roza el look por defecto «negro + un acento»",
+      "classification": "sospecha",
+      "severity": "low",
+      "location": "Paleta de cine de Codex (#0B0B0A + #E0912F)",
+      "evidence": "frontend-design describe ese look como un valor por defecto. Se mitiga con garúa como fondo dominante.",
+      "verification": "Proporción de superficies en el PNG"
+    },
+    {
+      "title": "Derivaciones originales no releídas",
+      "classification": "no_verificado",
+      "severity": "info",
+      "location": "design/home-cocreacion-2026-11-05/ (rutas no suministradas)",
+      "evidence": "El hook de Claudex rechazó Glob y Grep; el paquete no da las rutas.",
+      "verification": "No se pudo ejecutar"
+    },
+    {
+      "title": "Henry confirma el riesgo de poner texto sobre la imagen",
+      "classification": "demostrado",
+      "severity": "info",
+      "location": "referencias/01-henry.jpg",
+      "evidence": "El H1 azul sobre un fotograma oscuro con nieve se mezcla con el coche y el botón apenas se ve. Justifica poner el texto en bandas.",
+      "verification": "Imagen abierta con Read en esta sesión"
+    }
+  ],
+  "gates": [
+    {
+      "name": "Relectura de las dos derivaciones",
+      "status": "not-run",
+      "evidence": "Hook rechazó Glob y Grep y no se suministraron rutas"
+    },
+    {
+      "name": "Examen visual de referencias",
+      "status": "passed",
+      "evidence": "Abiertas 01-henry.jpg y 05-velour.jpg en esta sesión"
+    },
+    {
+      "name": "Copy sin afirmaciones no aprobadas",
+      "status": "passed",
+      "evidence": "Cotejado con P01, P05–P08, P11, D6-07 y C02/C04"
+    },
+    {
+      "name": "Dimensiones y legibilidad de los PNG",
+      "status": "not-applicable",
+      "evidence": "Los PNG aún no se han generado"
+    },
+    {
+      "name": "Sin escritura de archivos",
+      "status": "passed",
+      "evidence": "Solo se usaron lecturas"
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable"
+}

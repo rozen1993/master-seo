@@ -1,0 +1,24 @@
+{
+  "fecha": "2026-11-04",
+  "criticos": 0,
+  "altos": 0,
+  "acciones": [
+    "AC por tipo y cierre real",
+    "AC-01/18 verificados y esquema ampliado",
+    "Fuente/revisor específicos por criterio",
+    "Tabla arquitectura GFM reparada",
+    "Variantes con procedencia y estado de consulta exacta",
+    "Roles técnicos en bloques",
+    "148 aristas: incluye plantilla404; reservas/PDF sin enlaces salientes encargados",
+    "Contacto desde portafolio sin requisito de rol de caso",
+    "G6-LB con localizador de captura ya disponible",
+    "AC04 permite continuidad legacy explícita antes de corte de fotografía",
+    "Cálculo Ads ilustrativo sobre 30 días, no límite nominal ni gasto",
+    "Moneda histórica S/132,26 corregida"
+  ],
+  "no_adoptado": [
+    "No llamar límite efectivo de Ads a 7,77×30,4 sin verificar condiciones de cuenta; usar ilustración simple",
+    "No añadir enlaces de show/brochure como supuesto defecto: navegación estacional pendiente del editor, no exigida por F5"
+  ],
+  "pendientes_implementacion": "Se conservan por ficha y en aceptacion.json; no son defectos abiertos de estos documentos"
+}

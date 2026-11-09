@@ -1,0 +1,131 @@
+{
+    "scope":  "isolated proposed copies only; no installed scripts modified",
+    "cases":  [
+                  {
+                      "name":  "structured-json",
+                      "passed":  true,
+                      "denied":  false
+                  },
+                  {
+                      "name":  "structured-disabled",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-Bash",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-Glob",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-Write",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-Unknown",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-structuredoutput",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "read-ok.txt",
+                      "passed":  true,
+                      "denied":  false
+                  },
+                  {
+                      "name":  "read-small.png",
+                      "passed":  true,
+                      "denied":  false
+                  },
+                  {
+                      "name":  "read-large.png",
+                      "passed":  true,
+                      "denied":  false
+                  },
+                  {
+                      "name":  "read-real.jpg",
+                      "passed":  true,
+                      "denied":  false
+                  },
+                  {
+                      "name":  "deny-oversize.png",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-false.png",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-large.txt",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-outside-manifest.txt",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-sensitive.png",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "deny-.env.test",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "grep-image",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "outside-root",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "traversal",
+                      "passed":  true,
+                      "denied":  true
+                  },
+                  {
+                      "name":  "default-size-preserved",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "manifest-1",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "manifest-2",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "syntax-invoke-claude.ps1",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "syntax-read-guard.ps1",
+                      "passed":  true
+                  },
+                  {
+                      "name":  "syntax-context-policy.ps1",
+                      "passed":  true
+                  }
+              ],
+    "date":  "2026-11-05T12:36:57.8047802-05:00",
+    "passed":  26
+}

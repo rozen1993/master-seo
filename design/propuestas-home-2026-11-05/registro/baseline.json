@@ -1,0 +1,542 @@
+[
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\CLAUDE.md",
+        "sha256":  "B172C5F37682E5DF578D87FB35AC6EF7CFBABAAEBF520433751537A0681FB27D",
+        "bytes":  4368
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\vercel.json",
+        "sha256":  "F0C249DA2984B84AA1A1166CC668A140307C3B2EA508A7CC7607DEA5B42239F8",
+        "bytes":  720
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\content\\datos-de-prueba.json",
+        "sha256":  "CC956767F9B8477A263A482DA0ADC69AADC3B11CA252B81C5B195D81344CBD25",
+        "bytes":  7521
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\a-cine.html",
+        "sha256":  "B7AE6C69764708FF69CFBE7C1B6979F6BA58E2F88A12CBC0B269ADD61E34F224",
+        "bytes":  15945
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\b-editorial.html",
+        "sha256":  "0F82E3E031430A497837EA67C4F73FD9C259EF1B426731ABE65534633F293FCE",
+        "bytes":  19177
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\c-bold.html",
+        "sha256":  "42290D38F08B59964E9832E23671D49ADF8D6E5606065D8B347AFCA755E90C39",
+        "bytes":  16410
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts.css",
+        "sha256":  "BE665DB2356CE802BA47AC4F17077DB9F1F5EE225645322D58F1AC6365EDAFA6",
+        "bytes":  7512
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\render.js",
+        "sha256":  "EF7D21A127C032AC19FE9B6D294BE77B8D8325A4B8FBF379D57EE42CBC19B8B5",
+        "bytes":  1126
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas.css",
+        "sha256":  "F02A6235EECBF281E283A7A9BE205CC3D48271A003806DF38164F64BFB17BF75",
+        "bytes":  762
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas_0.woff2",
+        "sha256":  "16C95CE45A2922F52551D38D565D14C92CF257B8F219C89613407D81FDD21A39",
+        "bytes":  8928
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\bebas_1.woff2",
+        "sha256":  "A7C90C89240C134F7FDD33D40C000EC90B79D675EA53E8CC5A6D423C073DE412",
+        "bytes":  13768
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces.css",
+        "sha256":  "C97F3643D5BEF56883A32C3DEF43737AF4862622643FAE3D3CFCD335C0C25CDC",
+        "bytes":  3357
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_0.woff2",
+        "sha256":  "CE7B18AAC7371CDE4A740E54E252E9F02DE67FF2ED444B18D1D04E66F50EDEB0",
+        "bytes":  11572
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_1.woff2",
+        "sha256":  "A21ECFBF41FBC393E24EF9B7E38532A27E8DA5E0A074AA7D66802D1B5CCEC2F0",
+        "bytes":  33584
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\fraunces_2.woff2",
+        "sha256":  "7F9D191D999336D3B9790AFA72E1358E50A13B06D4F289341E92A311967A80F9",
+        "bytes":  36620
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk.css",
+        "sha256":  "423DD4C09BD187351B55CC7B688030202BA5568FAFAC865EA465FE3D00117EE8",
+        "bytes":  3393
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_0.woff2",
+        "sha256":  "8895E3D49825128BFA5238E4C96E9B432D7A3DADBE5C17C6081267398305DC71",
+        "bytes":  6712
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_1.woff2",
+        "sha256":  "952DDDB45D2F96F71CBF3B7F510B24379AFC3C89EA02FCF89D377B45D62C0166",
+        "bytes":  18940
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\fonts\\grotesk_2.woff2",
+        "sha256":  "0640890476FC1198AB4DE571FB658DE443C4D85B66466EC09534A8737AB1CE9D",
+        "bytes":  22288
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-escritorio.png",
+        "sha256":  "D601694BDA93840A7C4694262211624F23D50DD384717F71C5DBA6499D8B8CA0",
+        "bytes":  916125
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-movil-vista.png",
+        "sha256":  "7A2AA820CC7C9B76E3AC8E2C37355EFD350785A1859B6AFCC77C11B01F081675",
+        "bytes":  1146325
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\a-cine-movil.png",
+        "sha256":  "DD9F21E12E340AD3CF43F875119A76D686E11528200BACFBC6211CFCC8BB7C62",
+        "bytes":  1730397
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-escritorio.png",
+        "sha256":  "FD672FE069D95B403D1491F9682037DF78DDEB1DEBD848936DB0809D535F68BB",
+        "bytes":  954667
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-movil-vista.png",
+        "sha256":  "D8CBEBC77C2F375B8EA6786E6841B2EC3B79BE24F8ACF0957E9156BC559AEAAE",
+        "bytes":  1103672
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\b-editorial-movil.png",
+        "sha256":  "70986A2E442EC3C25B4BA4E1FE9DF73C6290F398D2239DB746BDC0F63E1015F1",
+        "bytes":  1637867
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-escritorio.png",
+        "sha256":  "8BAAE3EF7DA73BE6156F5E9941EFB82B2B92DB600901A1131CAD3DE15FDA0380",
+        "bytes":  556139
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-movil-vista.png",
+        "sha256":  "C6B30D4BC3D665D26102E246477F711CB766CE86EC6CAF2188E1B45427B19CC5",
+        "bytes":  1046232
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\design\\direcciones\\png\\c-bold-movil.png",
+        "sha256":  "9223205CF76DAD58BB4043322ACEF5DCF7655097ABAE876B8821422823D64704",
+        "bytes":  1144998
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\00-traspaso.md",
+        "sha256":  "761E3E27A4FBA293F69D8AAAA9FF85DEA09D08E26A766161DC24CB530C01ECBB",
+        "bytes":  718
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\README.md",
+        "sha256":  "F41A7B600005E1280581EECC62D7BD3257E562C1360DD1385896B30755F0A672",
+        "bytes":  1999
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\SEM.md",
+        "sha256":  "1990B3DE6F27C8B38EE1C9CD838F6AFBDBBB091FB8D8C8B210AB05798C1878D0",
+        "bytes":  1482
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\00-traspaso.md",
+        "sha256":  "3D66E1F692572932D9BB827466018B2AA93303612893DFBC727DF3371B593686",
+        "bytes":  54189
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\01-estrategia-y-arquitectura.md",
+        "sha256":  "0882E0A0E18EB74F0C1CA6FD43E049B3507FBE187FB7E25D0A47ACA7437E9226",
+        "bytes":  22385
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\02-investigacion-de-mercado.md",
+        "sha256":  "66F0AFC03BD4FE9F9FB22F6541F7BBB81E1BEC356339D7052E1D6CAAC271B3BE",
+        "bytes":  11997
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\03-arquitectura-catalogo-completo.md",
+        "sha256":  "57211C0E827BD1D610E069753144AD8C6D1A3B444B83A8AE6BAC11F3681A76E8",
+        "bytes":  24339
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\04-proyecciones-y-plan-sem.md",
+        "sha256":  "7D953D2ED9BD7AAA906E83E1C52FC630B7760F2F9DAE66436DDF9A6157AD3AE9",
+        "bytes":  15988
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\05-prioridades-del-dueno-y-campana.md",
+        "sha256":  "117D6397FEF1AC890311C61F378036F5C4DF6F11B75CD96ED495530DE79AE579",
+        "bytes":  13139
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\06-contenido-de-paginas.md",
+        "sha256":  "4F8E083EEB4E4A36B78284572C948C8703B8BCBB7574938BABC94C1A80C95388",
+        "bytes":  33685
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\07-especificacion-tecnica-y-brief-de-diseno.md",
+        "sha256":  "F1244332FA4D597AD330C6BDCCEB35B727A6591902C317F67C5B34C801949A1F",
+        "bytes":  11501
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\08-auditoria.md",
+        "sha256":  "151FD89E66397665D77BCD18D5FEEF9E3B7C73A6D2F735FDAB0A84A9EDCED2A9",
+        "bytes":  12504
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\09-revision-critica-y-oportunidades.md",
+        "sha256":  "C340B61208DE724D39838707960AB7AB6E8F7EB4CB566FA1CBBD7A6335201CD7",
+        "bytes":  10935
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\10-tercera-auditoria.md",
+        "sha256":  "4F9736B219CD346C7AB3381BA19EC788D2C29A7D8079B900490994DC769B4DD4",
+        "bytes":  11883
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\11-auditoria-y-plan-sem.md",
+        "sha256":  "B9BDE418E97C05C8AB37BE786B3C7D0752915D880030ADDA868953B11CC824E7",
+        "bytes":  15515
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\CLAUDE-anterior.md",
+        "sha256":  "A0EDEAA21734B9520C7FB017108F1222D4388C3BFE64BFD5A4AF6F6E0F162F56",
+        "bytes":  9710
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\README.md",
+        "sha256":  "025571378B8D6688B8FA11C96AD7F45C9AC9B9489A3BA5688667CF9297E2CE85",
+        "bytes":  2843
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\traslado.json",
+        "sha256":  "198C6816CA1CE88DCA77174ADCCC4DD17DCE80ABE9C17E8A99EF980C25C09693",
+        "bytes":  25523
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\archivo\\plan-anterior-2026-11-05\\verificacion-archivo.json",
+        "sha256":  "D9E3CB78324959E3DDEA68EEA4CB88E7D5F8680C97F8A4B4384CD8ED38B6A172",
+        "bytes":  1512
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\01-arquitectura.md",
+        "sha256":  "89B1B63F341C5A9AD93BE5AB2A48EC935B653EE83136ABEB8A89A9B4FB074477",
+        "bytes":  4762
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\02-fichas-37.md",
+        "sha256":  "B637058121BC446399299EAE3F19BA4D3452A028842E96DD2E65E92A1DE4828D",
+        "bytes":  103433
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\03-requisitos-tecnicos.md",
+        "sha256":  "C7DA8F24ED95D77C98620F9910EB321145FEA606DE0C0DDBE870D842D4F7F1AF",
+        "bytes":  9512
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\04-aceptacion-y-orden.md",
+        "sha256":  "B0723AF7A7974318C928EEE07BD81361060F0C9C610ED4CD3D9D4963D01DB2F0",
+        "bytes":  2691
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\05-decisiones.md",
+        "sha256":  "95807595EB3F9B8BE0E6D31F347AC25B7CB0D2A9B4E154AEC939763D1DB65DE4",
+        "bytes":  7318
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\06-guia-entrega.md",
+        "sha256":  "0D9C497852DF4FEB5A2B546365B16925BEE18B61D8E5D91B04E606E4C2BDB8D5",
+        "bytes":  3636
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\07-trazabilidad-y-revision.md",
+        "sha256":  "1DE3217A6A52CD401A68D66FFF82401BB4892FB40C12E11411A4820CED5F80A2",
+        "bytes":  7320
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\aceptacion.json",
+        "sha256":  "B1A1D7A3ADFB15E6CB0C0BC3A3B22A0C2EECE3D4D9801C908FD5C2CB4459FBF9",
+        "bytes":  15647
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\aceptacion.schema.json",
+        "sha256":  "5031A2AF6D6F084665D797A1DD1B5C1859AF7093E6F190E22A2061F20E00CD9C",
+        "bytes":  2161
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\costes.json",
+        "sha256":  "FE4C328ED44CCB4B4C88506BB8E837DFA862B3EA6C3A50FB5F6B66811DD66C29",
+        "bytes":  12376
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\decisiones.json",
+        "sha256":  "CAEB47CD84792D15E52E89C6864EA833322CE2BF7141828CB718AAA094D78E2E",
+        "bytes":  8736
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\enlaces.json",
+        "sha256":  "3945BEECE3F2CB9AB94814BBBFF39E09ACE4776AD4263FD00EEDEED1DB0802B7",
+        "bytes":  23069
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fichas-37.json",
+        "sha256":  "EC97E45FB2DE4EFFC353C2A705F94906E9C38CE73985AEFBC97A279754E3F46C",
+        "bytes":  121483
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fichas.schema.json",
+        "sha256":  "769D438B04CE6F3E5075D26F1E9B75A2950480A118ED5D3BF637F8BD8646A47B",
+        "bytes":  9643
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes-manifiesto.json",
+        "sha256":  "B18CE0B89B14A4745C04609B45905B3A44F28D31138672D7BA2997FBC2F5A629",
+        "bytes":  6263
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\manifest.json",
+        "sha256":  "4F4A77E10CA19E67B4A18E27FBC5F06AA1E22732EF157A138F12E98F54571E0C",
+        "bytes":  10257
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\medicion.json",
+        "sha256":  "91A50C28AFF302F6EA5A6ADCD84698BFB287C97322C57F7799CF92F8FD42DDC3",
+        "bytes":  4205
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\README.md",
+        "sha256":  "4912E600F3F9687A7A3CC8C4CA999D699E497DFEDD1418FE4E1F1538C0FFCB81",
+        "bytes":  2233
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\rutas.json",
+        "sha256":  "74C053AA063AE37053655E6422B5E455AEAEDC06991B5A5A4F4633E72F87975B",
+        "bytes":  14844
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\schema.json",
+        "sha256":  "8A22F707628A06B5429BD2F6F4548F227FD3ABD012E1528D38C5F6EBB47F4055",
+        "bytes":  3393
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\verificacion.json",
+        "sha256":  "D20712FC3DC6E56E492F0205B221B73A4C0E3B86CE5F5C9F2338BAF74FAF0028",
+        "bytes":  4946
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\COMPARACION-FASE-5.md",
+        "sha256":  "2BBCEF1901EB90E7C5A949C6532F0899F8FEBBA4EBB5737C76A023E33C2A700C",
+        "bytes":  37584
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-4-ADENDA-GSC-ADS-2026-11-03.md",
+        "sha256":  "1EDC2FE2C0361170EBE01146DF7D141EFBDF11B976B806716E89988499AF42CB",
+        "bytes":  34374
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-4-EVIDENCIA-EXTERNA-2026-11-03.md",
+        "sha256":  "4B9C6AC9F036E1D77222B2E827A4D5D4722074B9376B80E94930DE54422DC969",
+        "bytes":  40014
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\FASE-5-DIAGNOSTICO-Y-RECOMENDACIONES-2026-11-04.md",
+        "sha256":  "5694296D88107CCD37AB232B7406857865A67BE753A8D0CE43868FB7BB134088",
+        "bytes":  68436
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-00.md",
+        "sha256":  "3D66E1F692572932D9BB827466018B2AA93303612893DFBC727DF3371B593686",
+        "bytes":  54189
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-03.md",
+        "sha256":  "57211C0E827BD1D610E069753144AD8C6D1A3B444B83A8AE6BAC11F3681A76E8",
+        "bytes":  24339
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-06.md",
+        "sha256":  "4F8E083EEB4E4A36B78284572C948C8703B8BCBB7574938BABC94C1A80C95388",
+        "bytes":  33685
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-07.md",
+        "sha256":  "F1244332FA4D597AD330C6BDCCEB35B727A6591902C317F67C5B34C801949A1F",
+        "bytes":  11501
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-11.md",
+        "sha256":  "B9BDE418E97C05C8AB37BE786B3C7D0752915D880030ADDA868953B11CC824E7",
+        "bytes":  15515
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-CLAUDE.md",
+        "sha256":  "A0EDEAA21734B9520C7FB017108F1222D4388C3BFE64BFD5A4AF6F6E0F162F56",
+        "bytes":  9710
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\fuente-politicas.json",
+        "sha256":  "7AE8E1A61EEC1B625FCC3CEA912957BC31455AB2825D0E003463D1CA73F0E732",
+        "bytes":  2523
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\legacy-normalized.json",
+        "sha256":  "B4BCEF82872B9908C770BD144A182983AC3A89BAFFFB4220EA02C318A70FF66F",
+        "bytes":  67045
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\MATRIZ-FASE-5.json",
+        "sha256":  "F546CA18C7E52A1800869A7BD6DC10638D35E434F10BB0E0559EDC2F5422C000",
+        "bytes":  121915
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\matriz-fase4-con-adenda.json",
+        "sha256":  "D9732D4CEE65373EFAED6296CDB32AB520B07E49E20C2463803EB33F2F6AF762",
+        "bytes":  50828
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\vercel.json",
+        "sha256":  "F0C249DA2984B84AA1A1166CC668A140307C3B2EA508A7CC7607DEA5B42239F8",
+        "bytes":  720
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\fuentes\\verificacion-final.json",
+        "sha256":  "6834D84B7651D53F7A6A615AA298BE9B96B16EFE055975D69EC69DE3216D93FF",
+        "bytes":  4129
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\claude-A-derivacion.json",
+        "sha256":  "57EF6578BA58D3A88BFA333FFDF840BE0008251183381CCDA6C950A5560D442F",
+        "bytes":  20587
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\claude-B-derivacion.json",
+        "sha256":  "89FC69BF6643AB59FC3220122E1E18666CDB6B00BFDFD262EF94642E222455B8",
+        "bytes":  18809
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\codex-A.json",
+        "sha256":  "BC7C367BA06BDCC2B0037A67BEC40CE60B4E9221B5AD07BFF69E76C9C11E0D79",
+        "bytes":  13867
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\codex-B.json",
+        "sha256":  "1D10CC01A15227D1BBB5AD9A093CAA897A7F240E9D12C9C9BAB1A2067D4E202E",
+        "bytes":  13570
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\comparison-A.json",
+        "sha256":  "94E4B1FFDDCCB9AF52886C447149926A27BD013AC7178E786707DFE7D8A12E49",
+        "bytes":  14968
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\comparison-B.json",
+        "sha256":  "FA05B822851ADC596A69BF88B3FF6C55F7DC3C6F867F678281A4B29E0FF5BB2E",
+        "bytes":  15789
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\comparison-input-integrity.json",
+        "sha256":  "F81F3A37F30A32FC1D4ED291438738EA8CBB9CEE55251D5B88E0847DFE2CCA9B",
+        "bytes":  945
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\correcciones-finales-menores.json",
+        "sha256":  "F91E97CC7568182920E178417E751CEDA16C32D0CF06DD993151AF485D429CE6",
+        "bytes":  1246
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\correcciones-revision.json",
+        "sha256":  "6B24254DF82FE62B1FAA42CC59D4F073B30293E475D7EE757A7DD7F24425D1FA",
+        "bytes":  1161
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\estado-final.json",
+        "sha256":  "3E745ABF766BC9B601D853DE60E7954A335A89BA36560B8442F1F3CEA110B5E8",
+        "bytes":  1182
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\independence-seal.json",
+        "sha256":  "0F983E16AD6F336217DF118E6C84C248E0AF5C42208DA5A7EE0E9F5BD376FC43",
+        "bytes":  897
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\new-external-checks.json",
+        "sha256":  "8A716BFCA9EE5169F3C068A348B1FA346B1E7A625125A71D424A74F285F35F33",
+        "bytes":  1577
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\originales-baseline.json",
+        "sha256":  "143D9B54EA9C986DE34C327A753167EAD3A72D49438E24EBFEE29C56CCC9EBA0",
+        "bytes":  95553
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-A-final.json",
+        "sha256":  "79D9521F9BD070C9054EE1122D5B0845973E12F020D759CCB4858258E7E5FAF8",
+        "bytes":  10970
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-A.json",
+        "sha256":  "96BD451D5EB11D4CBC067036CCC88F2078CEC2940465B43F27EF7D3904CA108E",
+        "bytes":  15109
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-B-final.json",
+        "sha256":  "039AAC3B6645F166B62250B665D1C06562A56D6B5F46C3DE746EBB8BE14F43BD",
+        "bytes":  12100
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-B.json",
+        "sha256":  "9C99630B440E69A4029007515CEEE8E3386A570A0070BF6FC92137E88EE4D4BC",
+        "bytes":  14784
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-cierre.json",
+        "sha256":  "11FBCF705E26173C85EF68AFE3740CF5AD76E8416EAF6780681DDDD55425C6B7",
+        "bytes":  12417
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-entradas-finales.json",
+        "sha256":  "5BFB622930FFB37FB8A30BEF341B4B77D940A49F1FE81571BF036C9BFBFB45A6",
+        "bytes":  4435
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\revision-entradas-iniciales.json",
+        "sha256":  "A296CF5E202952BB82D319B55397BBF1CF0E5CC897121C664030406CDFAA6409",
+        "bytes":  4372
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-A-final.json",
+        "sha256":  "9A882C5C8708E7841D484295072964E5E7DD80176D5289675F968B64537B5CC6",
+        "bytes":  926
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-A.json",
+        "sha256":  "54A56EDA98AAB3A0EA887E8A8C5790C7217ECA734490C4FDEA2105A8B37324E9",
+        "bytes":  947
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-B-final.json",
+        "sha256":  "3CA0821825B0C58B955238DFF47F10D95940095D1C3375DA6E91455722BE170E",
+        "bytes":  944
+    },
+    {
+        "path":  "C:\\Users\\MARCO\\Desktop\\MASTER-SEO\\docs\\seo\\fase6-2026-11-04\\registro\\validation-revision-B.json",
+        "sha256":  "8757BFFB0B14498E4A08230D30697CF36B218FBBF1166F3850EE06D15C9D05D6",
+        "bytes":  928
+    }
+]

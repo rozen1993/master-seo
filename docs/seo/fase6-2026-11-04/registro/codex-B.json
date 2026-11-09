@@ -1,0 +1,89 @@
+{
+  "context_assessment": {
+    "status": "sufficient",
+    "missing": [
+      "Los brutos F4, las inspecciones GSC y las respuestas API privadas no están incluidos: permanecen referenciados, sin nueva verificación.",
+      "Host, hosting, destino fotográfico, proveedor de formularios, modalidades comerciales y permisos siguen pendientes; no impiden redactar el contrato documental."
+    ]
+  },
+  "pipeline": "core",
+  "input_class": "bundled-artifact",
+  "findings": [
+    {
+      "title": "La especificación histórica necesita sustitución explícita",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-07.md A.2, A.5, A.7; fuente-fase5.md D01/D08 y §7",
+      "evidence": "07 conserva doce servicios, show.html en public y un ejemplo incompleto con permanent:true. F5 registra veinte servicios, 301 del show desde lanzamiento y seis reglas explícitas comprobadas en archivo, sin probar despliegue.",
+      "verification": "Nuevo registro de vigencia y mapa completo de rutas; comprobar documentalmente cobertura y reservar las peticiones HTTP para implementación/lanzamiento."
+    },
+    {
+      "title": "La medición histórica confunde interacciones y solicitudes",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-07.md A.6; fuente-11.md §3.6; fuente-fase5.md D02",
+      "evidence": "Cargar gracias dispara form_submit; clics y descarga se proponen como conversiones. Las doce PAGE_VIEW reportadas tienen disparador desconocido.",
+      "verification": "Contrato de cuatro niveles, aceptación explícita, recepción comprobable y deduplicación; acceso directo, rechazo y recarga nunca acreditan envío."
+    },
+    {
+      "title": "Los controles de indexación requieren excepciones por recurso",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-07.md A.7; fuente-fase5.md D08 y P34–P37",
+      "evidence": "Staging combina bloqueo de rastreo y noindex; la regla general de respuesta 200 no contempla errores. Gracias, 404, PDF y reservas requieren tratamientos distintos.",
+      "verification": "Matriz por clase con estado HTTP, canonical, robots, sitemap y navegación; separar pruebas documentales de comprobaciones futuras."
+    },
+    {
+      "title": "Host definitivo y disponibilidad operativa siguen sin demostrarse",
+      "classification": "no_verificado",
+      "severity": "high",
+      "location": "fuente-fase5.md D01/D03 y §6",
+      "evidence": "La selección canónica de Google está pendiente. Ads reporta ENABLED/ELIGIBLE/SERVING sin filas recientes; eso no acredita entrega ni cumplimiento efectivo del máximo S/110.",
+      "verification": "Inspección indexada y prueba en vivo separadas; diagnóstico Ads y propuesta concreta sometida a aprobación independiente."
+    },
+    {
+      "title": "La aceptación documental no acredita implementación",
+      "classification": "demostrado",
+      "severity": "info",
+      "location": "fuente-verificacion-fase5.json; fuente-fase5.md §9",
+      "evidence": "La verificación F5 declara 37 registros, preservación y comprobaciones documentales; explicita que no ejecutó controles futuros de producción.",
+      "verification": "Conservar estados independientes de documentación, publicación y Ads, sin trasladar passed de F5 a la web futura."
+    }
+  ],
+  "supuestos": [
+    "Prevalecen solicitud actual y máximo S/110 Ads, resoluciones finales F5, matriz F5, F4 con adenda y después los históricos.",
+    "Se conservan Astro/Tailwind, prioridades cobertura → streaming/podcast → catering, estudio y sociales confirmados, show 301 desde lanzamiento y Brochure.pdf exacto.",
+    "B define requisitos transversales; A aporta las 37 fichas. No se seleccionan diseño, hosting, fechas ni nuevas páginas."
+  ],
+  "propuesta": "Producir documentos nuevos tras comparar derivaciones, con un solo escritor. El paquete tendrá índice de lectura, fichas A, especificación técnica, matriz de aceptación, registro de decisiones y guía de entrega.\n\n1. Contrato y trazabilidad. Cada requisito llevará ID estable, páginas afectadas, fuente/localizador y fecha, clase de evidencia, regla verificable, responsable propuesto, dependencia, criterio de aceptación, momento de prueba, resultado/evidencia y revisión. Separar prioridad P0/P1/P2 de estado: preparado para maquetar, condicionado o backlog; las pruebas futuras tendrán estado propio, nunca aprobado por ausencia de ejecución. Documentar por qué una condición bloquea una página, una capacidad o el lanzamiento completo.\n\n2. Legado y host. Registrar /index.html→/, /video.html→/servicios/produccion-audiovisual/, /marketing.html→/servicios/marketing-digital/, /web.html→/servicios/desarrollo-web/ y /show.html→/show-infantil-navideno/. Fotografía permanece condicionada al cotejo íntegro L04 y oferta real, sin decidirla automáticamente por publicar el estudio. Cada entrada incluirá contenido preservado, omisiones justificadas, destino, variantes de protocolo/host y evidencia futura. Exigir 301 directo al destino pertinente 200, sin bucles; mostrar host como pendiente hasta decisión razonada con inspección indexada, redirecciones y objetivo del proyecto. La prueba en vivo comprueba acceso, no selección canónica. Comparar íntegramente show con L07; no conservar una copia pública competidora. Brochure.pdf mantiene mayúscula y ruta sin redirección de recurso; la normalización del host se especificará separadamente. Canonical, enlaces, sitemap y datos estructurados usarán un único origen una vez decidido.\n\n3. Indexación por clase. HTML editorial publicado: 200, canonical absoluta coherente, rastreable e incluido en sitemap si es indexable. /gracias/: 200, noindex legible, fuera de sitemap y navegación; mensaje condicionado a aceptación. Privacidad: accesible desde formulario/pie, con decisión de indexación explícita. Inexistentes: HTTP 404 real, sin sitemap ni canonical que aparente otra página válida. /precios/ y /blog/: reserva documental, sin páginas vacías ni enlaces publicados. PDF: 200 y enlace funcional; no aplicar barra final ni metadatos HTML. Redirecciones fuera del sitemap principal. Un inventario temporal del legado será un recurso separado, si se decide utilizarlo. Staging: acceso restringido o noindex rastreable, sin combinación que impida leerlo. Al publicar, retirar restricciones únicamente donde corresponda.\n\n4. Contenido y metadatos. Modelo central por ID con title, descripción, H1, URL, estado editorial, recursos autorizados y relacionados disponibles. Mantener 60/155/un H1 como reglas locales, sin promesas SEO ni cuota de palabras. Producción deberá rechazar marcadores pendientes y datos de prueba; los documentos pueden conservar pendientes identificados. Permisos, dirección, RUC y razón social nunca se simulan. Home conserva el foco de title y H1 legados, que son textos diferentes. Open Graph tendrá URLs absolutas, imagen aprobada y descripción coherente. No habrá enlaces a destinos reservados.\n\n5. Schema. Especificar Organization/WebSite con datos reales y referencias estables; BreadcrumbList en páginas pertinentes y Service cuando describa oferta visible. ProfessionalService/entidad local queda condicionado a datos y elegibilidad aplicables, sin exigir ficha Google para publicar HTML del estudio. VideoObject solo con video y propiedades verificables. FAQ visible puede mantenerse sin prometer resultados enriquecidos; no prometer estrellas por reseñas de la propia entidad. Separar validez del vocabulario, elegibilidad de Google y aparición efectiva.\n\n6. Contacto y privacidad. Diferenciar interacción, solicitud aceptada por el receptor técnico, recepción efectiva por atención y contacto cualificado según criterio comercial documentado. Registrar identificador opaco, evento, origen, evidencia, deduplicación y responsable; no enviar nombres, mensajes, correos o teléfonos a analítica. La confirmación técnica dispara aceptación una vez; recepción y cualificación necesitan evidencia adicional. Probar envío válido, rechazo, fallo, reintento, doble clic, recarga y acceso directo. WhatsApp, teléfono y descarga siguen como interacciones hasta acreditar contacto. Inventariar campos, finalidad, proveedores, destinatarios, acceso, conservación y mecanismos pertinentes; texto de privacidad revisado competentemente, sin dictamen legal supuesto.\n\n7. Diseño y calidad futura. Entregar funciones de plantillas y componentes, estados vacíos/error/éxito y contenido autorizado. Home elige proveedor, hub orienta por necesidad y pilar explica producción. Las agrupaciones condicionadas deben admitir recorridos diferenciados. Desktop y móvil reciben revisión equivalente. Especificar HTML legible, teclado, foco visible, etiquetas/errores de formulario, contraste y CTA que no tape contenido; 44 px se conserva como objetivo local. Imágenes con dimensiones, alternativas pertinentes y formatos modernos; videos con portada y carga a demanda. LCP <2,5 s, INP <200 ms y CLS <0,1 son objetivos futuros: laboratorio y campo se registran separados; ausencia de datos de campo no bloquea automáticamente publicar. El presupuesto histórico de home <1 MB requiere definir condiciones de medición.\n\n8. Orden y decisiones. Vigencia, oferta y expedientes de casos avanzan en paralelo; inspección alimenta decisión de host y equivalencias resuelven migración. Dueño/operación aprueban incluidos, opcionales, capacidad, entregas, condiciones y permisos; SEO/editor revisan intención y coherencia; diseño consume el paquete tras elección visual; desarrollo implementa; QA acredita resultados. Cada decisión tendrá opciones, recomendación, evidencia, impacto, responsable, estado y resolución, sin plazos inventados. Aprobación documental permite preparar maquetación; publicación exige verificaciones aplicables en su momento. Comprobaciones del dominio público se hacen durante/después del cambio, con plan de reversión; seguimiento de rankings e indexación queda después, sin exigirlo previamente.\n\n9. Ads independiente. Mantener objetivo aproximado S/100 y máximo S/110 mensuales. Registrar configuración reportada, reservas y propuesta pendiente; recalcular por fechas y gasto acumulado y verificar control efectivo, sin confundir nominal con factura. Revisar acciones principales/secundarias, destino, entrega y condiciones del show; el corte propuesto del 15-11 requiere decisión comercial explícita. No activar grupos, modificar URLs finales ni campañas por aprobar el paquete. Tampoco convertir 30 contactos/60 días en suficiencia universal.",
+  "artifacts": [
+    {"path":"FASE-6/00-LEEME-Y-VIGENCIA.md","purpose":"Alcance, precedencia, estados y orden de lectura.","status":"planned"},
+    {"path":"FASE-6/02-ESPECIFICACION-TECNICA.md","purpose":"Requisitos de rutas, indexación, metadatos, schema, contacto y calidad.","status":"planned"},
+    {"path":"FASE-6/03-ACEPTACION.json","purpose":"Criterios trazables separados por documentación, implementación, lanzamiento y Ads.","status":"planned"},
+    {"path":"FASE-6/04-DECISIONES-Y-DEPENDENCIAS.md","purpose":"Decisiones resueltas/condicionadas, responsables y evidencia de cierre.","status":"planned"},
+    {"path":"FASE-6/05-GUIA-DE-ENTREGA.md","purpose":"Consumo del paquete por diseño, desarrollo, negocio y QA.","status":"planned"}
+  ],
+  "gates": [
+    {"name":"Lectura del paquete B y esquema","status":"passed","evidence":"Leídos completos mediante secciones; ninguna escritura ni consulta externa."},
+    {"name":"Aceptación documental F6","status":"not-run","evidence":"Pendiente de comparación, integración con A y producción del paquete."},
+    {"name":"Publicación y comprobaciones técnicas","status":"not-run","evidence":"No existe implementación evaluada en esta derivación."},
+    {"name":"Cambios o activación Ads","status":"not-run","evidence":"Requieren propuesta concreta y aprobación independiente."}
+  ],
+  "deviations": [],
+  "alternativas": [
+    "Un documento único reduce archivos, pero dificulta distinguir aceptación editorial, pruebas técnicas y decisiones comerciales; preferible índice breve con registros enlazados.",
+    "Permitir maquetación de estructuras condicionadas usando datos de prueba identificados; excluir esas afirmaciones de producción hasta su resolución."
+  ],
+  "riesgos": [
+    "Reintroducir errores de los comparadores históricos pese a las correcciones finales F5.",
+    "Confundir negocio confirmado con modalidad, incluido, permiso o resultado autorizado.",
+    "Marcar pruebas futuras como cumplidas por disponer de una especificación o un archivo de configuración."
+  ],
+  "verificacion": [
+    "Validar esquema, IDs únicos y correspondencia de las 37 fichas con requisitos y decisiones; distinguir 33 HTML, dos reservas, PDF y plantilla 404.",
+    "Revisar referencias, coherencia de estados y ausencia de instrucciones contradictorias; controlar S/110, show, PDF y destino fotográfico condicionado.",
+    "Comprobar que cada criterio tiene método y momento ejecutables, sin exigir datos posteriores antes del lanzamiento.",
+    "Verificar preservación de originales por el anfitrión; no ejecutar tests de aplicación inexistente."
+  ],
+  "confianza": {"nivel":"media","motivo":"Alta para el contrato documental y sus contradicciones; media para decisiones condicionadas. No se verificaron operaciones externas, capacidades comerciales ni implementación."}
+}

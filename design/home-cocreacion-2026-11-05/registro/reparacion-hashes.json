@@ -1,0 +1,17 @@
+[
+  {
+    "file": "invoke-claude.ps1",
+    "installed_sha256": "95b75d1861de3460ce2edaaa336fdcf7685f5280feda84924fabdd7d83fe0d61",
+    "proposed_sha256": "9dc328b6dd8a94c6b726071ae96e5dc0dcc7809bed2396f911c3a2eb8a79fea6"
+  },
+  {
+    "file": "read-guard.ps1",
+    "installed_sha256": "425a53845f6585728300c42698b2fb9f446aa7406beba6960882daf4ce509c84",
+    "proposed_sha256": "76c88f52cfa31f3aecf3ab1b9020ef5826009044e947f426f5954465d2514df1"
+  },
+  {
+    "file": "context-policy.ps1",
+    "installed_sha256": "8177992036f8998637599858bd6aa2dde9697d75000d474853360374a694f6ef",
+    "proposed_sha256": "cc81b18795b4abc826e32420f07ed13f53bbee2eed383fe27e2bc720c17cce9b"
+  }
+]

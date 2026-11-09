@@ -1,0 +1,207 @@
+{
+  "pipeline": "core",
+  "input_class": "bundled-artifact",
+  "supuestos": [
+    "Orden de vigencia aplicado: solicitud actual del usuario y máximo S/110 de Ads, después las resoluciones finales de F5, la matriz F5, F4 con su adenda y, por último, 03/06/CLAUDE.md como documentos históricos.",
+    "La sesión estaba en modo plan, que pide escribir un archivo de plan y llamar a ExitPlanMode. La tarea prohíbe cualquier escritura, así que no se escribió el plan. ExitPlanMode no está disponible; la entrega se hace solo con StructuredOutput.",
+    "La regla de CLAUDE.md de actualizar 00-traspaso no se ejecuta, porque así lo pide el usuario. El paquete nuevo actúa como registro de vigencia.",
+    "Las 37 filas son las de matriz-operativa-fase5.json, una proyección que omite source_phase4_row. No se reconstruye esa fila histórica.",
+    "Las cuentas de 60/155 hechas a mano en esta respuesta son orientativas. El contrato exige que las mida una herramienta determinista.",
+    "El paquete no trae criterios de B (técnica, aceptación y traspaso). Este componente A solo define los ganchos (estado, pruebas, trazabilidad) que B debe completar.",
+    "'Preparado para maquetar' quiere decir que la estructura, los bloques y los metadatos de borrador bastan para wireframe o mockup con datos de prueba. No equivale a publicable."
+  ],
+  "propuesta": "## Conclusiones\n1. Ninguna de las 37 filas está lista para publicar. La maqueta puede empezarse ya en las 22 filas de tanda A y en las auxiliares, siempre que cada bloque sin dato real quede marcado. Tanda B, /precios/ y /blog/ pasan al backlog.\n2. Los title, H1 y description de 03/06 sirven como base, pero varias descriptions prometen incluidos que el propio 06 marca [VALIDAR]. Antes de entregarlas hay que corregirlas como borrador seguro, no copiarlas tal cual.\n3. Cuando falta el dato que necesita un metadato, el campo va en null con su motivo; no se rellena. Si el elemento no existe para ese tipo de página (PDF, description de 404 o de /gracias/), va como no-aplica.\n\n## Paquete (lo escribe el anfitrión tras la comparación)\n- `A-00-indice-vigencia.md`: precedencia, fuentes con hash y significado de cada estado.\n- `A-01-contrato-ficha.md` y `fichas.schema.json`.\n- `A-02-arquitectura-enlazado.md`: funciones de home, hub y pilar; familias de 03 §10; reglas de enlace; legados.\n- `fichas-paginas.json`: 37 fichas canónicas, con una vista `.md` por familia generada a partir del JSON.\n- `A-03-cambios-vs-03-06.md`: cada cambio con su referencia F5 (D0x/P0x).\n- `A-04-backlog-y-pruebas-futuras.md`.\n\n## Esquema de ficha operativa\n- **Identificación:** `id`, `url` (null en P36), `tipo` (home, hub, pilar, servicio, estacional, índice de casos, caso, institucional, auxiliar, recurso o reservado), `familia` y `tanda` (A, B, reservada o n/a).\n- **Estado y prioridad:** `estado` (preparado, condicionado o backlog), y `urgencia`, `impacto` y `confianza` copiados de F5 sin modificarlos.\n- **Función e intención:** `funcion` (una frase) y `no_repite` (bloques que pertenecen a otra URL).\n- **Palabras clave:** `keyword_principal{texto,estado:aprobada|candidata|provisional|sin_principal,evidencia:S###}` y `variantes[]` con el mismo campo de estado.\n- **Legado:** `legado{origen,tratamiento:301|misma_ruta|recepcion|ninguno,autorizacion:dada|condicionada,equivalencia:L0x}`.\n- **Metadatos:** `meta.{title,h1,description}` = `{valor|null, origen:03|06|F5|nuevo, estado:heredado|borrador_seguro|null_pendiente|no_aplica, motivo, dependencia, chars_medidos}`.\n- **Indexación:** `indexacion`, con valor `pendiente_decision_publicacion` salvo P34 (noindex legible), P36 (estado 404, fuera del sitemap) y P37 (200 en la misma ruta). No se declara indexabilidad de páginas futuras.\n- **Contenido:** `bloques[]{bloque,estado:listo|completar|validar,insumo,responsable}` y `claims_bloqueados[]{texto,fuente}`.\n- **Enlaces:** `enlaces_salientes[]{destino_id,condicion}`.\n- **Schema y pruebas:** `schema_permitido` (sin Review sobre la propia entidad y sin prometer FAQ enriquecida) y `pruebas_comerciales{casos,muestras,permisos}`.\n- **Aceptación y trazabilidad:** `aceptacion_prepublicacion[]`, `pruebas_futuras[]` (no bloquean el lanzamiento), `fuentes_dato` (archivo, captura F4 del 03-11 o reportado en PDF) y `trazabilidad{f5_fila,f5_D,cambio_03,cambio_06}`.\n\n## Reglas\n- **Metadatos:** se entregan si el servicio está confirmado, la principal es al menos candidata y el texto solo nombra categoría, Lima y marca. No llevan incluidos, cifras, años ni modalidades sin validar. Se aplican 60/155 y un solo H1 como contrato local (puntos de código Unicode tras normalizar a NFC, sobre la cadena final), no como límite de Google. Un null cuenta como pendiente, nunca como superado.\n- **Enlaces:** solo hacia destinos con estado `publicado` en la misma tanda o anterior. No se enlaza a P10, a tanda B ni a P25/P26 antes de que existan. El bloque se omite; no se deja un placeholder. Hub y contacto sirven de respaldo.\n- **Home, hub y pilar:**\n  - La home es para elegir proveedor. Conserva el foco del title y del H1 legados (son textos distintos) y tiene el portafolio destacado en exclusiva.\n  - El hub orienta por necesidad: resúmenes breves y catálogo completo según 03 §10, con estudio y sociales una vez publicados.\n  - El pilar describe el proceso, la edición y las versiones, y recibe /video.html. Ninguno repite la oferta y las pruebas de otro.\n- **Legados:**\n  - Autorizados: 301 /show.html desde el lanzamiento (exige equivalencia con L07) y /Brochure.pdf en la misma ruta, con 200.\n  - Condicionados: /index.html y las variantes de host (A01); /fotografia.html (P21 o P09 según equivalencia completa con L04); video, marketing y web, según L03, L05 y L06.\n\n## Decisiones P01–P37\n(T/H/D = title/H1/description; He = heredado de 03/06; Bs = borrador seguro corregido; N = null; X = no-aplica)\n\n| ID | Tanda y estado | T/H/D | Cambio clave con trazabilidad F5 |\n|---|---|---|---|\n| P01 | A · preparado; P0 host e index | He/He/Bs | Quitar «un solo equipo» y «Todo en un solo servicio» (D07) |\n| P02 | A · preparado | He/He/Bs | Familias de 03 §10; enlaces por disponibilidad (P02) |\n| P03 | A · condicionado (L03, edición) | He/He/He | Pilar ≠ hub (D05) |\n| P04 | A · condicionado | He/He/He | Principal provisional; Redinter solo con rol |\n| P05 | A · condicionado | He/unificar/Bs | Elegir un H1 entre 03 y 06; streaming y drone opcionales |\n| P06 | A · condicionado | He/He/He | Dos recorridos; sin set ni «plataformas que elijas» |\n| P07 | A · condicionado | He/He/He | Coffee break como sección; quitar 20/50/100 hasta validar mínimos |\n| P08 | A · condicionado | He/He/Bs | Sin «un solo contrato»; casos solo con rol acreditado |\n| P09 | A/B · condicionado; P0 destino | He(03 §11)/He/N | Ficha nueva; D pendiente de dirección y modalidades |\n| P10 | B · backlog | He(03 §11)/He/N | Quinceañeros como sección |\n| P11 | A · condicionado | He/He/Bs | Principal pasa a «alquiler de pantallas LED»; sin instalación, operación ni contenido |\n| P12 | B · backlog | He/He/He | Principal candidata «producción de spots publicitarios» (S047) |\n| P13 | B · backlog | He/He/He | Principal «animación para empresas»; se publica solo con muestras |\n| P14 | B · backlog | He/He/He | «servicio de drone audiovisual»; registro visual ≠ inspección técnica |\n| P15 | B · backlog | He/He/He | Opciones diferenciadas |\n| P16 | B · backlog | Bs/He/Bs | Ordenar según jerarquía; quitar «con técnico» |\n| P17 | B · backlog | He/He/He | Solo capacidades acreditadas |\n| P18 | B · backlog | He/He/He | Principal S036; sin precio obligatorio en la primera FAQ |\n| P19 | A · condicionado P0 (L07) | pendiente marca y año/He/He | Decidir con el dueño marca y año del title |\n| P20 | A · condicionado (P1 solo si hay oferta) | He/He/N | La D de 06 promete servicios no confirmados |\n| P21 | A · condicionado P0 | He/He/Bs | Retirar sesiones (pasan al estudio) y «de eventos» (pasa a cobertura) |\n| P22 | A · condicionado | He/He/Bs | Sin «oficina o set»; eventos internos a cobertura |\n| P23 | A · condicionado P0 (L05) | He/He/He | Branding y publicidad: decisión explícita |\n| P24 | A · condicionado P0 (L06) | He/He/Bs | Sin «pensadas para vender» ni «esta misma web» |\n| P25 | reservada · backlog | N/N/N | No crear URL ni enlaces |\n| P26 | reservada · backlog | N/N/N | Quitar el «enlace futuro» de spots |\n| P27 | A · condicionado | He/He/He | Filtros solo por rol acreditado |\n| P28–P31 | A · condicionado P0 permisos | Bs (nombre del proyecto y marca, sin categoría)/N/N | Los titles de 06 asignan categorías no acreditadas; corregir «Premiun» |\n| P32 | A · condicionado | He/He/N | Sin antigüedad ni plantilla sin acreditar |\n| P33 | A · condicionado P0 recepción | He/He/Bs | Separar interacción, recepción y lead (D02) |\n| P34 | auxiliar · condicionado P0 | Bs/Bs/X | noindex legible; la carga de la página no cuenta como conversión |\n| P35 | auxiliar · condicionado P0 | Bs/Bs/Bs | Texto: N, pendiente de revisión competente |\n| P36 | plantilla, URL null · condicionado P0 | Bs/Bs/X | Estado 404; fuera del sitemap |\n| P37 | recurso · ruta preparada P0 | X/X/X | Revisión de vigencia y peso en P2 |\n\n**Pruebas futuras, que no bloquean la publicación:** consultas por URL y solapamientos, rendimiento estacional y conversión real.",
+  "alternativas": [
+    "Una ficha .md por página (37 archivos): más legible, pero más fácil que se desincronice y difícil de validar. Se descarta frente a un JSON canónico con vistas generadas.",
+    "Parche sobre 03/06 en lugar de fichas nuevas: más rápido, pero choca con la prohibición de editar los originales y mezcla vigencias.",
+    "Agrupar las fichas por familia y no por página: reduce volumen, pero rompe la unión 1:1 con la matriz F5 por ID."
+  ],
+  "riesgos": [
+    "Que el escritor convierta los borradores en afirmaciones definitivas (incluidos, capacidades, años, roles de casos).",
+    "Enlaces a destinos de tanda B o reservados si el estado de publicación no se vuelve a calcular en cada tanda.",
+    "Diferencias de longitud según se cuenten bytes o caracteres, o si se cuenta con o sin la marca.",
+    "El destino de /fotografia.html y el host siguen abiertos; una ficha 'preparada' podría leerse como migración aprobada.",
+    "El show sin marca en el title puede interpretarse de forma distinta a la regla de nombre de marca constante; requiere decisión del dueño, no del escritor.",
+    "Aceptar el paquete documental no autoriza publicar ni cambiar la cuenta de Ads."
+  ],
+  "verificacion": [
+    "Validar fichas-paginas.json contra el esquema: 37 IDs únicos P01–P37, URLs idénticas a la matriz y url null solo en P36.",
+    "Contador determinista (NFC, puntos de código): title ≤60 y description ≤155 en todo valor no nulo; un solo H1 por plantilla; informar los null como pendientes.",
+    "Validador de enlaces: todo destino con estado publicado en la misma tanda o anterior; cero enlaces a P25, P26 o tanda B antes de su publicación.",
+    "Buscar en los metadatos y bloques listos las frases bloqueadas: 'un solo equipo', 'un solo contrato', 'Incluye streaming', 'con técnico', 'instalación, operación', 'oficina o en set', 'pensadas para vender', '20, 50 y 100'.",
+    "Cada cambio respecto a 03/06 tiene una referencia F5 (fila o D) y ningún [COMPLETAR] se ha sustituido por un dato.",
+    "Ningún campo de producción usa content/datos-de-prueba.json.",
+    "Revisión de Claude sobre lo producido por el escritor Codex, contrastándolo con esta especificación y con la de B."
+  ],
+  "confianza": {
+    "nivel": "media",
+    "motivo": "Confianza alta en las contradicciones documentales, todas citadas con su sección. Media en los borradores de metadatos y en la clasificación de estados. Las longitudes no se midieron de forma determinista y faltan 00, 07, 11, vercel.json y el legado L03–L07."
+  },
+  "context_assessment": {
+    "status": "partial",
+    "missing": [
+      "docs/seo/00-traspaso.md, 07 y 11, y vercel.json (para el componente B: técnica, aceptación y traspaso)",
+      "Textos legados L03–L07 (video, fotografía, marketing, web, show) para verificar equivalencias",
+      "source_phase4_row de la matriz completa (omitida en la proyección)",
+      "COMPARACION-FASE-5.md y official-checks.json (solo resumidos en F5)",
+      "Docs 01, 02, 04, 05, 08, 09 y 10 (se citan en 03/06 y no se incluyeron)",
+      "Expedientes de los casos, dirección del estudio, oferta y capacidades: datos de negocio pendientes"
+    ]
+  },
+  "findings": [
+    {
+      "title": "El techo de Ads en CLAUDE.md (S/100) está superado por el máximo de S/110",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fuente-CLAUDE.md §Publicidad (SEM); fuente-fase5.md §Encabezado y D03",
+      "evidence": "CLAUDE.md: 'S/ 100 al mes como máximo'. F5: 'máximo S/110 mensuales... prevalece'.",
+      "verification": "El registro de vigencia A-00 cita S/110 y no edita el original."
+    },
+    {
+      "title": "El copy promete 'un solo equipo' y 'un solo contrato' sin confirmación",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-06.md §1 Por qué elegir Rhino, §6 Todo en uno, §19 Introducción; fuente-03.md §3",
+      "evidence": "CLAUDE.md prohíbe afirmar 'un solo equipo' sin confirmación del dueño; F5 D07 lo lista entre las promesas sin validar.",
+      "verification": "Buscar las frases bloqueadas en las fichas producidas."
+    },
+    {
+      "title": "Descriptions con incluidos que el cuerpo marca [VALIDAR]",
+      "classification": "demostrado",
+      "severity": "high",
+      "location": "fuente-06.md §3 (Incluye streaming), §20 (instalación, operación y contenido), §21 (con técnico), §18 (en tu oficina o en set)",
+      "evidence": "Cada sección marca el mismo punto como [VALIDAR] o [COMPLETAR] en su cuerpo; F5 P05, P11, P16 y P22 piden alinearlo.",
+      "verification": "Comparar meta.description con los bloques en estado listo."
+    },
+    {
+      "title": "El H1 de cobertura difiere entre 03 y 06",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-03.md §5 fila cobertura; fuente-06.md §3",
+      "evidence": "'Cobertura audiovisual de eventos' frente a '...en Lima'; F5 P05 pide unificarlo.",
+      "verification": "La ficha P05 registra un único H1 con su origen."
+    },
+    {
+      "title": "Solapamiento de sesiones y fotografía de eventos en /servicios/fotografia/",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-06.md §12; fuente-03.md §5 (fotografía y cobertura, secundarias) y §11 Canibalización",
+      "evidence": "03 §11 mueve 'sesión fotográfica' al estudio, pero 06 §12 la mantiene en su description. 'Fotografía de eventos' figura como secundaria de dos URLs.",
+      "verification": "Que no haya keywords duplicadas entre fichas; P21 queda sin sesiones ni eventos."
+    },
+    {
+      "title": "El hub dice 'cuatro grupos', enumera cinco y omite estudio y bodas",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-06.md §2; fuente-03.md §10 Familias",
+      "evidence": "En 06 §2 aparecen cinco grupos y faltan estudio y bodas, que 03 §10 sí incluye.",
+      "verification": "La ficha P02 usa las familias de 03 §10, filtradas por disponibilidad."
+    },
+    {
+      "title": "Estudio y bodas no tienen ficha en 06",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-03.md §11; fuente-06.md (no hay sección)",
+      "evidence": "Solo existen title y H1 en 03 §11; 03 lo reconoce: 'pendiente en el doc 06'.",
+      "verification": "P09 y P10 con description en null y motivo declarado."
+    },
+    {
+      "title": "Principales del mapa 03 sustituidas por candidatas de F5",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-03.md §5 (LED, spots, animación, drone, maestro de ceremonias); matriz F5 P11, P12, P13, P14, P18",
+      "evidence": "Por ejemplo: 'pantalla led para eventos' pasa a 'alquiler de pantallas LED'; 'video publicitario' a 'producción de spots publicitarios'.",
+      "verification": "keyword_principal.estado es candidata o provisional, con referencia S###."
+    },
+    {
+      "title": "Especificaciones superadas por F5",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-03.md §5 (~600 palabras) y §8 (lanzamiento 10 ene); fuente-06.md §17 (/gracias/ registra la conversión); schema FAQPage en 06",
+      "evidence": "F5 D02 y D08 retiran el mínimo de palabras, la conversión por carga de página y la promesa de FAQ enriquecida; CLAUDE.md descarta esperar al 10 de enero.",
+      "verification": "A-03 recoge cada retirada con su referencia D."
+    },
+    {
+      "title": "Los titles de los casos asignan categorías no acreditadas",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-06.md §16 Títulos sugeridos y §3/§6 Casos",
+      "evidence": "'Héroe Adidas: campaña audiovisual'; Premium y Bloom aparecen como casos de organización o cobertura. F5 P29–P31 condiciona su uso al rol real.",
+      "verification": "Los titles de P28–P31 son neutrales; la description queda en null hasta tener el expediente."
+    },
+    {
+      "title": "Enlaces previstos hacia destinos de tanda B o futuros",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "fuente-06.md §3 (drone), §9 (enlace futuro al blog), §1 (todas las páginas de servicio)",
+      "evidence": "Drone es tanda B según 03 §10 y el blog está reservado según F5 P26.",
+      "verification": "Pasar el validador de enlaces sobre el estado de cada tanda."
+    },
+    {
+      "title": "El title del show omite la marca y fija el año",
+      "classification": "demostrado",
+      "severity": "low",
+      "location": "fuente-03.md §5 y fuente-06.md §15",
+      "evidence": "'Show Infantil Navideño en Lima 2026 | Empresas y Fiestas'; F5 P19 pide resolver marca y año.",
+      "verification": "Decisión del dueño registrada en la ficha P19."
+    },
+    {
+      "title": "Cumplimiento de 60/155 en todos los metadatos",
+      "classification": "no_verificado",
+      "severity": "info",
+      "location": "fuente-03.md §5, §11; fuente-06.md",
+      "evidence": "Las muestras contadas a mano quedan dentro del límite (por ejemplo, estudio 49 y bodas 57, que coinciden con 03 §11). No se ejecutó un contador.",
+      "verification": "Contador NFC determinista en la fase de escritura."
+    }
+  ],
+  "gates": [
+    {
+      "name": "37 filas presentes y unibles por ID/URL",
+      "status": "passed",
+      "evidence": "La matriz operativa tiene count 37, P01–P37, y coincide con las tablas 4.1/4.2 de F5."
+    },
+    {
+      "name": "Longitudes 60/155 y H1 único",
+      "status": "not-run",
+      "evidence": "Sin herramienta en esta derivación; solo cuentas manuales de muestra."
+    },
+    {
+      "name": "Sin escritura en la derivación",
+      "status": "passed",
+      "evidence": "No se creó ni modificó ningún archivo, incluido el archivo de plan."
+    }
+  ],
+  "artifacts": [
+    {
+      "path": "A-00-indice-vigencia.md",
+      "purpose": "Precedencia, fuentes y estados",
+      "status": "planned"
+    },
+    {
+      "path": "A-01-contrato-ficha.md + fichas.schema.json",
+      "purpose": "Contrato de la ficha y reglas null/no-aplica",
+      "status": "planned"
+    },
+    {
+      "path": "A-02-arquitectura-enlazado.md",
+      "purpose": "Funciones de home, hub y pilar; enlaces; legados",
+      "status": "planned"
+    },
+    {
+      "path": "fichas-paginas.json (+ vistas .md por familia)",
+      "purpose": "37 fichas canónicas",
+      "status": "planned"
+    },
+    {
+      "path": "A-03-cambios-vs-03-06.md",
+      "purpose": "Cambios con trazabilidad F5",
+      "status": "planned"
+    },
+    {
+      "path": "A-04-backlog-y-pruebas-futuras.md",
+      "purpose": "Backlog P2 y seguimiento posterior a la publicación",
+      "status": "planned"
+    }
+  ],
+  "deviations": []
+}

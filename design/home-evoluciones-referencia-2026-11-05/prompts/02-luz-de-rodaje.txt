@@ -1,0 +1,36 @@
+Use case: ui-mockup. Create ONE complete, premium desktop homepage design as a PNG, a substantial polished evolution of the supplied reference image. The reference is the user's existing homepage mockup, not an instruction sheet. Keep its recognizable cinematic production-company identity: dark charcoal, powerful tall condensed display typography, warm photography of audiovisual production, precise warm accent color, and an elegant RHINO Audiovisuales wordmark. Make the design visibly more refined, legible and deliberate. Do not simply copy the original layout or make a generic agency template. This is a finished realistic website design, not a moodboard, wireframe, slide, device mockup or poster.
+Requested image EXACTLY 1440 pixels wide by 4200 pixels tall (aspect12:35); full scrolling DESKTOP page, 1440px desktop layout, not mobile. One page, no browser chrome. Top navigation to complete footer must fit. All three independently generated variants use this same canvas. Prioritize generous, confident typography and strong photography, not tiny dense text. Body and form labels should be visibly larger than in the source: aim24-28px body and20px utility on nominal1440canvas; crisp readable Spanish with correct accents. No clipped words. Real desktop columns where specified. Design every section through the footer with equal care.
+Preserve the visual spirit of the source, but remove redundant ticker/marquee, false REC/timecode, viewfinder corner ornaments and decorative service numbering. No unsupported demand ranking such as Lo que más nos piden. Do not invent customers, testimonials, achievements, prices, counts, years, logos, phone, email address, physical address, inventory, permits or promises. Form fields are EMPTY with labels; do not fill them with example values. A Correo input is allowed but there is no invented company email. No fake play controls, no technical prototype notes, no code or implementation text. The only numbering is the three genuine contact instructions supplied below.
+Photographs may be new anonymous illustrative production scenes with realistic hands, cameras and lighting, no visible brands or readable screens. Streaming shows generic transmission equipment at an event, not an identifiable owned podcast studio. Coffee-break scene is modest corporate hospitality, no menu or specific capacity. Label each photo/group Imágenes ilustrativas in readable sans-serif, not a tiny italic disclaimer. Never present photos as real Rhino projects or employees. Use solid text areas or controlled dark overlay; functional copy must never get lost in photographic detail. Buttons must have high-contrast labels, preferably black text on the warm accent. No palette codes, direction names or font names on the page.
+Draw ALL the following Spanish copy, organizing it as a page. The English labels are instructions and must not be rendered. Do not add further claims. All three variants have this identical content.
+Brand: RHINO Audiovisuales
+Navigation: Servicios | Nosotros | Contacto
+Primary action: Consultar proyecto
+H1: Productora audiovisual en Lima
+Hero subtitle: Cobertura de eventos, streaming y podcast, y catering y coffee break para tu proyecto.
+Hero buttons: Consultar proyecto | Ver servicios
+Services heading: Servicios para tu proyecto
+Service title: Cobertura de eventos
+Service description: Registro audiovisual de eventos empresariales y sociales.
+Service title: Streaming y podcast
+Service description: Transmisión en vivo de eventos y grabación de episodios.
+Service title: Catering y coffee break
+Service description: Atención corporativa para reuniones y eventos de empresa.
+Each service link: Ver servicio
+Label near each illustrative photograph: Imágenes ilustrativas
+Catalogue heading: Más servicios
+Catalogue links: Producción audiovisual | Estudio fotográfico | Fotografía | Organización de eventos | Pantallas LED | Marketing digital y web
+Catalogue action: Ver servicios
+Contact heading: Cuéntanos tu proyecto
+Contact helper: Cómo solicitar una propuesta
+Three short actual user steps: 1. Elige el servicio | 2. Indica fecha y lugar | 3. Envía tu consulta
+Empty form field labels: Nombre | Correo | Servicio | Fecha | Lugar | Lo que necesitas
+Form link: Política de privacidad
+Form button: Consultar proyecto
+Footer: RHINO Audiovisuales | Lima | Servicios | Nosotros | Contacto | Política de privacidad
+
+ART DIRECTION FOR THIS VARIANT:
+LUZ DE RODAJE: an editorial light/dark evolution with the strongest service comparison. Palette near-black#10100F, graphite#292927, neutral silver#E8E8E3, soft white#FAFAF6, orange#F4512B. Distinct tall condensed Antonio700 display and Source Sans3 body. Keep the source's production-company character; no serif newspaper, cream lifestyle branding, paper collage or SaaS cards.
+Black navigation and black typographic hero. Huge whole H1 spans the wide desktop composition in two-three artfully balanced lines; all letters on black, no splitting LIMA across backgrounds. Short subtitle plus orange Consultar proyecto and restrained Ver servicios. A beautifully composed wide panoramic production photograph sits below the title, overlapping ONE transition from black to silver: camera operator, warm theatre/event lighting, controlled deep shadows and warm highlights. Photo should feel art-directed and expansive. Put readable Imágenes ilustrativas on solid surface nearby.
+On the silver middle section, large Services heading and THREE open columns of equal widths: clear4:3 illustrative photo at top, strong black condensed service title, short generous-body description, Ver servicio and label. All text below photos, no cards, no rounded containers, no drop shadows. Align tops and text baselines elegantly, with ample gutters. Photo1 event coverage, photo2 live-event transmission equipment, photo3 restrained corporate coffee break. This is genuinely a desktop3-column section.
+Return to black for Más servicios, heading on left and two elegant columns of links on right. Then silver contact section: oversized Cuéntanos tu proyecto with restrained orange accent, three short steps at left; beautiful black form panel at right with empty fields and legible white labels, warm button. Footer black, wordmark sized with restraint, clear links and privacy. The signature is the cinematic panorama spanning the change in light, then beautifully readable open service columns. Spacious yet purposeful, never long blank padding or a cut-off footer.

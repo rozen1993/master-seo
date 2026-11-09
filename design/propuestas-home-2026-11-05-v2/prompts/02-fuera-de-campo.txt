@@ -1,0 +1,38 @@
+Use case: ui-mockup.
+Create one finished desktop website design screenshot as a PNG. Exact target canvas: 1440 pixels wide × 2880 pixels tall, aspect ratio 1:2. Wide DESKTOP page, complete scroll height only twice its width, not a mobile layout. Keep desktop typography, columns and horizontal composition. Show whole page from first pixel to footer. No device, browser frame, perspective, presentation board, external margin or mockup background.
+Design a distinctive Spanish homepage for Rhino Audiovisuales following the art direction below. One coherent page, not unrelated stacked screens. Sharp Spanish text with correct accents. Generous scale, deliberate spacing, comfortable reading sizes, strong desktop structure. Fit all content within canvas.
+Use exactly this text without inventing additional text. Arrange per direction, preserve the three service priorities and correctly associate descriptions:
+BRAND: “RHINO” and “Audiovisuales”
+NAVIGATION: “Servicios” “Nosotros” “Contacto”
+H1: “Productora audiovisual en Lima”
+SUPPORTING SENTENCE: “Cobertura de eventos, streaming, podcast y catering corporativo.”
+PRIMARY BUTTON: “Consultar proyecto”
+SECONDARY LINK: “Ver servicios”
+GLOBAL IMAGE DISCLOSURE, visibly readable near first image: “Imágenes ilustrativas; no corresponden a trabajos de Rhino.”
+SECTION: “Servicios”
+SERVICE 1: “Cobertura de eventos” / “Registro audiovisual de eventos empresariales y sociales.” / “Ver servicio”
+SERVICE 2: “Streaming y podcast” / “Transmisión de eventos y producción de episodios.” / “Ver servicio”
+SERVICE 3: “Catering corporativo” / “Comparte la fecha, el lugar y el número de asistentes.” / “Ver servicio”
+SECTION: “Más servicios”
+CATEGORIES: “Producción audiovisual” / “Fotografía” / “Organización de eventos corporativos” / “Alquiler de pantallas LED” / “Servicios digitales”
+CLOSING: “Cuéntanos tu proyecto”
+“Indica el servicio, la fecha, el lugar y lo que necesitas.”
+“Consultar proyecto”
+FOOTER: “Rhino Audiovisuales” / “Servicios” “Nosotros” “Contacto” “Política de privacidad”
+IMAGERY: Original editorial imagery specified by direction, illustrative scenes and objects, not Rhino's own equipment, facilities or work. No identifiable faces, visible brands, client names, logos or project titles. No fake website screenshots, portfolio or software interfaces.
+CONTENT: No clients, testimonials, statistics, experience claims, prices, phone, address, email, dates, guarantees or response times. No included equipment/staff/platforms. Never label a room as Rhino's studio. No cases, process, FAQ, pricing or form.
+DESIGN: Immediately legible exact H1, maximum two lines for headings. Clearly visible primary button in first desktop screen. Use desktop widths and horizontal arrangements; not narrow stacked central column. No generic feature cards, tiny decorative labels, numbered steps, ornamental hairlines, floating pill navigation, glass, interface gradients, icon collections, fake film timecodes or film sprocket borders. No labels explaining design, no direction name printed. No text/image collision.
+Output ONE complete 1440×2880 desktop homepage, width:height=1:2.
+
+ART DIRECTION B — FUERA DE CAMPO
+Editorial audiovisual studio design about frame and information just outside it. Serious visual judgment. No wedding-film romance, lifestyle luxury or newspaper look.
+COLOR: Ink blue #16283F; gray lavender #DEDCE6; cold white #F7F9FC; powder blue #AFC5D8; charcoal #20252D. No cream,terracotta,gold,decorative pink.
+TYPE: Canela substantial elegant display only H1/services/contact. Suisse International crisp body. Serif personality without luxury calligraphy.
+STRUCTURE: Continuous left rail210 px wide gray lavender, brand top and navigation below, normal horizontal letters not rotated. No conventional top navigation across main content.
+Main canvas to right1230 px wide carefully aligned inner margins. Unmistakable desktop.
+Top main canvas large H1 on TWO lines left; supporting sentence and main action in right third. Fit heading without collision. Beneath both ONE wide editorial panorama.
+HERO PHOTO: documentary oblique edge of event: foreground light stand and coiled cable sharp, beyond softly lit gathering and prepared table. NO camera pointed at conference stage. No recognizable people or venue. Intelligent crop with some activity outside frame. Illustrative photographic study, not event case. Disclosure immediately below.
+SERVICES: One composed spread, not three repeated bands. Heading introduces. Coverage text upper left beside wide shallow event detail image. Streaming/podcast text lower right beside large close photo microphone grille and tabletop sound equipment without readable screen. Catering text beside generous OVERHEAD prepared table photograph, visibly different framing from microphone close-up. Every description and link directly associated with heading. Few shared alignment edges, no scattered floating text. Photos/text interlock with deliberate open areas. Ink blue photo surrounds and cold white text ground. No serif over busy photo.
+Más servicios quiet compact list lowermain canvas, heading+all five categories.
+Contact opens large cold white area, ink blue heading/text/button. Left rail continues to bottom connecting the whole page.
+Footer withinmain canvas aligned content edges. Photo grade realistic cool neutral, no sepia/orange-teal. Signature persistent rail and off-center photo frames. Complete exact 1:2 desktop canvas.

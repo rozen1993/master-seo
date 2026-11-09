@@ -1,0 +1,31 @@
+Use case: ui-mockup.
+Genera una sola imagen PNG: propuesta visual de una home completa de escritorio para Rhino Audiovisuales, desde la cabecera hasta el pie. Lienzo objetivo EXACTO 1536 × 3072 píxeles, vertical 1:2. Vista frontal plana de la página, sin navegador, dispositivos, perspectivas, sombras exteriores ni presentación sobre un fondo. No generar HTML.
+Composición completa, texto español nítido y bien escrito, fotografías grandes, márgenes exteriores iguales de 64 px. No cortar cabecera ni pie. No añadir textos a los indicados. Títulos máximo dos líneas. Párrafos aproximadamente 24 px; nota global aproximadamente 18 px y contraste suficiente.
+Usar exactamente este contenido y este orden:
+CABECERA: Marca tipográfica “RHINO”, con “Audiovisuales” junto a ella o debajo, menor. Sin inventar símbolo ni logotipo oficial. Menú: “Servicios” “Nosotros” “Contacto”
+HERO: H1 “Productora audiovisual en Lima”
+Bajada “Cobertura de eventos, streaming, podcast y catering corporativo.”
+Botón “Consultar proyecto”. Enlace “Ver servicios”
+INMEDIATAMENTE DESPUÉS DEL HERO: nota global una vez, legible “Imágenes ilustrativas; no corresponden a trabajos de Rhino.”
+SERVICIOS: Título “Servicios”
+Primer servicio: “Cobertura de eventos” / “Registro audiovisual de eventos empresariales y sociales.” / “Ver servicio”
+Segundo servicio: “Streaming y podcast” / “Transmisión de eventos y producción de episodios.” / “Ver servicio”
+Tercer servicio: “Catering corporativo” / “Comparte la fecha, el lugar y el número de asistentes.” / “Ver servicio”
+CATÁLOGO: Título “Más servicios”
+Lista: “Producción audiovisual” / “Fotografía” / “Organización de eventos corporativos” / “Alquiler de pantallas LED” / “Servicios digitales”
+CONTACTO: Título “Cuéntanos tu proyecto”
+Texto “Indica el servicio, la fecha, el lugar y lo que necesitas.”
+Botón “Consultar proyecto”
+PIE: “Rhino Audiovisuales” / “Servicios” “Nosotros” “Contacto” “Política de privacidad”
+FOTOGRAFÍA: Exactamente cuatro fotografías originales generadas. Una hero y una por servicio. No repetir una fotografía. Hero: encuentro empresarial contemporáneo visto desde una cámara de video a un lado; escenario sencillo y asistentes desenfocados, sin espectacularidad masiva ni marcas. Cobertura: encuadre distinto y cercano de una cámara registrando una presentación, sujeto desenfocado al fondo. Streaming/podcast: dos micrófonos sobre mesa, cámara al fondo, iluminación cuidada, sin nombres de estudio/logos/interfaces/pantallas con texto. Catering: mesa empresarial con vajilla y bandejas de bocados naturales, sin carteles/menús/precios/marcas. Coherencia fotográfica. Sin caras identificables ni lugares reconocibles. Imágenes ilustran categorías, no trabajos reales de Rhino.
+No añadir clientes, logos, casos, testimonios, estadísticas, años, plazos, precios, teléfonos, correo, dirección, mapa o incluidos. No proceso, FAQ, portafolio o formulario. No “premium”, “integral”, “todo en uno”. No iconos de servicios, tarjetas con iconos, miniaturas numerosas, numeraciones, etiquetas pequeñas en mayúsculas, monospace, líneas finas decorativas, degradados decorativos, cristal, sombras de tarjetas. No poner elementos sobre palabras. No dibujar instrucciones, cotas, coordenadas, colores hex escritos ni el nombre de la dirección.
+
+DIRECCIÓN A: CARTEL CINEMATOGRÁFICO.
+Presencia de cartel audiovisual: una escena grande abre; los servicios aparecen como una programación breve.
+Paleta carbón #111413, texto marfil #F3F4EE, acento lima amarillo #DCEE46 concentrado en botones y el campo Más servicios. Títulos sans condensados contundentes tipo Barlow Condensed ExtraBold; cuerpo Barlow abierto. No serif. H1 aproximadamente 112 px; servicios 52 px.
+Cabecera negra compacta de 96 px: marca izquierda, menú derecha. Hero de unos 920 px dominado por una sola fotografía panorámica; cámara y actividad en el tercio derecho. Oscuridad fotográfica neutral en la izquierda para leer, sin perder la imagen. H1 dos líneas "Productora audiovisual" / "en Lima". Bajada, botón lima y enlace claro debajo. La nota global va en una franja negra breve al terminar el hero.
+Servicios: listado editorial sobre carbón, aproximadamente y1140–2220. Tres filas amplias sin cajas, bordes ni separadores. Título, descripción y enlace en mitad izquierda; foto horizontal grande a la derecha. Las tres fotografías mantienen igual tamaño. Orden cobertura, streaming/podcast, catering. Separar con espacio real.
+Más servicios: campo lima de ancho completo, unos 300 px de altura. Título negro grande izquierda; cinco categorías negras derecha en dos columnas.
+Contacto: carbón, título grande izquierda, texto y botón lima; compacto sin vacíos excesivos.
+Pie negro: Rhino Audiovisuales con presencia fuerte y cuatro enlaces debajo. Terminar justo después del margen final. Ajustar alturas para encajar toda la página en 1536×3072 sin cortes ni omisiones.
+Fotografía de contraste cinematográfico contenido, negros ricos y luz natural cálida. Catering conserva color real, sin dominante verde.

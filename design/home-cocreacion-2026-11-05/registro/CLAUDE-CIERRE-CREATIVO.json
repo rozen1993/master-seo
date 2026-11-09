@@ -1,0 +1,80 @@
+{
+  "supuestos": [
+    "La sesión pide un archivo de plan y ExitPlanMode, pero el encargo prohíbe escribir archivos y usar herramientas, y esas herramientas no están disponibles. Entrego solo esta respuesta y no he escrito ningún plan.",
+    "Las dos derivaciones y los ajustes finales de Codex venían íntegros en el paquete; no se necesitó ninguna otra fuente.",
+    "Los contrastes son cálculos hechos con los colores acordados. Indican riesgos del plan, no defectos de imágenes que todavía no existen.",
+    "El paquete no omite criterios del pipeline core que afecten a este cierre."
+  ],
+  "propuesta": "## Peer-response · Claude Opus → Codex Astra Ultra\n\n### Conclusión\nLa relectura íntegra **no cambia conclusiones**. Coinciden las tres rutas, el copy, la omisión de proyectos y la regla de no unir gráficamente las tres prioridades. **Acepto los 7 ajustes finales de Codex.** Hay **una corrección imprescindible** sobre dónde van los botones. Con ella incorporada a los prompts, quedan **listos para generar los tres mockups**.\n\n### Qué confirma la relectura\n- La firma de la dirección de papel de Codex («tres escenarios, sin unión») y su descarte de la escena continua coinciden con la regla de no sugerir coordinación integral (C02).\n- Codex ya había anticipado que los tipos son intención y no fidelidad garantizada. Lo mantengo como límite común.\n- Su crítica a la dirección de luz de día («la tipografía grande puede desplazar las prioridades») queda resuelta: el hero tipográfico mide 700–760 px y el H1 siempre es mayor que las opciones.\n- Mi estimación de alturas cabe en 1440 × 3840: unos 3500 px en la dirección de cine y unos 3000 en la tipográfica. No hay riesgo de recorte por falta de lienzo.\n\n### Ajustes de Codex: aceptados\n1. Subtítulo «Cobertura de eventos, streaming y podcast, catering y coffee break.» sin coletilla. **Aceptado.**\n2. «Organización y alquiler para eventos» como categoría sin inventario. **Aceptado.** Tiene razón: era una ambigüedad, no un incumplimiento.\n3. Los tres textos de servicio, tal como estaban. **Aceptado.**\n4. Hero de cine sin fachada. **Aceptado y mejor que mi propuesta**: una fachada podía sugerir una sede inexistente. El 35 % de negro queda como orientación.\n5. Papel: berenjena en hero y pie, salvia y blanco en el recorrido. **Aceptado.** La posible lectura infantil era una hipótesis estética mía, no un hecho.\n6. Hero claro y opciones sobre azul cabina. **Aceptado**, con la corrección de abajo.\n7. «Cómo solicitar una propuesta», sin números. **Aceptado.**\n\n### Corrección imprescindible: dónde van los botones\nCalculado con los colores acordados:\n\n| Botón y fondo | Contraste aproximado |\n|---|---|\n| Amarillo `#F5D90A` sobre claro `#FAFAF5` | 1,4:1 |\n| Coral `#F39D88` sobre blanco `#FBFAFC` | 2,0:1 |\n| Coral sobre salvia `#B6CEC2` | 1,3:1 |\n\nEl texto del botón se leería, pero **el botón casi no se distinguiría del fondo**, y la aceptación exige que el CTA sea reconocible. Mi ajuste 6 creó este problema en el hero tipográfico sin advertirlo.\n\n**Regla para los tres prompts:** cada «Consultar proyecto» va sobre una superficie oscura o lleva un relleno oscuro.\n- **Tipográfica:** el botón del hero lleva relleno cabina y texto claro. El amarillo solo se usa en los subrayados y en un botón colocado sobre cabina, por ejemplo si el cierre va en cabina.\n- **Papel:** el bloque de cierre va sobre berenjena junto al pie, o el botón coral lleva un borde berenjena de 2 px.\n- **Cine:** sin cambios. El tungsteno siempre va sobre banda negra (sobre garúa daría 1,7:1).\n\n### Límites\n- No existe ningún PNG. No hay inspección visual ni aprobación estética previa. Marco elige después de ver los tres.\n- Hay que medir las dimensiones de los archivos devueltos, revisar cada texto exacto y las tildes, y comprobar que «Imágenes ilustrativas» se lee en cada lámina.\n- Los contrastes reales deben medirse en el PNG. No equivale a una auditoría WCAG.",
+  "alternativas": [
+    "Mantener el amarillo como botón del hero claro y añadirle un borde tinta. Se descarta porque mezcla dos lenguajes en el botón principal; el relleno cabina es más limpio.",
+    "Mover también el hero tipográfico a cabina. Se descarta porque reabre el acuerdo 6 sin un defecto que lo justifique."
+  ],
+  "riesgos": [
+    "Si los prompts no recogen la regla de botones, el CTA puede quedar poco reconocible en la dirección de papel y en la tipográfica.",
+    "El generador puede deformar el texto en español o no devolver 1440 × 3840.",
+    "Las escenas de servicio pueden leerse como trabajos reales si la etiqueta «Imágenes ilustrativas» no se lee bien."
+  ],
+  "verificacion": [
+    "Medir ancho y alto de los tres PNG.",
+    "Comprobar en cada lámina las cadenas exactas: H1, «Consultar proyecto», «Ver servicios», los tres servicios, «Elige según tu encargo», «Cómo solicitar una propuesta», «Política de privacidad» e «Imágenes ilustrativas».",
+    "Medir en el PNG el contraste del texto de cada botón y del botón frente a su fondo.",
+    "Confirmar que ninguna lámina contiene cifras, clientes, logotipos, sedes, conectores entre las prioridades ni numeración."
+  ],
+  "confianza": {
+    "nivel": "alta",
+    "motivo": "Revisé las dos derivaciones completas. La corrección se basa en cálculos con los colores acordados. La calidad final depende de unos PNG que aún no existen."
+  },
+  "context_assessment": {
+    "status": "sufficient",
+    "missing": [
+      "Los PNG, que se generan después",
+      "Las capacidades reales del generador: tamaño y fidelidad del texto"
+    ]
+  },
+  "findings": [
+    {
+      "title": "Botones casi indistinguibles sobre fondos claros en las direcciones tipográfica y de papel",
+      "classification": "demostrado",
+      "severity": "medium",
+      "location": "Especificación acordada: tipográfica (hero claro con botón amarillo) y papel (cierre con botón coral sobre salvia o blanco)",
+      "evidence": "Contraste calculado con los colores acordados: #F5D90A/#FAFAF5 ≈1,4:1; #F39D88/#FBFAFC ≈2,0:1; #F39D88/#B6CEC2 ≈1,3:1.",
+      "verification": "Incluir en los prompts la regla de superficie oscura o relleno oscuro y medir los botones en los PNG."
+    },
+    {
+      "title": "La relectura íntegra no altera ninguna conclusión",
+      "classification": "demostrado",
+      "severity": "info",
+      "location": "full_independent_codex y full_independent_claude",
+      "evidence": "Los criterios coinciden en firmas, omisión de proyectos, escenas separadas y tipos como intención.",
+      "verification": "No requiere ninguna acción."
+    },
+    {
+      "title": "Fidelidad del texto y del tamaño del lienzo",
+      "classification": "no_verificado",
+      "severity": "medium",
+      "location": "Fase de generación",
+      "evidence": "Todavía no existen PNG.",
+      "verification": "Medición de archivos y revisión por recortes."
+    }
+  ],
+  "pipeline": "core",
+  "input_class": "not-applicable",
+  "gates": [
+    {
+      "name": "Relectura íntegra de ambas derivaciones",
+      "status": "passed",
+      "evidence": "Las dos derivaciones venían incrustadas íntegras en el paquete y se leyeron completas."
+    },
+    {
+      "name": "Listo para generar",
+      "status": "passed",
+      "evidence": "Condicionado a incorporar en los prompts la regla de botones."
+    },
+    {
+      "name": "Inspección de PNG",
+      "status": "not-applicable",
+      "evidence": "No existen todavía."
+    }
+  ]
+}

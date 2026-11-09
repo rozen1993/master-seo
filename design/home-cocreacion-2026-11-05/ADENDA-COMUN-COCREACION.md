@@ -1,0 +1,10 @@
+# Contexto adicional común para la cocreación
+
+Esta adenda se entrega a ambos después de sus derivaciones ciegas. No se incorpora retroactivamente al paquete independiente. Las diferencias iniciales quedan conservadas.
+
+1. El encargo autoriza mockups desde cero y prohíbe inventar casos. En este alcance, omitir una prueba social sin permisos es una aplicación del límite, no requiere volver a pedir aprobación al dueño ni modifica el paquete SEO. Su bloque de proyectos queda condicionado para la futura web.
+2. Las escenas genéricas ilustrativas pueden mostrar elementos del oficio, siempre que no se presenten como equipo, personal, instalaciones, menú o trabajos reales de Rhino. No hace falta prohibir toda cámara, taza o persona; sí evitar atribuciones engañosas, marcas y afirmaciones comerciales nuevas.
+3. El generador integrado crea imágenes raster a partir de un prompt; no garantiza reproducir una fuente exacta ni un texto perfecto. Se solicitará un mismo lienzo de escritorio para las tres (objetivo operativo 1440 × 3840 px, proporción 3:8) y se verificarán las dimensiones devueltas. Si no coinciden, se corregirá antes de entregar. No afirmar un tamaño hasta medir los archivos. El generador es la herramienta de dibujo; Codex Astra Ultra y Claude Opus son los pares que deciden y revisan el diseño.
+4. Se aportan ahora íntegros `03-requisitos-tecnicos.md`, `04-aceptacion-y-orden.md`, `medicion.json` y el manifiesto común. Son contexto para no proponer incoherencias; este encargo no implementa medición ni acredita accesibilidad funcional. La inspección de texto y contraste de los PNG no equivale a una auditoría WCAG de una web.
+5. Fijar una base de copy igual para las tres propuestas, priorizar los nombres de servicios y CTA legibles, evitar un catálogo de nueve enlaces pequeños si solo añade densidad. El mockup puede agrupar acceso a familias mediante P02; no inventar slugs ni activar páginas futuras.
+6. Las siguientes decisiones son compartidas. Codex sigue siendo el único escritor y operador de generación por petición del usuario; eso no le da preferencia estética automática. El dueño elegirá entre los tres resultados después de verlos.

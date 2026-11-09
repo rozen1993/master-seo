@@ -1,0 +1,47 @@
+{
+  "fecha_local": "2026-11-05",
+  "hora_utc": "2026-11-05T05:50:08.365336+00:00",
+  "alcance": "archivo y accesos documentales; no auditoría SEO nueva ni implementación",
+  "passed": true,
+  "archivados_sin_cambiar_contenido": {
+    "cantidad": 13,
+    "errores": []
+  },
+  "paquete_fase6_intacto": {
+    "cantidad": 61,
+    "errores": []
+  },
+  "baseline_workspace_historico_resuelto_con_traslado": {
+    "cantidad": 40,
+    "errores": [],
+    "nota": "Las rutas 00 y CLAUDE tienen accesos nuevos; los contenidos históricos se verifican en las rutas archivadas, sin modificar el baseline."
+  },
+  "accesos_nuevos": {
+    "documentos": 5,
+    "enlaces_rotos": []
+  },
+  "contenidos_eliminados": 0,
+  "codigo_web_y_campanas_modificados": false,
+  "archivos_de_acceso": [
+    {
+      "path": "CLAUDE.md",
+      "sha256": "b172c5f37682e5df578d87fb35ac6ef7cfbabaaebf520433751537a0681fb27d"
+    },
+    {
+      "path": "docs/seo/README.md",
+      "sha256": "f41a7b600005e1280581eecc62d7bd3257e562c1360dd1385896b30755f0a672"
+    },
+    {
+      "path": "docs/seo/00-traspaso.md",
+      "sha256": "761e3e27a4fba293f69d8aaaa9ff85dea09d08e26a766161dc24cb530c01ecbb"
+    },
+    {
+      "path": "docs/seo/SEM.md",
+      "sha256": "1990b3de6f27c8b38ee1c9cd838f6afbdbbb091fb8d8c8b210ab05798c1878d0"
+    },
+    {
+      "path": "docs/seo/archivo/plan-anterior-2026-11-05/README.md",
+      "sha256": "025571378b8d6688b8fa11c96ad7f45c9ac9b9489a3ba5688667cf9297e2ce85"
+    }
+  ]
+}

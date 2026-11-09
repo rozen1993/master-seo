@@ -1,0 +1,10 @@
+﻿{
+    "step":  "cocreate",
+    "phase":  "review",
+    "profile":  "o/high",
+    "manifest":  "",
+    "start":  "2026-11-05T20:26:27.0625798-05:00",
+    "end":  "2026-11-05T20:27:58.8071478-05:00",
+    "exit_code":  0,
+    "packet_bytes":  96293
+}

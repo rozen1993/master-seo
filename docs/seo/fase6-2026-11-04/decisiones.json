@@ -1,0 +1,222 @@
+{
+  "decisiones": [
+    {
+      "id": "D6-01",
+      "estado": "confirmada",
+      "decision": "37 registros y URLs heredadas de F5; 404 sin URL editorial.",
+      "fuente": "Matriz F5 P01–P37",
+      "responsable": "Editor",
+      "cierre": "Control documental AC-01"
+    },
+    {
+      "id": "D6-02",
+      "estado": "confirmada",
+      "decision": "Show: 301 desde lanzamiento. Aprobado por dueño; equivalencia y prueba técnica siguen pendientes.",
+      "fuente": "F5 P19, traspaso",
+      "responsable": "SEO/desarrollador",
+      "cierre": "AC-04"
+    },
+    {
+      "id": "D6-03",
+      "estado": "condicionada",
+      "decision": "Host canónico sin elegir; alinear inspección indexada y coherencia de señales.",
+      "fuente": "F5 D01, G5-INS",
+      "responsable": "SEO",
+      "cierre": "Inspección indexada ambos hosts y variantes; decisión registrada"
+    },
+    {
+      "id": "D6-04",
+      "estado": "condicionada",
+      "decision": "Destino fotografía según equivalencia completa L04; no según tanda.",
+      "fuente": "F5 P09/P21 y L04 histórico",
+      "responsable": "Editor/SEO/dueño",
+      "cierre": "Mapa de contenido, oferta real y destino completo"
+    },
+    {
+      "id": "D6-05",
+      "estado": "confirmada",
+      "decision": "PDF conserva nombre/ruta exactos; 200 en canónico; normalización de host aparte.",
+      "fuente": "F5 P37",
+      "responsable": "Desarrollador",
+      "cierre": "AC-07; vigencia/peso AC-17"
+    },
+    {
+      "id": "D6-06",
+      "estado": "condicionada",
+      "decision": "Streaming/podcast y catering/coffee break se agrupan provisionalmente; dividir solo con evidencia y oferta diferenciadas.",
+      "fuente": "F5 P06/P07",
+      "responsable": "SEO/negocio",
+      "cierre": "SERP específica y contenidos suficientes por encargo"
+    },
+    {
+      "id": "D6-07",
+      "estado": "confirmada",
+      "decision": "Estudio propio y servicios sociales confirmados; modalidades, dirección y permisos todavía pendientes.",
+      "fuente": "Dueño en 03 §11 y F5 P09/P10",
+      "responsable": "Dueño",
+      "cierre": "Insumos concretos de fichas; no reabrir existencia de la línea"
+    },
+    {
+      "id": "D6-08",
+      "estado": "condicionada",
+      "decision": "Casos y enlaces a servicios según rol y permisos; no atribuir organización ni difusión nacional por el nombre del proyecto.",
+      "fuente": "F5 P27–P31",
+      "responsable": "Dueño/editor",
+      "cierre": "AC-08"
+    },
+    {
+      "id": "D6-09",
+      "estado": "pendiente",
+      "decision": "Precios y blog permanecen reservas; no se encargan artículos ni slugs nuevos.",
+      "fuente": "F5 P25/P26",
+      "responsable": "Editor/SEO",
+      "cierre": "Utilidad adicional y preguntas/SERP; S045 fallida se repite solo si se necesita"
+    },
+    {
+      "id": "D6-10",
+      "estado": "confirmada",
+      "decision": "Medición separa interacción, aceptado, recibido y cualificado. Ninguna carga de gracias prueba un envío.",
+      "fuente": "F5 D02, P33/P34",
+      "responsable": "Desarrollador/atención",
+      "cierre": "AC-11"
+    },
+    {
+      "id": "D6-11",
+      "estado": "confirmada",
+      "decision": "No usar ProfessionalService en nuevo marcado: deprecado. Organization/WebSite/Service según datos; local condicionado.",
+      "fuente": "G6-PS/G6-LB comprobados 04-11",
+      "responsable": "SEO/desarrollador",
+      "cierre": "AC-09; actualización frente a comparación B"
+    },
+    {
+      "id": "D6-12",
+      "estado": "confirmada",
+      "decision": "Máximo S/110 mensual Ads, objetivo aproximado S/100. No presupuesto de herramientas ni autorización de campaña.",
+      "fuente": "Instrucción expresa del dueño",
+      "responsable": "Dueño/especialista Ads",
+      "cierre": "AC-15; propuesta aparte"
+    },
+    {
+      "id": "D6-13",
+      "estado": "condicionada",
+      "decision": "Fiesta requiere oferta vendible; show requiere disponibilidad real. Corte Ads 15-11 es propuesta a decidir, no orden.",
+      "fuente": "F5 P20/A06 y documento11",
+      "responsable": "Dueño",
+      "cierre": "Oferta y decisión comercial explícitas"
+    },
+    {
+      "id": "D6-14",
+      "estado": "confirmada",
+      "decision": "Un H1 y 60/155 son contrato local. Se retira mínimo 600 palabras y promesas de FAQ/estrellas.",
+      "fuente": "F5 D07/D08 y G5-CONT/FAQ/REV",
+      "responsable": "Editor/SEO",
+      "cierre": "AC-02/03/09"
+    },
+    {
+      "id": "D6-15",
+      "estado": "condicionada",
+      "decision": "Home conserva title legado y H1 distinto. Show propone title legado sin año; año visible solo con responsable de actualización.",
+      "fuente": "L01/L07 y F5 P01/P19",
+      "responsable": "Editor/dueño",
+      "cierre": "Cotejo final del copy; no reabrir 301 por decisión editorial del año"
+    },
+    {
+      "id": "D6-16",
+      "estado": "confirmada",
+      "decision": "Privacidad propuesta indexable y en sitemap si aprobada/200/canónica; no tiene keyword comercial. Gracias noindex, 404 real, reservas ausentes.",
+      "fuente": "F5 P34–P36; propuesta local F6 para privacidad",
+      "responsable": "SEO/revisor competente",
+      "cierre": "AC-05/06/07/12"
+    },
+    {
+      "id": "D6-17",
+      "estado": "pendiente",
+      "decision": "No se eligen diseño, hosting, proveedor de formularios ni fecha de lanzamiento en esta entrega.",
+      "fuente": "Alcance usuario; fechas históricas superadas F5",
+      "responsable": "Dueño/equipo",
+      "cierre": "Decisión en trabajo posterior autorizado"
+    }
+  ],
+  "afirmaciones": [
+    {
+      "id": "C01",
+      "afirmacion": "catálogo confirmado, estudio propio y eventos sociales",
+      "clase": "reportado_por_dueno",
+      "fuente": "03 §10–11; F5",
+      "responsable": "Dueño",
+      "tratamiento": "Usar categoría; concretar condiciones antes de oferta"
+    },
+    {
+      "id": "C02",
+      "afirmacion": "equipo único, contrato único, coordinación integral",
+      "clase": "condicionado",
+      "fuente": "F5 D07",
+      "responsable": "Dueño",
+      "tratamiento": "Probar responsabilidad y alcance; no convertirlo en promesa general"
+    },
+    {
+      "id": "C03",
+      "afirmacion": "streaming/drone/técnico incluidos, plataformas a elección",
+      "clase": "condicionado",
+      "fuente": "F5 P05/P06/P11/P16",
+      "responsable": "Operación",
+      "tratamiento": "Definir base y opcionales por servicio; no afirmarlos automáticamente"
+    },
+    {
+      "id": "C04",
+      "afirmacion": "oficina/set de retratos, set propio de podcast, alquiler del estudio",
+      "clase": "condicionado",
+      "fuente": "F5 P06/P09/P22",
+      "responsable": "Dueño",
+      "tratamiento": "Aprobar modalidad y muestras"
+    },
+    {
+      "id": "C05",
+      "afirmacion": "mínimos 20/50/100, capacidades, precios, entregas y tiempos",
+      "clase": "condicionado",
+      "fuente": "F5 D07 y P07/P24",
+      "responsable": "Operación",
+      "tratamiento": "Validar cifras; no son falsas por faltar aprobación"
+    },
+    {
+      "id": "C06",
+      "afirmacion": "organización Premium/Bloom, spot Adidas, alcance nacional",
+      "clase": "condicionado",
+      "fuente": "F5 P29–P31",
+      "responsable": "Dueño",
+      "tratamiento": "Expediente, canales, rol y permisos"
+    },
+    {
+      "id": "C07",
+      "afirmacion": "más de ocho años de experiencia",
+      "clase": "historico_no_actualizado",
+      "fuente": "L08/L18 p.2; F5 P32",
+      "responsable": "Dueño",
+      "tratamiento": "Fechas verificables; no sumar años automáticamente"
+    },
+    {
+      "id": "C08",
+      "afirmacion": "31 clics home y 7 show W1; 12 PAGE_VIEW Ads",
+      "clase": "reportado_no_reconsultado",
+      "fuente": "Adenda E02/E04/E09; F5",
+      "responsable": "SEO/Ads",
+      "tratamiento": "Conservar ventanas, propiedad/filtros inciertos; no equivale a leads"
+    },
+    {
+      "id": "C09",
+      "afirmacion": "canibalización demostrada, competencia débil, rentabilidad probada",
+      "clase": "hipotesis_no_cerrada",
+      "fuente": "F5 D05 y P11",
+      "responsable": "SEO/negocio",
+      "tratamiento": "Datos por URL/consulta y económicos; no publicar como hecho"
+    },
+    {
+      "id": "C10",
+      "afirmacion": "F4 host www redirigía sin www mientras canonical declaraba www",
+      "clase": "hecho_captura_historica",
+      "fuente": "L01–L07, 03-11-2026",
+      "responsable": "SEO",
+      "tratamiento": "No afirma host elegido por Google ni estado actual"
+    }
+  ]
+}
